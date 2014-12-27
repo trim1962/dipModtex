@@ -1,0 +1,52 @@
+\RequirePackage{snapshot}
+\documentclass[10pt,a4paper,oneside]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+\usepackage{imakeidx}
+\usepackage{fix2col}
+\indexsetup{level=\chapter,toclevel=chapter,noclearpage}
+\makeindex[,options=-s oldclaudio.sti]
+\makeindex[name=emulato,title=Emulati,options=-s oldclaudio.sti]
+
+\makeindex[name=incomp,title=Incompatibili]
+\makeindex[name=Warning,title=Warning]
+\makeindex[name=usato,title=Usato,options=-s oldclaudio.sti]
+\makeindex[name=dipende,title=Dipende,options=-s oldclaudio.sti]
+\makeindex[name=conffile,title=File di configurazione,options=-s oldclaudio.sti]
+\usepackage{enumitem}
+\setlist{nolistsep}
+\newcommand{\Mindex}[2]{\index[emulato]{#1!#2}}
+\newcommand{\Iindex}[2]{\index[incomp]{#1!#2}}
+\newcommand{\Windex}[2]{\index[Warning]{#1!#2}}
+\newcommand{\Uindex}[2]{\index[usato]{#1!#2}\index[dipende]{#2!#1}}
+\newcommand{\Cindex}[2]{\index[conffile]{#2!#1}}
+\usepackage{listings}
+\addto\captionsitalian{%
+	\renewcommand{\lstlistingname}{Listato}}
+\addto\captionsitalian{%
+	\renewcommand{\lstlistlistingname}{Elenco dei listati}}
+\author{Claudio Duchi}
+\title{Dipendenze Latex}
+\listfiles
+\begin{document}
+\lstset{language=TeX}
+	\tableofcontents
+	\addcontentsline{toc}{chapter}{\lstlistlistingname}
+	\lstlistoflistings
+		\addcontentsline{toc}{chapter}{\listfigurename}
+	\listoffigures
+\input{introduzione}
+\input{classi}
+\input{package}
+\input{ordine}
+\printindex
+\printindex[emulato]
+\printindex[incomp]
+\printindex[Warning]
+\printindex[usato]
+\printindex[dipende]
+\printindex[conffile]
+\end{document}

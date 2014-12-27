@@ -1,0 +1,9 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2014/05/01 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {minimal}     {2001/05/25 v0.0}
+  *{package}{textcomp}    {2005/09/27 v1.99g}
+  *{file}   {ts1enc.def}  {2001/06/05 v3.0e}
+  *{file}   {ts1cmr.fd}   {2014/09/29 v2.5h}
+}

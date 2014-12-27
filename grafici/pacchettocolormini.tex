@@ -1,0 +1,18 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+\begin{document}
+  \begin{tikzpicture}
+  
+  \tikzset{main node/.style={rectangle, draw,
+  		text centered, rounded corners}, }
+  \tikzset{main verb/.style={minimum size=1cm}, }
+  \tikzset{linea/.style={-triangle 90}, }
+\node[main node] (1)   {COLOR};
+\node[main node] (4)[ right =of 1]   {INFWARERR};
+\node[main node] (6)[right =of 4]   {LTXCMDS};
+\foreach \x /\y in{1/4,4/6}
+  \path[linea] (\x) edge node {} (\y);
+%%  
+\end{tikzpicture}
+\end{document}

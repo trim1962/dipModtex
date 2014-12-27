@@ -1,0 +1,12 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2014/05/01 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {report}      {2014/09/29 v1.4h}
+  *{file}   {size10.clo}  {2014/09/29 v1.4h}
+  *{package}{geometry}    {2010/09/12 v5.6}
+  *{package}{keyval}      {2014/10/28 v1.15}
+  *{package}{ifpdf}       {2011/01/30 v2.3}
+  *{package}{ifvtex}      {2010/03/01 v1.5}
+  *{package}{ifxetex}     {2010/09/12 v0.6}
+}

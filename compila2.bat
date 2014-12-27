@@ -1,0 +1,1 @@
+FOR /R %%F IN (*.tex) DO pdflatex.exe -synctex=1 -interaction=nonstopmode --enable-write18 %%F >out

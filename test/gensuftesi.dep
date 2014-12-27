@@ -1,0 +1,58 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2014/05/01 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {suftesi}     {2014/04/05 v1.9c}
+  *{package}{xkeyval}     {2014/12/03 v2.7a}
+  *{file}   {xkeyval.tex} {2014/12/03 v2.7a}
+  *{class}  {book}        {2014/09/29 v1.4h}
+  *{file}   {bk10.clo}    {2014/09/29 v1.4h}
+  *{package}{geometry}    {2010/09/12 v5.6}
+  *{package}{ifpdf}       {2011/01/30 v2.3}
+  *{package}{ifvtex}      {2010/03/01 v1.5}
+  *{package}{ifxetex}     {2010/09/12 v0.6}
+  *{package}{enumitem}    {2011/09/28 v3.5.2}
+  *{package}{caption}     {2013/05/02 v3.3-89}
+  *{package}{caption3}    {2013/05/02 v1.6-88}
+  *{package}{color}       {2014/10/28 v1.1a}
+  *{file}   {color.cfg}   {2007/01/18 v1.5}
+  *{file}   {pdftex.def}  {2011/05/27 v0.06d}
+  *{package}{infwarerr}   {2010/04/08 v1.3}
+  *{package}{ltxcmds}     {2011/11/09 v1.22}
+  *{package}{multicol}    {2014/10/28 v1.8i}
+  *{package}{emptypage}   {2010/05/30 v1.2}
+  *{package}{textcase}    {2004/10/07 v0.07}
+  *{package}{microtype}   {2013/05/23 v2.5a}
+  *{file}   {microtype-pdftex.def}{2013/05/23 v2.5a}
+  *{file}   {microtype.cfg}{2013/05/23 v2.5a}
+  *{package}{fontenc}     {0000/00/00 v0.0}
+  *{file}   {lgrenc.def}  {2013/12/02 v0.11.2}
+  *{file}   {greek-fontenc.def}{2013/11/28 v0.11}
+  *{file}   {t1enc.def}   {2005/09/27 v1.99g}
+  *{package}{substitutefont}{2012/07/07 v0.1.3}
+  *{package}{mathpazo}    {2005/04/12 v9.2a}
+  *{package}{beramono}    {2004/01/31 v0.0}
+  *{package}{crop}        {2003/05/20 v1.9}
+  *{package}{graphics}    {2014/10/28 v1.0p}
+  *{package}{trig}        {1999/03/16 v1.09}
+  *{file}   {graphics.cfg}{2010/04/23 v1.9}
+  *{file}   {crop.cfg}    {0000/00/00 v0.0}
+  *{package}{titlesec}    {2011/12/15 v2.10.0}
+  *{file}   {ttlkeys.def} {2011/12/15 v0.0}
+  *{package}{fancyhdr}    {0000/00/00 v0.0}
+  *{package}{titletoc}    {2011/12/15 v1.6}
+  *{file}   {lgrcmr.fd}   {2013/09/01 v1.0}
+  *{file}   {t1pplj.fd}   {2004/09/06 v1/pplj.}
+  *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
+  *{file}   {mt-ppl.cfg}  {2005/11/16 v1.6}
+  *{package}{pdftexcmds}  {2011/11/29 v0.20}
+  *{package}{ifluatex}    {2010/03/01 v1.3}
+  *{package}{epstopdf-base}{2010/02/09 v2.5}
+  *{package}{grfext}      {2010/08/19 v1.1}
+  *{package}{kvdefinekeys}{2011/04/07 v1.3}
+  *{package}{kvoptions}   {2011/06/30 v3.11}
+  *{package}{kvsetkeys}   {2012/04/25 v1.16}
+  *{package}{etexcmds}    {2011/02/16 v1.5}
+  *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
+  *{package}{fixltxhyph}  {2011/04/02 v0.4}
+}

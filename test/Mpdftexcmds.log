@@ -1,0 +1,75 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.1)  27 DEC 2014 20:11
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**C:/tex/geneatex/test/Mpdftexcmds.tex
+(c:/tex/geneatex/test/Mpdftexcmds.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
+Package: snapshot 2002/03/05 v1.14
+)
+(c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
+Document Class: minimal 2001/05/25 Standard LaTeX minimal class
+) (c:/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+No file Mpdftexcmds.aux.
+\openout1 = `Mpdftexcmds.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+[1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Mpdftexcmds.aux)
+\snap@out=\write3
+\openout3 = `Mpdftexcmds.dep'.
+
+
+Dependency list written on Mpdftexcmds.dep.
+ ) 
+Here is how much of TeX's memory you used:
+ 313 strings out of 493109
+ 5069 string characters out of 6138587
+ 53525 words of memory out of 5000000
+ 3846 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,4n,22p,177b,92s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on Mpdftexcmds.pdf (1 page, 10820 bytes).
+PDF statistics:
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

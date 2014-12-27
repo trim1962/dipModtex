@@ -1,0 +1,11 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2014/05/01 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {minimal}     {2001/05/25 v0.0}
+  *{package}{inputenc}    {2014/04/30 v1.2b}
+  *{file}   {utf8.def}    {2014/09/29 v1.1m}
+  *{file}   {t1enc.dfu}   {2014/09/29 v1.1m}
+  *{file}   {ot1enc.dfu}  {2014/09/29 v1.1m}
+  *{file}   {omsenc.dfu}  {2014/09/29 v1.1m}
+}
