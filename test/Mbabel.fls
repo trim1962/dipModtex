@@ -2,8 +2,8 @@ PWD C:/tex/geneatex/test
 INPUT c:/texlive/2014/texmf.cnf
 INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/tex/geneatex/test/Mnabal1.tex
-OUTPUT Mnabal1.log
+INPUT Mbabel.tex
+OUTPUT Mbabel.log
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
@@ -17,9 +17,11 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
-OUTPUT Mnabal1.aux
-OUTPUT Mnabal1.pdf
+INPUT Mbabel.aux
+INPUT Mbabel.aux
+OUTPUT Mbabel.aux
+OUTPUT Mbabel.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT Mnabal1.aux
-OUTPUT Mnabal1.dep
+INPUT Mbabel.aux
+OUTPUT Mbabel.dep
 INPUT c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

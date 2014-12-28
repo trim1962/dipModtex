@@ -1,0 +1,8 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2014/05/01 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {minimal}     {2001/05/25 v0.0}
+  *{package}{etoolbox}    {2011/01/03 v2.1}
+  *{package}{etex}        {1998/03/26 v2.0}
+}

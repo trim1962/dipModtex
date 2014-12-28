@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.1)  27 DEC 2014 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  28 DEC 2014 22:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1069,32 +1069,40 @@ Writing index file dipende.idx
 \openout10 = `conffile.idx'.
 
 Writing index file conffile.idx
+\drvfile@idxfile=\write11
+\openout11 = `drvfile.idx'.
+
+Writing index file drvfile.idx
+(c:/texlive/2014/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2014/10/28 v1.5a package for extended references (FMi)
+\c@vrcnt=\count153
+)
 (c:/texlive/2014/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip51
 \enit@outerparindent=\dimen193
 \enit@toks=\toks31
 \enit@inbox=\box98
-\enitdp@description=\count153
+\enitdp@description=\count154
 )
 (c:/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count154
+\lst@mode=\count155
 \lst@gtempboxa=\box99
 \lst@token=\toks32
-\lst@length=\count155
+\lst@length=\count156
 \lst@currlwidth=\dimen194
-\lst@column=\count156
-\lst@pos=\count157
+\lst@column=\count157
+\lst@pos=\count158
 \lst@lostspace=\dimen195
 \lst@width=\dimen196
-\lst@newlines=\count158
-\lst@lineno=\count159
+\lst@newlines=\count159
+\lst@lineno=\count160
 \lst@maxwidth=\dimen197
 
 (c:/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count160
-\lst@skipnumbers=\count161
+\c@lstnumber=\count161
+\lst@skipnumbers=\count162
 \lst@framebox=\box100
 )
 (c:/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
@@ -1104,34 +1112,34 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
  (./DipLatex.aux)
 \openout1 = `DipLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Info: Redefining \it@ocap on input line 34.
-LaTeX Info: Redefining \it@ccap on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Info: Redefining \it@ocap on input line 36.
+LaTeX Info: Redefining \it@ccap on input line 36.
 
 ABD: EveryShipout initializing macros
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count162
+\scratchcounter=\count163
 \scratchdimen=\dimen198
 \scratchbox=\box101
-\nofMPsegments=\count163
-\nofMParguments=\count164
+\nofMPsegments=\count164
+\nofMParguments=\count165
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count165
+\MPscratchCnt=\count166
 \MPscratchDim=\dimen199
-\MPnumerator=\count166
-\makeMPintoPDFobject=\count167
+\MPnumerator=\count167
+\makeMPintoPDFobject=\count168
 \everyMPtoPDFconversion=\toks34
 ) (c:/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -1177,8 +1185,17 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count168
+\c@lstlisting=\count169
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 37.
+ [1
 
+
+{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (c:/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
@@ -1216,21 +1233,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
+])
+\tf@toc=\write12
+\openout12 = `DipLatex.toc'.
 
-{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-\tf@toc=\write11
-\openout11 = `DipLatex.toc'.
-
- [2]
-(./DipLatex.lol [3
+ [2] (./DipLatex.lol [3
 
 ])
-\tf@lol=\write12
-\openout12 = `DipLatex.lol'.
+\tf@lol=\write13
+\openout13 = `DipLatex.lol'.
 
  [4] (./DipLatex.lof)
-\tf@lof=\write13
-\openout13 = `DipLatex.lof'.
+\tf@lof=\write14
+\openout14 = `DipLatex.lof'.
 
  (./introduzione.tex [5
 
@@ -1311,69 +1326,70 @@ Capitolo 3.
 (./test/Mamsfonts.tex) (./test/Mamsmath.tex) [16] (./test/Mamsopn.tex)
 (./test/Mamssymb.tex) (./test/Mamstext.tex [17]) (./test/Mamsthm.tex)
 (./test/Mamsxtra.tex) (./test/Mappendix.tex [18]) (./test/Marray.tex)
-(./test/Mnabal1.tex) (./test/mbooktabs.tex [19]) (./test/mccaption.tex)
+(./test/Mbabel.tex) [19] (./test/mbooktabs.tex) (./test/mccaption.tex)
 (./test/mcolor.tex) [20]
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 175--176
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 220--221
 []\T1/cmr/m/n/10 infwarerr.sty[][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin
 -g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/mchangepage.tex) (./test/mchngntr.tex) (./test/mchngpage.tex) [21]
+(./test/mchangepage.tex) (./test/mchngntr.tex) [21] (./test/mchngpage.tex)
 (./test/mcmap.tex)
-Overfull \hbox (23.35602pt too wide) in paragraph at lines 241--242
+Overfull \hbox (76.20676pt too wide) in paragraph at lines 290--291
  [][] 
  []
 
-(./test/mcrop.tex) [22]
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 253--254
+(./test/mcrop.tex)
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 302--303
 []\T1/cmr/m/n/10 infwarerr.sty[][][][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war
 -nin-g/er-ror mes-sa-ges (HO) 
  []
 
-[23] (./test/Meostopdf-base.tex)
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 305--306
+[22] (./test/Meostopdf-base.tex [23])
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 365--366
 []\T1/cmr/m/n/10 infwarerr.sty[][][][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war
 -nin-g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/Mfixltx2e.tex) (./test/Mfontec.tex [24]) (./test/Mfourier.tex)
-(./test/Mgeometry.tex) [25] (./test/Mgraphics.tex) [26]
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 424--425
+(./test/metoolbox.tex [24]) (./test/Mfixltx2e.tex) (./test/Mfontec.tex)
+(./test/Mfourier.tex) [25] (./test/Mgeometry.tex) [26] (./test/Mgraphics.tex)
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 506--507
 []\T1/cmr/m/n/10 infwarerr.sty[][][][][][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/
 -war-nin-g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/Mgraphicx.tex [27])
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 489--490
+[27] (./test/Mgraphicx.tex)
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 573--574
 []\T1/cmr/m/n/10 infwarerr.sty[][][][][][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/
 -war-nin-g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/Mifpdf.tex) [28] (./test/Minfwarerr.tex)
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 517--518
+[28] (./test/Mifpdf.tex) (./test/Minfwarerr.tex)
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 601--602
 []\T1/cmr/m/n/10 infwarerr.sty[] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin-g/e
 r-ror mes-sa-ges (HO)
  []
 
-(./test/Minputenc2.tex) (./test/Minputenc1.tex) [29] (./test/Misomath.tex)
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 555--556
+[29] (./test/Minputenc2.tex) (./test/Minputenc1.tex) (./test/Misomath.tex)
+[30]
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 639--640
 []\T1/cmr/m/n/10 infwarerr.sty[][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin
 -g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/Mltxcmds.tex) (./test/Mmicrotype.tex) [30] (./test/Mpdftexcmds.tex)
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 583--584
+(./test/Mltxcmds.tex) (./test/Mmicrotype.tex) (./test/Mpdftexcmds.tex [31])
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 667--668
 []\T1/cmr/m/n/10 infwarerr.sty[][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin
 -g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/Mtextcomp.tex) [31] (./test/Mtrig.tex) (./test/mxcolor.tex)
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 612--613
+(./test/Mtextcomp.tex) (./test/Mtrig.tex) (./test/mxcolor.tex [32])
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 696--697
 []\T1/cmr/m/n/10 infwarerr.sty[][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin
 -g/er-ror mes-sa-ges (HO) 
  []
 
-) (./ordine.tex [32]
+) (./ordine.tex [33]
 Capitolo 4.
 (./test/mcolorVxcolor.tex)
 Overfull \hbox (3.2822pt too wide) in paragraph at lines 12--13
@@ -1381,7 +1397,7 @@ Overfull \hbox (3.2822pt too wide) in paragraph at lines 12--13
 ror mes-sa-ges (HO) 
  []
 
-(./test/mxcolorVcolor.tex) [33
+(./test/mxcolorVcolor.tex) [34
 
 ]
 Overfull \hbox (3.2822pt too wide) in paragraph at lines 25--26
@@ -1389,75 +1405,76 @@ Overfull \hbox (3.2822pt too wide) in paragraph at lines 25--26
 ror mes-sa-ges (HO) 
  []
 
-(./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex))
+(./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex) [35]
+(./test/Mfourierfontenc.tex))
 runsystem(makeindex -s oldclaudio.sti DipLatex.idx)...executed.
 
- (./DipLatex.ind
-[34
-\indexentry{xcolor.sty}{34}
-\indexentry{fixltxhyph.sty}{34}
-\indexentry{babel.sty}{34}
-\indexentry{babel.sty}{34}
-\indexentry{fixltxhyph.sty}{34}
-]
+ (./DipLatex.ind [36]
 Capitolo 5.
-[35
+[37
 
-] [36] [37])
+] [38] [39])
 runsystem(makeindex -s oldclaudio.sti emulato.idx)...executed.
 
- (./emulato.ind [38]
+ (./emulato.ind [40]
 Capitolo 6.
-[39
+[41
 
 ])
 runsystem(makeindex incomp.idx)...executed.
 
- (./incomp.ind [40]
+ (./incomp.ind [42]
 Capitolo 7.
 )
 runsystem(makeindex Warning.idx)...executed.
 
- (./Warning.ind [41
+ (./Warning.ind [43
 
 ]
 Capitolo 8.
 )
 runsystem(makeindex -s oldclaudio.sti usato.idx)...executed.
 
- (./usato.ind [42
+ (./usato.ind [44
 
 ]
 Capitolo 9.
-[43
+[45
 
-] [44] [45] [46])
+] [46] [47] [48])
 runsystem(makeindex -s oldclaudio.sti dipende.idx)...executed.
 
- (./dipende.ind [47]
+ (./dipende.ind [49]
 Capitolo 10.
-[48
+[50
 
-] [49] [50])
+] [51] [52])
 runsystem(makeindex -s oldclaudio.sti conffile.idx)...executed.
 
- (./conffile.ind [51]
+ (./conffile.ind [53]
 Capitolo 11.
-[52
+[54
 
-]) [53] (./DipLatex.aux)
-\snap@out=\write14
-\openout14 = `DipLatex.dep'.
+])
+runsystem(makeindex -s oldclaudio.sti drvfile.idx)...executed.
+
+ (./drvfile.ind [55]
+Capitolo 12.
+) [56
+
+] (./DipLatex.aux)
+\snap@out=\write15
+\openout15 = `DipLatex.dep'.
 
 
 Dependency list written on DipLatex.dep.
  ) 
 Here is how much of TeX's memory you used:
- 24715 strings out of 493109
- 489823 string characters out of 6138587
- 586701 words of memory out of 5000000
- 27604 multiletter control sequences out of 15000+600000
- 10637 words of font info for 23 fonts, out of 8000000 for 9000
+ 24922 strings out of 493109
+ 492502 string characters out of 6138586
+ 591158 words of memory out of 5000000
+ 27788 multiletter control sequences out of 15000+600000
+ 15591 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,12n,122p,10454b,1878s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
@@ -1466,12 +1483,14 @@ texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2014/texmf-dist
 /fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfbx2074.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/
 cm-super/sfbx2488.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/s
-frm1000.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pf
-b>
-Output written on DipLatex.pdf (53 pages, 194150 bytes).
+frm1000.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
+b><c:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texl
+ive/2014/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><c:/texlive/2014/t
+exmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on DipLatex.pdf (57 pages, 239134 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 233 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

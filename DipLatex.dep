@@ -58,6 +58,7 @@
   *{package}{xparse}      {2014/11/25 v5471}
   *{package}{multicol}    {2014/10/28 v1.8i}
   *{package}{fix2col}     {1998/08/17 v0.03}
+  *{package}{varioref}    {2014/10/28 v1.5a}
   *{package}{enumitem}    {2011/09/28 v3.5.2}
   *{package}{listings}    {2014/09/06 v1.5e}
   *{package}{lstmisc}     {2014/09/06 v1.5e}
@@ -106,7 +107,7 @@
   *{file}   {test/Mamsxtra.tex}{0000/00/00 v0.0}
   *{file}   {test/Mappendix.tex}{0000/00/00 v0.0}
   *{file}   {test/Marray.tex}{0000/00/00 v0.0}
-  *{file}   {test/Mnabal1.tex}{0000/00/00 v0.0}
+  *{file}   {test/Mbabel.tex}{0000/00/00 v0.0}
   *{file}   {test/mbooktabs.tex}{0000/00/00 v0.0}
   *{file}   {test/mccaption.tex}{0000/00/00 v0.0}
   *{file}   {test/mcolor.tex}{0000/00/00 v0.0}
@@ -116,6 +117,7 @@
   *{file}   {test/mcmap.tex}{0000/00/00 v0.0}
   *{file}   {test/mcrop.tex}{0000/00/00 v0.0}
   *{file}   {test/Meostopdf-base.tex}{0000/00/00 v0.0}
+  *{file}   {test/metoolbox.tex}{0000/00/00 v0.0}
   *{file}   {test/Mfixltx2e.tex}{0000/00/00 v0.0}
   *{file}   {test/Mfontec.tex}{0000/00/00 v0.0}
   *{file}   {test/Mfourier.tex}{0000/00/00 v0.0}
@@ -138,6 +140,7 @@
   *{file}   {test/mxcolorVcolor.tex}{0000/00/00 v0.0}
   *{file}   {test/MFixLtXHyphVbabel.tex}{0000/00/00 v0.0}
   *{file}   {test/MbabelVFixLtXHyph.tex}{0000/00/00 v0.0}
+  *{file}   {test/Mfourierfontenc.tex}{0000/00/00 v0.0}
   *{file}   {DipLatex.ind}{0000/00/00 v0.0}
   *{file}   {emulato.ind} {0000/00/00 v0.0}
   *{file}   {incomp.ind}  {0000/00/00 v0.0}
@@ -145,4 +148,5 @@
   *{file}   {usato.ind}   {0000/00/00 v0.0}
   *{file}   {dipende.ind} {0000/00/00 v0.0}
   *{file}   {conffile.ind}{0000/00/00 v0.0}
+  *{file}   {drvfile.ind} {0000/00/00 v0.0}
 }

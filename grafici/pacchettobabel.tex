@@ -13,14 +13,15 @@
  		text centered}, }
  \tikzset{cfg node/.style={minimum size=1cm}, }
  \tikzset{linea/.style={-triangle 90},}
- \node[main node] (1) {color};
- \node[cfg node] (2)[below =of 1] {color.cfg};
- \node[driver node] (3)[right =of 1] {pdftex.def};
- \node[internal node] (4)[above right =of 3] {infwarerr};
- \node[internal node] (5)[below right =of 3] {supp-pdf.mkii};
- \node[internal node] (6)[right =of 4] {ltcmds};
- \foreach \x /\y in{1/2,1/3,2/3,3/5,3/4,4/6}
+ \node[main node] (1) {babel};
+ \node[internal node] (2)[right=of 1] {switch.def};
+
+ \node[driver node] (3)[right =of 2] {italian.ldf};
+ \node[internal node] (4)[right =of 3] {etoolbox};
+ \node[cfg node] (5)[ above =of 1] {babel.def};
+ \node[internal node] (6)[right =of 4] {etex};
+ \foreach \x /\y in{1/2,2/3,2/3,3/4,1/5,4/6}
  \path[linea] (\x) edge node {} (\y);
- %% 
+% %% 
  \end{tikzpicture}
 \end{document}
