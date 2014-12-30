@@ -48,8 +48,16 @@ Caricato
 \item etex.sty 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \item fixltxhyph.sty\index{fixltxhyph.sty} 2011/04/02 v.0.4 Small fix for hyphenating emphasized words preceded by vocalic elision
 \end{enumerate}
-
-\section{Fourier fontenc}
-Dato che fourier carica fontenc è inutile inserirlo a parte come nell'esempio~\vref{lst:fourierfontenc}
+\section{fourier fontenc}
+Dato che fourier carica fontenc è inutile inserirlo a parte come nell'esempio~\vref{lst:fourierfontenc}\Windex{fourier}{fontenc}
 \lstinputlisting[caption={Fourier fontenc},%
 captionpos=b,label=lst:fourierfontenc]{test/Mfourierfontenc}
+\section{keyval xkeyval}
+Se viene posto prima xkeyval, keyval non viene caricato infatti: 
+\lstinputlisting[caption={xkeyvalVkeyval},%
+captionpos=b,label=lst:MxkeyvalVkeyvall]{test/MxkeyvalVkeyvall.tex}
+Caricato 
+\begin{enumerate}
+\item xkeyval.sty\index{xkeyval.sty}\Windex{xkeyval.sty}{keyval.sty}  2014/12/03 v2.7a package option processing (HA)
+\item xkeyval.tex\index{xkeyval.tex}\Uindex{xkeyval.tex}{xkeyval.sty} 2014/12/03 v2.7a key=value parser (HA)
+\end{enumerate}

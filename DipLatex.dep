@@ -109,6 +109,7 @@
   *{file}   {test/Marray.tex}{0000/00/00 v0.0}
   *{file}   {test/Mbabel.tex}{0000/00/00 v0.0}
   *{file}   {test/mbooktabs.tex}{0000/00/00 v0.0}
+  *{file}   {test/mcaption.tex}{0000/00/00 v0.0}
   *{file}   {test/mccaption.tex}{0000/00/00 v0.0}
   *{file}   {test/mcolor.tex}{0000/00/00 v0.0}
   *{file}   {test/mchangepage.tex}{0000/00/00 v0.0}
@@ -116,6 +117,7 @@
   *{file}   {test/mchngpage.tex}{0000/00/00 v0.0}
   *{file}   {test/mcmap.tex}{0000/00/00 v0.0}
   *{file}   {test/mcrop.tex}{0000/00/00 v0.0}
+  *{file}   {test/Menumitem.tex}{0000/00/00 v0.0}
   *{file}   {test/Meostopdf-base.tex}{0000/00/00 v0.0}
   *{file}   {test/metoolbox.tex}{0000/00/00 v0.0}
   *{file}   {test/Mfixltx2e.tex}{0000/00/00 v0.0}
@@ -129,24 +131,29 @@
   *{file}   {test/Minputenc2.tex}{0000/00/00 v0.0}
   *{file}   {test/Minputenc1.tex}{0000/00/00 v0.0}
   *{file}   {test/Misomath.tex}{0000/00/00 v0.0}
+  *{file}   {test/Mkeyval.tex}{0000/00/00 v0.0}
   *{file}   {test/Mltxcmds.tex}{0000/00/00 v0.0}
   *{file}   {test/Mmicrotype.tex}{0000/00/00 v0.0}
+  *{file}   {test/Mmulticol.tex}{0000/00/00 v0.0}
   *{file}   {test/Mpdftexcmds.tex}{0000/00/00 v0.0}
   *{file}   {test/Mtextcomp.tex}{0000/00/00 v0.0}
   *{file}   {test/Mtrig.tex}{0000/00/00 v0.0}
   *{file}   {test/mxcolor.tex}{0000/00/00 v0.0}
+  *{file}   {test/mxkeyval.tex}{0000/00/00 v0.0}
   *{file}   {ordine.tex}  {0000/00/00 v0.0}
   *{file}   {test/mcolorVxcolor.tex}{0000/00/00 v0.0}
   *{file}   {test/mxcolorVcolor.tex}{0000/00/00 v0.0}
   *{file}   {test/MFixLtXHyphVbabel.tex}{0000/00/00 v0.0}
   *{file}   {test/MbabelVFixLtXHyph.tex}{0000/00/00 v0.0}
   *{file}   {test/Mfourierfontenc.tex}{0000/00/00 v0.0}
+  *{file}   {test/MxkeyvalVkeyvall.tex}{0000/00/00 v0.0}
   *{file}   {DipLatex.ind}{0000/00/00 v0.0}
   *{file}   {emulato.ind} {0000/00/00 v0.0}
-  *{file}   {incomp.ind}  {0000/00/00 v0.0}
   *{file}   {Warning.ind} {0000/00/00 v0.0}
   *{file}   {usato.ind}   {0000/00/00 v0.0}
   *{file}   {dipende.ind} {0000/00/00 v0.0}
   *{file}   {conffile.ind}{0000/00/00 v0.0}
   *{file}   {drvfile.ind} {0000/00/00 v0.0}
+  *{file}   {incomp.ind}  {0000/00/00 v0.0}
+  *{file}   {Warning.ind} {0000/00/00 v0.0}
 }

@@ -1,0 +1,88 @@
+ digraph G{
+  edge [style=bold]
+  rankdir="LR";
+  1 [style="main node",texlbl="suftesi"]
+  2 [style="main node",texlbl="geometry"]
+  21 [style="internal node",texlbl="keyvall"]
+  22 [style="internal node",texlbl="ifpdf"]
+  23 [style="internal node",texlbl="atbegshi"]
+  24 [style="internal node",texlbl="ifvtex"]
+  3 [style="main node",texlbl="xkeyval"]
+  4 [style="main node",texlbl="enumitem"]
+  5 [style="main node",texlbl="caption"]
+  6 [style="main node",texlbl="color"]
+  61 [style="cfg node",texlbl="color.cfg"]
+  62 [style="driver node",texlbl="pdftex.def"]
+  63 [style="internal node",texlbl="infwarerr"]
+  64 [style="internal node",texlbl="ltxcmds"]
+  65 [style="internal node",texlbl="supp-pdf.mkii"]
+  7 [style="main node",texlbl="multicol"]
+  8 [style="main node",texlbl="emptypage"]
+  9 [style="main node",texlbl="textcase"]
+  10 [style="main node",texlbl="ifxetex"]
+  11 [style="main node",texlbl="microtype"]
+  12 [style="main node",texlbl="cclicenses"]
+  13 [style="main node",texlbl="fontenc"]
+  14 [style="main node",texlbl="sostitutefont"]
+    15 [style="main node",texlbl="crop"]
+    151 [style="internal node",texlbl="graphics"]
+    152 [style="internal node",texlbl="trig"]
+153 [style="cfg node",texlbl="graphics.cfg"]
+154 [style="driver node",texlbl="epstopdf-base"]
+155 [style="internal node",texlbl="pdftexcmds"]
+156 [style="internal node",texlbl="ifpdf"]
+157 [style="internal node",texlbl="ifluatex"]
+158 [style="internal node",texlbl="grfext"]
+159 [style="internal node",texlbl="kvoptions"]
+160 [style="internal node",texlbl="kvsetkeys"]
+161 [style="internal node",texlbl="etexcmds"]
+162 [style="cfg node",texlbl="epstopdf-sys.cfg"]
+15->151
+151->152
+151->153
+151->62
+153->62
+153->154
+154->63
+154->155
+153->155
+62->155
+155->156
+155->157
+154->158
+158->159
+159->64
+154->159
+159->160
+159->161
+159->21
+154->162
+  1->2
+  2->21
+  2->22
+  2->23
+  2->24
+  2->10
+  3->21[style=bold,labelfloat= true, label = "blocca"]
+  1->3
+  1->4[style=bold,labelfloat= true, label = "[inline]"]
+  1->5
+  1->6
+  6->61
+  6->62
+  62->63
+  63->64
+  62->65
+  61->62
+ 1->7
+ 1->8
+ 1->9
+ 1->10
+ 1->11[style=bold,labelfloat= true, label = "[final]"]
+ 1->12
+ 1->13[style=bold,labelfloat= true, label = "[LGR,T1]"]
+ 1->14
+ 1->15[style=bold,labelfloat= true, label = "[A4,CAM,CENTER]"]
+ 15->6
+ }
+ 

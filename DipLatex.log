@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  28 DEC 2014 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  30 DEC 2014 16:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1326,70 +1326,70 @@ Capitolo 3.
 (./test/Mamsfonts.tex) (./test/Mamsmath.tex) [16] (./test/Mamsopn.tex)
 (./test/Mamssymb.tex) (./test/Mamstext.tex [17]) (./test/Mamsthm.tex)
 (./test/Mamsxtra.tex) (./test/Mappendix.tex [18]) (./test/Marray.tex)
-(./test/Mbabel.tex) [19] (./test/mbooktabs.tex) (./test/mccaption.tex)
-(./test/mcolor.tex) [20]
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 220--221
+(./test/Mbabel.tex) [19] (./test/mbooktabs.tex) (./test/mcaption.tex)
+(./test/mccaption.tex [20]) (./test/mcolor.tex)
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 229--230
 []\T1/cmr/m/n/10 infwarerr.sty[][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin
 -g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/mchangepage.tex) (./test/mchngntr.tex) [21] (./test/mchngpage.tex)
-(./test/mcmap.tex)
-Overfull \hbox (76.20676pt too wide) in paragraph at lines 290--291
+(./test/mchangepage.tex [21]) (./test/mchngntr.tex) (./test/mchngpage.tex)
+(./test/mcmap.tex) [22]
+Overfull \hbox (76.20676pt too wide) in paragraph at lines 299--300
  [][] 
  []
 
 (./test/mcrop.tex)
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 302--303
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 311--312
 []\T1/cmr/m/n/10 infwarerr.sty[][][][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war
 -nin-g/er-ror mes-sa-ges (HO) 
  []
 
-[22] (./test/Meostopdf-base.tex [23])
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 365--366
+[23] (./test/Menumitem.tex) [24] (./test/Meostopdf-base.tex)
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 380--381
 []\T1/cmr/m/n/10 infwarerr.sty[][][][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war
 -nin-g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/metoolbox.tex [24]) (./test/Mfixltx2e.tex) (./test/Mfontec.tex)
-(./test/Mfourier.tex) [25] (./test/Mgeometry.tex) [26] (./test/Mgraphics.tex)
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 506--507
+(./test/metoolbox.tex) [25] (./test/Mfixltx2e.tex) (./test/Mfontec.tex)
+(./test/Mfourier.tex [26]) (./test/Mgeometry.tex) [27] (./test/Mgraphics.tex)
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 550--551
 []\T1/cmr/m/n/10 infwarerr.sty[][][][][][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/
 -war-nin-g/er-ror mes-sa-ges (HO) 
  []
 
-[27] (./test/Mgraphicx.tex)
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 573--574
+[28] (./test/Mgraphicx.tex) [29]
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 617--618
 []\T1/cmr/m/n/10 infwarerr.sty[][][][][][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/
 -war-nin-g/er-ror mes-sa-ges (HO) 
  []
 
-[28] (./test/Mifpdf.tex) (./test/Minfwarerr.tex)
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 601--602
+(./test/Mifpdf.tex) (./test/Minfwarerr.tex) [30]
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 645--646
 []\T1/cmr/m/n/10 infwarerr.sty[] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin-g/e
 r-ror mes-sa-ges (HO)
  []
 
-[29] (./test/Minputenc2.tex) (./test/Minputenc1.tex) (./test/Misomath.tex)
-[30]
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 639--640
+(./test/Minputenc2.tex) (./test/Minputenc1.tex) (./test/Misomath.tex) [31]
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 683--684
 []\T1/cmr/m/n/10 infwarerr.sty[][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin
 -g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/Mltxcmds.tex) (./test/Mmicrotype.tex) (./test/Mpdftexcmds.tex [31])
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 667--668
+(./test/Mkeyval.tex) (./test/Mltxcmds.tex) (./test/Mmicrotype.tex [32])
+(./test/Mmulticol.tex) (./test/Mpdftexcmds.tex)
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 725--726
 []\T1/cmr/m/n/10 infwarerr.sty[][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin
 -g/er-ror mes-sa-ges (HO) 
  []
 
-(./test/Mtextcomp.tex) (./test/Mtrig.tex) (./test/mxcolor.tex [32])
-Overfull \hbox (3.2822pt too wide) in paragraph at lines 696--697
+[33] (./test/Mtextcomp.tex) (./test/Mtrig.tex) (./test/mxcolor.tex) [34]
+Overfull \hbox (3.2822pt too wide) in paragraph at lines 782--783
 []\T1/cmr/m/n/10 infwarerr.sty[][][] 2010/04/08 v1.3 Pro-vi-ding in-fo/-war-nin
 -g/er-ror mes-sa-ges (HO) 
  []
 
-) (./ordine.tex [33]
+(./test/mxkeyval.tex)) (./ordine.tex [35]
 Capitolo 4.
 (./test/mcolorVxcolor.tex)
 Overfull \hbox (3.2822pt too wide) in paragraph at lines 12--13
@@ -1397,7 +1397,7 @@ Overfull \hbox (3.2822pt too wide) in paragraph at lines 12--13
 ror mes-sa-ges (HO) 
  []
 
-(./test/mxcolorVcolor.tex) [34
+(./test/mxcolorVcolor.tex) [36
 
 ]
 Overfull \hbox (3.2822pt too wide) in paragraph at lines 25--26
@@ -1405,62 +1405,73 @@ Overfull \hbox (3.2822pt too wide) in paragraph at lines 25--26
 ror mes-sa-ges (HO) 
  []
 
-(./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex) [35]
-(./test/Mfourierfontenc.tex))
+(./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex) [37]
+(./test/Mfourierfontenc.tex) (./test/MxkeyvalVkeyvall.tex))
 runsystem(makeindex -s oldclaudio.sti DipLatex.idx)...executed.
 
- (./DipLatex.ind [36]
+ (./DipLatex.ind
+[38
+\indexentry{xkeyval.sty}{38}
+\indexentry{xkeyval.tex}{38}
+]
 Capitolo 5.
-[37
+[39
 
-] [38] [39])
+] [40] [41])
 runsystem(makeindex -s oldclaudio.sti emulato.idx)...executed.
 
- (./emulato.ind [40]
+ (./emulato.ind [42]
 Capitolo 6.
-[41
+[43
 
 ])
-runsystem(makeindex incomp.idx)...executed.
+runsystem(makeindex -s oldclaudio.sti Warning.idx)...executed.
 
- (./incomp.ind [42]
+ (./Warning.ind [44]
 Capitolo 7.
-)
-runsystem(makeindex Warning.idx)...executed.
-
- (./Warning.ind [43
-
-]
-Capitolo 8.
 )
 runsystem(makeindex -s oldclaudio.sti usato.idx)...executed.
 
- (./usato.ind [44
+ (./usato.ind [45
 
 ]
-Capitolo 9.
-[45
+Capitolo 8.
+[46
 
-] [46] [47] [48])
+] [47] [48] [49])
 runsystem(makeindex -s oldclaudio.sti dipende.idx)...executed.
 
- (./dipende.ind [49]
-Capitolo 10.
-[50
+ (./dipende.ind [50]
+Capitolo 9.
+[51
 
-] [51] [52])
+] [52] [53])
 runsystem(makeindex -s oldclaudio.sti conffile.idx)...executed.
 
- (./conffile.ind [53]
-Capitolo 11.
-[54
+ (./conffile.ind [54]
+Capitolo 10.
+[55
 
 ])
 runsystem(makeindex -s oldclaudio.sti drvfile.idx)...executed.
 
- (./drvfile.ind [55]
+ (./drvfile.ind [56]
+Capitolo 11.
+)
+runsystem(makeindex incomp.idx)...executed.
+
+ (./incomp.ind [57
+
+]
 Capitolo 12.
-) [56
+)
+runsystem(makeindex -s oldclaudio.sti Warning.idx)...executed.
+
+ (./Warning.ind [58
+
+]
+Capitolo 13.
+) [59
 
 ] (./DipLatex.aux)
 \snap@out=\write15
@@ -1470,10 +1481,10 @@ Capitolo 12.
 Dependency list written on DipLatex.dep.
  ) 
 Here is how much of TeX's memory you used:
- 24922 strings out of 493109
- 492502 string characters out of 6138586
- 591158 words of memory out of 5000000
- 27788 multiletter control sequences out of 15000+600000
+ 24981 strings out of 493109
+ 493383 string characters out of 6138586
+ 584910 words of memory out of 5000000
+ 27827 multiletter control sequences out of 15000+600000
  15591 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,12n,122p,10454b,1878s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1487,10 +1498,10 @@ frm1000.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
 b><c:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texl
 ive/2014/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><c:/texlive/2014/t
 exmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on DipLatex.pdf (57 pages, 239134 bytes).
+Output written on DipLatex.pdf (60 pages, 247566 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 242 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

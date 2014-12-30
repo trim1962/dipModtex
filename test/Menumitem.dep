@@ -4,9 +4,6 @@
   *{package}{snapshot}    {2002/03/05 v1.14}
   *{class}  {book}        {2014/09/29 v1.4h}
   *{file}   {bk10.clo}    {2014/09/29 v1.4h}
-  *{package}{microtype}   {2013/05/23 v2.5a}
-  *{package}{keyval}      {2014/10/28 v1.15}
-  *{file}   {microtype-pdftex.def}{2013/05/23 v2.5a}
-  *{file}   {microtype.cfg}{2013/05/23 v2.5a}
-  *{file}   {mt-cmr.cfg}  {2013/05/19 v2.2}
+  *{package}{enumitem}    {2011/09/28 v3.5.2}
+  *{file}   {omscmr.fd}   {2014/09/29 v2.5h}
 }

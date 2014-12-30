@@ -1,18 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  30 DEC 2014 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  29 DEC 2014 23:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**Mkeyval.tex
-(./Mkeyval.tex
+**Memptypage.tex
+(./Memptypage.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
+Package: snapshot 2002/03/05 v1.14
+)
 (c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 Document Class: minimal 2001/05/25 Standard LaTeX minimal class
-) (c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-) (./Mkeyval.aux)
-\openout1 = `Mkeyval.aux'.
+) (c:/texlive/2014/texmf-dist/tex/latex/emptypage/emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
+)
+(./Memptypage.aux)
+\openout1 = `Memptypage.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -26,26 +30,24 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+ [1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Memptypag
+e.aux)
+\snap@out=\write3
+\openout3 = `Memptypage.dep'.
 
-[1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Mkeyval.aux)
 
- *File List*
- minimal.cls    2001/05/25 Standard LaTeX minimal class
-  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
- ***********
-
+Dependency list written on Memptypage.dep.
  ) 
 Here is how much of TeX's memory you used:
- 47 strings out of 493109
- 757 string characters out of 6138586
+ 100 strings out of 493109
+ 1587 string characters out of 6138586
  52967 words of memory out of 5000000
- 3597 multiletter control sequences out of 15000+600000
+ 3645 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 16i,4n,19p,130b,92s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 16i,4n,22p,136b,92s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Mkeyval.pdf (1 page, 10820 bytes).
+Output written on Memptypage.pdf (1 page, 10820 bytes).
 PDF statistics:
  12 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
