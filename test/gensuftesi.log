@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  29 DEC 2014 08:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**gensuftesi.tex
-(./gensuftesi.tex
+**C:/tex/geneatex/test/gensuftesi.tex
+(c:/tex/geneatex/test/gensuftesi.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
@@ -235,7 +235,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: lgrenc.def 2013/12/02 v0.11.2 LGR Greek font encoding definitions
 
 (c:/texlive/2014/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
-File: greek-fontenc.def 2013/11/28 v0.11 Common Greek font encoding definitions
+File: greek-fontenc.def 2014/12/12 v0.12 Common Greek font encoding definitions
 
 ))
 (c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
@@ -310,7 +310,8 @@ Package: titletoc 2011/12/15 v1.6 TOC entries
 )
 \SUF@label@chap=\skip60
 \SUF@tochang=\skip61
-) (./gensuftesi.aux)
+)
+No file gensuftesi.aux.
 \openout1 = `gensuftesi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -327,7 +328,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 4.
 LaTeX Font Info:    Try loading font information for LGR+cmr on input line 4.
- (c:/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+(c:/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 4.
@@ -486,18 +487,18 @@ sia on input line 21.
 Dependency list written on gensuftesi.dep.
  ) 
 Here is how much of TeX's memory you used:
- 7190 strings out of 493109
- 116262 string characters out of 6138586
- 210949 words of memory out of 5000000
- 10517 multiletter control sequences out of 15000+600000
+ 7182 strings out of 493109
+ 116256 string characters out of 6138586
+ 210894 words of memory out of 5000000
+ 10509 multiletter control sequences out of 15000+600000
  12503 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,94p,465b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,94p,486b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texm
 f-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2014/texmf-dist/fonts/typ
 e1/public/amsfonts/latxfont/lcircle1.pfb><c:/texlive/2014/texmf-dist/fonts/type
 1/urw/palatino/uplr8a.pfb>
-Output written on gensuftesi.pdf (1 page, 19257 bytes).
+Output written on gensuftesi.pdf (1 page, 19027 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream

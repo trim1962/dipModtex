@@ -254,6 +254,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-nu
 INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-English.dict
 INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
+INPUT Mbeamer.nav
+INPUT Mbeamer.nav
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

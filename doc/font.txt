@@ -1,0 +1,62 @@
+Font attributes
+
+The commands above should give you sufficient control over fonts. If you don't want to know more at the moment then turn to section 4
+
+Every text font in LATEX has five attributes:
+
+encoding
+    This specifies the order that characters appear in the font. The most common values for the font encoding is OT1. 
+family
+    The name for a collection of fonts, usually grouped under a common name by the font foundry. For example, 
+	`Adobe Times' and Knuth's `Computer Modern Roman' are font families. There are far too many font families to list them all, but some common ones are:
+
+     
+    Internal fontname 	Fontname 	In ljmr1?
+    cmr 	Computer Modern Roman 	No
+    cmss 	Computer Modern Sans 	No
+    cmtt 	Computer Modern Typewriter 	No
+    cmm 	Computer Modern Math Italic 	No
+    cmsy 	Computer Modern Math Symbols 	No
+    cmex 	Computer Modern Math Extensions 	No
+    ptm 	Adobe Times 	Yes
+    phv 	Adobe Helvetica 	Yes
+    pcr 	Adobe Courier 	Yes
+    pun 	Univers 	No
+    ppl 	Palatino 	Yes
+    pagk 	AvantGarde-Book 	Yes
+    pagd 	AvantGarde-Demi 	Yes
+    pbk 	Bookman 	Yes
+    put 	Utopia 	No
+    pop 	Optima 	No
+    pnc 	New Century Schoolbook 	Yes
+    pzd 	ZapfDingbats 	Yes
+    rpad 	Garamond 	No
+
+series
+    How heavy or expanded a font is. For example, `medium weight', `narrow' and `bold extended' are all series. The most common values for the font series are:
+
+    m 	Medium
+    b 	Bold
+    bx 	Bold extended
+    sb 	Semi-bold
+    c 	Condensed
+
+
+shape
+    The form of the letters within a font family. For example, `italic', `oblique' and `upright' are all font shapes. The most common values for the font shape are:
+
+    n 	Normal (that is `upright' or `roman')
+    it 	Italic
+    sl 	Slanted (or `oblique')
+    sc 	Caps and small caps
+
+
+size
+    The design size of the font, for example `10pt'.
+
+These five parameters specify every LATEX font, for example:
+  	Font
+OT1 	cmr 	m 	n 	10pt 	Computer Modern Roman 10pt
+OT1 	cmss 	m 	sl 	12pt 	Computer Modern Sans Oblique 12pt
+OML 	cmm 	m 	it 	10pt 	Computer Modern Math Italic 10pt
+T1 	ptm 	b 	it 	18pt 	Adobe Times Bold Italic 18pt

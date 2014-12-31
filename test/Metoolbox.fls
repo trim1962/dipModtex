@@ -2,7 +2,7 @@ PWD C:/tex/geneatex/test
 INPUT c:/texlive/2014/texmf.cnf
 INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT Metoolbox.tex
+INPUT c:/tex/geneatex/test/Metoolbox.tex
 OUTPUT Metoolbox.log
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
@@ -12,8 +12,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
-INPUT Metoolbox.aux
-INPUT Metoolbox.aux
 OUTPUT Metoolbox.aux
 OUTPUT Metoolbox.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

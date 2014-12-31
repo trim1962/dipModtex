@@ -2,7 +2,7 @@ PWD C:/tex/geneatex/test
 INPUT c:/texlive/2014/texmf.cnf
 INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT Mtextcase.tex
+INPUT c:/tex/geneatex/test/Mtextcase.tex
 OUTPUT Mtextcase.log
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT Mtextcase.aux
-INPUT Mtextcase.aux
 OUTPUT Mtextcase.aux
 OUTPUT Mtextcase.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

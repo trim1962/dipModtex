@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  29 DEC 2014 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**Mcaption.tex
-(./Mcaption.tex
+**C:/tex/geneatex/test/Mcaption.tex
+(c:/tex/geneatex/test/Mcaption.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
@@ -46,7 +46,8 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@hangindent=\dimen109
 )
 \c@ContinuedFloat=\count87
-) (./Mcaption.aux)
+)
+No file Mcaption.aux.
 \openout1 = `Mcaption.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -63,7 +64,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-
 [1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Mcaption.aux)
 \snap@out=\write3
@@ -74,12 +74,12 @@ Dependency list written on Mcaption.dep.
  ) 
 Here is how much of TeX's memory you used:
  1345 strings out of 493109
- 22411 string characters out of 6138586
+ 22467 string characters out of 6138586
  82488 words of memory out of 5000000
  4880 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,4n,38p,199b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,4n,38p,220b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 Output written on Mcaption.pdf (1 page, 12753 bytes).
 PDF statistics:

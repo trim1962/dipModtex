@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  28 DEC 2014 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**Mbabel.tex
-(./Mbabel.tex
+**C:/tex/geneatex/test/Mbabel.tex
+(c:/tex/geneatex/test/Mbabel.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
@@ -35,7 +35,8 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count84
 )
 \etb@tempcnta=\count85
-) (./Mbabel.aux)
+)
+No file Mbabel.aux.
 \openout1 = `Mbabel.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -52,7 +53,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Info: Redefining \it@ocap on input line 5.
 LaTeX Info: Redefining \it@ccap on input line 5.
-
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
@@ -71,12 +71,12 @@ Dependency list written on Mbabel.dep.
  ) 
 Here is how much of TeX's memory you used:
  922 strings out of 493109
- 11284 string characters out of 6138586
+ 11344 string characters out of 6138586
  73577 words of memory out of 5000000
  4452 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,4n,23p,781b,128s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,4n,23p,802b,128s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 Output written on Mbabel.pdf (1 page, 10820 bytes).
 PDF statistics:

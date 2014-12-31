@@ -14,19 +14,20 @@
  		text centered}, }
  \tikzset{cfg node/.style={minimum size=1cm}, }
  \tikzset{linea/.style={-triangle 90},}
- \begin{dot2tex}[format=tikz,scale=0.6,styleonly]
+ \begin{dot2tex}[dot,format=tikz,scale=0.5,styleonly]
  digraph G{
  	edge [style=bold]
  	rankdir="LR";
  	1 [style="main node",texlbl="suftesi"]
  	2 [style="main node",texlbl="geometry"]
- 	21 [style="internal node",texlbl="keyvall"]
- 	22 [style="internal node",texlbl="ifpdf"]
- 	23 [style="internal node",texlbl="atbegshi"]
- 	24 [style="internal node",texlbl="ifvtex"]
+ 	201 [style="internal node",texlbl="keyvall"]
+ 	202 [style="internal node",texlbl="ifpdf"]
+ 	203 [style="internal node",texlbl="atbegshi"]
+ 	204 [style="internal node",texlbl="ifvtex"]
  	3 [style="main node",texlbl="xkeyval"] 
  	4 [style="main node",texlbl="enumitem"]
  	5 [style="main node",texlbl="caption"]
+ 	51 [style="internal node",texlbl="caption3"]
  	6 [style="main node",texlbl="color"]
  	61 [style="cfg node",texlbl="color.cfg"]
  	62 [style="driver node",texlbl="pdftex.def"]
@@ -38,6 +39,9 @@
  	9 [style="main node",texlbl="textcase"]
  	10 [style="main node",texlbl="ifxetex"]
  	11 [style="main node",texlbl="microtype"]
+ 	111[style="driver node",texlbl="microtype-pdftex.def"]
+ 	112[style="cfg node",texlbl="microtype.cfg"]
+ 	113[style="driver node",texlbl="mt-ppl.cfg"]
  	12 [style="main node",texlbl="cclicenses"]
  	13 [style="main node",texlbl="fontenc"]
  	14 [style="main node",texlbl="sostitutefont"]
@@ -51,9 +55,16 @@
 157 [style="internal node",texlbl="ifluatex"]
 158 [style="internal node",texlbl="grfext"]	
 159 [style="internal node",texlbl="kvoptions"]
-160 [style="internal node",texlbl="kvsetkeys"]
-161 [style="internal node",texlbl="etexcmds"]	
-162 [style="cfg node",texlbl="epstopdf-sys.cfg"]
+1510 [style="internal node",texlbl="kvsetkeys"]
+1511 [style="internal node",texlbl="etexcmds"]	
+1512 [style="cfg node",texlbl="epstopdf-sys.cfg"]
+16   [style="main node",texlbl="titlesec"]
+17   [style="main node",texlbl="extramarks"]
+18   [style="main node",texlbl="fancyhdr"]
+19  [style="main node",texlbl="titletoc"]
+20  [style="main node",texlbl="fixltxhyph"]
+21  [style="main node",texlbl="mathpazo"]
+22  [style="main node",texlbl="beramono"]
 	15->151
 	151->152
 	151->153
@@ -70,17 +81,18 @@
 	158->159
 	159->64
 	154->159
-	159->160
-	159->161
-	159->21
-	154->162
+	159->1510
+	159->1511
+	159->201
+	154->1512
+	
  	1->2
- 	2->21
- 	2->22
- 	2->23
- 	2->24
+ 	2->201
+ 	2->202
+ 	2->203
+ 	2->204
  	2->10
- 	3->21[style=bold,labelfloat= true, label = "blocca"]
+ 	3->201[style=bold,labelfloat= true, label = "blocca"]
  	1->3
  	1->4[style=bold,labelfloat= true, label = "[inline]"]
  	1->5
@@ -91,6 +103,12 @@
  	63->64
  	62->65
  	61->62
+ 	5->51
+ 	5->201
+ 	11->111
+ 	11->112
+ 	11->201
+ 	11->113
  1->7
  1->8
  1->9
@@ -101,6 +119,13 @@
  1->14
  1->15[style=bold,labelfloat= true, label = "[A4,CAM,CENTER]"]
  15->6
+ 1->16
+ 1->17
+ 1->18
+ 1->19
+ 1->20
+ 1->21
+  1->22
  }
  \end{dot2tex}
  %% 

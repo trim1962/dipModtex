@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  30 DEC 2014 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**MxkeyvalVkeyvall.tex
-(./MxkeyvalVkeyvall.tex
+**C:/tex/geneatex/test/MxkeyvalVkeyvall.tex
+(c:/tex/geneatex/test/MxkeyvalVkeyvall.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
@@ -20,7 +20,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@depth=\count79
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(./MxkeyvalVkeyvall.aux)
+No file MxkeyvalVkeyvall.aux.
 \openout1 = `MxkeyvalVkeyvall.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -35,8 +35,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
- [1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./MxkeyvalV
-keyvall.aux)
+[1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./MxkeyvalVkeyvall.aux)
 
  *File List*
  minimal.cls    2001/05/25 Standard LaTeX minimal class
@@ -47,12 +47,12 @@ keyvall.aux)
  ) 
 Here is how much of TeX's memory you used:
  235 strings out of 493109
- 3506 string characters out of 6138586
+ 3546 string characters out of 6138586
  53806 words of memory out of 5000000
  3776 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,4n,23p,187b,92s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,4n,23p,208b,92s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 Output written on MxkeyvalVkeyvall.pdf (1 page, 10820 bytes).
 PDF statistics:

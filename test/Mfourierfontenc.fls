@@ -2,7 +2,7 @@ PWD C:/tex/geneatex/test
 INPUT c:/texlive/2014/texmf.cnf
 INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT Mfourierfontenc.tex
+INPUT c:/tex/geneatex/test/Mfourierfontenc.tex
 OUTPUT Mfourierfontenc.log
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
@@ -24,8 +24,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
-INPUT Mfourierfontenc.aux
-INPUT Mfourierfontenc.aux
 OUTPUT Mfourierfontenc.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fourier/fmlfutm.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fourier/fmlfutm.fd

@@ -2,7 +2,7 @@ PWD C:/tex/geneatex/test
 INPUT c:/texlive/2014/texmf.cnf
 INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT Mcaption.tex
+INPUT c:/tex/geneatex/test/Mcaption.tex
 OUTPUT Mcaption.log
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
@@ -16,8 +16,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT Mcaption.aux
-INPUT Mcaption.aux
 OUTPUT Mcaption.aux
 OUTPUT Mcaption.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

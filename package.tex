@@ -167,6 +167,14 @@ Caricato
 \item etex.sty\index{etex.sty}\Uindex{etex.sty}{etoolbox.sty} 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \end{enumerate}
 \lstset{language=TeX}
+\section{beramono}
+\lstinputlisting[caption={Beramono},%
+captionpos=b,label=lst:beramono]{test/mberamono.tex}
+Caricato 
+\begin{enumerate}
+\item beramono.sty\index{beramono.sty}    2004/01/31 (WaS)
+\item keyval.sty\Uindex{keyval.sty}{beramono.sty}    2014/10/28 v1.15 key=value parser (DPC)
+\end{enumerate}
 \section{booktabs}
 \lstinputlisting[caption={Booktabs},%
 captionpos=b,label=lst:booktabs1]{test/mbooktabs.tex}
@@ -365,7 +373,7 @@ text centered}, }
 captionpos=b,label=lst:enumitem]{test/Menumitem.tex}
 Caricato 
 \begin{enumerate}
-	\item enumitem.sty\index{enumitem.sty} 2011/09/28 v3.5.2 Customized lists
+\item enumitem.sty\index{enumitem.sty} 2011/09/28 v3.5.2 Customized lists
 \end{enumerate}
 \section{epstopdf-base}
 \lstinputlisting[caption={Epstopdf-base},%
@@ -689,7 +697,7 @@ Caricato
 captionpos=b,label=lst:keyval]{test/Mkeyval.tex}
 Caricato 
 \begin{enumerate}
-\item  keyval.sty\index{keyval.sty}\Windex{keyval.sty}{xkeyval.sty}    2014/10/28 v1.15 key=value parser (DPC)
+\item keyval.sty\index{keyval.sty}\Windex{keyval.sty}{xkeyval.sty} 2014/10/28 v1.15 key=value parser (DPC)
 \end{enumerate}
 \section{ltxcmds}	 	 
 \lstinputlisting[caption={Ltxcmds},%
@@ -698,16 +706,115 @@ Caricato
 \begin{enumerate}
 \item ltxcmds.sty\index{ltxcmds.sty} 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \end{enumerate}
-\section{microtype}	 	 
+\section{keyval}	 	 
+\lstinputlisting[caption={Keyval},%
+captionpos=b,label=lst:keyval]{test/Mkeyval.tex}
+Caricato 
+\begin{enumerate}
+	\item keyval.sty\index{keyval.sty}\Windex{keyval.sty}{xkeyval.sty} 2014/10/28 v1.15 key=value parser (DPC)
+\end{enumerate}
+\section{ltxcmds}	 	 
+\lstinputlisting[caption={Ltxcmds},%
+captionpos=b,label=lst:Ltxcmds]{test/Mltxcmds.tex}
+Caricato 
+\begin{enumerate}
+	\item ltxcmds.sty\index{ltxcmds.sty} 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+\end{enumerate}
+\section{mathpazo}
+\begin{figure}
+	\centering
+\begin{tikzpicture}
+\tikzset{main node/.style={rectangle, draw,
+		text centered, rounded corners}, }
+\tikzset{internal node/.style={rectangle, draw,dotted,
+		text centered, rounded corners}, }
+\tikzset{driver node/.style={ellipse, draw,dashed,
+		text centered}, }
+\tikzset{formato node/.style={rectangle, draw,dotted,
+		text centered}, }
+\tikzset{cfg node/.style={minimum size=1cm}, }
+\tikzset{linea/.style={-triangle 90},}
+\begin{dot2tex}[format=tikz,scale=1,styleonly]
+digraph G{
+	edge [style=bold]
+	%rankdir="LR";
+	1 [style="main node",texlbl="mathpazo"]
+	2 [style="main node",texlbl="ot1ppl.fd"]
+	3 [style="cfg node",texlbl="texfonts.map"]
+	4 [style="driver node",texlbl="pplr7t.tfm"]
+	5 [style="driver node",texlbl="pplr7t.vf"]
+	6 [style="driver node",texlbl="pdftex.map"]
+	7 [style="driver node",texlbl="pplr8r.tfm"]
+	8 [style="driver node",texlbl="8r.enc"]
+	9 [style="driver node",texlbl="uplr8a.pfb"]
+	
+	1->2
+	1->3
+	2->4
+	2->5
+	1->6
+	6->7
+	6->8
+	6->9	
+}
+\end{dot2tex}
+\end{tikzpicture}
+	\caption{Mathpazo}
+	\label{fig:Mathpazo}
+\end{figure} 	 
+\lstinputlisting[caption={Mathpazo},%
+captionpos=b,label=lst:mathpazo]{test/Mmathpazo.tex}
+Grafico~\vref{fig:Mathpazo}
+
+Caricato 
+\begin{enumerate}
+\item 	mathpazo.sty\index{mathpazo.sty} 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\item 	ot1pplj.fd\index{ot1pplj.fd}\Dindex{ot1pplj.fd}{mathpazo.sty} 2004/09/06 font definitions for OT1/pplj.
+\end{enumerate}
+\section{microtype}	
+\begin{figure}
+	\centering
+	\begin{tikzpicture}
+	\tikzset{main node/.style={rectangle, draw,
+			text centered, rounded corners}, }
+	\tikzset{internal node/.style={rectangle, draw,dotted,
+			text centered, rounded corners}, }
+	\tikzset{driver node/.style={ellipse, draw,dashed,
+			text centered}, }
+	\tikzset{formato node/.style={rectangle, draw,dotted,
+			text centered}, }
+	\tikzset{cfg node/.style={minimum size=1cm}, }
+	\tikzset{linea/.style={-triangle 90},}
+	\begin{dot2tex}[format=tikz,scale=1,styleonly]
+	digraph G{
+		edge [style=bold]
+		%rankdir="LR";
+		1 [style="main node",texlbl="microtype"]
+		2 [style="main node",texlbl="keyval"]
+		3 [style="cfg node",texlbl="microtype.cfg"]
+		4 [style="driver node",texlbl="microtype-pdftex.def"]
+		5 [style="driver node",texlbl="mt-cmr.cfg"]
+		1->2
+		1->3
+		1->4
+		1->5	
+	}
+	\end{dot2tex}
+	\end{tikzpicture}
+	\caption{Microtype}
+	\label{fig:microtype}
+\end{figure} 	 
 \lstinputlisting[caption={Microtype},%
 captionpos=b,label=lst:microtype]{test/Mmicrotype.tex}
+Grafico~\vref{fig:microtype}
+
 Caricato 
 \begin{enumerate}
 \item 	microtype.sty\index{microtype.sty} 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \item 	keyval.sty\index{keyval.sty}\Uindex{keyval.sty}{microtype.sty} 2014/10/28 v1.15 key=value parser (DPC)
-\item 	microtype-pdftex.def\index{microtype-pdftex.def}\Cindex{microtype-pdftex.def}{microtype.sty} 2013/05/23 v2.5a Definitions specific to pdftex (RS)
-\item 	microtype.cfg\Uindex{microtype.cfg}{microtype.sty} 2013/05/23 v2.5a microtype main configuration file (RS)
-\item 	mt-cmr.cfg\index{mt-cmr.cfg}\Cindex{mt-cmr.cfg}{microtype.sty} 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+\item 	microtype-pdftex.def\index{microtype-pdftex.def}\Dindex{microtype-pdftex.def}{microtype.sty} 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+\item 	microtype.cfg\Cindex{microtype.cfg}{microtype.sty} 2013/05/23 v2.5a microtype main configuration file (RS)
+\item 	mt-cmr.cfg\index{mt-cmr.cfg}\Dindex{mt-cmr.cfg}{microtype.sty} 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 \end{enumerate}
 \section{multicol}	 	 
 \lstinputlisting[caption={Multicol},%
@@ -757,7 +864,7 @@ Caricato
 				text centered}, }
 		\tikzset{cfg node/.style={minimum size=1cm}, }
 		\tikzset{linea/.style={-triangle 90},}
-		\node[main node] (1) {color};
+		\node[main node] (1) {xcolor};
 		\node[cfg node] (2)[below =of 1] {xcolor.cfg};
 		\node[driver node] (3)[right =of 1] {pdftex.def};
 		\node[internal node] (4)[above right =of 3] {infwarerr};
@@ -813,6 +920,6 @@ captionpos=b,label=lst:xkeyvall]{test/mxkeyval.tex}
 grafico~\vref{fig:xkeyval1}
 Caricato 
 \begin{enumerate}
-\item xkeyval.sty\index{xkeyval.sty}\Windex{xkeyval.sty}{keyval.sty}  2014/12/03 v2.7a package option processing (HA)
+\item xkeyval.sty\index{xkeyval.sty}\Windex{xkeyval.sty}{keyval.sty} 2014/12/03 v2.7a package option processing (HA)
 \item xkeyval.tex\index{xkeyval.tex}\Uindex{xkeyval.tex}{xkeyval.sty} 2014/12/03 v2.7a key=value parser (HA)
 \end{enumerate}		 	 

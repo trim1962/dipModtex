@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.1)  27 DEC 2014 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -50,7 +50,20 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \CROP@offset=\count81
 Package crop Info: Local config file crop.cfg used on input line 605.
 
-(c:/texlive/2014/texmf-dist/tex/xelatex/xetexconfig/crop.cfg))
+(c:/texlive/2014/texmf-dist/tex/xelatex/xetexconfig/crop.cfg)
+
+! Package crop Error: Requested option `A4' not provided.
+
+See the crop package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.607 \AtBeginDocument
+                      {\@nameuse{CROP@init@\CROP@driver}}
+Note that the `*center' options are obsolete. You have to request
+e.g. [a4,center] instead of [a4center]. 
+
+)
 No file Mcrop.aux.
 \openout1 = `Mcrop.aux'.
 
@@ -143,10 +156,10 @@ Package crop Info: using `pdftex' graphics driver on input line 5.
 Dependency list written on Mcrop.dep.
  ) 
 Here is how much of TeX's memory you used:
- 1451 strings out of 493109
- 21208 string characters out of 6138587
- 78701 words of memory out of 5000000
- 4928 multiletter control sequences out of 15000+600000
+ 1453 strings out of 493109
+ 21224 string characters out of 6138586
+ 78700 words of memory out of 5000000
+ 4930 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,5n,23p,252b,101s stack positions out of 5000i,500n,10000p,200000b,80000s

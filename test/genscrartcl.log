@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.1)  27 DEC 2014 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -120,7 +120,7 @@ Dependency list written on genscrartcl.dep.
  ) 
 Here is how much of TeX's memory you used:
  1458 strings out of 493109
- 23403 string characters out of 6138587
+ 23403 string characters out of 6138586
  121354 words of memory out of 5000000
  4982 multiletter control sequences out of 15000+600000
  3940 words of font info for 15 fonts, out of 8000000 for 9000

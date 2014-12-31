@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.1)  27 DEC 2014 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -869,8 +869,7 @@ m-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 4.
-
-No file Mbeamer.nav.
+ (./Mbeamer.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 6.
@@ -913,10 +912,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6.
  ) 
 Here is how much of TeX's memory you used:
- 16308 strings out of 493109
- 309743 string characters out of 6138587
+ 16315 strings out of 493109
+ 309802 string characters out of 6138586
  381570 words of memory out of 5000000
- 19413 multiletter control sequences out of 15000+600000
+ 19418 multiletter control sequences out of 15000+600000
  4845 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,418b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
