@@ -4,6 +4,13 @@
   *{package}{snapshot}    {2002/03/05 v1.14}
   *{class}  {article}     {2014/09/29 v1.4h}
   *{file}   {size10.clo}  {2014/09/29 v1.4h}
+  *{package}{fontenc}     {0000/00/00 v0.0}
+  *{file}   {lgrenc.def}  {2013/12/02 v0.11.2}
+  *{file}   {greek-fontenc.def}{2014/12/12 v0.12}
+  *{file}   {t1enc.def}   {2005/09/27 v1.99g}
   *{package}{mathpazo}    {2005/04/12 v9.2a}
-  *{file}   {ot1pplj.fd}  {2004/09/06 v1/pplj.}
+  *{package}{beramono}    {2004/01/31 v0.0}
+  *{package}{keyval}      {2014/10/28 v1.15}
+  *{file}   {lgrcmr.fd}   {2013/09/01 v1.0}
+  *{file}   {t1pplj.fd}   {2004/09/06 v1/pplj.}
 }

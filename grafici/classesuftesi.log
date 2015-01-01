@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  1 JAN 2015 21:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -52,7 +52,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \verbatim@out=\write3
-runsystem(echo 'write18-test-20141231852'>"classesuftesi.w18")...executed.
+runsystem(echo 'write18-test-2015111308'>"classesuftesi.w18")...executed.
 
 \instream=\read2
 runsystem(rm -- "classesuftesi.w18")...executed.
@@ -525,33 +525,33 @@ yle="scale=0.5,transform shape" -o classesuftesi-dot2tex-fig1.tex  classesuftes
 i-dot2tex-fig1.dot)...executed.
 
 Package dot2texo Info: classesuftesi-dot2tex-fig1.dot converted on input line 1
-30.
+50.
 
 (./classesuftesi-dot2tex-fig1.tex
 Missing character: There is no ; in font nullfont!
 )
-Overfull \hbox (43.32704pt too wide) in paragraph at lines 132--133
+Overfull \hbox (103.55205pt too wide) in paragraph at lines 152--153
 [][] 
  []
 
 [1
 
 {c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (159.33696pt too high) has occurred while \output is active []
+Overfull \vbox (76.11507pt too high) has occurred while \output is active []
 
 
 [2] (./classesuftesi.aux) ) 
 Here is how much of TeX's memory you used:
- 14474 strings out of 493109
- 311831 string characters out of 6138586
- 414670 words of memory out of 5000000
- 17678 multiletter control sequences out of 15000+600000
+ 14536 strings out of 493109
+ 312778 string characters out of 6138586
+ 423978 words of memory out of 5000000
+ 17740 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,67p,530b,998s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,67p,436b,998s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2014/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb>
-Output written on classesuftesi.pdf (2 pages, 31816 bytes).
+Output written on classesuftesi.pdf (2 pages, 33458 bytes).
 PDF statistics:
  18 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream

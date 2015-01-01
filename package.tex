@@ -1,4 +1,6 @@
+\selectlanguage{italian}
 \chapter{Package}
+\selectlanguage{english}
 \lstset{language=TeX}
 \begin{figure}
 \centering
@@ -143,7 +145,6 @@ text centered}, }
 \tikzset{linea/.style={-triangle 90},}
 \node[main node] (1) {babel};
 \node[internal node] (2)[right=of 1] {switch.def};
-
 \node[driver node] (3)[right =of 2] {italian.ldf};
 \node[internal node] (4)[right =of 3] {etoolbox};
 \node[cfg node] (5)[ above =of 1] {babel.def};
@@ -172,8 +173,8 @@ Caricato
 captionpos=b,label=lst:beramono]{test/mberamono.tex}
 Caricato 
 \begin{enumerate}
-\item beramono.sty\index{beramono.sty}    2004/01/31 (WaS)
-\item keyval.sty\Uindex{keyval.sty}{beramono.sty}    2014/10/28 v1.15 key=value parser (DPC)
+\item beramono.sty\index{beramono.sty} 2004/01/31 (WaS)
+\item keyval.sty\Uindex{keyval.sty}{beramono.sty} 2014/10/28 v1.15 key=value parser (DPC)
 \end{enumerate}
 \section{booktabs}
 \lstinputlisting[caption={Booktabs},%
@@ -327,7 +328,7 @@ Caricato
 \item ifluatex.sty\index{ifluatex.sty}\Uindex{ifluatex.sty}{pdftexcmd.sty} 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 \item ifpdf.sty\index{ifpdf.sty}\Uindex{ifpdf.sty}{pdftexcmd.sty} 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 \item epstopdf-base.sty\index{epstopdf-base.sty}\Uindex{epstopdf-base.sty}{graphics.sty} 2010/02/09 v2.5 Base part for package epstopdf
-\item grfext.sty\index{grfext.sty}\Uindex{grfext.sty}{epstopdf-base.sty.sty} 2010/08/19 v1.1 Manage graphics extensions (HO)
+\item grfext.sty\index{grfext.sty}\Uindex{grfext.sty}{epstopdf-base.sty} 2010/08/19 v1.1 Manage graphics extensions (HO)
 \item kvdefinekeys.sty\index{kvdefinekeys.sty}\Uindex{kvdefinekeys.sty}{epstopdf-base.sty} 2011/04/07 v1.3 Define keys (HO)
 \item kvoptions.sty\index{kvoptions.sty}\Uindex{kvoptions.sty}{epstopdf-base.sty} 2011/06/30 v3.11 Key value format for package options (HO)
 \item keyval.sty\index{keyval.sty}\Uindex{keyval.sty}{kvoptions.sty}2014/10/28 v1.15 key=value parser (DPC)
@@ -413,12 +414,21 @@ Caricato
 \item fixltx2e.sty\index{fixltx2e.sty} 2014/09/29 v1.1s fixes to LaTeX
 \end{enumerate}	
 \section{fontenc}
-\lstinputlisting[caption={Fontenc},%
+\lstinputlisting[caption={T1 Fontenc},%
 captionpos=b,label=lst:fontenc1]{test/Mfontec.tex}
 Caricato 
 \begin{enumerate}
 \item fontenc.sty\index{fontenc.sty} 2005/09/27 v1.99g Standard LaTeX package
 \item t1enc.def\index{t1enc.def}\Dindex{t1enc.def}{fontenc.sty} 2005/09/27 v1.99g Standard LaTeX file
+\end{enumerate}
+\lstinputlisting[caption={LGR,T1 Fontenc},%
+captionpos=b,label=lst:fontenc2]{test/Mfontenc2.tex}
+Caricato 
+\begin{enumerate}
+\item fontenc.sty\index{fontenc.sty} 2005/09/27 v1.99g Standard LaTeX package
+\item t1enc.def\index{t1enc.def}\Dindex{t1enc.def}{fontenc.sty} 2005/09/27 v1.99g Standard LaTeX file
+\item lgrenc.def\index{lgrenc.def}\Dindex{lgrenc.def}{fontenc.sty} 2013/12/02 v0.11.2 LGR Greek font encoding definitions
+\item greek-fontenc.def\index{greek-fontenc.def}\Dindex{greek-fontenc.def}{fontenc.sty} 2014/12/12 v0.12 Common Greek font encoding definitions
 \end{enumerate}
 \section{fourier}
 \begin{figure}
@@ -706,61 +716,47 @@ Caricato
 \begin{enumerate}
 \item ltxcmds.sty\index{ltxcmds.sty} 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \end{enumerate}
-\section{keyval}	 	 
-\lstinputlisting[caption={Keyval},%
-captionpos=b,label=lst:keyval]{test/Mkeyval.tex}
-Caricato 
-\begin{enumerate}
-	\item keyval.sty\index{keyval.sty}\Windex{keyval.sty}{xkeyval.sty} 2014/10/28 v1.15 key=value parser (DPC)
-\end{enumerate}
-\section{ltxcmds}	 	 
-\lstinputlisting[caption={Ltxcmds},%
-captionpos=b,label=lst:Ltxcmds]{test/Mltxcmds.tex}
-Caricato 
-\begin{enumerate}
-	\item ltxcmds.sty\index{ltxcmds.sty} 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-\end{enumerate}
 \section{mathpazo}
 \begin{figure}
-	\centering
+\centering
 \begin{tikzpicture}
 \tikzset{main node/.style={rectangle, draw,
-		text centered, rounded corners}, }
+text centered, rounded corners}, }
 \tikzset{internal node/.style={rectangle, draw,dotted,
-		text centered, rounded corners}, }
+text centered, rounded corners}, }
 \tikzset{driver node/.style={ellipse, draw,dashed,
-		text centered}, }
+text centered}, }
 \tikzset{formato node/.style={rectangle, draw,dotted,
-		text centered}, }
+text centered}, }
 \tikzset{cfg node/.style={minimum size=1cm}, }
 \tikzset{linea/.style={-triangle 90},}
 \begin{dot2tex}[format=tikz,scale=1,styleonly]
 digraph G{
-	edge [style=bold]
-	%rankdir="LR";
-	1 [style="main node",texlbl="mathpazo"]
-	2 [style="main node",texlbl="ot1ppl.fd"]
-	3 [style="cfg node",texlbl="texfonts.map"]
-	4 [style="driver node",texlbl="pplr7t.tfm"]
-	5 [style="driver node",texlbl="pplr7t.vf"]
-	6 [style="driver node",texlbl="pdftex.map"]
-	7 [style="driver node",texlbl="pplr8r.tfm"]
-	8 [style="driver node",texlbl="8r.enc"]
-	9 [style="driver node",texlbl="uplr8a.pfb"]
-	
-	1->2
-	1->3
-	2->4
-	2->5
-	1->6
-	6->7
-	6->8
-	6->9	
+edge [style=bold]
+%rankdir="LR";
+1 [style="main node",texlbl="mathpazo"]
+2 [style="main node",texlbl="ot1ppl.fd"]
+3 [style="cfg node",texlbl="texfonts.map"]
+4 [style="driver node",texlbl="pplr7t.tfm"]
+5 [style="driver node",texlbl="pplr7t.vf"]
+6 [style="driver node",texlbl="pdftex.map"]
+7 [style="driver node",texlbl="pplr8r.tfm"]
+8 [style="driver node",texlbl="8r.enc"]
+9 [style="driver node",texlbl="uplr8a.pfb"]
+
+1->2
+1->3
+2->4
+2->5
+1->6
+6->7
+6->8
+6->9	
 }
 \end{dot2tex}
 \end{tikzpicture}
-	\caption{Mathpazo}
-	\label{fig:Mathpazo}
+\caption{Mathpazo}
+\label{fig:Mathpazo}
 \end{figure} 	 
 \lstinputlisting[caption={Mathpazo},%
 captionpos=b,label=lst:mathpazo]{test/Mmathpazo.tex}
@@ -773,36 +769,36 @@ Caricato
 \end{enumerate}
 \section{microtype}	
 \begin{figure}
-	\centering
-	\begin{tikzpicture}
-	\tikzset{main node/.style={rectangle, draw,
-			text centered, rounded corners}, }
-	\tikzset{internal node/.style={rectangle, draw,dotted,
-			text centered, rounded corners}, }
-	\tikzset{driver node/.style={ellipse, draw,dashed,
-			text centered}, }
-	\tikzset{formato node/.style={rectangle, draw,dotted,
-			text centered}, }
-	\tikzset{cfg node/.style={minimum size=1cm}, }
-	\tikzset{linea/.style={-triangle 90},}
-	\begin{dot2tex}[format=tikz,scale=1,styleonly]
-	digraph G{
-		edge [style=bold]
-		%rankdir="LR";
-		1 [style="main node",texlbl="microtype"]
-		2 [style="main node",texlbl="keyval"]
-		3 [style="cfg node",texlbl="microtype.cfg"]
-		4 [style="driver node",texlbl="microtype-pdftex.def"]
-		5 [style="driver node",texlbl="mt-cmr.cfg"]
-		1->2
-		1->3
-		1->4
-		1->5	
-	}
-	\end{dot2tex}
-	\end{tikzpicture}
-	\caption{Microtype}
-	\label{fig:microtype}
+\centering
+\begin{tikzpicture}
+\tikzset{main node/.style={rectangle, draw,
+text centered, rounded corners}, }
+\tikzset{internal node/.style={rectangle, draw,dotted,
+text centered, rounded corners}, }
+\tikzset{driver node/.style={ellipse, draw,dashed,
+text centered}, }
+\tikzset{formato node/.style={rectangle, draw,dotted,
+text centered}, }
+\tikzset{cfg node/.style={minimum size=1cm}, }
+\tikzset{linea/.style={-triangle 90},}
+\begin{dot2tex}[format=tikz,scale=1,styleonly]
+digraph G{
+edge [style=bold]
+%rankdir="LR";
+1 [style="main node",texlbl="microtype"]
+2 [style="main node",texlbl="keyval"]
+3 [style="cfg node",texlbl="microtype.cfg"]
+4 [style="driver node",texlbl="microtype-pdftex.def"]
+5 [style="driver node",texlbl="mt-cmr.cfg"]
+1->2
+1->3
+1->4
+1->5	
+}
+\end{dot2tex}
+\end{tikzpicture}
+\caption{Microtype}
+\label{fig:microtype}
 \end{figure} 	 
 \lstinputlisting[caption={Microtype},%
 captionpos=b,label=lst:microtype]{test/Mmicrotype.tex}
@@ -843,6 +839,13 @@ Caricato
 \item 	ts1enc.def\index{ts1enc.def}\Cindex{ts1enc.def}{textcomp.sty} 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 \item 	ts1cmr.fd\index{ts1cmr.fd}\Dindex{ts1cmr.fd}{textcomp.sty} 2014/09/29 v2.5h Standard LaTeX font definitions
 \end{enumerate}	 
+\section{titlesec}	 	 
+\lstinputlisting[caption={Titlesec},%
+captionpos=b,label=lst:titlesec]{test/Mtitlesec.tex}
+Caricato 
+\begin{enumerate}
+	\item titlesec.sty\index{titlesec.sty} 2011/12/15 v2.10.0 Sectioning titles
+\end{enumerate}	 
 \section{trig}	 	 
 \lstinputlisting[caption={Trig},%
 captionpos=b,label=lst:trig3]{test/Mtrig.tex}
@@ -852,30 +855,30 @@ Caricato
 \end{enumerate}	
 \section{xcolor}
 \begin{figure}
-	\centering
-	\scalebox{.8}{\begin{tikzpicture}
-		\tikzset{main node/.style={rectangle, draw,
-				text centered, rounded corners}, }
-		\tikzset{internal node/.style={rectangle, draw,dotted,
-				text centered, rounded corners}, }
-		\tikzset{driver node/.style={ellipse, draw,dashed,
-				text centered}, }
-		\tikzset{formato node/.style={rectangle, draw,dotted,
-				text centered}, }
-		\tikzset{cfg node/.style={minimum size=1cm}, }
-		\tikzset{linea/.style={-triangle 90},}
-		\node[main node] (1) {xcolor};
-		\node[cfg node] (2)[below =of 1] {xcolor.cfg};
-		\node[driver node] (3)[right =of 1] {pdftex.def};
-		\node[internal node] (4)[above right =of 3] {infwarerr};
-		\node[internal node] (5)[below right =of 3] {supp-pdf.mkii};
-		\node[internal node] (6)[right =of 4] {ltcmds};
-		\foreach \x /\y in{1/2,1/3,2/3,3/5,3/4,4/6}
-		\path[linea] (\x) edge node {} (\y);
-		%% 
-		\end{tikzpicture}}
-	\caption{Xcolor}
-	\label{fig:xcolor1}
+\centering
+\scalebox{.8}{\begin{tikzpicture}
+\tikzset{main node/.style={rectangle, draw,
+	text centered, rounded corners}, }
+\tikzset{internal node/.style={rectangle, draw,dotted,
+	text centered, rounded corners}, }
+\tikzset{driver node/.style={ellipse, draw,dashed,
+	text centered}, }
+\tikzset{formato node/.style={rectangle, draw,dotted,
+	text centered}, }
+\tikzset{cfg node/.style={minimum size=1cm}, }
+\tikzset{linea/.style={-triangle 90},}
+\node[main node] (1) {xcolor};
+\node[cfg node] (2)[below =of 1] {xcolor.cfg};
+\node[driver node] (3)[right =of 1] {pdftex.def};
+\node[internal node] (4)[above right =of 3] {infwarerr};
+\node[internal node] (5)[below right =of 3] {supp-pdf.mkii};
+\node[internal node] (6)[right =of 4] {ltcmds};
+\foreach \x /\y in{1/2,1/3,2/3,3/5,3/4,4/6}
+\path[linea] (\x) edge node {} (\y);
+%% 
+\end{tikzpicture}}
+\caption{Xcolor}
+\label{fig:xcolor1}
 \end{figure}
 \lstinputlisting[caption={Xcolor},%
 captionpos=b,label=lst:xcolor1]{test/mxcolor.tex}

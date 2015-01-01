@@ -1,10 +1,13 @@
+\selectlanguage{italian}
 \chapter{Ordine di caricamento}
 In questo capitolo vengono presentati i casi in cui l'ordine di caricamento influenza i file caricati
-\section{color xcolor}
+\section{Color xcolor}
 Se viene posto prima xcolor, color non viene caricato infatti: 
+\selectlanguage{english}
 \lstinputlisting[caption={colorVxcolor},%
 captionpos=b,label=lst:colorVxcolor1]{test/mcolorVxcolor.tex}
 Caricato 
+\selectlanguage{english}
 \begin{enumerate}
 \item color.sty\index{color.sty} 1999/02/16
 \item color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
@@ -50,13 +53,17 @@ Caricato
 \end{enumerate}
 \section{fourier fontenc}
 Dato che fourier carica fontenc è inutile inserirlo a parte come nell'esempio~\vref{lst:fourierfontenc}\Windex{fourier}{fontenc}
+\selectlanguage{english}
 \lstinputlisting[caption={Fourier fontenc},%
 captionpos=b,label=lst:fourierfontenc]{test/Mfourierfontenc}
 \section{keyval xkeyval}
+\selectlanguage{italian}
 Se viene posto prima xkeyval, keyval non viene caricato infatti: 
+\selectlanguage{english}
 \lstinputlisting[caption={xkeyvalVkeyval},%
 captionpos=b,label=lst:MxkeyvalVkeyvall]{test/MxkeyvalVkeyvall.tex}
 Caricato 
+\selectlanguage{english}
 \begin{enumerate}
 \item xkeyval.sty\index{xkeyval.sty}\Windex{xkeyval.sty}{keyval.sty}  2014/12/03 v2.7a package option processing (HA)
 \item xkeyval.tex\index{xkeyval.tex}\Uindex{xkeyval.tex}{xkeyval.sty} 2014/12/03 v2.7a key=value parser (HA)

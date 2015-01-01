@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  2 JAN 2015 00:14
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -53,7 +53,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \verbatim@out=\write3
-runsystem(echo 'write18-test-201412311387'>"DipLatex.w18")...executed.
+runsystem(echo 'write18-test-20151214'>"DipLatex.w18")...executed.
 
 \instream=\read2
 runsystem(rm -- "DipLatex.w18")...executed.
@@ -317,14 +317,20 @@ File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 (c:/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2014/09/25 3.9l The Babel package
 
-(c:/texlive/2014/texmf-dist/tex/generic/babel-italian/italian.ldf
-Language: italian 2014/03/29 v1.3k Italian support from the babel system
+(c:/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 (c:/texlive/2014/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count95
 \U@D=\dimen104
 )
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(c:/texlive/2014/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2014/03/29 v1.3k Italian support from the babel system
 \it@lettering=\count96
 \it@doublequoteactive=\count97
 \it@ISOcompliance=\count98
@@ -1158,14 +1164,7 @@ File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
- (./DipLatex.aux
-
-LaTeX Warning: Label `lst:keyval' multiply defined.
-
-
-LaTeX Warning: Label `lst:Ltxcmds' multiply defined.
-
-)
+ (./DipLatex.aux)
 \openout1 = `DipLatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -1181,7 +1180,8 @@ LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Try loading font information for T1+pplj on input line 41.
- (c:/texlive/2014/texmf-dist/tex/latex/psnfss/t1pplj.fd
+
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 \big@size=\dimen199
@@ -1364,113 +1364,139 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <20.74> not available
 ]
 Capitolo 2.
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 2.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
 (./test/genarticle.tex) (./test/Mbeamer.tex) [7
 
 ] [8] [9] (./test/genbook.tex)
 (./test/genbook11.tex) (./test/Mmemoir.tex [10]) [11] (./test/genminimal.tex)
 (./test/genreport.tex) (./test/genscrartcl.tex)
-Overfull \hbox (29.93405pt too wide) in paragraph at lines 218--219
-[]\T1/pplj/m/n/10 (-20) scrbase.sty[][][] 2014/10/28 v3.14 KOMA-Script pac-ka-g
-e (KOMA-Script-independent
+Overfull \hbox (29.93405pt too wide) in paragraph at lines 217--218
+[]\T1/pplj/m/n/10 (-20) scrbase.sty[][][] 2014/10/28 v3.14 KOMA-Script pack-age
+ (KOMA-Script-independent
  []
 
-[12] (./test/gensuftesi.tex) [13]) (./package.tex [14]
-Capitolo 3.
-(./test/Mamsbsy.tex) (./test/Mamscd.tex [15
+[12]
+\openout3 = `DipLatex-dot2tex-fig1.dot'.
 
-]) (./test/Mamsfonts.tex)
-(./test/Mamsfonts.tex) (./test/Mamsmath.tex [16]) (./test/Mamsopn.tex)
-(./test/Mamssymb.tex) (./test/Mamstext.tex [17]) (./test/Mamsthm.tex)
-(./test/Mamsxtra.tex) [18] (./test/Mappendix.tex) (./test/Marray.tex)
-(./test/Mbabel.tex [19]) (./test/mberamono.tex) (./test/mbooktabs.tex)
-(./test/mcaption.tex [20]) (./test/mccaption.tex) (./test/mcolor.tex [21])
-(./test/mchangepage.tex) (./test/mchngntr.tex) (./test/mchngpage.tex [22])
-(./test/mcmap.tex)
-Overfull \hbox (86.2986pt too wide) in paragraph at lines 307--308
+ Opening dot2tex stream DipLatex-dot2tex-fig1.dot
+runsystem(dot2tex --figonly --format=tikz   --styleonly   --prog=dot  --graphst
+yle="scale=0.5,transform shape" -o DipLatex-dot2tex-fig1.tex  DipLatex-dot2tex-
+fig1.dot)...executed.
+
+Package dot2texo Info: DipLatex-dot2tex-fig1.dot converted on input line 371.
+
+(./DipLatex-dot2tex-fig1.tex
+Missing character: There is no ; in font nullfont!
+)
+Overfull \hbox (89.3492pt too wide) in paragraph at lines 373--374
  [][] 
  []
 
-(./test/mcrop.tex) [23] (./test/Menumitem.tex [24]) (./test/Meostopdf-base.tex)
-[25] (./test/metoolbox.tex) (./test/Mfixltx2e.tex) (./test/Mfontec.tex [26])
-(./test/Mfourier.tex) [27] (./test/Mgeometry.tex) (./test/Mgraphics.tex)
-[28] (./test/Mgraphicx.tex [29]) [30] (./test/Mifpdf.tex)
-(./test/Minfwarerr.tex) (./test/Minputenc2.tex) [31] (./test/Minputenc1.tex)
-(./test/Misomath.tex) [32] (./test/Mkeyval.tex) (./test/Mltxcmds.tex)
-(./test/Mkeyval.tex) (./test/Mltxcmds.tex [33])
-\openout3 = `DipLatex-dot2tex-fig1.dot'.
 
+LaTeX Warning: Float too large for page by 257.00797pt on input line 376.
 
-Opening dot2tex stream DipLatex-dot2tex-fig1.dot
-runsystem(dot2tex --figonly --format=tikz   --styleonly     --graphstyle="scale
-=1,transform shape" -o DipLatex-dot2tex-fig1.tex  DipLatex-dot2tex-fig1.dot)...
-executed.
+(./test/gensuftesi.tex) [13] [14]) (./package.tex [15]
+Capitolo 3.
+(./test/Mamsbsy.tex) (./test/Mamscd.tex [16
 
-Package dot2texo Info: DipLatex-dot2tex-fig1.dot converted on input line 760.
- (./DipLatex-dot2tex-fig1.tex)
-(./test/Mmathpazo.tex) [34]
+]) (./test/Mamsfonts.tex)
+(./test/Mamsfonts.tex) (./test/Mamsmath.tex [17]) (./test/Mamsopn.tex)
+(./test/Mamssymb.tex) (./test/Mamstext.tex [18]) (./test/Mamsthm.tex)
+(./test/Mamsxtra.tex) [19] (./test/Mappendix.tex) (./test/Marray.tex)
+(./test/Mbabel.tex [20]) (./test/mberamono.tex) (./test/mbooktabs.tex)
+(./test/mcaption.tex [21]) (./test/mccaption.tex) (./test/mcolor.tex [22])
+(./test/mchangepage.tex) (./test/mchngntr.tex) (./test/mchngpage.tex [23])
+(./test/mcmap.tex)
+Overfull \hbox (86.2986pt too wide) in paragraph at lines 308--309
+ [][] 
+ []
+
+(./test/mcrop.tex) [24] (./test/Menumitem.tex [25]) (./test/Meostopdf-base.tex)
+[26] (./test/metoolbox.tex) (./test/Mfixltx2e.tex) (./test/Mfontec.tex [27])
+(./test/Mfontenc2.tex) (./test/Mfourier.tex) [28] (./test/Mgeometry.tex)
+[29] (./test/Mgraphics.tex) [30] (./test/Mgraphicx.tex) [31] (./test/Mifpdf.tex
+) (./test/Minfwarerr.tex) [32] (./test/Minputenc2.tex) (./test/Minputenc1.tex)
+(./test/Misomath.tex) [33] (./test/Mkeyval.tex) (./test/Mltxcmds.tex)
 \openout3 = `DipLatex-dot2tex-fig2.dot'.
 
- Opening dot2tex stream DipLatex-dot2tex-fig2.dot
+
+Opening dot2tex stream DipLatex-dot2tex-fig2.dot
 runsystem(dot2tex --figonly --format=tikz   --styleonly     --graphstyle="scale
 =1,transform shape" -o DipLatex-dot2tex-fig2.tex  DipLatex-dot2tex-fig2.dot)...
 executed.
 
-Package dot2texo Info: DipLatex-dot2tex-fig2.dot converted on input line 802.
+Package dot2texo Info: DipLatex-dot2tex-fig2.dot converted on input line 756.
+ (./DipLatex-dot2tex-fig2.tex)
+(./test/Mmathpazo.tex [34])
+\openout3 = `DipLatex-dot2tex-fig3.dot'.
 
-(./DipLatex-dot2tex-fig2.tex) (./test/Mmicrotype.tex) [35]
-(./test/Mmulticol.tex) (./test/Mpdftexcmds.tex) (./test/Mtextcomp.tex) [36]
-(./test/Mtrig.tex) (./test/mxcolor.tex) [37] (./test/mxkeyval.tex))
-(./ordine.tex [38]
+ Opening dot2tex stream DipLatex-dot2tex-fig3.dot
+runsystem(dot2tex --figonly --format=tikz   --styleonly     --graphstyle="scale
+=1,transform shape" -o DipLatex-dot2tex-fig3.tex  DipLatex-dot2tex-fig3.dot)...
+executed.
+
+Package dot2texo Info: DipLatex-dot2tex-fig3.dot converted on input line 798.
+
+(./DipLatex-dot2tex-fig3.tex) (./test/Mmicrotype.tex [35])
+(./test/Mmulticol.tex) [36] (./test/Mpdftexcmds.tex) (./test/Mtextcomp.tex)
+(./test/Mtitlesec.tex) [37] (./test/Mtrig.tex) (./test/mxcolor.tex) [38]
+(./test/mxkeyval.tex)) (./ordine.tex [39]
 Capitolo 4.
-(./test/mcolorVxcolor.tex) (./test/mxcolorVcolor.tex) [39
+(./test/mcolorVxcolor.tex) (./test/mxcolorVcolor.tex) [40
 
 ]
-(./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex) [40]
+(./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex) [41]
 (./test/Mfourierfontenc.tex) (./test/MxkeyvalVkeyvall.tex))
 runsystem(makeindex -s oldclaudio.sti DipLatex.idx)...executed.
 
  (./DipLatex.ind
-[41
-\indexentry{fixltxhyph.sty}{41}
-\indexentry{xkeyval.sty}{41}
-\indexentry{xkeyval.tex}{41}
+[42
+\indexentry{fixltxhyph.sty}{42}
+\indexentry{xkeyval.sty}{42}
+\indexentry{xkeyval.tex}{42}
 ]
 Capitolo 5.
-[42
+[43
 
-] [43] [44])
+] [44] [45])
 runsystem(makeindex -s oldclaudio.sti emulato.idx)...executed.
 
- (./emulato.ind [45]
+ (./emulato.ind [46]
 Capitolo 6.
-[46
+[47
 
 ])
 runsystem(makeindex -s oldclaudio.sti Warning.idx)...executed.
 
- (./Warning.ind [47]
+ (./Warning.ind [48]
 Capitolo 7.
 )
 runsystem(makeindex -s oldclaudio.sti usato.idx)...executed.
 
- (./usato.ind [48
+ (./usato.ind [49
 
 ]
 Capitolo 8.
-[49
+[50
 
-] [50] [51] [52])
+] [51] [52] [53])
 runsystem(makeindex -s oldclaudio.sti dipende.idx)...executed.
 
- (./dipende.ind [53]
+ (./dipende.ind [54]
 Capitolo 9.
-[54
+[55
 
-] [55] [56])
+] [56]
+Overfull \vbox (2.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (4.0pt too high) has occurred while \output is active []
+
+ [57])
 runsystem(makeindex -s oldclaudio.sti conffile.idx)...executed.
 
- (./conffile.ind [57]
+
+(./conffile.ind
 Capitolo 10.
 [58
 
@@ -1518,6 +1544,7 @@ microtype.sty    2013/05/23 v2.5a Micro-typographical refinements (RS)
 microtype-pdftex.def    2013/05/23 v2.5a Definitions specific to pdftex (RS)
 microtype.cfg    2013/05/23 v2.5a microtype main configuration file (RS)
    babel.sty    2014/09/25 3.9l The Babel package
+ english.ldf    2012/08/20 v3.3p English support from the babel system
  italian.ldf    2014/03/29 v1.3k Italian support from the babel system
 etoolbox.sty    2011/01/03 v2.1 e-TeX tools for LaTeX
     etex.sty    1998/03/26 v2.0 eTeX basic definition package (PEB)
@@ -1605,6 +1632,7 @@ test/Mmemoir.tex
 test/genminimal.tex
 test/genreport.tex
 test/genscrartcl.tex
+DipLatex-dot2tex-fig1.tex
 test/gensuftesi.tex
  package.tex
 test/Mamsbsy.tex
@@ -1635,6 +1663,7 @@ test/Meostopdf-base.tex
 test/metoolbox.tex
 test/Mfixltx2e.tex
 test/Mfontec.tex
+test/Mfontenc2.tex
 test/Mfourier.tex
 test/Mgeometry.tex
 test/Mgraphics.tex
@@ -1646,15 +1675,14 @@ test/Minputenc1.tex
 test/Misomath.tex
 test/Mkeyval.tex
 test/Mltxcmds.tex
-test/Mkeyval.tex
-test/Mltxcmds.tex
-DipLatex-dot2tex-fig1.tex
-test/Mmathpazo.tex
 DipLatex-dot2tex-fig2.tex
+test/Mmathpazo.tex
+DipLatex-dot2tex-fig3.tex
 test/Mmicrotype.tex
 test/Mmulticol.tex
 test/Mpdftexcmds.tex
 test/Mtextcomp.tex
+test/Mtitlesec.tex
 test/Mtrig.tex
 test/mxcolor.tex
 test/mxkeyval.tex
@@ -1676,15 +1704,12 @@ conffile.ind
  Warning.ind
  ***********
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 26946 strings out of 493109
- 528104 string characters out of 6138586
- 651819 words of memory out of 5000000
- 29581 multiletter control sequences out of 15000+600000
+ 27284 strings out of 493109
+ 533476 string characters out of 6138586
+ 668789 words of memory out of 5000000
+ 29910 multiletter control sequences out of 15000+600000
  53255 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,12n,122p,10454b,1888s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1695,7 +1720,7 @@ nts/type1/public/fpl/fplbj8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public
 b><c:/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2
 014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/
 fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on DipLatex.pdf (63 pages, 198353 bytes).
+Output written on DipLatex.pdf (63 pages, 214825 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  166 compressed objects within 2 object streams

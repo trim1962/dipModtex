@@ -2,7 +2,7 @@ PWD C:/tex/geneatex/test
 INPUT c:/texlive/2014/texmf.cnf
 INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/tex/geneatex/test/gensuftesi.tex
+INPUT gensuftesi.tex
 OUTPUT gensuftesi.log
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
@@ -90,6 +90,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/titlesec/titletoc.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/titlesec/titletoc.sty
+INPUT gensuftesi.aux
+INPUT gensuftesi.aux
 OUTPUT gensuftesi.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
@@ -127,6 +129,11 @@ INPUT c:/texlive/2014/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
+INPUT c:/texlive/2014/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
+INPUT c:/texlive/2014/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT c:/texlive/2014/texmf-dist/fonts/tfm/adobe/palatino/pplrc8r.tfm
+INPUT c:/texlive/2014/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm
 INPUT c:/texlive/2014/texmf-dist/fonts/vf/adobe/palatino/pplr9d.vf
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
