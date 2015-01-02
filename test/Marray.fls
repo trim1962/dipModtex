@@ -10,6 +10,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/tools/array.sty
+INPUT Marray.aux
+INPUT Marray.aux
 OUTPUT Marray.aux
 OUTPUT Marray.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

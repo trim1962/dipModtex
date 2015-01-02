@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage{dot2texi}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+\begin{document}
+ \begin{tikzpicture}%[scale=0.8]
+ \tikzset{main node/.style={rectangle, draw=red,text=black,
+ 		text centered, rounded corners}, }
+ \tikzset{main2 node/.style={main node,green,text=black}, }
+ \tikzset{internal node/.style={rectangle, draw,dotted,
+ 		text centered, rounded corners}, }
+ \tikzset{driver node/.style={ellipse, draw,dashed,
+ 		text centered}, }
+ \tikzset{formato node/.style={rectangle, draw,dotted,
+ 		text centered}, }
+ \tikzset{cfg node/.style={minimum size=1cm}, }
+ \tikzset{linea/.style={-triangle 90},}
+ 
+ \begin{dot2tex}[dot,format=tikz,scale=1.0,styleonly]
+ digraph G{
+
+ 	rankdir="LR";
+ 	0 [style="main2 node",texlbl="report.cls"]
+ 	1 [style="main node",texlbl="toptesi.cls"]
+ 	101[style="main2 node",texlbl="babel"]
+ 	102[style="main2 node",texlbl="ifxetex"]
+ 	
+ 	2[style="main node",texlbl="toptesi.sty"]
+ 	201[style="main2 node",texlbl="pdfx"]
+ 	202[style="main2 node",texlbl="etoolbox"]
+ 	203[style="main2 node",texlbl="graphicx"]
+    2031[style="main2 node",texlbl="vedi..."]
+	204[style="main2 node",texlbl="hyperref"]
+ 	3[style="main node",texlbl="topcoman.sty"]
+ 	301 [style="main2 node",texlbl="textcomp"]
+    4[style="main node",texlbl="topfront.sty"]
+    5[style="cfg node",texlbl="toptesi.cfg"]
+	   1->2
+	   1->0
+    1->102
+    1->101
+   
+    2->3
+    2->201
+	 2->202
+	  2->203
+	  203->2031
+
+	  
+	 
+
+    2->204
+    2->4
+    3->301
+    3->102
+    4->5
+ }
+ \end{dot2tex}
+% \begin{pgfonlayer}{background}
+% \draw[rounded corners=2em,line width=5em,blue!20,cap=round]
+% (103.center) -- (104.center);
+% \end{pgfonlayer}
+ 
+ \end{tikzpicture}
+\end{document}

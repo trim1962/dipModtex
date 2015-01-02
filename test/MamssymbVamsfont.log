@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  2 JAN 2015 20:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -22,7 +22,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-No file MamssymbVamsfont.aux.
+(./MamssymbVamsfont.aux)
 \openout1 = `MamssymbVamsfont.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -37,8 +37,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-[1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./MamssymbVamsfont.aux)
+ [1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./MamssymbV
+amsfont.aux)
 \snap@out=\write3
 \openout3 = `MamssymbVamsfont.dep'.
 
@@ -46,8 +46,8 @@ LaTeX Font Info:    ... okay on input line 6.
 Dependency list written on MamssymbVamsfont.dep.
  ) 
 Here is how much of TeX's memory you used:
- 360 strings out of 493109
- 4219 string characters out of 6138586
+ 362 strings out of 493109
+ 4261 string characters out of 6138586
  52967 words of memory out of 5000000
  3902 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000

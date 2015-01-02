@@ -2,7 +2,7 @@ PWD C:/tex/geneatex/test
 INPUT c:/texlive/2014/texmf.cnf
 INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT Mmathpazo1.tex
+INPUT c:/tex/geneatex/test/Mmathpazo1.tex
 OUTPUT Mmathpazo1.log
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  2 JAN 2015 20:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -11,8 +11,7 @@ Document Class: minimal 2001/05/25 Standard LaTeX minimal class
 ) (c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-No file Mkeyval.aux.
+) (./Mkeyval.aux)
 \openout1 = `Mkeyval.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -27,6 +26,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+
 [1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Mkeyval.aux)
 
@@ -37,8 +37,8 @@ LaTeX Font Info:    ... okay on input line 5.
 
  ) 
 Here is how much of TeX's memory you used:
- 47 strings out of 493109
- 815 string characters out of 6138586
+ 49 strings out of 493109
+ 839 string characters out of 6138586
  52967 words of memory out of 5000000
  3597 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000

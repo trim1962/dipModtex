@@ -2,7 +2,7 @@ PWD C:/tex/geneatex/test
 INPUT c:/texlive/2014/texmf.cnf
 INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT gentoptesi.tex
+INPUT c:/tex/geneatex/test/gentoptesi.tex
 OUTPUT gentoptesi.log
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty

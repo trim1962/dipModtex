@@ -19,6 +19,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fixltxhyph/fixltxhyph.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fixltxhyph/fixltxhyph.sty
+INPUT MbabelVFixLtXHyph.aux
+INPUT MbabelVFixLtXHyph.aux
 OUTPUT MbabelVFixLtXHyph.aux
 OUTPUT MbabelVFixLtXHyph.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

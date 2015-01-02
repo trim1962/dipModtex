@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  2 JAN 2015 20:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -46,8 +46,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@hangindent=\dimen109
 )
 \c@ContinuedFloat=\count87
-)
-No file Mcaption.aux.
+) (./Mcaption.aux)
 \openout1 = `Mcaption.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -64,6 +63,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+
 [1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Mcaption.aux)
 \snap@out=\write3
@@ -73,8 +73,8 @@ Package caption Info: End \AtBeginDocument code.
 Dependency list written on Mcaption.dep.
  ) 
 Here is how much of TeX's memory you used:
- 1345 strings out of 493109
- 22467 string characters out of 6138586
+ 1347 strings out of 493109
+ 22493 string characters out of 6138586
  82488 words of memory out of 5000000
  4880 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000

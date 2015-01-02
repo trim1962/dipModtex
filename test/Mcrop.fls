@@ -30,6 +30,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 INPUT c:/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 INPUT c:/texlive/2014/texmf-dist/tex/xelatex/xetexconfig/crop.cfg
 INPUT c:/texlive/2014/texmf-dist/tex/xelatex/xetexconfig/crop.cfg
+INPUT Mcrop.aux
+INPUT Mcrop.aux
 OUTPUT Mcrop.aux
 INPUT c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii

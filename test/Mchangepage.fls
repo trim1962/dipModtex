@@ -10,6 +10,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/changepage/changepage.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/changepage/changepage.sty
+INPUT Mchangepage.aux
+INPUT Mchangepage.aux
 OUTPUT Mchangepage.aux
 OUTPUT Mchangepage.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

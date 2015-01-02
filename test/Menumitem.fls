@@ -12,6 +12,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT Menumitem.aux
+INPUT Menumitem.aux
 OUTPUT Menumitem.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd

@@ -16,6 +16,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT Mcaption.aux
+INPUT Mcaption.aux
 OUTPUT Mcaption.aux
 OUTPUT Mcaption.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

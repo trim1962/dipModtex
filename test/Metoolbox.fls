@@ -12,6 +12,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+INPUT Metoolbox.aux
+INPUT Metoolbox.aux
 OUTPUT Metoolbox.aux
 OUTPUT Metoolbox.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

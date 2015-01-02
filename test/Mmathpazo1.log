@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  1 JAN 2015 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  2 JAN 2015 20:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**Mmathpazo1.tex
-(./Mmathpazo1.tex
+**C:/tex/geneatex/test/Mmathpazo1.tex
+(c:/tex/geneatex/test/Mmathpazo1.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
@@ -89,13 +89,13 @@ ux)
 Dependency list written on Mmathpazo1.dep.
  ) 
 Here is how much of TeX's memory you used:
- 1309 strings out of 493109
- 20409 string characters out of 6138586
+ 1311 strings out of 493109
+ 20491 string characters out of 6138586
  57636 words of memory out of 5000000
  4818 multiletter control sequences out of 15000+600000
  7891 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,4n,22p,465b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,4n,22p,486b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texm
 f-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2014/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  2 JAN 2015 20:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -25,8 +25,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-No file genarticle.aux.
+) (./genarticle.aux)
 \openout1 = `genarticle.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -41,6 +40,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
+
 [1
 
 {c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -52,8 +52,8 @@ LaTeX Font Info:    ... okay on input line 4.
 Dependency list written on genarticle.dep.
  ) 
 Here is how much of TeX's memory you used:
- 272 strings out of 493109
- 3152 string characters out of 6138586
+ 274 strings out of 493109
+ 3182 string characters out of 6138586
  52967 words of memory out of 5000000
  3817 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000

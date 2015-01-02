@@ -10,6 +10,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT Mltxcmds.aux
+INPUT Mltxcmds.aux
 OUTPUT Mltxcmds.aux
 OUTPUT Mltxcmds.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

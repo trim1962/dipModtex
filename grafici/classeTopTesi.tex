@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage{dot2texi}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+\begin{document}
+ \begin{tikzpicture}%[scale=0.8]
+ \tikzset{main node/.style={rectangle, draw=red,text=black,
+ 		text centered, rounded corners}, }
+ \tikzset{main2 node/.style={main node,green,text=black}, }
+ \tikzset{internal node/.style={rectangle, draw,dotted,
+ 		text centered, rounded corners}, }
+ \tikzset{driver node/.style={ellipse, draw,dashed,
+ 		text centered}, }
+ \tikzset{formato node/.style={rectangle, draw,dotted,
+ 		text centered}, }
+ \tikzset{cfg node/.style={minimum size=1cm}, }
+ \tikzset{linea/.style={-triangle 90},}
+ \pgfdeclarelayer{background}
+ \pgfdeclarelayer{foreground}
+ \pgfsetlayers{background,main,foreground}
+ \begin{dot2tex}[dot,format=tikz,scale=0.6,styleonly]
+ digraph G{
+ 	edge [style=bold]
+ 	rankdir="LR";
+ 	1 [style="main node",texlbl="toptesi.cls"]
+ 	101[style="main2 node",texlbl="babel"]
+ 	102[style="main2 node",texlbl="ifxetex"]
+ 	103[style="main2 node",texlbl="fontspec"]
+ 	104[style="main node",texlbl="polyglossia"]
+ 	2[style="main node",texlbl="toptesi.sty"]
+ 	201[style="main2 node",texlbl="pdfx"]
+ 	202[style="main2 node",texlbl="etoolbox"]
+ 	203[style="main2 node",texlbl="graphicx"]
+ 	20301[style="main node",texlbl="graphics"]
+ 	20302[style="cfg node",texlbl="graphics.cfg"]
+ 	20303[style="driver node",texlbl="pdftex.def"]
+ 	20304[style="internal node",texlbl="trig"]
+ 	20305[style="driver node",texlbl="epstopdf-base"]
+ 	20306[style="internal node",texlbl="pdftexcmds"]
+ 	20307[style="internal node",texlbl="infwarerr"]
+ 	20308[style="internal node",texlbl="supp-pdf-mkii"]
+20309[style="cfg node",texlbl="epstopdf-sys.cfg"]
+20310[style="internal node",texlbl="keyval"]
+20311[style="internal node",texlbl="grfext"]
+20312[style="internal node",texlbl="kvoptions"]
+20313[style="internal node",texlbl="kvsetkeys"]
+20314[style="internal node",texlbl="etexcmds"]
+20315[style="internal node",texlbl="kvdefinekeys"]
+20316[style="internal node",texlbl="ltxcmds"]
+20317[style="internal node",texlbl="ifpdf"]
+20318[style="internal node",texlbl="ifluatex"]
+	204[style="main2 node",texlbl="hyperref"]
+ 	3[style="main node",texlbl="topcoman.sty"]
+ 	301 [style="main2 node",texlbl="textcomp"]
+    4[style="main node",texlbl="topfront.sty"]
+    5[style="cfg node",texlbl="toptesi.cfg"]
+	   1->2
+    1->102
+    102->101
+    102->103
+    102->104
+    2->3
+    2->201
+	 2->202
+	  2->203
+	  203->20301
+	  203->20310
+	  20301->20302
+	  20301->20303
+	  20301->20304
+	  20302->20305
+	   20302->20303
+	   20302->20306
+	  20303->20306
+	  20303->20307
+	  20303->20308
+	  20305->20309
+	  
+	 
+	  20305->20307
+	  20305->20311
+	  20305->20306
+	  20305->20312
+	  20306->20307
+	  20306->20316
+	  20306->20317
+	  20306->
+	  20312->20310
+	  20312->20313
+	  20312->20314
+	  20311->20315
+      20315->20316
+      20315->20318
+    2->204
+    2->4
+    3->301
+    3->102
+    4->5
+ }
+ \end{dot2tex}
+ \begin{pgfonlayer}{background}
+ \draw[rounded corners=2em,line width=5em,blue!20,cap=round]
+ (103.center) -- (104.center);
+ \end{pgfonlayer}
+ 
+ \end{tikzpicture}
+\end{document}

@@ -12,6 +12,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/latin1.def
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/latin1.def
+INPUT Minputenc2.aux
+INPUT Minputenc2.aux
 OUTPUT Minputenc2.aux
 OUTPUT Minputenc2.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

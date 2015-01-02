@@ -32,6 +32,8 @@ INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT c:/texlive/2014/texmf-dist/tex/latex/memoir/mempatch.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/memoir/mempatch.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/memoir/mempatch.sty
+INPUT Mmemoir.aux
+INPUT Mmemoir.aux
 OUTPUT Mmemoir.aux
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 OUTPUT Mmemoir.pdf

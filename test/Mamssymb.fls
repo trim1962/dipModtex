@@ -12,6 +12,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT Mamssymb.aux
+INPUT Mamssymb.aux
 OUTPUT Mamssymb.aux
 OUTPUT Mamssymb.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

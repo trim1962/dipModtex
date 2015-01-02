@@ -10,6 +10,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/appendix/appendix.sty
+INPUT Mappendix.aux
+INPUT Mappendix.aux
 OUTPUT Mappendix.aux
 OUTPUT Mappendix.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  2 JAN 2015 20:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -18,8 +18,7 @@ Package: amsopn 1999/12/14 v2.01 operator names
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen102
-))
-No file Mamsopn.aux.
+)) (./Mamsopn.aux)
 \openout1 = `Mamsopn.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -34,6 +33,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+
 [1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Mamsopn.aux)
 \snap@out=\write3
@@ -43,8 +43,8 @@ LaTeX Font Info:    ... okay on input line 5.
 Dependency list written on Mamsopn.dep.
  ) 
 Here is how much of TeX's memory you used:
- 152 strings out of 493109
- 2195 string characters out of 6138586
+ 154 strings out of 493109
+ 2219 string characters out of 6138586
  52967 words of memory out of 5000000
  3694 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000

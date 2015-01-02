@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  31 DEC 2014 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  2 JAN 2015 20:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -20,8 +20,7 @@ File: amsgen.sty 1999/11/30 v2.0
 \ex@=\dimen102
 )
 \pmbraise@=\dimen103
-)
-No file Mamsbsy.aux.
+) (./Mamsbsy.aux)
 \openout1 = `Mamsbsy.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -36,6 +35,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+
 [1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./Mamsbsy.aux)
 \snap@out=\write3
@@ -45,8 +45,8 @@ LaTeX Font Info:    ... okay on input line 5.
 Dependency list written on Mamsbsy.dep.
  ) 
 Here is how much of TeX's memory you used:
- 136 strings out of 493109
- 1980 string characters out of 6138586
+ 138 strings out of 493109
+ 2004 string characters out of 6138586
  52967 words of memory out of 5000000
  3678 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
