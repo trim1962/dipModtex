@@ -1,0 +1,34 @@
+ digraph G{
+
+  rankdir="LR";
+  0 [style="main2 node",texlbl="report.cls"]
+  1 [style="main node",texlbl="toptesi.cls"]
+  101[style="main2 node",texlbl="babel"]
+  102[style="main2 node",texlbl="ifxetex"]
+
+  2[style="main node",texlbl="toptesi.sty"]
+  201[style="main2 node",texlbl="pdfx"]
+  202[style="main2 node",texlbl="etoolbox"]
+  203[style="complesso node",texlbl="graphicx"]
+    204[style="main2 node",texlbl="hyperref"]
+  3[style="main node",texlbl="topcoman.sty"]
+  301 [style="main2 node",texlbl="textcomp"]
+    4[style="main node",texlbl="topfront.sty"]
+    5[style="cfg node",texlbl="toptesi.cfg"]
+   1->2
+   1->0
+    1->102
+    1->101
+
+    2->3
+    2->201
+ 2->202
+  2->203
+  203->102
+2->204
+    2->4
+    3->301
+    3->102
+    4->5
+ }
+ 

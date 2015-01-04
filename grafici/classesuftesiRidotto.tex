@@ -1,9 +1,17 @@
 \documentclass{article}
 \usepackage[debug]{dot2texi}
 \usepackage{tikz}
+\usepackage{calc} 
+\usepackage{tikzscale}
+\usepackage{currfile}
 \usetikzlibrary{shapes,arrows,positioning}
+\makeatletter
+\@ifundefined{verbatim@out}{\newwrite\verbatim@out}{}
+\makeatother
 \begin{document}
- \begin{tikzpicture}%[scale=0.8]
+	
+	
+\begin{tikzpicture}[>=latex',scale=0.8]
 \tikzset{main node/.style={rectangle, draw=red,text=black,
 		text centered, rounded corners}, }
 \tikzset{main2 node/.style={rectangle, draw=green,text=black,
@@ -19,17 +27,16 @@
 		text centered}, }
 \tikzset{cfg node/.style={minimum size=1cm}, }
 \tikzset{linea/.style={-triangle 90},}
- \begin{dot2tex}[prog=circo,format=tikz,scale=.6,styleonly]
- digraph G{
-	rankdir="LR";
+ \begin{dot2tex}[tikz,scale=0.6,styleonly,options= -tmath --cache]
 
- 	0[style="main2 node",texlbl="book.cls"]
- 	1 [style="main node",texlbl="suftesi"]
- 	
- 	2 [style="complesso node",texlbl="geometry"]
+ digraph G{
  
- 	
- 	3 [style="main2 node",texlbl="xkeyval"] 
+ 		rankdir="RL";
+ 		
+    0 [style="main2 node",texlbl="book.cls"]
+ 	1 [style="main node",texlbl="suftesi"]
+ 	2 [style="complesso node",texlbl="geometry"]
+    3 [style="main2 node",texlbl="xkeyval"] 
  	4 [style="main2 node",texlbl="enumitem"]
  	5 [style="complesso node",texlbl="caption"]
  	6 [style="complesso node",texlbl="color"]

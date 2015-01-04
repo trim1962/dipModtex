@@ -1,0 +1,64 @@
+
+ digraph G{
+
+  rankdir="RL";
+  subgraph[dot] cluster_A {
+  node[shape=doublecircle, fixedsize=true, width=0.4];
+  x [style="main node",texlbl="suftesi"]
+    6 [style="complesso node",texlbl="color"]
+  7 [style="main2 node",texlbl="multicol"]
+  8 [style="main2 node",texlbl="emptypage"]
+  9 [style="main2 node",texlbl="textcase"]
+  10 [style="main2 node",texlbl="ifxetex"]
+  11 [style="complesso node",texlbl="microtype"]
+  12 [style="main2 node",texlbl="cclicenses"]
+  13 [style="complesso node",texlbl="fontenc"]
+  14 [style="main2 node",texlbl="sostitutefont"]
+    15 [style="complesso node",texlbl="crop"]
+x->6
+   x->7
+ x->8
+ x->9
+ x->10
+ x->11
+ x->12
+ x->13
+ x->14
+ x->15
+ 15->6
+}
+subgraph cluster_B {
+ 0 [style="main2 node",texlbl="book.cls"]
+ 1 [style="main node",texlbl="suftesi"]
+ 2 [style="complesso node",texlbl="geometry"]
+ 3 [style="main2 node",texlbl="xkeyval"]
+ 4 [style="main2 node",texlbl="enumitem"]
+ 5 [style="complesso node",texlbl="caption"]
+
+ 16   [style="main2 node",texlbl="titlesec"]
+ 1601[style="cfg node",texlbl="ttlkey.cfg"]
+ 17   [style="main2 node",texlbl="extramarks"]
+ 18   [style="main2 node",texlbl="fancyhdr"]
+ 19  [style="main2 node",texlbl="titletoc"]
+ 20  [style="main2 node",texlbl="fixltxhyph"]
+ 21  [style="main2 node",texlbl="mathpazo"]
+ 22  [style="main2 node",texlbl="beramono"]
+ 1->0
+ 1->2
+ 1->3
+ 1->4
+ 1->5
+ 1->16
+ 16->1601
+ 1601->3
+ 1->17
+ 1->18
+ 1->19
+ 1->20
+ 1->21
+  1->22
+  22->3
+}
+
+  }
+ 

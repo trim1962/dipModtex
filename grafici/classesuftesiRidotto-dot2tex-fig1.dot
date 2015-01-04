@@ -1,13 +1,12 @@
+
  digraph G{
-rankdir="LR";
 
-  0[style="main2 node",texlbl="book.cls"]
+  rankdir="RL";
+
+    0 [style="main2 node",texlbl="book.cls"]
   1 [style="main node",texlbl="suftesi"]
-
   2 [style="complesso node",texlbl="geometry"]
-
-
-  3 [style="main2 node",texlbl="xkeyval"]
+    3 [style="main2 node",texlbl="xkeyval"]
   4 [style="main2 node",texlbl="enumitem"]
   5 [style="complesso node",texlbl="caption"]
   6 [style="complesso node",texlbl="color"]

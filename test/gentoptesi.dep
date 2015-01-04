@@ -20,6 +20,13 @@
   *{file}   {pdftex.def}  {2011/05/27 v0.06d}
   *{package}{infwarerr}   {2010/04/08 v1.3}
   *{package}{ltxcmds}     {2011/11/09 v1.22}
+  *{package}{fontenc}     {0000/00/00 v0.0}
+  *{file}   {t1enc.def}   {2005/09/27 v1.99g}
+  *{package}{inputenc}    {2014/04/30 v1.2b}
+  *{file}   {utf8.def}    {2014/09/29 v1.1m}
+  *{file}   {t1enc.dfu}   {2014/09/29 v1.1m}
+  *{file}   {ot1enc.dfu}  {2014/09/29 v1.1m}
+  *{file}   {omsenc.dfu}  {2014/09/29 v1.1m}
   *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
   *{package}{pdftexcmds}  {2011/11/29 v0.20}
   *{package}{ifluatex}    {2010/03/01 v1.3}
@@ -36,4 +43,6 @@
   *{package}{topcoman}    {2014/12/13 v5.86f}
   *{package}{textcomp}    {2005/09/27 v1.99g}
   *{file}   {ts1enc.def}  {2001/06/05 v3.0e}
+  *{file}   {ts1enc.dfu}  {2014/09/29 v1.1m}
+  *{file}   {t1cmtt.fd}   {2014/09/29 v2.5h}
 }
