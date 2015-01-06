@@ -17,8 +17,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
-INPUT Mbabel.aux
-INPUT Mbabel.aux
 OUTPUT Mbabel.aux
 OUTPUT Mbabel.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

@@ -1,9 +1,9 @@
 
  digraph G{
 
-  rankdir="RL";
-  subgraph[dot] cluster_A {
-  node[shape=doublecircle, fixedsize=true, width=0.4];
+  rankdir="LR";
+  subgraph[ orientation=portrait ] cluster_A {
+
   x [style="main node",texlbl="suftesi"]
     6 [style="complesso node",texlbl="color"]
   7 [style="main2 node",texlbl="multicol"]
@@ -59,6 +59,7 @@ subgraph cluster_B {
   1->22
   22->3
 }
-
   }
+  { rank=same, 21 24 }
+  { rank=same, 2 6 }
  

@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT Mifpdf.aux
-INPUT Mifpdf.aux
 OUTPUT Mifpdf.aux
 OUTPUT Mifpdf.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

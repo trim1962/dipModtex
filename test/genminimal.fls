@@ -8,8 +8,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
-INPUT genminimal.aux
-INPUT genminimal.aux
 OUTPUT genminimal.aux
 OUTPUT genminimal.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

@@ -14,8 +14,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/bera/beramono.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/bera/beramono.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT Mberamono.aux
-INPUT Mberamono.aux
 OUTPUT Mberamono.aux
 OUTPUT Mberamono.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

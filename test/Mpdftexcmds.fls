@@ -18,8 +18,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT Mpdftexcmds.aux
-INPUT Mpdftexcmds.aux
 OUTPUT Mpdftexcmds.aux
 OUTPUT Mpdftexcmds.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

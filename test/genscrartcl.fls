@@ -24,8 +24,6 @@ INPUT c:/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2014/texmf-dist/tex/latex/koma-script/typearea.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/koma-script/typearea.sty
-INPUT genscrartcl.aux
-INPUT genscrartcl.aux
 OUTPUT genscrartcl.aux
 OUTPUT genscrartcl.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

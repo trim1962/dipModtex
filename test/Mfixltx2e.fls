@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/fixltx2e.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/fixltx2e.sty
-INPUT Mfixltx2e.aux
-INPUT Mfixltx2e.aux
 OUTPUT Mfixltx2e.aux
 OUTPUT Mfixltx2e.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

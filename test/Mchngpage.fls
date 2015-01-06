@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/changepage/chngpage.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/changepage/chngpage.sty
-INPUT Mchngpage.aux
-INPUT Mchngpage.aux
 OUTPUT Mchngpage.aux
 OUTPUT Mchngpage.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

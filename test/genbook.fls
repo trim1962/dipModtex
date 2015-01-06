@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/book.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/book.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
-INPUT genbook.aux
-INPUT genbook.aux
 OUTPUT genbook.aux
 INPUT c:/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm

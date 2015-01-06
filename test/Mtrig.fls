@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
-INPUT Mtrig.aux
-INPUT Mtrig.aux
 OUTPUT Mtrig.aux
 OUTPUT Mtrig.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

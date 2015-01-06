@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT Mtextcase.aux
-INPUT Mtextcase.aux
 OUTPUT Mtextcase.aux
 OUTPUT Mtextcase.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

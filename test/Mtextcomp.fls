@@ -12,8 +12,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
-INPUT Mtextcomp.aux
-INPUT Mtextcomp.aux
 OUTPUT Mtextcomp.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd

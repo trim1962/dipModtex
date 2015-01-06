@@ -1,0 +1,12 @@
+   digraph G{
+    1 [style="main node",texlbl="microtype"]
+    2 [style="main2 node",texlbl="keyval"]
+    3 [style="cfg node",texlbl="microtype.cfg"]
+    4 [style="driver node",texlbl="microtype-pdftex.def"]
+    5 [style="driver node",texlbl="mt-cmr.cfg"]
+    1->2
+    1->3
+    1->4
+    1->5
+   }
+   

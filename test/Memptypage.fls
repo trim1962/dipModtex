@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/emptypage/emptypage.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/emptypage/emptypage.sty
-INPUT Memptypage.aux
-INPUT Memptypage.aux
 OUTPUT Memptypage.aux
 OUTPUT Memptypage.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

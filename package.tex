@@ -4,27 +4,37 @@
 \lstset{language=TeX}
 \begin{figure}
 \centering
-\begin{tikzpicture}
-\tikzset{main node/.style={rectangle, draw,
-text centered, rounded corners}, }
+\begin{tikzpicture}%[scale=0.8]
+\tikzset{main node/.style={rectangle, draw=red,text=black,
+		text centered, rounded corners}, }
+\tikzset{main2 node/.style={rectangle, draw=green,text=black,
+		text centered, rounded corners}, }
+%\tikzset{main2 node/.style={main node,green,text=black}, }
+\tikzset{complesso node/.style={diamond, draw=blue,text=black,
+		text centered, rounded corners}, }
 \tikzset{internal node/.style={rectangle, draw,dotted,
-text centered, rounded corners}, }
+		text centered, rounded corners}, }
 \tikzset{driver node/.style={ellipse, draw,dashed,
-text centered}, }
+		text centered}, }
 \tikzset{formato node/.style={rectangle, draw,dotted,
-text centered}, }
+		text centered}, }
 \tikzset{cfg node/.style={minimum size=1cm}, }
 \tikzset{linea/.style={-triangle 90},}
-\node[main node] (1) {amsxtra};
-\node[main node] (2) [right =of 1] {amsmath};
-\node[main node] (5) [right =of 2] {amsbsy};
-\node[main node] (6) [below =of 5] {amsopen};
-\node[main node] (4) [above =of 5] {amstext};
-\node[main node] (3) [below =of 6] {amscd};
-\node[main node] (7) [right =of 5] {amsgen};
-\foreach \x /\y in{1/2,2/4,2/5,2/6,4/7,5/7,6/7,3/7}
-\path[linea] (\x) edge node {} (\y);
-%% 
+\begin{dot2tex}[format=tikz,scale=1,styleonly]
+digraph G{
+	rankdir="LR";
+	1 [style="main node",texlbl="amsxtra"]
+	2 [style="main node",texlbl="amsmath"]
+	5 [style="main2 node",texlbl="amsbsy"]
+	6 [style="main2 node",texlbl="amsopen"]
+	4 [style="main2 node",texlbl="amstext"]
+	3 [style="main node",texlbl="amscd"]
+	7 [style="main2 node",texlbl="amsgen"]
+	
+	1->2 2->4 2->5 2->6 4->7 5->7 6->7 3->7
+}
+\end{dot2tex}
+
 \end{tikzpicture}
 \caption{AmsMath}
 \label{fig:AmsMath1}
@@ -104,7 +114,9 @@ Caricato
 \section{amsxtra}
 \lstinputlisting[caption={Amsxtra},%
 captionpos=b,label=lst:amsxtra1]{test/Mamsxtra.tex}
-grafico~\vref{fig:AmsMath1}
+\selectlanguage{italian}
+Grafico~\vref{fig:AmsMath1}
+\selectlanguage{english}
 
 Caricato 
 \begin{enumerate}
@@ -158,7 +170,9 @@ text centered}, }
 \end{figure}
 \lstinputlisting[caption={Babel},%
 captionpos=b,label=lst:babel1]{test/Mbabel.tex}
+\selectlanguage{italian}
 Grafico~\vref{fig:babel1}
+\selectlanguage{english}
 
 Caricato 
 \begin{enumerate}
@@ -228,7 +242,9 @@ text centered}, }
 \end{figure}
 \lstinputlisting[caption={Color},%
 captionpos=b,label=lst:color1]{test/mcolor.tex}
-grafico~\vref{fig:color1}
+\selectlanguage{italian}
+Grafico~\vref{fig:color1}
+\selectlanguage{english}
 
 Caricato 
 \begin{enumerate}
@@ -379,7 +395,9 @@ Caricato
 \section{epstopdf-base}
 \lstinputlisting[caption={Epstopdf-base},%
 captionpos=b,label=lst:epstopdf-base]{test/Meostopdf-base.tex}
-grafico~\vref{fig:epstopdf-base1}
+\selectlanguage{italian}
+Grafico~\vref{fig:epstopdf-base1}
+\selectlanguage{english}
 
 nota pacchetto interno usato da graphics quando è chiamato pdftex.def
 
@@ -460,7 +478,9 @@ text centered}, }
 \end{figure}
 \lstinputlisting[caption={Fourier},%
 captionpos=b,label=lst:fourier]{test/Mfourier.tex}
+\selectlanguage{italian}
 Grafico~\vref{fig:fourier1}
+\selectlanguage{english}
 
 Caricato 
 \begin{enumerate}
@@ -507,7 +527,10 @@ text centered}, }
 \end{figure}
 \lstinputlisting[caption={Geometry},%
 captionpos=b,label=lst:geometry]{test/Mgeometry.tex}
-grafico~\vref{fig:geometry1}
+\selectlanguage{italian}
+Grafico~\vref{fig:geometry1}
+\selectlanguage{english}
+
 Caricato\Iindex{geometry}{minimal.cls} 
 \begin{enumerate}
 \item geometry.sty\index{geometry.sty} 2010/09/12 v5.6 Page Geometry
@@ -557,7 +580,9 @@ text centered}, }
 \end{figure}
 \lstinputlisting[caption={Graphics},%
 captionpos=b,label=lst:graphics]{test/Mgraphics.tex}
+\selectlanguage{italian}
 Grafico~\vref{fig:geometry1}
+\selectlanguage{english}
 
 Caricato 
 \begin{enumerate}
@@ -810,7 +835,9 @@ digraph G{
 \end{figure} 	 
 \lstinputlisting[caption={Mathpazo},%
 captionpos=b,label=lst:mathpazo]{test/Mmathpazo.tex}
+\selectlanguage{italian}
 Grafico~\vref{fig:Mathpazo}
+\selectlanguage{english}
 
 Caricato 
 \begin{enumerate}
@@ -836,7 +863,7 @@ Caricato
    		text centered}, }
    \tikzset{cfg node/.style={minimum size=1cm}, }
    \tikzset{linea/.style={-triangle 90},}
-   \begin{dot2tex}[circo,format=tikz,scale=.8,styleonly]
+   \begin{dot2tex}[format=tikz,scale=.8,styleonly]
    digraph G{
    	1 [style="main node",texlbl="microtype"]
    	2 [style="main2 node",texlbl="keyval"]
@@ -855,7 +882,9 @@ Caricato
 \end{figure} 	 
 \lstinputlisting[caption={Microtype},%
 captionpos=b,label=lst:microtype]{test/Mmicrotype.tex}
+\selectlanguage{italian}
 Grafico~\vref{fig:microtype}
+\selectlanguage{english}
 
 Caricato 
 \begin{enumerate}
@@ -935,7 +964,9 @@ Caricato
 \end{figure}
 \lstinputlisting[caption={Xcolor},%
 captionpos=b,label=lst:xcolor1]{test/mxcolor.tex}
+\selectlanguage{italian}
 Grafico~\vref{fig:xcolor1}
+\selectlanguage{english}
 
 Caricato 
 \begin{enumerate}
@@ -973,7 +1004,10 @@ text centered}, }
 \end{figure}
 \lstinputlisting[caption={Xkeyval},%
 captionpos=b,label=lst:xkeyvall]{test/mxkeyval.tex}
-grafico~\vref{fig:xkeyval1}
+\selectlanguage{italian}
+Grafico~\vref{fig:xkeyval1}
+\selectlanguage{english}
+
 Caricato 
 \begin{enumerate}
 \item xkeyval.sty\index{xkeyval.sty}\Windex{xkeyval.sty}{keyval.sty} 2014/12/03 v2.7a package option processing (HA)

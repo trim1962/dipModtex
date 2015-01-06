@@ -12,8 +12,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/psnfss/mathpazo.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/psnfss/mathpazo.sty
-INPUT Mmathpazo.aux
-INPUT Mmathpazo.aux
 OUTPUT Mmathpazo.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ppl.fd

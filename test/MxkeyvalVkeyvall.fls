@@ -11,8 +11,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 INPUT c:/texlive/2014/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 INPUT c:/texlive/2014/texmf-dist/tex/generic/xkeyval/keyval.tex
-INPUT MxkeyvalVkeyvall.aux
-INPUT MxkeyvalVkeyvall.aux
 OUTPUT MxkeyvalVkeyvall.aux
 OUTPUT MxkeyvalVkeyvall.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

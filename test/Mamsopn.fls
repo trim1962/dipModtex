@@ -12,8 +12,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT Mamsopn.aux
-INPUT Mamsopn.aux
 OUTPUT Mamsopn.aux
 OUTPUT Mamsopn.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

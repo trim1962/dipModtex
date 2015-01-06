@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  2 JAN 2015 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.12.27)  6 JAN 2015 09:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -53,7 +53,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \verbatim@out=\write3
-runsystem(echo 'write18-test-2015121327'>"DipLatex.w18")...executed.
+runsystem(echo 'write18-test-201516550'>"DipLatex.w18")...executed.
 
 \instream=\read2
 runsystem(rm -- "DipLatex.w18")...executed.
@@ -1141,55 +1141,72 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box98
 \enitdp@description=\count160
 )
+(c:/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(c:/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen195
+\captionmargin@=\dimen196
+\captionwidth=\dimen197
+\caption@tempdima=\dimen198
+\caption@indent=\dimen199
+\caption@parindent=\dimen200
+\caption@hangindent=\dimen201
+)
+\c@ContinuedFloat=\count161
+)
 (c:/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count161
+\lst@mode=\count162
 \lst@gtempboxa=\box99
 \lst@token=\toks35
-\lst@length=\count162
-\lst@currlwidth=\dimen195
-\lst@column=\count163
-\lst@pos=\count164
-\lst@lostspace=\dimen196
-\lst@width=\dimen197
-\lst@newlines=\count165
-\lst@lineno=\count166
-\lst@maxwidth=\dimen198
+\lst@length=\count163
+Normal \dimen register pool exhausted, switching to extended pool.
+\lst@currlwidth=\dimen256
+\lst@column=\count164
+\lst@pos=\count165
+\lst@lostspace=\dimen257
+\lst@width=\dimen258
+\lst@newlines=\count166
+\lst@lineno=\count167
+\lst@maxwidth=\dimen259
 
 (c:/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count167
-\lst@skipnumbers=\count168
+\c@lstnumber=\count168
+\lst@skipnumbers=\count169
 \lst@framebox=\box100
 )
 (c:/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
- (./DipLatex.aux
 
-LaTeX Warning: Label `fig:graphicx1' multiply defined.
-
-)
+(c:/texlive/2014/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+) (./DipLatex.aux)
 \openout1 = `DipLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 41.
- (c:/texlive/2014/texmf-dist/tex/latex/psnfss/t1pplj.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 49.
+
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
-\big@size=\dimen199
-LaTeX Info: Redefining \microtypecontext on input line 41.
+\big@size=\dimen260
+LaTeX Info: Redefining \microtypecontext on input line 49.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1203,22 +1220,22 @@ Package microtype Info: No adjustment of character kerning.
 (c:/texlive/2014/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-LaTeX Info: Redefining \it@ocap on input line 41.
-LaTeX Info: Redefining \it@ccap on input line 41.
+LaTeX Info: Redefining \it@ocap on input line 49.
+LaTeX Info: Redefining \it@ccap on input line 49.
 
 ABD: EveryShipout initializing macros
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count169
-\scratchdimen=\dimen200
+\scratchcounter=\count170
+\scratchdimen=\dimen261
 \scratchbox=\box101
-\nofMPsegments=\count170
-\nofMParguments=\count171
+\nofMPsegments=\count171
+\nofMParguments=\count172
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count172
-\MPscratchDim=\dimen201
-\MPnumerator=\count173
-\makeMPintoPDFobject=\count174
+\MPscratchCnt=\count173
+\MPscratchDim=\dimen262
+\MPnumerator=\count174
+\makeMPintoPDFobject=\count175
 \everyMPtoPDFconversion=\toks37
 ) (c:/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -1264,32 +1281,35 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count175
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 42.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count176
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 50.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 42.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 50.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 50.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 42.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 50.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 42.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 50.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -1334,7 +1354,7 @@ File: lstlang3.sty 2014/09/06 1.5e listings language file
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 44.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 52.
  (./DipLatex.toc
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
@@ -1346,7 +1366,7 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 \openout13 = `DipLatex.toc'.
 
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 46.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 54.
  [2] (./DipLatex.lol [3
 
 ])
@@ -1363,178 +1383,207 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
 Capitolo 1.
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 1.
-) (./classi.tex [6
+(./test/Mkeyval.tex)
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 10.
+ (c:/texlive/2014/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.00003pt on input line 10.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+(./classi.tex [6
 
-]
+] [7]
 Capitolo 2.
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
-(./test/genarticle.tex) (./test/Mbeamer.tex) [7
+(./test/genarticle.tex) (./test/Mbeamer.tex) [8
 
-] [8] [9] (./test/genbook.tex)
-(./test/genbook11.tex) (./test/Mmemoir.tex [10]) [11] (./test/genminimal.tex)
+] [9] [10] (./test/genbook.tex)
+(./test/genbook11.tex) (./test/Mmemoir.tex [11]) [12] (./test/genminimal.tex)
 (./test/genreport.tex) (./test/genscrartcl.tex)
 Overfull \hbox (29.93405pt too wide) in paragraph at lines 217--218
 []\T1/pplj/m/n/10 (-20) scrbase.sty[][][] 2014/10/28 v3.14 KOMA-Script pack-age
  (KOMA-Script-independent
  []
 
-[12]
+[13]
 \openout3 = `DipLatex-dot2tex-fig1.dot'.
 
  Opening dot2tex stream DipLatex-dot2tex-fig1.dot
-runsystem(dot2tex --figonly --format=tikz   --styleonly  --debug --prog=circo  
---graphstyle="scale=.6,transform shape" -o DipLatex-dot2tex-fig1.tex  DipLatex-
-dot2tex-fig1.dot)...executed.
+runsystem(dot2tex --figonly --format=tikz   --styleonly --autosize --debug   --
+graphstyle="scale=1,transform shape" -o DipLatex-dot2tex-fig1.tex  DipLatex-dot
+2tex-fig1.dot)...executed.
 
-Package dot2texo Info: DipLatex-dot2tex-fig1.dot converted on input line 299.
+Package dot2texo Info: DipLatex-dot2tex-fig1.dot converted on input line 274.
 
-(./DipLatex-dot2tex-fig1.tex)
-Overfull \hbox (25.85443pt too wide) in paragraph at lines 301--302
- [][] 
- []
-
-(./test/gensuftesi.tex) [13] [14]) (./package.tex [15]
-Capitolo 3.
-(./test/Mamsbsy.tex) (./test/Mamscd.tex [16
-
-]) (./test/Mamsfonts.tex)
-(./test/Mamsfonts.tex) (./test/Mamsmath.tex [17]) (./test/Mamsopn.tex)
-(./test/Mamssymb.tex) (./test/Mamstext.tex [18]) (./test/Mamsthm.tex)
-(./test/Mamsxtra.tex) [19] (./test/Mappendix.tex) (./test/Marray.tex)
-(./test/Mbabel.tex [20]) (./test/mberamono.tex) (./test/mbooktabs.tex)
-(./test/mcaption.tex [21]) (./test/mccaption.tex) (./test/mcolor.tex [22])
-(./test/mchangepage.tex) (./test/mchngntr.tex) (./test/mchngpage.tex [23])
-(./test/mcmap.tex)
-Overfull \hbox (86.2986pt too wide) in paragraph at lines 308--309
- [][] 
- []
-
-(./test/mcrop.tex) [24] (./test/Menumitem.tex [25]) (./test/Meostopdf-base.tex)
-[26] (./test/metoolbox.tex) (./test/Mfixltx2e.tex) (./test/Mfontec.tex [27])
-(./test/Mfontenc2.tex) (./test/Mfourier.tex) [28] (./test/Mgeometry.tex)
-[29] (./test/Mgraphics.tex) [30] (./test/Mgraphicx.tex) [31]
+(./DipLatex-dot2tex-fig1.tex
+Missing character: There is no ; in font nullfont!
+)
 \openout3 = `DipLatex-dot2tex-fig2.dot'.
 
+ Opening dot2tex stream DipLatex-dot2tex-fig2.dot
+runsystem(dot2tex --figonly --format=tikz   --styleonly --autosize --debug   --
+graphstyle="scale=1,transform shape" -o DipLatex-dot2tex-fig2.tex  DipLatex-dot
+2tex-fig2.dot)...executed.
 
-Opening dot2tex stream DipLatex-dot2tex-fig2.dot
-runsystem(dot2tex --figonly --format=tikz   --styleonly  --debug --prog=dot  --
-graphstyle="scale=0.7,transform shape" -o DipLatex-dot2tex-fig2.tex  DipLatex-d
-ot2tex-fig2.dot)...executed.
+Package dot2texo Info: DipLatex-dot2tex-fig2.dot converted on input line 337.
 
-Package dot2texo Info: DipLatex-dot2tex-fig2.dot converted on input line 686.
- (./DipLatex-dot2tex-fig2.tex)
-(./test/Mgraphicx.tex) [32]
-Overfull \hbox (12.66145pt too wide) in paragraph at lines 702--703
-[]\T1/pplj/m/n/10 (-20) xetex.def[][] 2014/07/25 v4.03 La-TeX col-or/-graph-ics
- driver for Xe-TeX (RRM/JK) 
- []
-
-(./test/Mifpdf.tex) (./test/Minfwarerr.tex) (./test/Minputenc2.tex)
-(./test/Minputenc1.tex [33]) (./test/Misomath.tex) (./test/Mkeyval.tex [34])
-(./test/Mltxcmds.tex)
+(./DipLatex-dot2tex-fig2.tex
+Missing character: There is no ; in font nullfont!
+) (./test/gensuftesi.tex) [14] [15] [16])
+(./package.tex [17]
+Capitolo 3.
 \openout3 = `DipLatex-dot2tex-fig3.dot'.
 
- Opening dot2tex stream DipLatex-dot2tex-fig3.dot
-runsystem(dot2tex --figonly --format=tikz   --styleonly  --debug   --graphstyle
-="scale=.8,transform shape" -o DipLatex-dot2tex-fig3.tex  DipLatex-dot2tex-fig3
-.dot)...executed.
+Opening dot2tex stream DipLatex-dot2tex-fig3.dot
+runsystem(dot2tex --figonly --format=tikz   --styleonly --autosize --debug   --
+graphstyle="scale=1,transform shape" -o DipLatex-dot2tex-fig3.tex  DipLatex-dot
+2tex-fig3.dot)...executed.
 
-Package dot2texo Info: DipLatex-dot2tex-fig3.dot converted on input line 806.
+Package dot2texo Info: DipLatex-dot2tex-fig3.dot converted on input line 36.
+ (./DipLatex-dot2tex-fig3.tex)
+(./test/Mamsbsy.tex) (./test/Mamscd.tex [18
 
-(./DipLatex-dot2tex-fig3.tex) (./test/Mmathpazo.tex) [35]
+]) (./test/Mamsfonts.tex)
+(./test/Mamsfonts.tex) (./test/Mamsmath.tex) [19] (./test/Mamsopn.tex)
+(./test/Mamssymb.tex) (./test/Mamstext.tex [20]) (./test/Mamsthm.tex)
+(./test/Mamsxtra.tex) (./test/Mappendix.tex [21]) (./test/Marray.tex)
+(./test/Mbabel.tex) [22] (./test/mberamono.tex) (./test/mbooktabs.tex)
+(./test/mcaption.tex [23]) (./test/mccaption.tex) (./test/mcolor.tex) [24]
+(./test/mchangepage.tex) (./test/mchngntr.tex) (./test/mchngpage.tex) [25]
+(./test/mcmap.tex)
+Overfull \hbox (86.2986pt too wide) in paragraph at lines 324--325
+ [][] 
+ []
+
+(./test/mcrop.tex [26]) (./test/Menumitem.tex) [27] (./test/Meostopdf-base.tex)
+[28] (./test/metoolbox.tex) (./test/Mfixltx2e.tex) (./test/Mfontec.tex)
+(./test/Mfontenc2.tex [29]) (./test/Mfourier.tex) [30] (./test/Mgeometry.tex)
+[31] (./test/Mgraphics.tex) [32] (./test/Mgraphicx.tex)
 \openout3 = `DipLatex-dot2tex-fig4.dot'.
 
 
 Opening dot2tex stream DipLatex-dot2tex-fig4.dot
-runsystem(dot2tex --figonly --format=tikz   --styleonly  --debug --prog=circo  
---graphstyle="scale=.8,transform shape" -o DipLatex-dot2tex-fig4.tex  DipLatex-
-dot2tex-fig4.dot)...executed.
+runsystem(dot2tex --figonly --format=tikz   --styleonly --autosize --debug --pr
+og=dot  --graphstyle="scale=0.7,transform shape" -o DipLatex-dot2tex-fig4.tex  
+DipLatex-dot2tex-fig4.dot)...executed.
 
-Package dot2texo Info: DipLatex-dot2tex-fig4.dot converted on input line 851.
+Package dot2texo Info: DipLatex-dot2tex-fig4.dot converted on input line 711.
  (./DipLatex-dot2tex-fig4.tex)
-(./test/Mmicrotype.tex) [36] (./test/Mmulticol.tex) (./test/Mpdftexcmds.tex)
-(./test/Mtextcomp.tex [37]) (./test/Mtitlesec.tex) (./test/Mtrig.tex)
-(./test/mxcolor.tex [38]) (./test/mxkeyval.tex [39])) (./ordine.tex [40]
+(./test/Mgraphicx.tex [33])
+Overfull \hbox (12.66145pt too wide) in paragraph at lines 727--728
+[]\T1/pplj/m/n/10 (-20) xetex.def[][] 2014/07/25 v4.03 La-TeX col-or/-graph-ics
+ driver for Xe-TeX (RRM/JK) 
+ []
+
+(./test/Mifpdf.tex [34]) (./test/Minfwarerr.tex) (./test/Minputenc2.tex)
+(./test/Minputenc1.tex) [35] (./test/Misomath.tex) (./test/Mkeyval.tex)
+[36] (./test/Mltxcmds.tex)
+\openout3 = `DipLatex-dot2tex-fig5.dot'.
+
+ Opening dot2tex stream DipLatex-dot2tex-fig5.dot
+runsystem(dot2tex --figonly --format=tikz   --styleonly --autosize --debug   --
+graphstyle="scale=.8,transform shape" -o DipLatex-dot2tex-fig5.tex  DipLatex-do
+t2tex-fig5.dot)...executed.
+
+Package dot2texo Info: DipLatex-dot2tex-fig5.dot converted on input line 831.
+
+(./DipLatex-dot2tex-fig5.tex) (./test/Mmathpazo.tex)
+\openout3 = `DipLatex-dot2tex-fig6.dot'.
+
+
+Opening dot2tex stream DipLatex-dot2tex-fig6.dot
+runsystem(dot2tex --figonly --format=tikz   --styleonly --autosize --debug   --
+graphstyle="scale=.8,transform shape" -o DipLatex-dot2tex-fig6.tex  DipLatex-do
+t2tex-fig6.dot)...executed.
+
+Package dot2texo Info: DipLatex-dot2tex-fig6.dot converted on input line 878.
+ (./DipLatex-dot2tex-fig6.tex)
+(./test/Mmicrotype.tex [37]) (./test/Mmulticol.tex) (./test/Mpdftexcmds.tex)
+[38] (./test/Mtextcomp.tex) (./test/Mtitlesec.tex) (./test/Mtrig.tex [39])
+(./test/mxcolor.tex) [40] (./test/mxkeyval.tex)) (./ordine.tex [41]
 Capitolo 4.
-(./test/mcolorVxcolor.tex) (./test/mxcolorVcolor.tex) [41
+(./test/mcolorVxcolor.tex) (./test/mxcolorVcolor.tex) [42
 
 ]
-(./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex) [42]
+(./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex) [43]
 (./test/Mfourierfontenc.tex) (./test/MxkeyvalVkeyvall.tex))
 runsystem(makeindex -s oldclaudio.sti DipLatex.idx)...executed.
 
  (./DipLatex.ind
-[43
-\indexentry{fixltxhyph.sty}{43}
-\indexentry{xkeyval.sty}{43}
-\indexentry{xkeyval.tex}{43}
+[44
+\indexentry{fixltxhyph.sty}{44}
+\indexentry{xkeyval.sty}{44}
+\indexentry{xkeyval.tex}{44}
 ]
 Capitolo 5.
-[44
 
-] [45] [46])
+Overfull \hbox (3.4291pt too wide) in paragraph at lines 34--35
+[]\T1/pplj/m/n/10 (-20) beamerbaseframecomponents.sty, 10  
+ []
+
+[45
+
+] [46] [47])
 runsystem(makeindex -s oldclaudio.sti emulato.idx)...executed.
 
- (./emulato.ind [47]
+ (./emulato.ind [48]
 Capitolo 6.
-[48
+[49
 
 ])
 runsystem(makeindex -s oldclaudio.sti Warning.idx)...executed.
 
- (./Warning.ind [49]
+ (./Warning.ind [50]
 Capitolo 7.
 )
 runsystem(makeindex -s oldclaudio.sti usato.idx)...executed.
 
- (./usato.ind [50
+ (./usato.ind [51
 
 ]
 Capitolo 8.
-[51
+[52
 
-] [52] [53] [54])
+] [53] [54] [55])
 runsystem(makeindex -s oldclaudio.sti dipende.idx)...executed.
 
- (./dipende.ind [55]
+ (./dipende.ind [56]
 Capitolo 9.
-[56
+[57
 
-] [57]
-Overfull \vbox (2.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (4.0pt too high) has occurred while \output is active []
-
- [58])
+] [58] [59])
 runsystem(makeindex -s oldclaudio.sti conffile.idx)...executed.
 
-
-(./conffile.ind
+ (./conffile.ind [60]
 Capitolo 10.
-[59
+[61
 
 ])
 runsystem(makeindex -s oldclaudio.sti drvfile.idx)...executed.
 
- (./drvfile.ind [60]
+ (./drvfile.ind [62]
 Capitolo 11.
 )
 runsystem(makeindex incomp.idx)...executed.
 
- (./incomp.ind [61
+ (./incomp.ind [63
 
 ]
 Capitolo 12.
 )
 runsystem(makeindex -s oldclaudio.sti Warning.idx)...executed.
 
- (./Warning.ind [62
+ (./Warning.ind [64
 
 ]
 Capitolo 13.
-) [63
+) [65
 
 ] (./DipLatex.aux)
 
@@ -1607,9 +1656,12 @@ multicol.sty    2014/10/28 v1.8i multicolumn formatting (FMi)
 FMi)
 varioref.sty    2014/10/28 v1.5a package for extended references (FMi)
 enumitem.sty    2011/09/28 v3.5.2 Customized lists
+ caption.sty    2013/05/02 v3.3-89 Customizing captions (AR)
+caption3.sty    2013/05/02 v1.6-88 caption3 kernel (AR)
 listings.sty    2014/09/06 1.5e (Carsten Heinz)
  lstmisc.sty    2014/09/06 1.5e (Carsten Heinz)
 listings.cfg    2014/09/06 1.5e listings configuration
+   alltt.sty    1997/06/16 v2.0g defines alltt environment
   t1pplj.fd    2004/09/06 font definitions for T1/pplj.
   mt-ppl.cfg    2005/11/16 v1.6 microtype config. file: Palatino (RS)
 supp-pdf.mkii
@@ -1638,6 +1690,8 @@ lstlang2.sty    2014/09/06 1.5e listings language file
 lstlang3.sty    2014/09/06 1.5e listings language file
  lstmisc.sty    2014/09/06 1.5e (Carsten Heinz)
 introduzione.tex
+test/Mkeyval.tex
+   t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
   classi.tex
 test/genarticle.tex
 test/Mbeamer.tex
@@ -1648,8 +1702,10 @@ test/genminimal.tex
 test/genreport.tex
 test/genscrartcl.tex
 DipLatex-dot2tex-fig1.tex
+DipLatex-dot2tex-fig2.tex
 test/gensuftesi.tex
  package.tex
+DipLatex-dot2tex-fig3.tex
 test/Mamsbsy.tex
 test/Mamscd.tex
 test/Mamsfonts.tex
@@ -1683,7 +1739,7 @@ test/Mfourier.tex
 test/Mgeometry.tex
 test/Mgraphics.tex
 test/Mgraphicx.tex
-DipLatex-dot2tex-fig2.tex
+DipLatex-dot2tex-fig4.tex
 test/Mgraphicx.tex
 test/Mifpdf.tex
 test/Minfwarerr.tex
@@ -1692,9 +1748,9 @@ test/Minputenc1.tex
 test/Misomath.tex
 test/Mkeyval.tex
 test/Mltxcmds.tex
-DipLatex-dot2tex-fig3.tex
+DipLatex-dot2tex-fig5.tex
 test/Mmathpazo.tex
-DipLatex-dot2tex-fig4.tex
+DipLatex-dot2tex-fig6.tex
 test/Mmicrotype.tex
 test/Mmulticol.tex
 test/Mpdftexcmds.tex
@@ -1721,29 +1777,27 @@ conffile.ind
  Warning.ind
  ***********
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 27072 strings out of 493109
- 530647 string characters out of 6138586
- 652774 words of memory out of 5000000
- 29693 multiletter control sequences out of 15000+600000
- 53255 words of font info for 175 fonts, out of 8000000 for 9000
+ 28204 strings out of 493109
+ 551007 string characters out of 6138586
+ 663561 words of memory out of 5000000
+ 30789 multiletter control sequences out of 15000+600000
+ 57925 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,12n,122p,10454b,1888s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,12n,122p,10454b,1954s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/fo
 nts/type1/public/fpl/fplbj8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public
 /fpl/fplrc8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/fpl/fplrij8a.pf
-b><c:/texlive/2014/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2
-014/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/
-fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on DipLatex.pdf (64 pages, 208162 bytes).
+b><c:/texlive/2014/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/20
+14/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2014/texmf-dist/f
+onts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/urw/
+palatino/uplri8a.pfb>
+Output written on DipLatex.pdf (66 pages, 219150 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
+ 253 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 34829 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 35853 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/cmap/cmap.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/cmap/cmap.sty
-INPUT mcmap.aux
-INPUT mcmap.aux
 OUTPUT mcmap.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/cmap/ot1.cmap
 OUTPUT mcmap.pdf

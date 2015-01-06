@@ -22,8 +22,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-INPUT genamsart.aux
-INPUT genamsart.aux
 OUTPUT genamsart.aux
 INPUT c:/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmr8.tfm

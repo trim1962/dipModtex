@@ -20,8 +20,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT Mgeometry.aux
-INPUT Mgeometry.aux
 OUTPUT Mgeometry.aux
 OUTPUT Mgeometry.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

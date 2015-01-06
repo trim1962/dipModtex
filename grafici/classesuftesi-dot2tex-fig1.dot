@@ -11,7 +11,8 @@
   301[style="internal node",texlbl="xkeyval.tex"]
   302[style="internal node",texlbl="xkvutils.tex"]
   303[style="internal node",texlbl="keyval.tex"]
-  4 [style="main node",texlbl="enumitem"]
+
+4 [style="main node",texlbl="enumitem"]
   5 [style="main node",texlbl="caption"]
   51 [style="internal node",texlbl="caption3"]
   6 [style="main node",texlbl="color"]

@@ -19,8 +19,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
-INPUT MFixLtXHyphVbabel.aux
-INPUT MFixLtXHyphVbabel.aux
 OUTPUT MFixLtXHyphVbabel.aux
 OUTPUT MFixLtXHyphVbabel.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

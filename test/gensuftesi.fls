@@ -90,8 +90,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/titlesec/titletoc.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/titlesec/titletoc.sty
-INPUT gensuftesi.aux
-INPUT gensuftesi.aux
 OUTPUT gensuftesi.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd

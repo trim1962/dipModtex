@@ -240,71 +240,111 @@ Caricato
  		text centered}, }
  \tikzset{cfg node/.style={minimum size=1cm}, }
  \tikzset{linea/.style={-triangle 90},}
- \begin{dot2tex}[prog=circo,format=tikz,scale=.6,styleonly]
+ \begin{dot2tex}[format=tikz,scale=1,styleonly]
  digraph G{
  	rankdir="LR";
- 	
- 	0[style="main2 node",texlbl="book.cls"]
+ 	0 [style="main2 node",texlbl="book"]
  	1 [style="main node",texlbl="suftesi"]
- 	
- 	2 [style="complesso node",texlbl="geometry"]
- 	3 [style="main2 node",texlbl="xkeyval"] 
- 	4 [style="main2 node",texlbl="enumitem"]
- 	5 [style="complesso node",texlbl="caption"]
- 	6 [style="complesso node",texlbl="color"]
+	4 [style="main2 node",texlbl="enumitem"]
  	7 [style="main2 node",texlbl="multicol"]
  	8 [style="main2 node",texlbl="emptypage"]
  	9 [style="main2 node",texlbl="textcase"]
  	10 [style="main2 node",texlbl="ifxetex"]
- 	11 [style="complesso node",texlbl="microtype"]
  	12 [style="main2 node",texlbl="cclicenses"]
- 	13 [style="main2 node",texlbl="fontenc"]
  	14 [style="main2 node",texlbl="sostitutefont"]
- 	15 [style="complesso node",texlbl="crop"]
- 	16   [style="main2 node",texlbl="titlesec"]
- 	1601[style="cfg node",texlbl="ttlkey.cfg"]
  	17   [style="main2 node",texlbl="extramarks"]
  	18   [style="main2 node",texlbl="fancyhdr"]
  	19  [style="main2 node",texlbl="titletoc"]
  	20  [style="main2 node",texlbl="fixltxhyph"]
  	21  [style="main2 node",texlbl="mathpazo"]
- 	22  [style="main2 node",texlbl="beramono"]
  	1->0
- 	1->2
- 	1->3
- 	1->4
- 	1->5
- 	1->6
+ 	1->4[style=bold,labelfloat= true, label = "[inline]"]
  	1->7
  	1->8
  	1->9
  	1->10
- 	1->11
  	1->12
- 	1->13
  	1->14
- 	1->15
- 	15->6
- 	1->16
- 	16->1601
- 	1601->3
  	1->17
  	1->18
  	1->19
  	1->20
- 	1->21
- 	1->22
- 	22->3
+ 	1->21	
  }
  \end{dot2tex}
  %% 
  \end{tikzpicture}
-	\caption{Suftesi}
-	\label{fig:Suftesi}
+	\caption{Suftesi 1}
+	\label{fig:Suftesi1}
 \end{figure}
-\lstinputlisting[caption={Classe Suftesi},%
+\begin{figure}
+	\centering
+	 \begin{tikzpicture}%[scale=0.8]
+	 \tikzset{main node/.style={rectangle, draw=red,text=black,
+	 		text centered, rounded corners}, }
+	 \tikzset{main2 node/.style={rectangle, draw=green,text=black,
+	 		text centered, rounded corners}, }
+	 %\tikzset{main2 node/.style={main node,green,text=black}, }
+	 \tikzset{complesso node/.style={diamond, draw=blue,text=black,
+	 		text centered, rounded corners}, }
+	 \tikzset{internal node/.style={rectangle, draw,dotted,
+	 		text centered, rounded corners}, }
+	 \tikzset{driver node/.style={ellipse, draw,dashed,
+	 		text centered}, }
+	 \tikzset{formato node/.style={rectangle, draw,dotted,
+	 		text centered}, }
+	 \tikzset{cfg node/.style={minimum size=1cm}, }
+	 \tikzset{linea/.style={-triangle 90},}
+	 \begin{dot2tex}[format=tikz,scale=1,styleonly]
+	 digraph G{
+	 	edge [style=bold]
+	 	rankdir="LR";
+	 	1 [style="main node",texlbl="suftesi"]
+	 	2 [style="complesso node",texlbl="geometry"]
+	 	201 [style="internal node",texlbl="keyvall"]
+	 	3 [style="complesso node",texlbl="xkeyval"] 
+	 	5 [style="complesso node",texlbl="caption"]
+	 	6 [style="complesso node",texlbl="color"]
+	 	10 [style="main2 node",texlbl="ifxetex"]
+	 	11 [style="complesso node",texlbl="microtype"]
+		13 [style="complesso node",texlbl="fontenc"]
+	 	15 [style="main2 node",texlbl="crop"]
+	 	151 [style="complesso node",texlbl="graphics"]   
+	 	16   [style="main2 node",texlbl="titlesec"]
+	 	1601[style="cfg node",texlbl="ttlkey.cfg"]
+	 	22  [style="main2 node",texlbl="beramono"]
+	 	1->2
+	 	1->3
+	 	1->11[style=bold,labelfloat= true, label = "[final]"]
+	 	1->13[style=bold,labelfloat= true, label = "[LGR,T1]"]
+	 	1->15[style=bold,labelfloat= true, label = "[A4,CAM,CENTER]"]
+	 	1->5
+	 	1->16
+	 	1->10
+	 	1->22	
+	 	1->6
+	 	2->201
+	 	2->10
+	 	3->201[style=bold,labelfloat= true, label = "blocca"]
+	 	5->201
+	 	11->201
+	  	15->6
+	 	15->151
+	 	16->1601
+	 	1601->201
+	 	22->201
+	 	 }
+	 \end{dot2tex}
+	 %% 
+	 \end{tikzpicture}
+	\caption{Suftesi 2}
+	\label{fig:Suftesi2}
+\end{figure}
+\lstinputlisting[caption={Classe Suftesi1},%
 captionpos=b,label=lst:suftesi1]{test/gensuftesi.tex}
-Grafico~\vref{fig:Suftesi}
+\selectlanguage{italian}
+Grafico~\vref{fig:Suftesi1} e~\vref{fig:Suftesi2} 
+\selectlanguage{english}
 
 Caricato
 \begin{enumerate}
@@ -331,14 +371,11 @@ Caricato
 \item emptypage.sty\index{emptypage.sty}\Uindex{emptypage.sty}{suftesi.cls} 2010/05/30 v1.2 Suppress page numbers and headings on empty pa
 ges
 \item textcase.sty\index{textcase.sty}\Uindex{textcase.sty}{suftesi.cls} 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-
-
 \item 	microtype.sty\index{microtype.sty} 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \item 	keyval.sty\index{keyval.sty}\Uindex{keyval.sty}{microtype.sty} 2014/10/28 v1.15 key=value parser (DPC)
 \item 	microtype-pdftex.def\index{microtype-pdftex.def}\Dindex{microtype-pdftex.def}{microtype.sty} 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 \item 	microtype.cfg\Cindex{microtype.cfg}{microtype.sty} 2013/05/23 v2.5a microtype main configuration file (RS)
 \item 	mt-cmr.cfg\index{mt-cmr.cfg}\Dindex{mt-cmr.cfg}{microtype.sty} 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-
 \item fontenc.sty\index{fontenc.sty}\Uindex{fontenc.sty}{suftesi.cls}
 \item lgrenc.def\index{lgrenc.def}\Cindex{lgrenc.def}{fontenc.sty} 2013/12/02 v0.11.2 LGR Greek font encoding definitions
 \item greek-fontenc.def\index{greek-fontenc.def}\Cindex{greek-fontenc.def}{fontenc.sty} 2013/11/28 v0.11 Common Greek font encoding definitions
@@ -358,7 +395,6 @@ graphics.cfg\index{graphics.cfg}\Cindex{graphics.cfg}{graphics.sty} 2010/04/23 v
 \item lgrcmr.fd\index{lgrcmr.fd}\Cindex{lgrcmr.fd}{titlesec.sty} 2013/09/01 v1.0 Greek European Computer Regular
 \item t1pplj.fd\index{t1pplj.fd}\Uindex{t1pplj.fd}{inputenc.sty} 2004/09/06 font definitions for T1/pplj.
 \item mt-ppl.cfg\index{mt-ppl.cfg}\Cindex{mt-ppl.cfg}{microtype.sty} 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-
 \item epstopdf-base.sty\index{epstopdf-base.sty}\Uindex{epstopdf-base.sty}{suftesi.cls} 2010/02/09 v2.5 Base part for package epstopdf
 \item infwarerr.sty\index{infwarerr.sty}\Uindex{infwarerr.sty}{epstopdf-base.sty}\Uindex{infwarerr.sty}{pdftexcmds.sty} 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 \item grfext.sty\index{grfext.sty}\Uindex{grfext.sty}{epstopdf-base.sty} 2010/08/19 v1.1 Manage graphics extensions (HO)
@@ -371,7 +407,5 @@ graphics.cfg\index{graphics.cfg}\Cindex{graphics.cfg}{graphics.sty} 2010/04/23 v
 \item ifluatex.sty\index{ifluatex.sty}\Uindex{ifluatex.sty}{pdftexcmds.sty} 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 \item pdftexcmds.sty\index{pdftexcmds.sty}\Uindex{pdftexcmds.sty}{epstopdf-base.sty} 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
 \item ifpdf.sty\index{ifpdf.sty}\Uindex{ifpdf.sty}{pdftexcmds.sty} 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-
-
 \item fixltxhyph.sty\index{fixltxhyph.sty}\Uindex{fixltxhyph.sty}{suftesi.cls} 2011/04/02 v.0.4 Small fix for hyphenating emphasized words preceded by vocalic elision
 \end{enumerate}

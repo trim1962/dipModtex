@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage[autosize]{dot2texi}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+\begin{document}
+ \begin{tikzpicture}%[scale=0.8]
+ \tikzset{main node/.style={rectangle, draw=red,text=black,
+ 		text centered, rounded corners}, }
+ \tikzset{main2 node/.style={rectangle, draw=green,text=black,
+ 		text centered, rounded corners}, }
+ %\tikzset{main2 node/.style={main node,green,text=black}, }
+ \tikzset{complesso node/.style={diamond, draw=blue,text=black,
+ 		text centered, rounded corners}, }
+ \tikzset{internal node/.style={rectangle, draw,dotted,
+ 		text centered, rounded corners}, }
+ \tikzset{driver node/.style={ellipse, draw,dashed,
+ 		text centered}, }
+ \tikzset{formato node/.style={rectangle, draw,dotted,
+ 		text centered}, }
+ \tikzset{cfg node/.style={minimum size=1cm}, }
+ \tikzset{linea/.style={-triangle 90},}
+ \begin{dot2tex}[format=tikz,scale=1,styleonly]
+ digraph G{
+ 	edge [style=bold]
+ 	rankdir="LR";
+ 	1 [style="main node",texlbl="suftesi"]
+ 	2 [style="complesso node",texlbl="geometry"]
+ 	201 [style="internal node",texlbl="keyvall"]
+ 	
+ 	
+ 	3 [style="complesso node",texlbl="xkeyval"] 
+ 	
+ 
+
+ 	5 [style="complesso node",texlbl="caption"]
+ 	
+ 	6 [style="complesso node",texlbl="color"]
+ 	
+ 	
+ 	
+ 
+ 	10 [style="main2 node",texlbl="ifxetex"]
+ 	11 [style="complesso node",texlbl="microtype"]
+ 	
+ 
+ 	13 [style="complesso node",texlbl="fontenc"]
+ 	
+ 
+    15 [style="main2 node",texlbl="crop"]
+151 [style="complesso node",texlbl="graphics"]   
+16   [style="main2 node",texlbl="titlesec"]
+1601[style="cfg node",texlbl="ttlkey.cfg"]
+
+
+22  [style="main2 node",texlbl="beramono"]
+
+
+
+
+
+	
+	1->2
+ 	2->201
+ 
+ 	2->10
+ 	3->201[style=bold,labelfloat= true, label = "blocca"]
+ 	
+ 	1->3
+
+ 	1->5
+ 	1->6
+ 	
+ 	
+ 	5->201
+ 
+ 	11->201
+ 	
+ 
+ 1->10
+ 1->11[style=bold,labelfloat= true, label = "[final]"]
+ 
+ 1->13[style=bold,labelfloat= true, label = "[LGR,T1]"]
+ 
+ 1->15[style=bold,labelfloat= true, label = "[A4,CAM,CENTER]"]
+ 15->6
+ 15->151
+ 1->16
+ 16->1601
+ 1601->201
+ 
+ 
+  1->22
+  22->201
+
+ 
+ }
+ \end{dot2tex}
+ %% 
+ \end{tikzpicture}
+\end{document}

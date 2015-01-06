@@ -228,8 +228,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/art/beamericononline.20.pdf
 INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/art/beamericononline.20.pdf
 INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemedefault.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemedefault.sty
-INPUT Mbeamer.aux
-INPUT Mbeamer.aux
 OUTPUT Mbeamer.aux
 INPUT c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -243,12 +241,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT Mbeamer.out
-INPUT Mbeamer.out
-INPUT Mbeamer.out
-INPUT Mbeamer.out
-INPUT ./Mbeamer.out
-INPUT ./Mbeamer.out
 OUTPUT Mbeamer.out
 INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
 INPUT c:/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict

@@ -26,8 +26,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/bera/beramono.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/bera/beramono.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT Mmathpazo1.aux
-INPUT Mmathpazo1.aux
 OUTPUT Mmathpazo1.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd

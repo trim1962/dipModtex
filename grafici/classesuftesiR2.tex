@@ -1,0 +1,101 @@
+\documentclass{standalone}
+\usepackage[autosize]{dot2texi}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+%\usepackage[active,tightpage]{preview}
+%\setlength\PreviewBorder{0pt}%
+%\PreviewEnvironment{dot2tex}
+\begin{document}
+ \begin{tikzpicture}%[scale=0.8]
+ \tikzset{main node/.style={rectangle, draw=red,text=black,
+ 		text centered, rounded corners}, }
+ \tikzset{main2 node/.style={rectangle, draw=green,text=black,
+ 		text centered, rounded corners}, }
+ %\tikzset{main2 node/.style={main node,green,text=black}, }
+ \tikzset{complesso node/.style={diamond, draw=blue,text=black,
+ 		text centered, rounded corners}, }
+ \tikzset{internal node/.style={rectangle, draw,dotted,
+ 		text centered, rounded corners}, }
+ \tikzset{driver node/.style={ellipse, draw,dashed,
+ 		text centered}, }
+ \tikzset{formato node/.style={rectangle, draw,dotted,
+ 		text centered}, }
+ \tikzset{cfg node/.style={minimum size=1cm}, }
+ \tikzset{linea/.style={-triangle 90},}
+ \begin{dot2tex}[circo,format=tikz,scale=1,styleonly]
+ digraph G{
+ 	edge [style=bold]
+ 	rankdir="LR";
+ 	1 [style="main node",texlbl="suftesi"]
+ 
+
+ 	
+ 	
+ 
+ 	
+ 
+	4 [style="main node",texlbl="enumitem"]
+ 
+ 	
+ 
+ 	
+ 	7 [style="main node",texlbl="multicol"]
+ 	8 [style="main node",texlbl="emptypage"]
+ 	9 [style="main node",texlbl="textcase"]
+ 	10 [style="main node",texlbl="ifxetex"]
+ 
+ 	
+ 	12 [style="main node",texlbl="cclicenses"]
+
+ 	
+ 	14 [style="main node",texlbl="sostitutefont"]
+   
+
+
+17   [style="main node",texlbl="extramarks"]
+18   [style="main node",texlbl="fancyhdr"]
+19  [style="main node",texlbl="titletoc"]
+20  [style="main node",texlbl="fixltxhyph"]
+21  [style="main node",texlbl="mathpazo"]
+
+
+
+
+	
+	
+ 
+ 
+ 	
+ 
+ 	1->4[style=bold,labelfloat= true, label = "[inline]"]
+ 
+ 
+ 	
+
+ 
+ 	
+ 	
+ 1->7
+ 1->8
+ 1->9
+ 1->10
+ 
+ 1->12
+ 
+ 1->14
+ 
+
+ 
+ 1->17
+ 1->18
+ 1->19
+ 1->20
+ 1->21
+ 
+
+ 
+ }
+ \end{dot2tex}
+ %% 
+ \end{tikzpicture}
+\end{document}

@@ -1,10 +1,66 @@
 \chapter{Introduzione}
-Che cosa è quello che segue? non è un manuale di programmazione l'unico codice che troverete non serve praticamente a nulla. Quello che segue è un elenco di pacchetti di cui vengono elencate le dipendenze. Serve un po di vocabolario per partire. Un pacchetto A è dipendente da un pacchetto B se carica A. Il pacchetto A esclude B se B impedisce il caricamento di A.   A è incompatibile con B se impedisce la compilazione. A è indipendente da B se il caricamento di A non implica il caricamento di B
+Che cosa è quello che segue? non è un manuale di programmazione, non è um manuale per costruire classi, non è una raccolta dei principali pacchetti \LaTeX.    Quello che segue è un elenco di pacchetti di cui vengono elencate le dipendenze.  Queste dipendenze sono state ottenute utilizzano quattro metodi
+Prima di tutto leggendo il file log che viene prodotto durante la compilazione del documento. Il fine log  utilizza un sistema di parentesi tonde  che aiutano a capire il caricamento dei files. Il  frammento di log~\vref{fig:esmpiolog1} segue dalla compilazione di
+\begin{center}
+\lstinputlisting[caption={Keyval},%
+captionpos=b,label=lst:keyvalesempio]{test/Mkeyval.tex} 
+\end{center}
+\selectlanguage{english}
+\begin{figure}
+	\begin{alltt}
+		This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX)
+		 (preloaded format=pdflatex 2014.12.27)  5 JAN 2015 22:27
+		entering extended mode
+		\string\write18 enabled.
+		\%&-line parsing enabled.
+		**C:/tex/geneatex/test/Mkeyval.tex
+		\textcolor{red}{(}c:/tex/geneatex/test/Mkeyval.tex
+		LaTeX2e <2014/05/01>
+		Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+		\textcolor{green}{(}c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
+		Document Class: minimal 2001/05/25 Standard LaTeX minimal class
+		\textcolor{green}{)} \textcolor{blue}{(}c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+		Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+		\textbackslash{}KV@toks@=\textbackslash{}toks14
+		\textcolor{blue}{)}
+		No file Mkeyval.aux.
+		\string\openout1 = `Mkeyval.aux'.
+		
+		LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+		LaTeX Font Info:    ... okay on input line 5.
+		LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+		LaTeX Font Info:    ... okay on input line 5.
+		LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+		LaTeX Font Info:    ... okay on input line 5.
+		LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+		LaTeX Font Info:    ... okay on input line 5.
+		LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+		LaTeX Font Info:    ... okay on input line 5.
+		LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+		LaTeX Font Info:    ... okay on input line 5.
+		[1{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+		
+		\textcolor{blue}{(}./Mkeyval.aux\textcolor{blue}{)}
+		
+		*File List*
+		minimal.cls    2001/05/25 Standard LaTeX minimal class
+		keyval.sty    2014/10/28 v1.15 key=value parser \textcolor{green}{(}DPC\textcolor{green}{)}
+		***********
+		
+		\textcolor{red}{)}
+	\end{alltt}
+	\captionsetup{name=Log}
+	\caption{Esempio di file log}
+	\label{fig:esmpiolog1}
+\end{figure}
+\selectlanguage{italian}
+
+  Serve un po di vocabolario per partire. Un pacchetto A è dipendente da un pacchetto B se carica A. Il pacchetto A esclude B se B impedisce il caricamento di A.   A è incompatibile con B se impedisce la compilazione. A è indipendente da B se il caricamento di A non implica il caricamento di B
 
 
 Un pacchetto può caricare anche dei file chiamati driver. Un driver dipende dal compilatore utilizzato.
 
-altri  pacchetti sono chiamati dal formato
+
 Nel seguito si useranno alcune convenzioni 
 Ogni capitolo è diviso in sezioni. Ogni sezione inizia con un breve listato. Dopo il listato vi è un elenco di file ottenuti dal file log eliminando il contributo della classe minimal. In realtà  vi sono altri due file un .dep ottenuto da \textbf{snapshot} e un file fls ottenuto tramite l'opzione  \textbf{-recorder}  di pdflatex.   
 

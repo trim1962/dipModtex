@@ -1,0 +1,20 @@
+digraph G{
+1 [style="main node",texlbl="mathpazo"]
+2 [style="driver node",texlbl="ot1ppl.fd"]
+3 [style="cfg node",texlbl="texfonts.map"]
+4 [style="driver node",texlbl="pplr7t.tfm"]
+5 [style="driver node",texlbl="pplr7t.vf"]
+6 [style="driver node",texlbl="pdftex.map"]
+7 [style="driver node",texlbl="pplr8r.tfm"]
+8 [style="driver node",texlbl="8r.enc"]
+9 [style="driver node",texlbl="uplr8a.pfb"]
+
+1->2
+1->3
+2->4
+2->5
+1->6
+6->7
+6->8
+6->9
+}

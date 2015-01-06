@@ -22,8 +22,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 INPUT c:/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
-INPUT McolorVxcolor.aux
-INPUT McolorVxcolor.aux
 OUTPUT McolorVxcolor.aux
 INPUT c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 INPUT c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii

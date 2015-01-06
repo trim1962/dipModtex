@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/size10.clo
-INPUT genarticle.aux
-INPUT genarticle.aux
 OUTPUT genarticle.aux
 OUTPUT genarticle.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

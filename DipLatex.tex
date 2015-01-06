@@ -1,6 +1,6 @@
 %\RequirePackage{snapshot}
 \documentclass[10pt,a4paper,oneside]{book}
-\usepackage[debug]{dot2texi}
+\usepackage[debug,autosize]{dot2texi}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[osf,sc]{mathpazo}
@@ -9,7 +9,11 @@
 \usepackage[final]{microtype}
 \usepackage[english,italian]{babel}
 \usepackage{tikz}
+
 \usetikzlibrary{shapes,arrows,positioning}
+%\usepackage[active,tightpage]{preview}
+%\setlength\PreviewBorder{0pt}%
+%\PreviewEnvironment{dot2tex}
 \usepackage{imakeidx}
 \usepackage{fix2col}
 \indexsetup{level=\chapter,toclevel=chapter,noclearpage}
@@ -30,6 +34,8 @@
 \newcommand{\Uindex}[2]{\index[usato]{#1!#2}\index[dipende]{#2!#1}}
 \newcommand{\Cindex}[2]{\index[conffile]{#2!#1}}
 \newcommand{\Dindex}[2]{\index[drvfile]{#1!#2}}
+\usepackage{caption}
+\captionsetup[figure]{name=Grafico}
 \usepackage{listings}
 \addto\captionsitalian{%
 	\renewcommand{\lstlistingname}{Listato}}
@@ -37,6 +43,8 @@
 	\renewcommand{\lstlistlistingname}{Elenco dei listati}}
 \author{Claudio Duchi}
 \title{Dipendenze Latex}
+\usepackage{alltt}
+\usepackage{xcolor}
 \listfiles
 \begin{document}
 \maketitle

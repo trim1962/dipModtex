@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
-INPUT Mbooktabs.aux
-INPUT Mbooktabs.aux
 OUTPUT Mbooktabs.aux
 OUTPUT Mbooktabs.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

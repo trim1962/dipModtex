@@ -10,8 +10,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
-INPUT Mmulticol.aux
-INPUT Mmulticol.aux
 OUTPUT Mmulticol.aux
 OUTPUT Mmulticol.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map
