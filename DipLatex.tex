@@ -1,6 +1,6 @@
 %\RequirePackage{snapshot}
 \documentclass[10pt,a4paper,oneside]{book}
-\usepackage[debug,autosize]{dot2texi}
+ \usepackage[debug,autosize]{dot2texi}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[osf,sc]{mathpazo}
@@ -8,16 +8,10 @@
 \renewcommand{\sfdefault}{iwona}
 \usepackage[final]{microtype}
 \usepackage[english,italian]{babel}
-\usepackage{tikz}
-
-\usetikzlibrary{shapes,arrows,positioning}
-%\usepackage[active,tightpage]{preview}
-%\setlength\PreviewBorder{0pt}%
-%\PreviewEnvironment{dot2tex}
 \usepackage{imakeidx}
 \usepackage{fix2col}
 \indexsetup{level=\chapter,toclevel=chapter,noclearpage}
-\makeindex[,options=-s oldclaudio.sti]
+\makeindex[options=-s oldclaudio.sti]
 \makeindex[name=emulato,title=Emulati,options=-s oldclaudio.sti]
 \makeindex[name=incomp,title=Incompatibili]
 \makeindex[name=Warning,title=Warning,options=-s oldclaudio.sti]
@@ -34,15 +28,37 @@
 \newcommand{\Uindex}[2]{\index[usato]{#1!#2}\index[dipende]{#2!#1}}
 \newcommand{\Cindex}[2]{\index[conffile]{#2!#1}}
 \newcommand{\Dindex}[2]{\index[drvfile]{#1!#2}}
+\usepackage{tikz}
+\usetikzlibrary{external}
+\tikzexternalize[prefix=figures/]
+
+\usetikzlibrary{shapes,arrows,positioning,shapes.misc,shapes.geometric}
+\usetikzlibrary{matrix}
 \usepackage{caption}
 \captionsetup[figure]{name=Grafico}
 \usepackage{listings}
-\addto\captionsitalian{%
+\addto\captionsitalian{
 	\renewcommand{\lstlistingname}{Listato}}
 \addto\captionsitalian{%
 	\renewcommand{\lstlistlistingname}{Elenco dei listati}}
+\lstdefinelanguage{dep}
+{keywords={application,format,package,class,file,RequireVersions},%
+	sensitive=true,%
+	alsoletter={\$},%
+	comment=[l]{\#},%
+	string=[b]",%
+	string=[b]'%
+}
+\lstdefinelanguage{fls}
+{keywords={PWD,INPUT,OUTPUT},%
+	sensitive=true,%
+	alsoletter={\$},%
+	comment=[l]{\#},%
+	string=[b]",%
+	string=[b]'%
+}
 \author{Claudio Duchi}
-\title{Dipendenze Latex}
+\title{Dipendenze \LaTeX}
 \usepackage{alltt}
 \usepackage{xcolor}
 \listfiles

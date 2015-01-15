@@ -12,6 +12,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/titlesec/titletoc.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/titlesec/titletoc.sty
+INPUT Mtitletoc.aux
+INPUT Mtitletoc.aux
 OUTPUT Mtitletoc.aux
 INPUT c:/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
@@ -21,9 +23,13 @@ OUTPUT Mtitletoc.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT Mtitletoc.toc
+INPUT Mtitletoc.toc
+INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT Mtitletoc.toc
 INPUT Mtitletoc.aux
 OUTPUT Mtitletoc.dep
+INPUT c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb

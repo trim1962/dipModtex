@@ -14,6 +14,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
 INPUT c:/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
+INPUT mfontec.aux
+INPUT mfontec.aux
 OUTPUT mfontec.aux
 OUTPUT mfontec.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

@@ -22,6 +22,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fourier/fourier-orns.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fourier/fourier-orns.sty
+INPUT fourier.aux
+INPUT fourier.aux
 OUTPUT fourier.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fourier/fmlfutm.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fourier/fmlfutm.fd

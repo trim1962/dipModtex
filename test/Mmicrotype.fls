@@ -19,6 +19,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 INPUT c:/texlive/2014/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT c:/texlive/2014/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT c:/texlive/2014/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT Mmicrotype.aux
+INPUT Mmicrotype.aux
 OUTPUT Mmicrotype.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT c:/texlive/2014/texmf-dist/tex/latex/microtype/mt-cmr.cfg

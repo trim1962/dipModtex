@@ -10,6 +10,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT Mamsfonts.aux
+INPUT Mamsfonts.aux
 OUTPUT Mamsfonts.aux
 OUTPUT Mamsfonts.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

@@ -26,6 +26,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT Misomath.aux
+INPUT Misomath.aux
 OUTPUT Misomath.aux
 OUTPUT Misomath.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

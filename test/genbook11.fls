@@ -12,6 +12,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk11.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk11.clo
 INPUT c:/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT genbook11.aux
+INPUT genbook11.aux
 OUTPUT genbook11.aux
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 OUTPUT genbook11.pdf

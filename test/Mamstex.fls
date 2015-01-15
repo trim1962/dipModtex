@@ -20,6 +20,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT Mamstex.aux
+INPUT Mamstex.aux
 OUTPUT Mamstex.aux
 OUTPUT Mamstex.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

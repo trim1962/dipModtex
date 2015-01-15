@@ -24,6 +24,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
+INPUT Mfourierfontenc.aux
+INPUT Mfourierfontenc.aux
 OUTPUT Mfourierfontenc.aux
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fourier/fmlfutm.fd
 INPUT c:/texlive/2014/texmf-dist/tex/latex/fourier/fmlfutm.fd

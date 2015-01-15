@@ -13,3 +13,11 @@
 *.log
 }.tex
 *.w18
+*.md5
+*w18
+*.auxlock
+*.w18
+*.dpth
+*-fig1.tex
+*.dot
+*.dot

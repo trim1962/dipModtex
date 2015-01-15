@@ -10,6 +10,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+INPUT genreport.aux
+INPUT genreport.aux
 OUTPUT genreport.aux
 OUTPUT genreport.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

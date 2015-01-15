@@ -7,21 +7,17 @@
 %\PreviewEnvironment{dot2tex}
 \begin{document}
  \begin{tikzpicture}%[scale=0.8]
- \tikzset{main node/.style={rectangle, draw=red,text=black,
- 		text centered, rounded corners}, }
- \tikzset{main2 node/.style={rectangle, draw=green,text=black,
- 		text centered, rounded corners}, }
- %\tikzset{main2 node/.style={main node,green,text=black}, }
- \tikzset{complesso node/.style={diamond, draw=blue,text=black,
- 		text centered, rounded corners}, }
- \tikzset{internal node/.style={rectangle, draw,dotted,
- 		text centered, rounded corners}, }
- \tikzset{driver node/.style={ellipse, draw,dashed,
- 		text centered}, }
- \tikzset{formato node/.style={rectangle, draw,dotted,
- 		text centered}, }
- \tikzset{cfg node/.style={minimum size=1cm}, }
- \tikzset{linea/.style={-triangle 90},}
+ 
+  \tikzset{base/.style={align=center,text=black}, }	
+  %\tikzset{testobase/.style={minimum  width=1.0em, }, }
+  \tikzset{testo/.style={,align=left}, }
+  \tikzset{main node/.style={,base, draw=red, rounded corners}, }
+  \tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
+  \tikzset{complesso node/.style={,base, draw=blue}, }
+  \tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
+  \tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
+  \tikzset{formato node/.style={,base,dotted}, }
+  \tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
  \begin{dot2tex}[circo,format=tikz,scale=1,styleonly]
  digraph G{
  	edge [style=bold]

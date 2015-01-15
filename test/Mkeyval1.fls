@@ -1,0 +1,17 @@
+PWD C:/tex/geneatex/test
+INPUT c:/texlive/2014/texmf.cnf
+INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/tex/geneatex/test/Mkeyval1.tex
+OUTPUT Mkeyval1.log
+INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
+INPUT c:/texlive/2014/texmf-dist/tex/latex/base/minimal.cls
+INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT Mkeyval1.aux
+INPUT Mkeyval1.aux
+OUTPUT Mkeyval1.aux
+OUTPUT Mkeyval1.pdf
+INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT Mkeyval1.aux
+INPUT c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

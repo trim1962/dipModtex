@@ -32,6 +32,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 INPUT c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT Meostopdf-base.aux
+INPUT Meostopdf-base.aux
 OUTPUT Meostopdf-base.aux
 OUTPUT Meostopdf-base.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

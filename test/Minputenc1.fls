@@ -18,6 +18,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/ot1enc.dfu
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/omsenc.dfu
+INPUT Minputenc1.aux
+INPUT Minputenc1.aux
 OUTPUT Minputenc1.aux
 OUTPUT Minputenc1.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map

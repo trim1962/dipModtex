@@ -10,6 +10,8 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
 INPUT c:/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT Mtitlesec.aux
+INPUT Mtitlesec.aux
 OUTPUT Mtitlesec.aux
 INPUT c:/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
