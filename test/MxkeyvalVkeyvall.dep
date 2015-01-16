@@ -3,8 +3,6 @@
   *{format} {LaTeX2e}     {2014/05/01 v2.e}
   *{package}{snapshot}    {2002/03/05 v1.14}
   *{class}  {minimal}     {2001/05/25 v0.0}
-  *{package}{graphics}    {2014/10/28 v1.0p}
-  *{package}{trig}        {1999/03/16 v1.09}
-  *{file}   {graphics.cfg}{2010/04/23 v1.9}
-  *{file}   {xetex.def}   {2014/07/25 v4.03}
+  *{package}{xkeyval}     {2014/12/03 v2.7a}
+  *{file}   {xkeyval.tex} {2014/12/03 v2.7a}
 }

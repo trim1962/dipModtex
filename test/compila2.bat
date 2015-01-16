@@ -1,1 +1,1 @@
-FOR /R %%F IN (*.tex) DO pdflatex.exe  -recorder -synctex=1 -interaction=nonstopmode --enable-write18 %%F
+FOR /R %%F IN (*.tex) DO pdflatex.exe  -recorder -synctex=1 -interaction=nonstopmode --enable-write18 --shell-escape %%F

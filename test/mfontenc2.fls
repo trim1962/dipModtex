@@ -4,6 +4,8 @@ INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT c:/tex/geneatex/test/mfontenc2.tex
 OUTPUT mfontenc2.log
+INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
+INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/size10.clo
@@ -26,5 +28,6 @@ INPUT c:/texlive/2014/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 OUTPUT mfontenc2.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT mfontenc2.aux
+OUTPUT mfontenc2.dep
 INPUT c:/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb

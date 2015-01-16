@@ -371,7 +371,7 @@ Caricato
 		2 [style="cfg node",texlbl="color.cfg"];
 		3 [style="driver node",texlbl="pdftex.def"];
 		4 [style="internal node",texlbl="infwarerr"];
-		5 [style="internal node",texlbl="supp-pdf.mkii"];
+		5 [style="cfg node",texlbl="supp-pdf.mkii"];
 		6 [style="internal node",texlbl="ltcmds"];
 		
 		1->2
@@ -514,12 +514,8 @@ Caricato
 	  	7 [style="main2 node",texlbl="graphics"];
 	  	8 [style="internal node",texlbl="trig"];
 	  	9 [style="cfg node",texlbl="graphics.cfg"];
-	  	11 [style="internal node",texlbl="supp-pdf.mkii"];
-	  	
-	  	
-	  	
+	  	11 [style="cfg node",texlbl="supp-pdf.mkii"];
 	  	15 [style="complesso node",texlbl="epstopdf-base"];
-	  	
 	  	17 [style="internal node",texlbl="keydefinekys"];
 	  	15->17
 	  	15->6
@@ -537,12 +533,7 @@ Caricato
 	  	9->15
 	  	4->17
 	  	15->5
-	  	
-	  	
-	  	
-	  	
 	  	17->6
-	  	
 	  	9->4
 	  }
 	  \end{dot2tex}
@@ -608,41 +599,137 @@ Caricato
 \begin{enumerate}
 \item enumitem.sty\index{enumitem.sty} 2011/09/28 v3.5.2 Customized lists
 \end{enumerate}
-\section{epstopdf-base}
+\section{epstopdf}
 \begin{figure}
 	\centering
-	\begin{tikzpicture}
-	\tikzset{base/.style={text=black, align=center,text=black,draw,minimum size=1mm},} 
-	\tikzset{testobase/.style={font=\footnotesize,minimum width=1.0em, align=left},}
-	\tikzset{testo/.style={testobase,text width=15mm},}
-	\tikzset{main node/.style={testobase,base, draw=red, rounded corners},}
-	\tikzset{main2 node/.style={testobase,base, draw=green,rounded corners},}
-	\tikzset{complesso node/.style={testobase,base, draw=blue},}
-	\tikzset{internal node/.style={testobase,base, draw=magenta,dashed,rounded corners},}
-	\tikzset{driver node/.style={testobase,base,dashed,draw=blue!20},}
-	\tikzset{formato node/.style={testobase,base,dotted},}
-	\tikzset{cfg node/.style={testobase,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown},}
-	\tikzset{linea/.style={-triangle 90},}
-	\node[main node] (1) {epstopdf-base};
-	\node (2) [right =of 1] {};
-	\node[internal node] (3) [ right =of 1] {infwarerr};
-	\node[internal node] (4) [above right =of 1] {grfext};
-	\node[internal node] (5) [below right =of 1] {pdftexcmds};
-	\node[internal node] (6) [below =of 1] {kvoptions};
-	\node[internal node] (7) [below right=of 6] {keyval};
-	\node[internal node] (8) [below =of 6] {kvsetkeys};
-	\node[internal node] (9) [below left=of 6] {etexcmds};
-	\node[internal node] (10) [right =of 4] {kvdefinekeys};
-	\node[internal node] (11) [below =of 10] {ltxcmds};
-	\node[internal node] (12) [right =of 5] {ifpdf};
-	\node[internal node] (13) [below right =of 5] {ifluatex};
-	\foreach \x /\y in{1/3,1/4,1/5,1/6,6/7,6/8,6/9,4/10,10/11,5/3,5/11,5/12,5/13}
-	\path[linea] (\x) edge node {} (\y);
-	
-	\end{tikzpicture}
-	\caption{Epstopdf-base}
-	\label{fig:epstopdf-base1}
+ \begin{tikzpicture}%[scale=0.8]	
+	\tikzset{base/.style={align=center,text=black}, }	
+	%\tikzset{testobase/.style={minimum  width=1.0em, }, }
+	\tikzset{testo/.style={,align=left}, }
+	\tikzset{main node/.style={,base, draw=red, rounded corners}, }
+	\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
+	\tikzset{complesso node/.style={,base, draw=blue}, }
+	\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
+	\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
+	\tikzset{formato node/.style={,base,dotted}, }
+	\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+	\begin{dot2tex}[format=tikz,scale=1,styleonly]
+		digraph G{
+			rankdir="LR";
+			0 [style="main node",texlbl="epstopdf"]
+			1 [style="main2 node",texlbl="epstopdf-base"]
+			2 [style="cfg node",texlbl="epstopdf-sys.cfg"]
+			3 [style="internal node",texlbl="infwarerr"]
+			4 [style="internal node",texlbl="grfext"]
+			5 [style="internal node",texlbl="pdftexcmds"]
+			6 [style="internal node",texlbl="kvoptions"]
+			7 [style="internal node",texlbl="keyval"]
+			8 [style="internal node",texlbl="kvsetkeys"]
+			9 [style="internal node",texlbl="etexcmds"]
+			10 [style="internal node",texlbl="kvdefinekeys"]
+			11 [style="internal node",texlbl="ltxcmds"]
+			12 [style="internal node",texlbl="ifpdf"]
+			13 [style="internal node",texlbl="ifluatex"]
+			14 [style="cfg node",texlbl="epstopdf.cfg"]
+			0->1
+			1->2
+			1->3
+			1->4
+			1->5
+			1->6
+			6->7
+			6->8
+			6->9
+			4->10
+			10->11
+			5->3
+			5->11
+			5->12
+			5->13
+			1->14
+		}
+	\end{dot2tex}
+	%% 
+\end{tikzpicture}
+	\caption{Epstopdf}
+	\label{fig:epstopdf0}
 \end{figure}
+\lstinputlisting[caption={Epstopdf-base},%
+captionpos=b,label=lst:epstopdf-base]{test/Meostopdf.tex}
+\selectlanguage{italian}
+Grafico~\vref{fig:epstopdf0}
+\selectlanguage{english}
+
+nota pacchetto interno usato da graphics quando è chiamato pdftex.def
+
+\begin{enumerate}
+\item 	epstopdf.sty\index{epstopdf.sty}    2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+	\item epstopdf-base.sty\Uindex{epstopdf-base.sty}{epstopdf.sty} 2010/02/09 v2.5 Base part for package epstopdf
+	\item infwarerr.sty\index{infwarerr.sty}\Uindex{infwarerr.sty}{epstopdf-base.sty}\Uindex{infwarerr.sty}{pdftexcmds.sty} 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+	\item grfext.sty\index{grfext.sty}\Uindex{grfext.sty}{epstopdf-base.sty} 2010/08/19 v1.1 Manage graphics extensions (HO)
+	\item kvdefinekeys.sty\index{kvdefinekeys.sty}\Uindex{kvdefinekeys.sty}{grfext.sty} 2011/04/07 v1.3 Define keys (HO)
+	\item ltxcmds.sty\index{ltxcmds.sty}\Uindex{ltxcmds.sty}{kvdefinekeys.sty}\Uindex{ltxcmds.sty}{pdftexcmds.sty} 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+	\item kvoptions.sty\index{kvoptions.sty}\Uindex{kvoptions.sty}{epstopdf-base.sty} 2011/06/30 v3.11 Key value format for package options (HO)
+	\item keyval.sty\index{keyval.sty}\Uindex{keyval.sty}{kvoptions.sty} 2014/10/28 v1.15 key=value parser (DPC)
+	\item kvsetkeys.sty\index{kvsetkeys.sty}\Uindex{kvsetkeys.sty}{kvoptions.sty} 2012/04/25 v1.16 Key value parser (HO)
+	\item etexcmds.sty\index{etexcmds.sty}\Uindex{etexcmds.sty}{kvoptions.sty} 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+	\item ifluatex.sty\index{ifluatex.sty}\Uindex{ifluatex.sty}{pdftexcmds.sty} 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+	\item pdftexcmds.sty\index{pdftexcmds.sty}\Uindex{pdftexcmds.sty}{epstopdf-base.sty} 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+	\item ifpdf.sty\index{ifpdf.sty}\Uindex{ifpdf.sty}{pdftexcmds.sty} 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+\end{enumerate} 
+\section{epstopdf-base}
+\begin{figure}
+		\begin{tikzpicture}%[scale=0.8]
+		\tikzset{base/.style={align=center,text=black}, }	
+		%\tikzset{testobase/.style={minimum  width=1.0em, }, }
+		\tikzset{testo/.style={,align=left}, }
+		\tikzset{main node/.style={,base, draw=red, rounded corners}, }
+		\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
+		\tikzset{complesso node/.style={,base, draw=blue}, }
+		\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
+		\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
+		\tikzset{formato node/.style={,base,dotted}, }
+		\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+		\begin{dot2tex}[format=tikz,scale=1,styleonly]
+		digraph G{
+			rankdir="LR";
+			1 [style="main node",texlbl="epstopdf-base"]
+			2 [style="cfg node",texlbl="epstopdf-sys.cfg"]
+			3 [style="internal node",texlbl="infwarerr"]
+			4 [style="internal node",texlbl="grfext"]
+			5 [style="internal node",texlbl="pdftexcmds"]
+			6 [style="internal node",texlbl="kvoptions"]
+			7 [style="internal node",texlbl="keyval"]
+			8 [style="internal node",texlbl="kvsetkeys"]
+			9 [style="internal node",texlbl="etexcmds"]
+			10 [style="internal node",texlbl="kvdefinekeys"]
+			11 [style="internal node",texlbl="ltxcmds"]
+			12 [style="internal node",texlbl="ifpdf"]
+			13 [style="internal node",texlbl="ifluatex"]
+			14 [style="cfg node",texlbl="epstopdf.cfg"]
+			1->2
+			1->3
+			1->4
+			1->5
+			1->6
+			6->7
+			6->8
+			6->9
+			4->10
+			10->11
+			5->3
+			5->11
+			5->12
+			5->13
+			1->14
+		}
+		\end{dot2tex}
+		%% 
+		\end{tikzpicture}
+	\caption{Epstopdf-base}
+		\label{fig:epstopdf-base1}
+\end{figure}
+
 \lstinputlisting[caption={Epstopdf-base},%
 captionpos=b,label=lst:epstopdf-base]{test/Meostopdf-base.tex}
 \selectlanguage{italian}
@@ -701,27 +788,35 @@ Caricato
 \section{fourier}
 \begin{figure}
 	\centering
-	\begin{tikzpicture}
-	\tikzset{base/.style={text=black, align=center,text=black,draw,minimum size=1mm},} 
-	\tikzset{testobase/.style={font=\footnotesize,minimum width=1.0em, align=left},}
-	\tikzset{testo/.style={testobase,text width=15mm},}
-	\tikzset{main node/.style={testobase,base, draw=red, rounded corners},}
-	\tikzset{main2 node/.style={testobase,base, draw=green,rounded corners},}
-	\tikzset{complesso node/.style={testobase,base, draw=blue},}
-	\tikzset{internal node/.style={testobase,base, draw=magenta,dashed,rounded corners},}
-	\tikzset{driver node/.style={testobase,base,dashed,draw=blue!20},}
-	\tikzset{formato node/.style={testobase,base,dotted},}
-	\tikzset{cfg node/.style={testobase,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown},}
-	\tikzset{linea/.style={-triangle 90},}
-	\node[main node] (1) {fourier};
-	\node[internal node] (2)[right=of 1] {fourier-orns};
+	\begin{tikzpicture}%[scale=0.8]
 	
-	\node[internal node] (3)[above right =of 1] {textcomp};
-	\node[internal node] (4)[below right =of 1] {[T1]fontenv};
-	\node[cfg node] (5)[right =of 3] {ts1enc.def};
-	\node[cfg node] (6)[right =of 4] {t1enc.def};
-	\foreach \x /\y in{1/2,1/3,1/4,3/5,4/6}
-	\path[linea] (\x) edge node {} (\y);
+	\tikzset{base/.style={align=center,text=black}, }	
+	%\tikzset{testobase/.style={minimum  width=1.0em, }, }
+	\tikzset{testo/.style={,align=left}, }
+	\tikzset{main node/.style={,base, draw=red, rounded corners}, }
+	\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
+	\tikzset{complesso node/.style={,base, draw=blue}, }
+	\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
+	\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
+	\tikzset{formato node/.style={,base,dotted}, }
+	\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+	\begin{dot2tex}[format=tikz,scale=1,styleonly]
+	digraph G{
+		
+		rankdir="LR";
+		1 [style="main node",texlbl="fourier"]
+		2 [style="internal node",texlbl="fourier-orns"]
+		3 [style="internal node",texlbl="textcomp"]
+		4 [style="internal node",texlbl="[T1]fontenv"]
+		5 [style="cfg node",texlbl="ts1enc.def"]
+		6 [style="cfg node",texlbl="t1enc.def"]
+		1->2
+		1->3
+		1->4
+		3->5
+		4->6
+	}
+	\end{dot2tex}
 	%% 
 	\end{tikzpicture}
 	\caption{Fourier}
@@ -750,29 +845,37 @@ Caricato
 \section{geometry}
 \begin{figure}
 	\centering
-	\begin{tikzpicture}
-	\tikzset{base/.style={text=black, align=center,text=black,draw,minimum size=1mm},} 
-	\tikzset{testobase/.style={font=\footnotesize,minimum width=1.0em, align=left},}
-	\tikzset{testo/.style={testobase,text width=15mm},}
-	\tikzset{main node/.style={testobase,base, draw=red, rounded corners},}
-	\tikzset{main2 node/.style={testobase,base, draw=green,rounded corners},}
-	\tikzset{complesso node/.style={testobase,base, draw=blue},}
-	\tikzset{internal node/.style={testobase,base, draw=magenta,dashed,rounded corners},}
-	\tikzset{driver node/.style={testobase,base,dashed,draw=blue!20},}
-	\tikzset{formato node/.style={testobase,base,dotted},}
-	\tikzset{cfg node/.style={testobase,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown},}
-	\tikzset{linea/.style={-triangle 90},}
-	\node[main node] (1) {geometry};
-	\node (2) [right =of 1] {};
-	\node[internal node] (3) [above right =of 1] {ifpdf};
-	\node[internal node] (4) [above =of 3] {keyvall};
-	\node[internal node] (5) [below right =of 1] {ifvtex};
-	\node[internal node] (6) [below =of 5] {ifxetex};
-	\node[complesso node] (7) [below =of 1] {atbegshi};
+	\begin{tikzpicture}%[scale=0.8]
 	
-	\foreach \x /\y in{1/3,1/4,1/5,1/6}
-	\path[linea] (\x) edge node {} (\y);
-	
+	\tikzset{base/.style={align=center,text=black}, }	
+	%\tikzset{testobase/.style={minimum  width=1.0em, }, }
+	\tikzset{testo/.style={,align=left}, }
+	\tikzset{main node/.style={,base, draw=red, rounded corners}, }
+	\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
+	\tikzset{complesso node/.style={,base, draw=blue}, }
+	\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
+	\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
+	\tikzset{formato node/.style={,base,dotted}, }
+	\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+	\begin{dot2tex}[format=tikz,scale=1,styleonly]
+	digraph G{
+		
+		rankdir="LR";
+		1 [style="main node",texlbl="geometry"]
+		
+		2 [style="internal node",texlbl="ifpdf"]
+		3 [style="internal node",texlbl="keyvall"]
+		
+		4 [style="internal node",texlbl="ifvtex"]
+		5 [style="internal node",texlbl="ifxetex"]
+		
+		1->2
+		1->3
+		1->4
+		1->5
+	}
+	\end{dot2tex}
+	%% 
 	\end{tikzpicture}
 	\caption{Geometry}
 	\label{fig:geometry1}
@@ -794,40 +897,68 @@ Caricato\Iindex{geometry}{minimal.cls}
 \section{graphics}
 \begin{figure}
 	\centering
-	\scalebox{.8}{\begin{tikzpicture}
-		\tikzset{base/.style={text=black, align=center,text=black,draw,minimum size=1mm},} 
-		\tikzset{testobase/.style={font=\footnotesize,minimum width=1.0em, align=left},}
-		\tikzset{testo/.style={testobase,text width=15mm},}
-		\tikzset{main node/.style={testobase,base, draw=red, rounded corners},}
-		\tikzset{main2 node/.style={testobase,base, draw=green,rounded corners},}
-		\tikzset{complesso node/.style={testobase,base, draw=blue},}
-		\tikzset{internal node/.style={testobase,base, draw=magenta,dashed,rounded corners},}
-		\tikzset{driver node/.style={testobase,base,dashed,draw=blue!20},}
-		\tikzset{formato node/.style={testobase,base,dotted},}
-		\tikzset{cfg node/.style={testobase,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown},}
-		\tikzset{linea/.style={-triangle 90},}
-		\node[main node] (a) {graphics};
-		\node[cfg node] (b) [above right =of a] {graphics.cfg};
-		\node[driver node] (c) [right =of a] {pdftex.def};
-		\node[internal node] (d) [below =of a] {trig};
-		\node[internal node] (e) [below =of c] {supp-pdf.mkii};
-		\node[driver node] (1)[right=of b] {epftopdf-base};
-		\node[internal node] (3) [ right =of 1] {infwarerr};
-		\node[internal node] (4) [above right =of 1] {grfext};
-		\node[internal node] (5) [below right =of 1] {pdftexcmds};
-		\node[internal node] (6) [above =of 1] {kvoptions};
-		\node[internal node] (7) [above right=of 6] {keyval};
-		\node[internal node] (8) [above =of 6] {kvsetkeys};
-		\node[internal node] (9) [above left=of 6] {etexcmds};
-		\node[internal node] (10) [above right =of 4] {kvdefinekey};
-		\node[internal node] (11) [below =of 10] {ltxcmds};
-		\node[internal node] (12) [right =of 5] {ifpdf};
-		\node[internal node] (13) [below =of 5] {ifluatex};
-		\node[cfg node] (f) [above left =of 1] {epstopdf-sys.cfg}; 
-		\foreach \x /\y in{1/3,1/4,1/5,1/6,6/7,6/8,6/9,4/10,10/11,5/3,5/11,5/12,5/13,a/b,a/c,a/d,b/1,b/5,c/5,c/3,c/e,1/f,b/c}
-		\path[linea] (\x) edge node {} (\y);
-		% 
-		\end{tikzpicture}}
+	\begin{tikzpicture}%[scale=0.8]
+	\tikzset{base/.style={align=center,text=black}, }	
+	%\tikzset{testobase/.style={minimum  width=1.0em, }, }
+	\tikzset{testo/.style={,align=left}, }
+	\tikzset{main node/.style={,base, draw=red, rounded corners}, }
+	\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
+	\tikzset{complesso node/.style={,base, draw=blue}, }
+	\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
+	\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
+	\tikzset{formato node/.style={,base,dotted}, }
+	\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+	
+	\begin{dot2tex}[dot,format=tikz,scale=0.7,styleonly]
+	digraph G{
+		rankdir="LR";
+		1 [style="driver node",texlbl="epstopdf-base"]
+		2 [style="internal node",texlbl="infwarerr"]
+		3 [style="internal node",texlbl="infwarerr"]
+		4 [style="internal node",texlbl="grfext"]
+		5 [style="internal node",texlbl="pdftexcmds"]
+		6 [style="internal node",texlbl="kvoptions"]
+		7 [style="internal node",texlbl="keyval"]
+		8 [style="internal node",texlbl="kvsetkeys"]
+		9 [style="internal node",texlbl="etexcmds"]
+		10 [style="internal node",texlbl="kvdefinekeys"]
+		11 [style="internal node",texlbl="ltxcmds"]
+		12 [style="internal node",texlbl="ifpdf"]
+		13 [style="internal node",texlbl="ifluatex"]
+		14 [style="main2 node",texlbl="graphics"]
+		15 [style="cfg node",texlbl="graphics.cfg"]
+		16 [style="driver node",texlbl="pdftex.def"]
+		17 [style="internal node",texlbl="trig"]
+		18 [style="cfg node",texlbl="supp-pdf-mkii"]
+		19 [style="cfg node",texlbl="epstopdf-sys.cfg"]
+		
+		1->2
+		1->3
+		1->4
+		1->5
+		1->6
+		1->19
+		4->10
+		5->13
+		5->3
+		5->11
+		5->12
+		6->7
+		6->8
+		6->9
+		10->11
+		14->15
+		14->16
+		14->17
+		15->1
+		15->5
+		15->16
+		16->5
+		16->3
+		16->18
+	}
+	\end{dot2tex}
+	\end{tikzpicture}
 	\caption{Graphics}
 	\label{fig:graphics1}
 \end{figure}
@@ -839,25 +970,49 @@ Grafico~\vref{fig:geometry1}
 
 Caricato 
 \begin{enumerate}
-\item graphics.sty\index{graphics.sty} 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
-\item trig.sty\index{trig.sty}\Uindex{trig.sty}{graphics.sty} 1999/03/16 v1.09 sin cos tan (DPC)
-\item graphics.cfg\index{graphics.cfg}\Uindex{graphics.cfg}{graphics.sty} 2010/04/23 v1.9 graphics configuration of TeX Live
-\item pdftex.def\index{pdftex.def}\Dindex{pdftex.def}{graphics.sty} 2011/05/27 v0.06d Graphics/color for pdfTeX
-\item infwarerr.sty\index{infwarerr.sty}\Uindex{infwarerr.sty}{pdftex.def}\Uindex{infwarerr.sty}{pdftexcmds.sty}\Uindex{infwarerr.sty}{epstopdf-base.sty} 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-\item ltxcmds.sty\index{ltxcmds.sty}\Uindex{ltxcmds.sty}{pdftexcmds.sty}\Uindex{ltxcmds.sty}{kvdefinekeys.sty} 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-\item supp-pdf.mkii\index{supp-pdf.mkii}\Uindex{supp-pdf.mkii}{pdftex.def}
-\item pdftexcmds.sty\index{pdftexcmds.sty}\Uindex{pdftexcmds.sty}{pdftex.def}\Uindex{pdftexcmds.sty}{graphics.cfg}\Uindex{pdftexcmds.sty}{epstopdf-base.sty} 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
-\item ifluatex.sty\index{ifluatex.sty}\Uindex{ifluatex.sty}{pdftexcmds.sty} 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-\item ifpdf.sty\index{ifpdf.sty}\Uindex{ifpdf.sty}{pdftexcmds.sty} 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-\item epstopdf-base.sty\index{epstopdf-base.sty}\Uindex{epstopdf-base.sty}{graphics.cfg} 2010/02/09 v2.5 Base part for package epstopdf
-\item grfext.sty\index{grfext.sty}\Uindex{grfext.sty}{epstopdf-base.sty} 2010/08/19 v1.1 Manage graphics extensions (HO)
-\item kvdefinekeys.sty\index{kvdefinekeys.sty}\Uindex{kvdefinekeys.sty}{grfext.sty} 2011/04/07 v1.3 Define keys (HO)
-\item kvoptions.sty\index{kvoptions.sty}\Uindex{kvoptions.sty}{epstopdf-base.sty} 2011/06/30 v3.11 Key value format for package options (HO)
-\item keyval.sty\index{keyval.sty}\Uindex{keyval.sty}{kvoptions.sty} 2014/10/28 v1.15 key=value parser (DPC)
-\item kvsetkeys.sty\index{kvsetkeys.sty}\Uindex{kvsetkeys.sty}{kvoptions.sty} 2012/04/25 v1.16 Key value parser (HO)
-\item etexcmds.sty\index{etexcmds.sty}\Uindex{etexcmds.sty}{kvoptions.sty} 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-\item epstopdf-sys.cfg\index{epstopdf-sys.cfg}\Uindex{epstopdf-sys.cfg}{epstopdf-base.sty} 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+\item graphics.sty    2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+\item trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+\item graphics.cfg    2010/04/23 v1.9 graphics configuration of TeX Live
+\item xetex.def    2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
 \end{enumerate} 
+\selectlanguage{italian}
+Grafico~\vref{fig:graphics2}
+\selectlanguage{english}
+\begin{figure}
+	\centering
+	\begin{tikzpicture}%[scale=0.8]
+	\tikzset{base/.style={align=center,text=black},} 
+	\tikzset{testobase/.style={minimum width=1.0em,},}
+	\tikzset{testo/.style={,align=left},}
+	\tikzset{main node/.style={,base, draw=red, rounded corners},}
+	\tikzset{main2 node/.style={,base, draw=green,rounded corners},}
+	\tikzset{complesso node/.style={,base, draw=blue},}
+	\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners},}
+	\tikzset{driver node/.style={,base,dashed,draw=blue!20},}
+	\tikzset{formato node/.style={,base,dotted},}
+	\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown},}
+	
+	\begin{dot2tex}[dot,format=tikz,scale=0.7,styleonly]
+	digraph G{
+		rankdir="LR";
+		
+		14 [style="main node",texlbl="graphics"]
+		15 [style="cfg node",texlbl="graphics.cfg"]
+		16 [style="driver node",texlbl="xetex.def"]
+		17 [style="internal node",texlbl="trig"]
+		
+		14->15
+		14->16
+		14->17
+		15->16
+	
+	}
+	\end{dot2tex}
+	
+	\end{tikzpicture}
+	\caption{Graphics Xelatex}
+	\label{fig:graphics2}
+\end{figure}
 \section{graphicx}
 \begin{figure}
 	\centering
@@ -897,44 +1052,71 @@ Caricato
 \end{figure}
 \begin{figure}
 	\centering
-	\scalebox{.8}{
-		\begin{tikzpicture}
-		\tikzset{base/.style={text=black, align=center,text=black,draw,minimum size=1mm},} 
-		\tikzset{testobase/.style={font=\footnotesize,minimum width=1.0em, align=left},}
-		\tikzset{testo/.style={testobase,text width=15mm},}
-		\tikzset{main node/.style={testobase,base, draw=red, rounded corners},}
-		\tikzset{main2 node/.style={testobase,base, draw=green,rounded corners},}
-		\tikzset{complesso node/.style={testobase,base, draw=blue},}
-		\tikzset{internal node/.style={testobase,base, draw=magenta,dashed,rounded corners},}
-		\tikzset{driver node/.style={testobase,base,dashed,draw=blue!20},}
-		\tikzset{formato node/.style={testobase,base,dotted},}
-		\tikzset{cfg node/.style={testobase,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown},}
-		\tikzset{linea/.style={-triangle 90},}
-		\node[main2 node] (a) {graphics};
-		\node[cfg node] (b) [above right =of a] {graphics.cfg};
-		\node[driver node] (c) [right =of a] {pdftex.def};
-		\node[internal node] (d) [below =of a] {trig};
-		\node[internal node] (e) [below =of c] {supp-pdf-mkii};
-		\node[driver node] (1)[right=of b] {epstopdf-base};
-		\node[internal node] (3) [ right =of 1] {infwarerr};
-		\node[internal node] (4) [above right =of 1] {grfext};
-		\node[internal node] (5) [below right =of 1] {pdftexcmds};
-		\node[internal node] (6) [above =of 1] {kvoptions};
-		\node[internal node] (7) [above left=of 6] {keyval};
-		\node[internal node] (8) [above =of 6] {kvsetkeys};
-		\node[internal node] (9) [above right=of 6] {etexcmds};
-		\node[internal node] (10) [right =of 4] {kvdefinekeys};
-		\node[internal node] (11) [below =of 10] {ltxcmds};
-		\node[internal node] (12) [right =of 5] {ifpdf};
-		\node[internal node] (13) [below right =of 5] {ifluatex};
-		\node[cfg node] (f) [above left =of 1] {epstopdf-sys.cfg}; 
-		\node[main node] (g) [ left =of f] {graphicx}; 
-		\foreach \x /\y in{1/3,1/4,1/5,1/6,6/7,6/8,6/9,4/10,10/11,5/3,5/11,5/12,5/13,a/b,a/c,a/d,b/1,b/5,c/5,c/3,c/e,1/f,g/7,g/a,b/c}
-		\path[linea] (\x) edge node {} (\y);
-		% 
-		\end{tikzpicture}
-	}
-	\caption{Graphicx}
+			\begin{tikzpicture}%[scale=0.8]
+			\tikzset{base/.style={align=center,text=black}, }	
+			%\tikzset{testobase/.style={minimum  width=1.0em, }, }
+			\tikzset{testo/.style={,align=left}, }
+			\tikzset{main node/.style={,base, draw=red, rounded corners}, }
+			\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
+			\tikzset{complesso node/.style={,base, draw=blue}, }
+			\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
+			\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
+			\tikzset{formato node/.style={,base,dotted}, }
+			\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+			
+			\begin{dot2tex}[dot,format=tikz,scale=0.7,styleonly]
+			digraph G{
+				rankdir="LR";
+				1 [style="driver node",texlbl="epstopdf-base"]
+				2 [style="internal node",texlbl="infwarerr"]
+				3 [style="internal node",texlbl="infwarerr"]
+				4 [style="internal node",texlbl="grfext"]
+				5 [style="internal node",texlbl="pdftexcmds"]
+				6 [style="internal node",texlbl="kvoptions"]
+				7 [style="internal node",texlbl="keyval"]
+				8 [style="internal node",texlbl="kvsetkeys"]
+				9 [style="internal node",texlbl="etexcmds"]
+				10 [style="internal node",texlbl="kvdefinekeys"]
+				11 [style="internal node",texlbl="ltxcmds"]
+				12 [style="internal node",texlbl="ifpdf"]
+				13 [style="internal node",texlbl="ifluatex"]
+				14 [style="main2 node",texlbl="graphics"]
+				15 [style="cfg node",texlbl="graphics.cfg"]
+				16 [style="driver node",texlbl="pdftex.def"]
+				17 [style="internal node",texlbl="trig"]
+				18 [style="internal node",texlbl="supp-pdf-mkii"]
+				19 [style="cfg node",texlbl="epstopdf-sys.cfg"]
+				20 [style="main node",texlbl="graphicx"]
+				1->2
+				1->3
+				1->4
+				1->5
+				1->6
+				1->19
+				4->10
+				5->13
+				5->3
+				5->11
+				5->12
+				6->7
+				6->8
+				6->9
+				10->11
+				14->15
+				14->16
+				14->17
+				15->1
+				15->5
+				15->16
+				16->5
+				16->3
+				16->18
+				20->7
+				20->14
+			}
+			\end{dot2tex}
+			\end{tikzpicture}
+    \caption{Graphicx}
 	\label{fig:graphicx1}
 \end{figure}
 \lstinputlisting[caption={Graphicx pdflatex},%
@@ -962,9 +1144,6 @@ Caricato
 \item epstopdf-sys.cfg\index{epstopdf-sys.cfg}\Uindex{epstopdf-sys.cfg}{epstopdf-base.sty} 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live 
 \end{enumerate} 
 Nota I driver opzione dichiarati nel pacchetto sono dvips, xdvi, dvipdf, dvipdfm, dvipdfmx, pdftex, dvipsone, dviwindo, emtex, dviwin, pctexps, pctexwin, pctexhp, pctex32, truetex, tcidvi, vtex, oztex, texture, xetex
-
-
-
 \lstinputlisting[caption={Graphicx xelatex},%
 captionpos=b,label=lst:graphicxxelatex]{test/Mgraphicx.tex}
 Caricato 
@@ -1178,28 +1357,39 @@ Caricato
 \section{xcolor}
 \begin{figure}
 	\centering
-	\scalebox{.8}{\begin{tikzpicture}
-		\tikzset{base/.style={text=black, align=center,text=black,draw,minimum size=1mm},} 
-		\tikzset{testobase/.style={font=\footnotesize,minimum width=1.0em, align=left},}
-		\tikzset{testo/.style={testobase,text width=15mm},}
-		\tikzset{main node/.style={testobase,base, draw=red, rounded corners},}
-		\tikzset{main2 node/.style={testobase,base, draw=green,rounded corners},}
-		\tikzset{complesso node/.style={testobase,base, draw=blue},}
-		\tikzset{internal node/.style={testobase,base, draw=magenta,dashed,rounded corners},}
-		\tikzset{driver node/.style={testobase,base,dashed,draw=blue!20},}
-		\tikzset{formato node/.style={testobase,base,dotted},}
-		\tikzset{cfg node/.style={testobase,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown},}
-		\tikzset{linea/.style={-triangle 90},}
-		\node[main node] (1) {xcolor};
-		\node[cfg node] (2)[below =of 1] {xcolor.cfg};
-		\node[driver node] (3)[right =of 1] {pdftex.def};
-		\node[internal node] (4)[above right =of 3] {infwarerr};
-		\node[internal node] (5)[below right =of 3] {supp-pdf.mkii};
-		\node[internal node] (6)[right =of 4] {ltcmds};
-		\foreach \x /\y in{1/2,1/3,2/3,3/5,3/4,4/6}
-		\path[linea] (\x) edge node {} (\y);
-		%% 
-		\end{tikzpicture}}
+ \begin{tikzpicture}%[scale=0.8]
+ 
+ \tikzset{base/.style={align=center,text=black}, }	
+ %\tikzset{testobase/.style={minimum  width=1.0em, }, }
+ \tikzset{testo/.style={,align=left}, }
+ \tikzset{main node/.style={,base, draw=red, rounded corners}, }
+ \tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
+ \tikzset{complesso node/.style={,base, draw=blue}, }
+ \tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
+ \tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
+ \tikzset{formato node/.style={,base,dotted}, }
+ \tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+ \begin{dot2tex}[format=tikz,scale=1,styleonly]
+ digraph G{
+ 	rankdir="LR";
+ 	1 [style="main node",texlbl="xcolor"];
+ 	2 [style="internal node",texlbl="color.cfg"];
+ 	3 [style="driver node",texlbl="pdftex.def"];
+ 	4 [style="internal node",texlbl="infwarerr"];
+ 	5 [style="cfg node",texlbl="supp-pdf.mkii"];
+ 	6 [style="internal node",texlbl="ltcmds"];
+ 	
+ 	1->2
+ 	1->3
+ 	2->3
+ 	3->5
+ 	3->4
+ 	4->6
+ 	
+ }
+ \end{dot2tex}
+ %% 
+ \end{tikzpicture}
 	\caption{Xcolor}
 	\label{fig:xcolor1}
 \end{figure}

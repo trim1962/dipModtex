@@ -4,6 +4,8 @@ INPUT c:/texlive/2014/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2014/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT c:/tex/geneatex/test/Mtitlesec.tex
 OUTPUT Mtitlesec.log
+INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
+INPUT c:/texlive/2014/texmf-dist/tex/latex/snapshot/snapshot.sty
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/book.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/book.cls
 INPUT c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
@@ -21,5 +23,6 @@ INPUT c:/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmssi17.tfm
 OUTPUT Mtitlesec.pdf
 INPUT c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT Mtitlesec.aux
+OUTPUT Mtitlesec.dep
 INPUT c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb
