@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.1.15)  15 JAN 2015 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.1.15)  17 JAN 2015 19:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -53,7 +53,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \verbatim@out=\write3
-runsystem(echo 'write18-test-20151151331'>"DipLatex.w18")...executed.
+runsystem(echo 'write18-test-20151171144'>"DipLatex.w18")...executed.
 
 \instream=\read2
 runsystem(rm -- "DipLatex.w18")...executed.
@@ -1212,24 +1212,24 @@ LaTeX Warning: Label `lst:epstopdf-base' multiply defined.
 )
 \openout1 = `DipLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 77.
  (c:/texlive/2014/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 \big@size=\dimen260
-LaTeX Info: Redefining \microtypecontext on input line 65.
+LaTeX Info: Redefining \microtypecontext on input line 77.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1243,8 +1243,8 @@ Package microtype Info: No adjustment of character kerning.
 (c:/texlive/2014/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-LaTeX Info: Redefining \it@ocap on input line 65.
-LaTeX Info: Redefining \it@ccap on input line 65.
+LaTeX Info: Redefining \it@ocap on input line 77.
+LaTeX Info: Redefining \it@ccap on input line 77.
 
 ABD: EveryShipout initializing macros
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1295,31 +1295,31 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count176
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 78.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 66.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 78.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 66.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 78.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 66.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 78.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 78.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -1364,32 +1364,30 @@ File: lstlang3.sty 2014/09/06 1.5e listings language file
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 68.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 80.
  (./DipLatex.toc
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
 
 [1
 
-]
-LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 134.
- [2])
+])
 \tf@toc=\write13
 \openout13 = `DipLatex.toc'.
 
- [3] (./DipLatex.lol [4
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 82.
+ [2] (./DipLatex.lol [3
 
 ])
 \tf@lol=\write14
 \openout14 = `DipLatex.lol'.
 
- [5] (./DipLatex.lof)
+ [4] (./DipLatex.lof)
 \tf@lof=\write15
 \openout15 = `DipLatex.lof'.
 
- (./introduzione.tex
-[6
+ (./introduzione.tex [5
 
 ]
 Capitolo 1.
@@ -1488,122 +1486,309 @@ Overfull \hbox (57.00409pt too wide) in paragraph at lines 153--160
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[7
+[6
 
-] [8] [9]
+] [7] [8]
 ===== Image 'figures/DipLatex-figure0' is up-to-date. ======
-) (./classi.tex [10] [11 <./figures/DipLatex-figure0.pdf>]
+) (./classi.tex [9] [10 <./figures/DipLatex-figure0.pdf>]
 Capitolo 2.
-(./test/genarticle.tex) (./test/Mbeamer.tex) [12
+(./test/genarticle.tex) (./test/Mbeamer.tex) [11
 
-] [13] [14] (./test/genbook.tex) (./test/genbook11.tex) (./test/Mmemoir.tex [15
-]) [16] (./test/genminimal.tex) (./test/genreport.tex) (./test/genscrartcl.tex)
+] [12] [13] (./test/genbook.tex) (./test/genbook11.tex) (./test/Mmemoir.tex [14
+]) [15] (./test/genminimal.tex) (./test/genreport.tex) (./test/genscrartcl.tex)
 
 Overfull \hbox (29.93405pt too wide) in paragraph at lines 217--218
 []\T1/pplj/m/n/10 (-20) scrbase.sty[][][] 2014/10/28 v3.14 KOMA-Script pack-age
  (KOMA-Script-independent
  []
 
-[17]
-===== Image 'figures/DipLatex-figure1' is up-to-date. ======
-===== Image 'figures/DipLatex-figure2' is up-to-date. ======
-(./test/gensuftesi.tex) [18] [19 <./figures/DipLatex-figure1.pdf>] [20 <./figur
-es/DipLatex-figure2.pdf>]) (./package.tex [21]
+[16]
+\openout12 = `figures/DipLatex-figure1.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure1" "\def\tikzex
+ternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure1" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
+")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+\openout12 = `figures/DipLatex-figure2.md5'.
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure2" "\def\tikzex
+ternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure2" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
+")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/gensuftesi.tex)
+
+LaTeX Warning: Reference `fig:Suftesi1' on page 17 undefined on input line 319.
+
+
+
+LaTeX Warning: Reference `fig:Suftesi1' on page 17 undefined on input line 319.
+
+
+
+LaTeX Warning: Reference `fig:Suftesi2' on page 17 undefined on input line 319.
+
+
+
+LaTeX Warning: Reference `fig:Suftesi2' on page 17 undefined on input line 319.
+
+
+[17] [18 <./figures/DipLatex-figure1.pdf>] [19 <./figures/DipLatex-figure2.pdf>
+]) (./package.tex [20]
 Capitolo 3.
-(./test/Mamsbsy.tex) (./test/Mamscd.tex) (./test/Mamsfonts.tex [22
+(./test/Mamsbsy.tex) (./test/Mamscd.tex) (./test/Mamsfonts.tex [21
 
 ])
 (./test/Mamsfonts.tex)
-===== Image 'figures/DipLatex-figure3' is up-to-date. ======
-(./test/Mamsmath.tex) [23 <./figures/DipLatex-figure3.pdf>] (./test/Mamsopn.tex
-) (./test/Mamssymb.tex) (./test/Mamstext.tex [24]) (./test/Mamsthm.tex)
-(./test/Mamsxtra.tex) (./test/Mappendix.tex [25]) (./test/Marray.tex)
-===== Image 'figures/DipLatex-figure4' is up-to-date. ======
-(./test/Matbegshi.tex [26 <./figures/DipLatex-figure4.pdf>])
-===== Image 'figures/DipLatex-figure5' is up-to-date. ======
+\openout12 = `figures/DipLatex-figure3.md5'.
 
-Overfull \hbox (1.63704pt too wide) in paragraph at lines 185--217
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure3" "\def\tikzex
+ternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure3" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
+")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/Mamsmath.tex) [22 <./figures/DipLatex-figure3.pdf>] (./test/Mamsopn.tex
+) (./test/Mamssymb.tex) (./test/Mamstext.tex [23]) (./test/Mamsthm.tex)
+(./test/Mamsxtra.tex) (./test/Mappendix.tex [24]) (./test/Marray.tex)
+\openout12 = `figures/DipLatex-figure4.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure4" "\def\tikzex
+ternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure4" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
+")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/Matbegshi.tex [25 <./figures/DipLatex-figure4.pdf>])
+\openout12 = `figures/DipLatex-figure5.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure5" "\def\tikzex
+ternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure5" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
+")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+
+Overfull \hbox (1.63704pt too wide) in paragraph at lines 168--191
  [][] 
  []
 
-(./test/Mbabel.tex) (./test/mberamono.tex) [27 <./figures/DipLatex-figure5.pdf>
+(./test/Mbabel.tex) (./test/mberamono.tex) [26 <./figures/DipLatex-figure5.pdf>
 ]
-===== Image 'figures/DipLatex-figure6' is up-to-date. ======
-(./test/mbitset.tex) (./test/mbooktabs.tex [28 <./figures/DipLatex-figure6.pdf>
-]) (./test/mcaption.tex) (./test/mccaption.tex)
-===== Image 'figures/DipLatex-figure7' is up-to-date. ======
-===== Image 'figures/DipLatex-figure8' is up-to-date. ======
+\openout12 = `figures/DipLatex-figure6.md5'.
 
-Overfull \hbox (24.82867pt too wide) in paragraph at lines 355--388
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure6" "\def\tikzex
+ternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure6" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
+")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/mbitset.tex) (./test/mbooktabs.tex [27 <./figures/DipLatex-figure6.pdf>
+]) (./test/mcaption.tex) (./test/mccaption.tex)
+\openout12 = `figures/DipLatex-figure7.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure7" "\def\tikzex
+ternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure7" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
+")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/mcclicenses.tex [28])
+\openout12 = `figures/DipLatex-figure8.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure8" "\def\tikzex
+ternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure8" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
+")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+[29 <./figures/DipLatex-figure7.pdf>]
+\openout12 = `figures/DipLatex-figure9.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure9" "\def\tikzex
+ternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure9" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
+")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+
+Overfull \hbox (24.82867pt too wide) in paragraph at lines 362--384
  [][] 
  []
 
-(./test/mcolor.tex [29]) (./test/mcolor.tex)
-Overfull \hbox (12.66145pt too wide) in paragraph at lines 416--417
+(./test/mcolor.tex) (./test/mcolor.tex)
+Overfull \hbox (12.66145pt too wide) in paragraph at lines 412--413
 []\T1/pplj/m/n/10 (-20) xetex.def[][] 2014/07/25 v4.03 La-TeX col-or/-graph-ics
  driver for Xe-TeX (RRM/JK) 
  []
 
-[30 <./figures/DipLatex-figure7.pdf> <./figures/DipLatex-figure8.pdf>]
+[30 <./figures/DipLatex-figure8.pdf> <./figures/DipLatex-figure9.pdf>]
 (./test/mchangepage.tex) (./test/mchngntr.tex) (./test/mchngpage.tex)
 (./test/mcmap.tex [31])
-===== Image 'figures/DipLatex-figure9' is up-to-date. ======
-===== Image 'figures/DipLatex-figure10' is up-to-date. ======
+\openout12 = `figures/DipLatex-figure10.md5'.
 
-Overfull \hbox (147.51404pt too wide) in paragraph at lines 493--542
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure10" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure10" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+\openout12 = `figures/DipLatex-figure11.md5'.
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure11" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure11" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+
+Overfull \hbox (147.51404pt too wide) in paragraph at lines 489--528
  [][] 
  []
 
-(./test/mcrop.tex [32 <./figures/DipLatex-figure9.pdf> <./figures/DipLatex-figu
-re10.pdf>])
-Overfull \hbox (12.66145pt too wide) in paragraph at lines 588--589
+(./test/mcrop.tex [32 <./figures/DipLatex-figure10.pdf> <./figures/DipLatex-fig
+ure11.pdf>])
+Overfull \hbox (12.66145pt too wide) in paragraph at lines 574--575
 []\T1/pplj/m/n/10 (-20) xetex.def[] 2014/07/25 v4.03 La-TeX col-or/-graph-ics d
 river for Xe-TeX (RRM/JK) 
  []
 
 (./test/Menumitem.tex [33])
-===== Image 'figures/DipLatex-figure11' is up-to-date. ======
+\openout12 = `figures/DipLatex-figure12.md5'.
 
-Overfull \hbox (89.1028pt too wide) in paragraph at lines 605--654
- [][] 
- []
 
-(./test/Meostopdf.tex [34 <./figures/DipLatex-figure11.pdf>])
-===== Image 'figures/DipLatex-figure12' is up-to-date. ======
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure12" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
 
-Overfull \hbox (9.20631pt too wide) in paragraph at lines 682--729
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure12" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/Meostopdf.tex) [34 <./figures/DipLatex-figure12.pdf>]
+\openout12 = `figures/DipLatex-figure13.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure13" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure13" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+
+Overfull \hbox (30.60927pt too wide) in paragraph at lines 633--675
 [][] 
  []
 
-(./test/Meostopdf-base.tex) [35] (./test/metoolbox.tex) [36 <./figures/DipLatex
--figure12.pdf>] (./test/Mfixltx2e.tex) (./test/Mfontec.tex)
-(./test/Mfontenc2.tex)
-===== Image 'figures/DipLatex-figure13' is up-to-date. ======
-[37] (./test/Mfourier.tex)
-===== Image 'figures/DipLatex-figure14' is up-to-date. ======
-(./test/Mgeometry.tex) [38 <./figures/DipLatex-figure13.pdf>]
-===== Image 'figures/DipLatex-figure15' is up-to-date. ======
-
-Overfull \hbox (24.23747pt too wide) in paragraph at lines 900--962
- [][] 
- []
-
-(./test/Mgraphics.tex) [39 <./figures/DipLatex-figure14.pdf> <./figures/DipLate
-x-figure15.pdf>]
-Overfull \hbox (12.66145pt too wide) in paragraph at lines 976--977
-[]\T1/pplj/m/n/10 (-20) xetex.def 2014/07/25 v4.03 La-TeX col-or/-graph-ics dri
-ver for Xe-TeX (RRM/JK) 
- []
+(./test/Meostopdf-base.tex) [35 <./figures/DipLatex-figure13.pdf>]
+\openout12 = `figures/DipLatex-figure14.md5'.
 
 
-LaTeX Warning: Reference `fig:graphics2' on page 40 undefined on input line 979
-.
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure14" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure14" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/metoolbox.tex) (./test/Mfixltx2e.tex) [36 <./figures/DipLatex-figure14.
+pdf>] (./test/Mfontec.tex) (./test/Mfontenc2.tex)
+\openout12 = `figures/DipLatex-figure15.md5'.
 
 
-LaTeX Warning: Reference `fig:graphics2' on page 40 undefined on input line 979
-.
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure15" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
 
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure15" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/Mfourier.tex) [37]
 \openout12 = `figures/DipLatex-figure16.md5'.
+
 
 ===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
 n-error -interaction=batchmode -jobname "figures/DipLatex-figure16" "\def\tikze
@@ -1616,7 +1801,10 @@ runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
 
 \openout12 = `DipLatex.auxlock'.
 
+(./test/Mgeometry.tex) [38 <./figures/DipLatex-figure15.pdf> <./figures/DipLate
+x-figure16.pdf>]
 \openout12 = `figures/DipLatex-figure17.md5'.
+
 
 ===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
 n-error -interaction=batchmode -jobname "figures/DipLatex-figure17" "\def\tikze
@@ -1628,6 +1816,12 @@ runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
 }")...executed.
 
 \openout12 = `DipLatex.auxlock'.
+
+(./test/Mgraphics.tex)
+Overfull \hbox (12.66145pt too wide) in paragraph at lines 944--945
+[]\T1/pplj/m/n/10 (-20) xetex.def 2014/07/25 v4.03 La-TeX col-or/-graph-ics dri
+ver for Xe-TeX (RRM/JK) 
+ []
 
 \openout12 = `figures/DipLatex-figure18.md5'.
 
@@ -1642,21 +1836,7 @@ runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
 
 \openout12 = `DipLatex.auxlock'.
 
-
-Overfull \hbox (80.41837pt too wide) in paragraph at lines 1055--1119
- [][] 
- []
-
-(./test/Mgraphicx.tex) [40 <./figures/DipLatex-figure16.pdf> <./figures/DipLate
-x-figure17.pdf>] (./test/Mgraphicx.tex) [41 <./figures/DipLatex-figure18.pdf>]
-Overfull \hbox (12.66145pt too wide) in paragraph at lines 1156--1157
-[]\T1/pplj/m/n/10 (-20) xetex.def[][] 2014/07/25 v4.03 La-TeX col-or/-graph-ics
- driver for Xe-TeX (RRM/JK) 
- []
-
-(./test/Mifpdf.tex) (./test/Minfwarerr.tex) (./test/Minputenc2.tex)
-(./test/Minputenc1.tex [42]) (./test/Misomath.tex) (./test/Mkeyval.tex [43])
-(./test/Mltxcmds.tex)
+[39 <./figures/DipLatex-figure17.pdf> <./figures/DipLatex-figure18.pdf>]
 \openout12 = `figures/DipLatex-figure19.md5'.
 
 
@@ -1671,9 +1851,7 @@ runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
 
 \openout12 = `DipLatex.auxlock'.
 
-(./test/Mmathpazo.tex) [44 <./figures/DipLatex-figure19.pdf>]
 \openout12 = `figures/DipLatex-figure20.md5'.
-
 
 ===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
 n-error -interaction=batchmode -jobname "figures/DipLatex-figure20" "\def\tikze
@@ -1686,9 +1864,16 @@ runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
 
 \openout12 = `DipLatex.auxlock'.
 
-(./test/Mmicrotype.tex) (./test/Mmulticol.tex) [45 <./figures/DipLatex-figure20
-.pdf>] (./test/Mpdftexcmds.tex) (./test/Mtextcomp.tex) (./test/Mtitlesec.tex)
-[46] (./test/Mtrig.tex)
+(./test/Mgraphicx.tex) [40 <./figures/DipLatex-figure19.pdf> <./figures/DipLate
+x-figure20.pdf>] (./test/Mgraphicx.tex)
+Overfull \hbox (12.66145pt too wide) in paragraph at lines 1075--1076
+[]\T1/pplj/m/n/10 (-20) xetex.def[][] 2014/07/25 v4.03 La-TeX col-or/-graph-ics
+ driver for Xe-TeX (RRM/JK) 
+ []
+
+(./test/Mifpdf.tex) [41] (./test/Minfwarerr.tex) (./test/Minputenc2.tex)
+(./test/Minputenc1.tex) [42] (./test/Misomath.tex) (./test/Mkeyval.tex)
+(./test/Mltxcmds.tex [43])
 \openout12 = `figures/DipLatex-figure21.md5'.
 
 
@@ -1703,12 +1888,7 @@ runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
 
 \openout12 = `DipLatex.auxlock'.
 
-
-Overfull \hbox (29.9187pt too wide) in paragraph at lines 1360--1393
- [][] 
- []
-
-(./test/mxcolor.tex) [47 <./figures/DipLatex-figure21.pdf>]
+(./test/Mmathpazo.tex)
 \openout12 = `figures/DipLatex-figure22.md5'.
 
 
@@ -1723,12 +1903,68 @@ runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
 
 \openout12 = `DipLatex.auxlock'.
 
-(./test/mxkeyval.tex)) (./ordine.tex [48 <./figures/DipLatex-figure22.pdf>]
+(./test/Mmicrotype.tex [44 <./figures/DipLatex-figure21.pdf>])
+(./test/Mmulticol.tex)
+\openout12 = `figures/DipLatex-figure23.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure23" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure23" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/Mpdftexcmds.tex) [45 <./figures/DipLatex-figure22.pdf>]
+(./test/Mtextcomp.tex) (./test/Mtitlesec.tex) [46 <./figures/DipLatex-figure23.
+pdf>] (./test/Mtrig.tex)
+\openout12 = `figures/DipLatex-figure24.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure24" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure24" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/mxcolor.tex) [47 <./figures/DipLatex-figure24.pdf>]
+\openout12 = `figures/DipLatex-figure25.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure25" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure25" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/mxkeyval.tex)) (./ordine.tex [48 <./figures/DipLatex-figure25.pdf>]
 Capitolo 4.
 (./test/mcolorVxcolor.tex) (./test/mxcolorVcolor.tex) [49
 
 ]
 (./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex) [50]
+
+LaTeX Warning: Reference `lst:fourierfontenc' on page 51 undefined on input lin
+e 55.
+
+
+LaTeX Warning: Reference `lst:fourierfontenc' on page 51 undefined on input lin
+e 55.
+
 (./test/Mfourierfontenc.tex) (./test/MxkeyvalVkeyvall.tex))
 runsystem(makeindex -s oldclaudio.sti DipLatex.idx)...executed.
 
@@ -1741,7 +1977,7 @@ runsystem(makeindex -s oldclaudio.sti DipLatex.idx)...executed.
 Capitolo 5.
 
 Overfull \hbox (3.4291pt too wide) in paragraph at lines 34--35
-[]\T1/pplj/m/n/10 (-20) beamerbaseframecomponents.sty, 14  
+[]\T1/pplj/m/n/10 (-20) beamerbaseframecomponents.sty, 13  
  []
 
 [52
@@ -1765,42 +2001,42 @@ runsystem(makeindex -s oldclaudio.sti usato.idx)...executed.
 
 ]
 Capitolo 8.
-)
+[59
+
+])
 runsystem(makeindex -s oldclaudio.sti dipende.idx)...executed.
 
- (./dipende.ind [59
-
-]
+ (./dipende.ind [60]
 Capitolo 9.
-)
+[61
+
+])
 runsystem(makeindex -s oldclaudio.sti conffile.idx)...executed.
 
- (./conffile.ind [60
-
-]
+ (./conffile.ind
 Capitolo 10.
-[61
+[62
 
 ])
 runsystem(makeindex -s oldclaudio.sti drvfile.idx)...executed.
 
- (./drvfile.ind [62]
+ (./drvfile.ind [63]
 Capitolo 11.
 )
 runsystem(makeindex incomp.idx)...executed.
 
- (./incomp.ind [63
+ (./incomp.ind [64
 
 ]
 Capitolo 12.
 )
 runsystem(makeindex -s oldclaudio.sti Warning.idx)...executed.
 
- (./Warning.ind [64
+ (./Warning.ind [65
 
 ]
 Capitolo 13.
-) [65
+) [66
 
 ] (./DipLatex.aux)
 
@@ -1944,6 +2180,7 @@ test/mbitset.tex
 test/mbooktabs.tex
 test/mcaption.tex
 test/mccaption.tex
+test/mcclicenses.tex
 test/mcolor.tex
 test/mcolor.tex
 test/mchangepage.tex
@@ -2008,11 +2245,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28806 strings out of 493109
- 564582 string characters out of 6138587
- 709581 words of memory out of 5000000
- 31273 multiletter control sequences out of 15000+600000
- 74432 words of font info for 262 fonts, out of 8000000 for 9000
+ 28842 strings out of 493109
+ 565348 string characters out of 6138587
+ 710206 words of memory out of 5000000
+ 31308 multiletter control sequences out of 15000+600000
+ 74151 words of font info for 258 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,8n,122p,10454b,2305s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texm
@@ -2023,10 +2260,10 @@ b><c:/texlive/2014/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/20
 14/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2014/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb>
-Output written on DipLatex.pdf (66 pages, 253035 bytes).
+Output written on DipLatex.pdf (67 pages, 253903 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
+ 399 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 47744 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 47759 words of extra memory for PDF output out of 51595 (max. 10000000)
 

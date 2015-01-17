@@ -225,18 +225,8 @@ Caricato
 \begin{figure}
 	\centering
  \begin{tikzpicture}%[scale=0.8]
-  \tikzset{base/.style={align=center,text=black}, }	
-  %\tikzset{testobase/.style={minimum  width=1.0em, }, }
-  \tikzset{testo/.style={,align=left}, }
-  \tikzset{main node/.style={,base, draw=red, rounded corners}, }
-  \tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
-  \tikzset{complesso node/.style={,base, draw=blue}, }
-  \tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
-  \tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
-  \tikzset{formato node/.style={,base,dotted}, }
-  \tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
 
- \begin{dot2tex}[format=tikz,scale=1,styleonly]
+ 	\begin{dot2tex}[format=tikz,scale=1,styleonly]
  digraph G{
  	rankdir="LR";
  	0 [style="complesso node",texlbl="book"]
@@ -246,13 +236,13 @@ Caricato
  	8 [style="main2 node",texlbl="emptypage"]
  	9 [style="main2 node",texlbl="textcase"]
  	10 [style="internal node",texlbl="ifxetex"]
- 	12 [style="main2 node",texlbl="cclicenses"]
+ 	12 [style="complesso node",texlbl="cclicenses"]
  	14 [style="main2 node",texlbl="sostitutefont"]
  	17   [style="main2 node",texlbl="extramarks"]
  	18   [style="main2 node",texlbl="fancyhdr"]
  	19  [style="main2 node",texlbl="titletoc"]
  	20  [style="main2 node",texlbl="fixltxhyph"]
- 	21  [style="main2 node",texlbl="mathpazo"]
+ 	21  [style="complesso node",texlbl="mathpazo"]
  	1->0
  	1->4[style=bold,labelfloat= true, label = "[inline]"]
  	1->7
@@ -276,17 +266,7 @@ Caricato
 \begin{figure}
 	\centering
  \begin{tikzpicture}%[scale=0.8]
-  \tikzset{base/.style={align=center,text=black}, }	
-  %\tikzset{testobase/.style={minimum  width=1.0em, }, }
-  \tikzset{testo/.style={,align=left}, }
-  \tikzset{main node/.style={,base, draw=red, rounded corners}, }
-  \tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
-  \tikzset{complesso node/.style={,base, draw=blue}, }
-  \tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
-  \tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
-  \tikzset{formato node/.style={,base,dotted}, }
-  \tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
-  \tikzset{linea/.style={-triangle 90},}
+
 
  \begin{dot2tex}[format=tikz,scale=1,styleonly]
  digraph G{
