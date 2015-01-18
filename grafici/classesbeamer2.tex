@@ -1,0 +1,85 @@
+\documentclass{standalone}
+\usepackage[autosize]{dot2texi}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+%\usepackage[active,tightpage]{preview}
+%\setlength\PreviewBorder{0pt}%
+%\PreviewEnvironment{dot2tex}
+\begin{document}
+ \begin{tikzpicture}%[scale=0.8]
+ 
+   \tikzset{base/.style={align=center,text=black}, }	
+   %\tikzset{testobase/.style={minimum  width=1.0em, }, }
+   \tikzset{testo/.style={,align=left}, }
+   \tikzset{main node/.style={base, draw=red, rounded corners}, }
+   \tikzset{main2 node/.style={base, draw=green,rounded corners}, }
+   \tikzset{complesso node/.style={base, draw=blue}, }
+   \tikzset{internal node/.style={base, draw=magenta,dashed,rounded corners}, }
+   \tikzset{driver node/.style={base,dashed,draw=blue!20}, }
+   \tikzset{formato node/.style={base,dotted}, }
+   \tikzset{cfg node/.style={base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+   \tikzset{linea/.style={-triangle 90},}
+ \begin{dot2tex}[format=tikz,scale=.8,styleonly]
+ digraph G{
+ 	 size = "8.3,11.7";
+ 	center="true";
+  	rankdir="LR";
+10 [style="main node",texlbl="beamerbaserequires"]
+100 [style="main2 node",texlbl="beamerbasecompatibility"]
+101 [style="main2 node",texlbl="beamerbasefont"]
+1010 [style="internal node",texlbl="amssymb"]
+102 [style="main2 node",texlbl="beamerbasetranslator"]
+	1020 [style="complesso node",texlbl="translator"]
+103 [style="main2 node",texlbl="beamerbasemisc"]
+104 [style="main2 node",texlbl="beamerbasetwoscreens"]
+105 [style="main2 node",texlbl="beamerbaseoverlay"]
+106 [style="main2 node",texlbl="beamerbasetitle"]
+107 [style="main2 node",texlbl="beamerbasesection"]
+108 [style="main2 node",texlbl="beamerbaseframe"]
+109 [style="main2 node",texlbl="beamerbaseverbatim"]
+110 [style="main2 node",texlbl="beamerbaseframesize"]
+111 [style="main2 node",texlbl="beamerbaseframecomponents"]
+112 [style="main2 node",texlbl="beamerbasecolor"]
+113 [style="main2 node",texlbl="beamerbasetoc"]
+114 [style="main2 node",texlbl="beamerbasetemplates"]
+1140 [style="internal node",texlbl="beamerbaseauxtemplates"]
+11400 [style="internal node",texlbl="beamerbaseboxes"]
+115 [style="main2 node",texlbl="beamerbaselocalstructure"]
+1150 [style="internal node",texlbl="enumerate"]
+116 [style="internal node",texlbl="beamerbasenavigation"]
+117 [style="main2 node",texlbl="beamerbasetheorems"]
+1170 [style="complesso node",texlbl="amsmath"]
+1171 [style="complesso node",texlbl="amsthm"]
+118 [style="main2 node",texlbl="beamerbasethemes"]
+10->100
+10->101
+101->1010
+10->102
+102->1020
+10->103
+10->104
+10->105
+10->106
+10->107
+10->108
+10->109
+10->110
+10->111
+10->112
+10->113
+10->114
+114->1140
+1140->11400
+10->115
+115->1150
+10->116
+10->117
+117->1170
+117->1171
+10->118
+
+ }
+ \end{dot2tex}
+ %% 
+ \end{tikzpicture}
+\end{document}

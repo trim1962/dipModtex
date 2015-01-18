@@ -1,0 +1,69 @@
+\documentclass{standalone}
+\usepackage[autosize]{dot2texi}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+%\usepackage[active,tightpage]{preview}
+%\setlength\PreviewBorder{0pt}%
+%\PreviewEnvironment{dot2tex}
+\begin{document}
+ \begin{tikzpicture}%[scale=0.8]
+ 
+   \tikzset{base/.style={align=center,text=black}, }	
+   %\tikzset{testobase/.style={minimum  width=1.0em, }, }
+   \tikzset{testo/.style={,align=left}, }
+   \tikzset{main node/.style={base, draw=red, rounded corners}, }
+   \tikzset{main2 node/.style={base, draw=green,rounded corners}, }
+   \tikzset{complesso node/.style={base, draw=blue}, }
+   \tikzset{internal node/.style={base, draw=magenta,dashed,rounded corners}, }
+   \tikzset{driver node/.style={base,dashed,draw=blue!20}, }
+   \tikzset{formato node/.style={base,dotted}, }
+   \tikzset{cfg node/.style={base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+   \tikzset{linea/.style={-triangle 90},}
+ \begin{dot2tex}[format=tikz,scale=.8,styleonly]
+ digraph G{
+ 	 size = "8.3,11.7";
+ 	center="true";
+  	rankdir="LR";
+64 [style="main node",texlbl="pgfcore.code.tex"]
+640 [style="complesso node",texlbl="pgfmath.code.tex"]
+641 [style="main2 node",texlbl="pgfcorepoints.code.tex"]
+642 [style="main2 node",texlbl="pgfcorepathconstruct.code.tex"]
+643 [style="main2 node",texlbl="pgfcorepathusage.code.tex"]
+644 [style="main2 node",texlbl="pgfcorescopes.code.tex"]
+645 [style="main2 node",texlbl="pgfcoregraphicstate.code.tex"]
+646[style="main2 node",texlbl="pgfcoretransformations.code.tex"]
+647 [style="main2 node",texlbl="pgfcorequick.code.tex"]
+648 [style="main2 node",texlbl="pgfcoreobjects.code.tex"]
+649 [style="main2 node",texlbl="pgfcorepathprocessing.code.tex"]
+6410 [style="main2 node",texlbl="pgfcorearrows.code.tex"]
+6411 [style="main2 node",texlbl="pgfcoreshade.code.tex"]
+
+6412 [style="main2 node",texlbl="pgfcoreimage.code.tex"]
+64120 [style="internal node",texlbl="pgfcoreexternal.code.tex"]
+
+6413 [style="main2 node",texlbl="pgfcorelayers.code.tex"]
+6414 [style="main2 node",texlbl="pgfcoretransparency.code.tex"]
+6415 [style="main2 node",texlbl="pgfcorepatterns.code.tex"]
+64->640
+64->641
+64->642
+64->643
+64->644
+64->645
+64->646
+64->647
+64->648
+64->649
+64->6410
+64->6411
+64->6412
+6412->64120
+64->6413
+64->6414
+64->6415
+
+ }
+ \end{dot2tex}
+ %% 
+ \end{tikzpicture}
+\end{document}

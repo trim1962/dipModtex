@@ -21,48 +21,23 @@
    \tikzset{linea/.style={-triangle 90},}
  \begin{dot2tex}[format=tikz,scale=1,styleonly]
  digraph G{
- 	size = "8.3,11.8";
- 	rankdir="LR";
- 	1 [style="main node",texlbl="beamer.cls"]
- 	2 [style="main2 node",texlbl="beamerbasercs"] 
- 	3 [style="main2 node",texlbl="beamerbasemodes"]
- 	30[style="internal node",texlbl="beamerbasedecode"] 
- 	
- 	4 [style="internal node",texlbl=" ifpdf"]
- 	5 [style="main2 node",texlbl="beamerbaseoptions"]
- 	50[style="internal node",texlbl="keyvall"]
- 	6 [style="main2 node",texlbl="pgfcore"]
- 	60 [style="complesso node",texlbl="graphicx"]
- 	61 [style="complesso node",texlbl="pgfsys"]
- 	63 [style="complesso node",texlbl="xcolor"]
- 	64 [style="complesso node",texlbl="pgfcore.code.tex"]
- 	
- 	7 [style="main2 node",texlbl="xxcolor"]
- 	8 [style="complesso node",texlbl="atbegshi"]
- 	9 [style="complesso node",texlbl="hyperref"]
- 	10 [style="complesso node",texlbl="beamerbaserequires"]
- 	1->2
- 	1->3
- 	3->30
- 	1->4
- 	1->5
- 	5->50
- 	1->6
- 	6->60
- 	6->61
- 	
- 	6->50
- 	6->63
- 	6->64
- 	
- 	7->63
- 	1->7
- 	1->8
- 	1->9
- 	1->10
- 	10->50
- 	8->4
- 	60->4
+  size = "8.3,11.8";
+ rankdir="LR";
+61 [style="main node",texlbl="pgfsys"]
+610 [style="main2 node",texlbl="pgfrcs"]
+6100 [style="internal node",texlbl="pgfutil-common.tex"]
+6101 [style="cfg node",texlbl="pgfutil-latex.def"]
+61010 [style="internal node",texlbl="everyshi"]
+6102 [style="internal node",texlbl="pgfrcs.code.tex"]
+611 [style="main2 node",texlbl="pgfsyssoftpath.code.tex"]
+612 [style="main2 node",texlbl="pgfsyaprotocol.code.tex"]
+61->610
+610->6100
+610->6101
+6101->61010
+610->6102
+61->611
+61->612
  }
  \end{dot2tex}
  %% 

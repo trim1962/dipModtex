@@ -21,48 +21,22 @@
    \tikzset{linea/.style={-triangle 90},}
  \begin{dot2tex}[format=tikz,scale=1,styleonly]
  digraph G{
- 	size = "8.3,11.8";
- 	rankdir="LR";
- 	1 [style="main node",texlbl="beamer.cls"]
- 	2 [style="main2 node",texlbl="beamerbasercs"] 
- 	3 [style="main2 node",texlbl="beamerbasemodes"]
- 	30[style="internal node",texlbl="beamerbasedecode"] 
- 	
- 	4 [style="internal node",texlbl=" ifpdf"]
- 	5 [style="main2 node",texlbl="beamerbaseoptions"]
- 	50[style="internal node",texlbl="keyvall"]
- 	6 [style="main2 node",texlbl="pgfcore"]
- 	60 [style="complesso node",texlbl="graphicx"]
- 	61 [style="complesso node",texlbl="pgfsys"]
- 	63 [style="complesso node",texlbl="xcolor"]
- 	64 [style="complesso node",texlbl="pgfcore.code.tex"]
- 	
- 	7 [style="main2 node",texlbl="xxcolor"]
- 	8 [style="complesso node",texlbl="atbegshi"]
- 	9 [style="complesso node",texlbl="hyperref"]
- 	10 [style="complesso node",texlbl="beamerbaserequires"]
- 	1->2
- 	1->3
- 	3->30
- 	1->4
- 	1->5
- 	5->50
- 	1->6
- 	6->60
- 	6->61
- 	
- 	6->50
- 	6->63
- 	6->64
- 	
- 	7->63
- 	1->7
- 	1->8
- 	1->9
- 	1->10
- 	10->50
- 	8->4
- 	60->4
+ 	 size = "8.3,11.7";
+ 	center="true";
+  	rankdir="LR";
+640 [style="main node",texlbl="pgfmath.code.tex"]
+6400 [style="main2 node",texlbl="pgfmathcalc.code.tex"]
+64000 [style="internal node",texlbl="pgfmathutil.code.tex"]
+64001 [style="internal node",texlbl="pgfmathparser.code.tex"]
+64002 [style="complesso node",texlbl="pgfmathfunctions.code.tex"]
+
+6401 [style="main2 node",texlbl="pgfmathfloat.code.tex"]
+640->6400
+6400->64000
+6400->64001
+6400->64002
+
+640->6401
  }
  \end{dot2tex}
  %% 
