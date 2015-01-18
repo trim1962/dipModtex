@@ -9,66 +9,11 @@ Caricato
 \item size10.clo\index{size10.clo}\Cindex{size10.clo}{article.cls} 2014/09/29 v1.4h Standard LaTeX file (size option)
 \end{enumerate}
 \section{beamer}
+
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
-	
- \begin{dot2tex}[format=tikz,scale=1,styleonly]
- digraph G{
- 	size = "8.3,11.8";
- 	rankdir="LR";
- 	1 [style="main node",texlbl="beamer.cls"]
- 	2 [style="main2 node",texlbl="beamerbasercs"] 
- 	3 [style="main2 node",texlbl="beamerbasemodes"]
- 	30[style="internal node",texlbl="beamerbasedecode"] 
- 	
- 	4 [style="internal node",texlbl=" ifpdf"]
- 	5 [style="main2 node",texlbl="beamerbaseoptions"]
- 	50[style="internal node",texlbl="keyvall"]
- 	6 [style="main2 node",texlbl="pgfcore"]
- 	60 [style="complesso node",texlbl="graphicx"]
- 	61 [style="complesso node",texlbl="pgfsys"]
- 	63 [style="complesso node",texlbl="xcolor"]
- 	64 [style="complesso node",texlbl="pgfcore.code.tex"]
- 	
- 	7 [style="main2 node",texlbl="xxcolor"]
- 	8 [style="complesso node",texlbl="atbegshi"]
- 	9 [style="complesso node",texlbl="hyperref"]
- 	10 [style="complesso node",texlbl="beamerbaserequires"]
- 	1->2
- 	1->3
- 	3->30
- 	1->4
- 	1->5
- 	5->50
- 	1->6
- 	6->60
- 	6->61
- 	
- 	6->50
- 	6->63
- 	6->64
- 	
- 	7->63
- 	1->7
- 	1->8
- 	1->9
- 	1->10
- 	10->50
- 	8->4
- 	60->4
- 	}
- \end{dot2tex}
-	%% 
-	\end{tikzpicture}
-	\caption{Beamer generale}
-	\label{fig:beamer0}
-\end{figure}
-\begin{figure}
-	\centering
-	\begin{tikzpicture}%[scale=0.8]
- \begin{dot2tex}[format=tikz,scale=.8,styleonly]
+ \begin{dot2tex}[format=tikz,scale=.9,styleonly]
  digraph G{
  	size = "8.3,11.7";
  	center="true";
@@ -95,7 +40,7 @@ Caricato
  	11400 [style="internal node",texlbl="beamerbaseboxes"]
  	115 [style="main2 node",texlbl="beamerbaselocalstructure"]
  	1150 [style="internal node",texlbl="enumerate"]
- 	116 [style="internal node",texlbl="beamerbasenavigation"]
+ 	116 [style="main2 node",texlbl="beamerbasenavigation"]
  	117 [style="main2 node",texlbl="beamerbasetheorems"]
  	1170 [style="complesso node",texlbl="amsmath"]
  	1171 [style="complesso node",texlbl="amsthm"]
@@ -194,7 +139,7 @@ digraph G{
  digraph G{
  	size = "8.3,11.7";
  	center="true";
- 	rankdir="LR";
+ 	rankdir="TD";
  	640 [style="main node",texlbl="pgfmath.code.tex"]
  	6400 [style="main2 node",texlbl="pgfmathcalc.code.tex"]
  	64000 [style="main2 node",texlbl="pgfmathutil.code.tex"]
@@ -223,7 +168,7 @@ digraph G{
  digraph G{
  	size = "8.3,11.7";
  	center="true";
- 	rankdir="LR";
+ 	rankdir="TD";
  	640 [style="main node",texlbl="pgfmath.code.tex"]
  	6400 [style="main2 node",texlbl="pgfmathcalc.code.tex"]
  	64000 [style="internal node",texlbl="pgfmathutil.code.tex"]
@@ -311,7 +256,7 @@ digraph G{
 \lstinputlisting[caption={Classe Beamer},%
 captionpos=b,label=lst:beamer]{test/Mbeamer.tex}
 \selectlanguage{italian}
-Grafico uno~\vref{fig:beamer0}  Grafico due~\vref{fig:beamer2}  Grafico tre~\vref{fig:beamer3}  Grafico quattro~\vref{fig:beamer4}  Grafico cinque~\vref{fig:beamer5}  Grafico sei~\vref{fig:beamer6} Grafico sette~\vref{fig:beamer7} 
+Grafico uno~\vref{fig:beamer0}  Grafico due~\vref{fig:beamer2}  Grafico tre~\vref{fig:beamer3}  Grafico quattro~\vref{fig:beamer4}  Grafico cinque~\vref{fig:beamer5}  Grafico sei~\vref{fig:beamer6}  Grafico sette~\ref{fig:beamer7} 
 \selectlanguage{english}
 
 Caricato 
@@ -444,6 +389,60 @@ Caricato
 \item book.cls 2014/09/29 v1.4h Standard LaTeX document class
 \item bk11.clo\Cindex{bk11.clo}{book.cls} 2014/09/29 v1.4h Standard LaTeX file (size option)
 \end{enumerate}
+\begin{figure}
+	\centering
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{dot2tex}[format=tikz,scale=.8,styleonly]
+	digraph G{
+		size = "8.3,11.8";
+		rankdir="LR";
+		1 [style="main node",texlbl="beamer.cls"]
+		2 [style="main2 node",texlbl="beamerbasercs"] 
+		3 [style="main2 node",texlbl="beamerbasemodes"]
+		30[style="internal node",texlbl="beamerbasedecode"] 
+		
+		4 [style="internal node",texlbl=" ifpdf"]
+		5 [style="main2 node",texlbl="beamerbaseoptions"]
+		50[style="internal node",texlbl="keyvall"]
+		6 [style="main2 node",texlbl="pgfcore"]
+		60 [style="complesso node",texlbl="graphicx"]
+		61 [style="complesso node",texlbl="pgfsys"]
+		63 [style="complesso node",texlbl="xcolor"]
+		64 [style="complesso node",texlbl="pgfcore.code.tex"]
+		
+		7 [style="main2 node",texlbl="xxcolor"]
+		8 [style="complesso node",texlbl="atbegshi"]
+		9 [style="complesso node",texlbl="hyperref"]
+		10 [style="complesso node",texlbl="beamerbaserequires"]
+		1->2
+		1->3
+		3->30
+		1->4
+		1->5
+		5->50
+		1->6
+		6->60
+		6->61
+		
+		6->50
+		6->63
+		6->64
+		
+		7->63
+		1->7
+		1->8
+		1->9
+		1->10
+		10->50
+		8->4
+		60->4
+	}
+	\end{dot2tex}
+	%% 
+	\end{tikzpicture}
+	\caption{Beamer generale}
+	\label{fig:beamer0}
+\end{figure}
 \section{memoir}
 \lstinputlisting[caption={Classe memoir},%
 captionpos=b,label=lst:memoir]{test/Mmemoir.tex}
