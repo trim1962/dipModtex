@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.1.15)  18 JAN 2015 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.1.15)  20 JAN 2015 15:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -83,7 +83,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \verbatim@out=\write3
-runsystem(echo 'write18-test-20151181433'>"DipLatex.w18")...executed.
+runsystem(echo 'write18-test-2015120905'>"DipLatex.w18")...executed.
 
 \instream=\read2
 runsystem(rm -- "DipLatex.w18")...executed.
@@ -1226,27 +1226,24 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
 (c:/texlive/2014/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
-) (./DipLatex.aux
-
-LaTeX Warning: Label `lst:epstopdf-base' multiply defined.
-
-)
+) (./DipLatex.aux)
 \openout1 = `DipLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 80.
- (c:/texlive/2014/texmf-dist/tex/latex/psnfss/t1pplj.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 79.
+
+(c:/texlive/2014/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 *geometry* driver: auto-detecting
@@ -1258,14 +1255,14 @@ File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=731.23584pt
+* \textheight=759.6886pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-45.43198pt
+* \topmargin=-59.65836pt
 * \headheight=12.0pt
 * \headsep=18.06749pt
 * \topskip=10.0pt
@@ -1284,7 +1281,7 @@ File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \big@size=\dimen268
-LaTeX Info: Redefining \microtypecontext on input line 80.
+LaTeX Info: Redefining \microtypecontext on input line 79.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1297,8 +1294,8 @@ Package microtype Info: No adjustment of character kerning.
 (c:/texlive/2014/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-LaTeX Info: Redefining \it@ocap on input line 80.
-LaTeX Info: Redefining \it@ccap on input line 80.
+LaTeX Info: Redefining \it@ocap on input line 79.
+LaTeX Info: Redefining \it@ccap on input line 79.
 
 ABD: EveryShipout initializing macros
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1349,31 +1346,31 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count179
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 81.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 80.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 81.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 80.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 81.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 80.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 81.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 80.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 81.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 80.
 
 
 (c:/texlive/2014/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -1418,7 +1415,7 @@ File: lstlang3.sty 2014/09/06 1.5e listings language file
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 83.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 82.
  (./DipLatex.toc
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
@@ -1430,7 +1427,7 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 \openout13 = `DipLatex.toc'.
 
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 85.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 84.
  [2] (./DipLatex.lol [3
 
 ])
@@ -1480,11 +1477,10 @@ LaTeX Font Warning: Font shape `OMS/pplj/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textasteriskcentered' on input line 76.
 
-[6
-
-] [7] [8]
 ===== Image 'figures/DipLatex-figure0' is up-to-date. ======
-) (./classi.tex [9 <./figures/DipLatex-figure0.pdf>]
+) (./classi.tex [6
+
+] [7] [8] [9 <./figures/DipLatex-figure0.pdf>]
 Capitolo 2.
 (./test/genarticle.tex)
 ===== Image 'figures/DipLatex-figure1' is up-to-date. ======
@@ -1493,152 +1489,158 @@ Capitolo 2.
 ===== Image 'figures/DipLatex-figure4' is up-to-date. ======
 ===== Image 'figures/DipLatex-figure5' is up-to-date. ======
 ===== Image 'figures/DipLatex-figure6' is up-to-date. ======
+===== Image 'figures/DipLatex-figure7' is up-to-date. ======
 (./test/Mbeamer.tex) [10
 
 ] [11 <./figures/DipLatex-figure1.pdf>] [12 <./figures/DipLatex-figure2.pdf> <.
 /figures/DipLatex-figure3.pdf>] [13 <./figures/DipLatex-figure4.pdf> <./figures
-/DipLatex-figure5.pdf> <./figures/DipLatex-figure6.pdf>] [14] (./test/genbook.t
-ex) (./test/genbook11.tex)
-\openout12 = `figures/DipLatex-figure7.md5'.
-
-
-===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "figures/DipLatex-figure7" "\def\tikzex
-ternalrealjob{DipLatex}\input{DipLatex}"' ========
-\openout12 = `DipLatex.auxlock'.
-
-runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
- "figures/DipLatex-figure7" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex}
-")...executed.
-
-\openout12 = `DipLatex.auxlock'.
-
-[15] (./test/Mmemoir.tex) [16 <./figures/DipLatex-figure7.pdf>]
+/DipLatex-figure5.pdf> <./figures/DipLatex-figure6.pdf>] [14 <./figures/DipLate
+x-figure7.pdf>] (./test/genbook.tex)
+(./test/genbook11.tex) [15]
+===== Image 'figures/DipLatex-figure8' is up-to-date. ======
+(./test/Mmemoir.tex) [16 <./figures/DipLatex-figure8.pdf>]
 (./test/genminimal.tex) (./test/genreport.tex) (./test/genscrartcl.tex)
 [17]
-===== Image 'figures/DipLatex-figure8' is up-to-date. ======
 ===== Image 'figures/DipLatex-figure9' is up-to-date. ======
-(./test/gensuftesi.tex) [18 <./figures/DipLatex-figure8.pdf>] [19 <./figures/Di
-pLatex-figure9.pdf>]) (./package.tex [20]
+===== Image 'figures/DipLatex-figure10' is up-to-date. ======
+(./test/gensuftesi.tex) [18 <./figures/DipLatex-figure9.pdf>] [19 <./figures/Di
+pLatex-figure10.pdf>]) (./package.tex [20]
 Capitolo 3.
 (./test/Mamsbsy.tex) (./test/Mamscd.tex) (./test/Mamsfonts.tex) [21
 
 ]
 (./test/Mamsfonts.tex)
-===== Image 'figures/DipLatex-figure10' is up-to-date. ======
-(./test/Mamsmath.tex) (./test/Mamsopn.tex) [22 <./figures/DipLatex-figure10.pdf
+\openout12 = `figures/DipLatex-figure11.md5'.
+
+
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "figures/DipLatex-figure11" "\def\tikze
+xternalrealjob{DipLatex}\input{DipLatex}"' ========
+\openout12 = `DipLatex.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "figures/DipLatex-figure11" "\def\tikzexternalrealjob{DipLatex}\input{DipLatex
+}")...executed.
+
+\openout12 = `DipLatex.auxlock'.
+
+(./test/Mamsmath.tex) (./test/Mamsopn.tex) [22 <./figures/DipLatex-figure11.pdf
 >] (./test/Mamssymb.tex) (./test/Mamstext.tex) (./test/Mamsthm.tex)
 (./test/Mamsxtra.tex) [23] (./test/Mappendix.tex) (./test/Marray.tex)
-===== Image 'figures/DipLatex-figure11' is up-to-date. ======
-(./test/Matbegshi.tex [24 <./figures/DipLatex-figure11.pdf>])
 ===== Image 'figures/DipLatex-figure12' is up-to-date. ======
-(./test/Mbabel.tex) (./test/mberamono.tex)
+(./test/Matbegshi.tex) [24 <./figures/DipLatex-figure12.pdf>]
 ===== Image 'figures/DipLatex-figure13' is up-to-date. ======
-(./test/mbitset.tex [25 <./figures/DipLatex-figure12.pdf>])
-(./test/mbooktabs.tex) (./test/mcaption.tex) [26 <./figures/DipLatex-figure13.p
-df>] (./test/mccaption.tex)
+(./test/Mbabel.tex) (./test/mberamono.tex)
 ===== Image 'figures/DipLatex-figure14' is up-to-date. ======
-(./test/mcclicenses.tex) [27 <./figures/DipLatex-figure14.pdf>]
+(./test/mbitset.tex) [25 <./figures/DipLatex-figure13.pdf>]
+(./test/mbooktabs.tex) (./test/mcaption.tex) (./test/mccaption.tex [26 <./figur
+es/DipLatex-figure14.pdf>])
 ===== Image 'figures/DipLatex-figure15' is up-to-date. ======
+(./test/mcclicenses.tex)
 ===== Image 'figures/DipLatex-figure16' is up-to-date. ======
-(./test/mcolor.tex) (./test/mcolor.tex) (./test/mchangepage.tex [28 <./figures/
-DipLatex-figure15.pdf> <./figures/DipLatex-figure16.pdf>]) (./test/mchngntr.tex
-) (./test/mchngpage.tex) (./test/mcmap.tex)
 ===== Image 'figures/DipLatex-figure17' is up-to-date. ======
+(./test/mcolor.tex [27 <./figures/DipLatex-figure15.pdf>]) (./test/mcolor.tex)
+(./test/mchangepage.tex) (./test/mchngntr.tex [28 <./figures/DipLatex-figure16.
+pdf> <./figures/DipLatex-figure17.pdf>]) (./test/mchngpage.tex)
+(./test/mcmap.tex)
 ===== Image 'figures/DipLatex-figure18' is up-to-date. ======
+===== Image 'figures/DipLatex-figure19' is up-to-date. ======
 
-Overfull \hbox (8.81717pt too wide) in paragraph at lines 489--528
+Overfull \hbox (8.81717pt too wide) in paragraph at lines 493--532
  [][] 
  []
 
-(./test/mcrop.tex [29]) [30 <./figures/DipLatex-figure17.pdf> <./figures/DipLat
-ex-figure18.pdf>] (./test/Menumitem.tex)
-===== Image 'figures/DipLatex-figure19' is up-to-date. ======
-(./test/Meostopdf.tex) [31 <./figures/DipLatex-figure19.pdf>]
+(./test/mcrop.tex [29 <./figures/DipLatex-figure18.pdf>]) (./test/Menumitem.tex
+[30 <./figures/DipLatex-figure19.pdf>])
 ===== Image 'figures/DipLatex-figure20' is up-to-date. ======
-(./test/Meostopdf-base.tex)
+(./test/Meostopdf.tex)
 ===== Image 'figures/DipLatex-figure21' is up-to-date. ======
-[32 <./figures/DipLatex-figure20.pdf>] (./test/metoolbox.tex)
-(./test/Mfixltx2e.tex) (./test/Mfontec.tex) (./test/Mfontenc2.tex) [33 <./figur
-es/DipLatex-figure21.pdf>]
+(./test/Meostopdf-base.tex) [31 <./figures/DipLatex-figure20.pdf>]
 ===== Image 'figures/DipLatex-figure22' is up-to-date. ======
-(./test/Mfourier.tex)
+(./test/metoolbox.tex) [32 <./figures/DipLatex-figure21.pdf> <./figures/DipLate
+x-figure22.pdf>] (./test/Mfixltx2e.tex) (./test/Mfontec.tex)
+(./test/Mfontenc2.tex)
 ===== Image 'figures/DipLatex-figure23' is up-to-date. ======
-(./test/Mgeometry.tex [34 <./figures/DipLatex-figure22.pdf> <./figures/DipLatex
--figure23.pdf>])
+(./test/Mfourier.tex) [33 <./figures/DipLatex-figure23.pdf>]
 ===== Image 'figures/DipLatex-figure24' is up-to-date. ======
-(./test/Mgraphics.tex)
+(./test/Mgeometry.tex)
 ===== Image 'figures/DipLatex-figure25' is up-to-date. ======
-[35 <./figures/DipLatex-figure24.pdf> <./figures/DipLatex-figure25.pdf>]
+(./test/Mgraphics.tex) [34 <./figures/DipLatex-figure24.pdf>]
 ===== Image 'figures/DipLatex-figure26' is up-to-date. ======
 ===== Image 'figures/DipLatex-figure27' is up-to-date. ======
-(./test/Mgraphicx.tex) [36 <./figures/DipLatex-figure26.pdf> <./figures/DipLate
-x-figure27.pdf>] (./test/Mgraphicx.tex) (./test/Mifpdf.tex)
-(./test/Minfwarerr.tex) (./test/Minputenc2.tex) [37] (./test/Minputenc1.tex)
-(./test/Misomath.tex) (./test/Mkeyval.tex) [38] (./test/Mltxcmds.tex)
 ===== Image 'figures/DipLatex-figure28' is up-to-date. ======
-(./test/Mmathpazo.tex)
+(./test/Mgraphicx.tex [35 <./figures/DipLatex-figure25.pdf> <./figures/DipLatex
+-figure26.pdf> <./figures/DipLatex-figure27.pdf>]) (./test/Mgraphicx.tex)
+(./test/Mifpdf.tex) [36 <./figures/DipLatex-figure28.pdf>]
+(./test/Minfwarerr.tex) (./test/Minputenc2.tex) (./test/Minputenc1.tex)
+(./test/Misomath.tex) [37] (./test/Mkeyval.tex) (./test/Mltxcmds.tex)
 ===== Image 'figures/DipLatex-figure29' is up-to-date. ======
-(./test/Mmicrotype.tex [39 <./figures/DipLatex-figure28.pdf> <./figures/DipLate
-x-figure29.pdf>]) (./test/Mmulticol.tex)
+(./test/Mmathpazo.tex) [38 <./figures/DipLatex-figure29.pdf>]
 ===== Image 'figures/DipLatex-figure30' is up-to-date. ======
-(./test/Mpdftexcmds.tex) (./test/Mtextcomp.tex [40 <./figures/DipLatex-figure30
-.pdf>]) (./test/Mtitlesec.tex) (./test/Mtrig.tex)
+(./test/Mmicrotype.tex) (./test/Mmulticol.tex)
 ===== Image 'figures/DipLatex-figure31' is up-to-date. ======
-(./test/mxcolor.tex) [41]
+(./test/Mpdftexcmds.tex [39 <./figures/DipLatex-figure30.pdf> <./figures/DipLat
+ex-figure31.pdf>]) (./test/Mtextcomp.tex) (./test/Mtitlesec.tex)
+(./test/Mtrig.tex)
 ===== Image 'figures/DipLatex-figure32' is up-to-date. ======
-(./test/mxkeyval.tex)) (./ordine.tex [42 <./figures/DipLatex-figure31.pdf> <./f
-igures/DipLatex-figure32.pdf>]
+[40] (./test/mxcolor.tex)
+===== Image 'figures/DipLatex-figure33' is up-to-date. ======
+(./test/mxkeyval.tex)) (./ordine.tex [41 <./figures/DipLatex-figure32.pdf> <./f
+igures/DipLatex-figure33.pdf>]
 Capitolo 4.
-(./test/mcolorVxcolor.tex) (./test/mxcolorVcolor.tex) [43
+(./test/mcolorVxcolor.tex) (./test/mxcolorVcolor.tex)
+(./test/MFixLtXHyphVbabel.tex [42
 
-]
-(./test/MFixLtXHyphVbabel.tex) (./test/MbabelVFixLtXHyph.tex)
-(./test/Mfourierfontenc.tex) (./test/MxkeyvalVkeyvall.tex) [44])
+]) (./test/MbabelVFixLtXHyph.tex)
+(./test/Mfourierfontenc.tex) (./test/MxkeyvalVkeyvall.tex))
 runsystem(makeindex -s oldclaudio.sti DipLatex.idx)...executed.
 
-
-(./DipLatex.ind [45
-\indexentry{xkeyval.sty}{45}
-\indexentry{xkeyval.tex}{45}
+ (./DipLatex.ind
+[43
+\indexentry{fixltxhyph.sty}{43}
+\indexentry{babel.sty}{43}
+\indexentry{babel.sty}{43}
+\indexentry{fixltxhyph.sty}{43}
+\indexentry{xkeyval.sty}{43}
+\indexentry{xkeyval.tex}{43}
 ]
 Capitolo 5.
-[46
+[44
 
-] [47])
+] [45])
 runsystem(makeindex -s oldclaudio.sti emulato.idx)...executed.
 
- (./emulato.ind [48]
+ (./emulato.ind [46]
 Capitolo 6.
-[49
+[47
 
 ])
 runsystem(makeindex -s oldclaudio.sti Warning.idx)...executed.
 
- (./Warning.ind [50]
+ (./Warning.ind [48]
 Capitolo 7.
 )
 runsystem(makeindex -s oldclaudio.sti usato.idx)...executed.
 
- (./usato.ind [51
+ (./usato.ind [49
 
 ]
 Capitolo 8.
-[52
+[50
 
-] [53] [54])
+] [51])
 runsystem(makeindex -s oldclaudio.sti dipende.idx)...executed.
 
- (./dipende.ind [55]
+ (./dipende.ind [52]
 Capitolo 9.
-[56
+[53
 
-] [57])
+])
 runsystem(makeindex -s oldclaudio.sti conffile.idx)...executed.
 
- (./conffile.ind [58]
+ (./conffile.ind [54]
 Capitolo 10.
-[59
+[55
 
 ])
 runsystem(makeindex -s oldclaudio.sti drvfile.idx)...executed.
@@ -1648,18 +1650,18 @@ Capitolo 11.
 )
 runsystem(makeindex incomp.idx)...executed.
 
- (./incomp.ind [60
+ (./incomp.ind [56
 
 ]
 Capitolo 12.
 )
 runsystem(makeindex -s oldclaudio.sti Warning.idx)...executed.
 
- (./Warning.ind [61
+ (./Warning.ind [57
 
 ]
 Capitolo 13.
-) [62
+) [58
 
 ] (./DipLatex.aux)
 
@@ -1863,16 +1865,13 @@ conffile.ind
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 29273 strings out of 493109
- 571870 string characters out of 6138587
- 724905 words of memory out of 5000000
- 31787 multiletter control sequences out of 15000+600000
- 70579 words of font info for 207 fonts, out of 8000000 for 9000
+ 29270 strings out of 493109
+ 571862 string characters out of 6138587
+ 726849 words of memory out of 5000000
+ 31789 multiletter control sequences out of 15000+600000
+ 70298 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,8n,122p,10454b,2307s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2014/texm
@@ -1883,10 +1882,10 @@ b><c:/texlive/2014/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/20
 14/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2014/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2014/texmf-dist/fonts/type1/urw/
 palatino/uplri8a.pfb>
-Output written on DipLatex.pdf (63 pages, 271009 bytes).
+Output written on DipLatex.pdf (59 pages, 270503 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
+ 414 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 47794 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 47799 words of extra memory for PDF output out of 51595 (max. 10000000)
 

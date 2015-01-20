@@ -22,8 +22,11 @@ Caricato
  	100 [style="main2 node",texlbl="beamerbasecompatibility"]
  	101 [style="main2 node",texlbl="beamerbasefont"]
  	1010 [style="internal node",texlbl="amssymb"]
+ 	1011 [style="internal node",texlbl="sansmathaccent"]
+ 	10110 [style="internal node",texlbl="filehook"]
+ 	
  	102 [style="main2 node",texlbl="beamerbasetranslator"]
- 	1020 [style="complesso node",texlbl="translator"]
+ 	1020 [style="complesso node",texlbl="translator \vref{fig:beamer6}"]
  	103 [style="main2 node",texlbl="beamerbasemisc"]
  	104 [style="main2 node",texlbl="beamerbasetwoscreens"]
  	105 [style="main2 node",texlbl="beamerbaseoverlay"]
@@ -44,33 +47,25 @@ Caricato
  	117 [style="main2 node",texlbl="beamerbasetheorems"]
  	1170 [style="complesso node",texlbl="amsmath"]
  	1171 [style="complesso node",texlbl="amsthm"]
- 	118 [style="main2 node",texlbl="beamerbasethemes"]
- 	10->100
- 	10->101
+ 	118 [style="complesso node",texlbl="beamerbasethemes"]
+ 	
+ 	119 [style="main2 node",texlbl="beamerbasenotes"] 	
+ 	
  	101->1010
- 	10->102
+ 	101->1011
+ 	1011->10110
+
  	102->1020
- 	10->103
- 	10->104
- 	10->105
- 	10->106
- 	10->107
- 	10->108
- 	10->109
- 	10->110
- 	10->111
- 	10->112
- 	10->113
- 	10->114
+ 	10->{100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119}
+
  	114->1140
  	1140->11400
- 	10->115
+ 	
  	115->1150
- 	10->116
- 	10->117
+ 	
  	117->1170
  	117->1171
- 	10->118
+ 	
  	
  }
  \end{dot2tex}
@@ -82,7 +77,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-\begin{dot2tex}[format=tikz,scale=.9,styleonly]
+\begin{dot2tex}[format=tikz,scale=1,styleonly]
 digraph G{
 	size = "8.3,11.7";
 	center="true";
@@ -135,18 +130,18 @@ digraph G{
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
- \begin{dot2tex}[format=tikz,scale=.8,styleonly]
+ \begin{dot2tex}[format=tikz,scale=1,styleonly]
  digraph G{
  	size = "8.3,11.7";
  	center="true";
  	rankdir="TD";
  	640 [style="main node",texlbl="pgfmath.code.tex"]
  	6400 [style="main2 node",texlbl="pgfmathcalc.code.tex"]
- 	64000 [style="main2 node",texlbl="pgfmathutil.code.tex"]
+ 	64000 [style="internal node",texlbl="pgfmathutil.code.tex"]
  	64001 [style="internal node",texlbl="pgfmathparser.code.tex"]
  	64002 [style="complesso node",texlbl="pgfmathfunctions.code.tex"]
  
- 	6401 [style="internal node",texlbl="pgfmathfloat.code.tex"]
+ 	6401 [style="main2 node",texlbl="pgfmathfloat.code.tex"]
  	640->6400
  	6400->64000
  	6400->64001
@@ -166,22 +161,33 @@ digraph G{
 	\begin{tikzpicture}%[scale=0.8]
  \begin{dot2tex}[format=tikz,scale=1,styleonly]
  digraph G{
- 	size = "8.3,11.7";
- 	center="true";
- 	rankdir="TD";
- 	640 [style="main node",texlbl="pgfmath.code.tex"]
- 	6400 [style="main2 node",texlbl="pgfmathcalc.code.tex"]
- 	64000 [style="internal node",texlbl="pgfmathutil.code.tex"]
- 	64001 [style="internal node",texlbl="pgfmathparser.code.tex"]
- 	64002 [style="complesso node",texlbl="pgfmathfunctions.code.tex"]
+ 	size = "8.3,11.8";
+ 	rankdir="LR";
+ 	61 [style="main node",texlbl="pgfsys"]
+ 	610 [style="main2 node",texlbl="pgfrcs"]
+ 	6100 [style="internal node",texlbl="pgfutil-common.tex"]
+ 	6101 [style="cfg node",texlbl="pgfutil-latex.def"]
  	
- 	6401 [style="main2 node",texlbl="pgfmathfloat.code.tex"]
- 	640->6400
- 	6400->64000
- 	6400->64001
- 	6400->64002
+ 	61010 [style="internal node",texlbl="everyshi"]
+ 	6102 [style="internal node",texlbl="pgfrcs.code.tex"]
+ 	611 [style="main2 node",texlbl="pgfsyssoftpath.code.tex"]
+ 	612 [style="main2 node",texlbl="pgfsyaprotocol.code.tex"]
+ 	613 [style="main2 node",texlbl="pgfsys.code.tex"]
+ 	6130  [style="internal node",texlbl="pgfkeys.code.tex"] 
+	61300 [style="internal node",texlbl="ppgfkeysfiltered.code.tex"]  	
+ 	 6131 [style="cfg node",texlbl="pgf.cfg"] 
  	
- 	640->6401
+ 	61->610
+ 	610->6100
+ 	610->6101
+ 	6101->61010
+ 	610->6102
+ 	61->611
+ 	61->612
+ 	61->613
+ 	613->6130
+ 	6130->61300
+ 	613->6131
  }
  \end{dot2tex}
 	\end{tikzpicture}
@@ -253,10 +259,39 @@ digraph G{
 	\caption{Beamer pgfmathfunctions.code.tex}
 	\label{fig:beamer7}
 \end{figure}
+\begin{figure}
+	\centering
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{dot2tex}[format=tikz,scale=1,styleonly]
+	digraph G{
+		size = "8.3,11.7";
+		center="true";
+		rankdir="LR";
+		
+		118 [style="main node",texlbl="beamerbasethemes"]
+		1180 [style="internal node",texlbl="beamerthemedefault"]
+		11800 [style="internal node",texlbl="beamerfontthemedefault"]
+		11801 [style="internal node",texlbl="beamercolorthemedefault"]
+		11802 [style="internal node",texlbl="beamerinnerthemedefault"]
+		11803 [style="internal node",texlbl="beamerouterthemedefault"]
+		
+		
+		118->1180
+		1180->11800
+		1180->11801
+		1180->11802
+		1180->11803
+		
+	}
+	\end{dot2tex}
+	\end{tikzpicture}
+	\caption{Beamer beamerbasethemes}
+	\label{fig:beamer8}
+\end{figure}
 \lstinputlisting[caption={Classe Beamer},%
 captionpos=b,label=lst:beamer]{test/Mbeamer.tex}
 \selectlanguage{italian}
-Grafico uno~\vref{fig:beamer0}  Grafico due~\vref{fig:beamer2}  Grafico tre~\vref{fig:beamer3}  Grafico quattro~\vref{fig:beamer4}  Grafico cinque~\vref{fig:beamer5}  Grafico sei~\vref{fig:beamer6}  Grafico sette~\ref{fig:beamer7} 
+Grafico uno~\vref{fig:beamer0}  Grafico due~\vref{fig:beamer2}  Grafico tre~\vref{fig:beamer3}  Grafico quattro~\vref{fig:beamer4}  Grafico cinque~\vref{fig:beamer5}  Grafico sei~\vref{fig:beamer6}  Grafico sette~\ref{fig:beamer7} Grafico otto~\ref{fig:beamer8} 
 \selectlanguage{english}
 
 Caricato 
@@ -264,7 +299,7 @@ Caricato
 \item beamer.cls\index{beamer.cls} 2013/12/02 3.33 A class for typesetting presentations (rcs-revision 332bfd3ce558)
 \item beamerbasercs.sty\index{beamerbasercs.sty}\Uindex{beamerbasercs.sty}{beamer.cls} 2013/12/25 (rcs-revision 31cc758a62ae)
 \item beamerbasemodes.sty\index{beamerbasemodes.sty}\Uindex{beamerbasemodes.sty}{beamer.cls} 2013/09/03 (rcs-revision 768f2d98ca64)
-\item beamerbasedecode.sty\index{beamerbasedecode.sty}\Uindex{beamerbasedecode.sty}{beamer.cls} 2010/05/01 (rcs-revision efa082c6111d)
+\item beamerbasedecode.sty\index{beamerbasedecode.sty}\Uindex{beamerbasemodes.sty}{beamer.cls} 2010/05/01 (rcs-revision efa082c6111d)
 \item ifpdf.sty\index{ifpdf.sty}\Uindex{ifpdf.sty}{beamer.cls} 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 \item beamerbaseoptions.sty\index{beamerbaseoptions.sty}\Uindex{beamerbaseoptions.sty}{beamer.cls} 2013/03/10 (rcs-revision 47431932db0d)
 \item keyval.sty\index{keyval.sty}\Uindex{keyval.sty}{beamer.cls} 2014/10/28 v1.15 key=value parser (DPC)
@@ -280,17 +315,17 @@ Caricato
 \item pdftex.def\index{pdftex.def}\Cindex{pdftex.def}{beamer.cls} 2011/05/27 v0.06d Graphics/color for pdfTeX
 \item infwarerr.sty\index{infwarerr.sty}\Uindex{infwarerr.sty}{beamer.cls} 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 \item ltxcmds.sty\index{ltxcmds.sty}\Uindex{ltxcmds.sty}{beamer.cls} 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-\item pgfsys.sty\index{pgfsys.sty}\Uindex{pgfsys.sty}{beamer.cls} 2013/11/30 v3.0.0 (rcs-revision 1.47)
-\item pgfrcs.sty\index{pgfrcs.sty}\Uindex{pgfrcs.sty}{beamer.cls} 2013/12/20 v3.0.0 (rcs-revision 1.28)
-\item everyshi.sty\index{everyshi.sty}\Uindex{everyshi.sty}{beamer.cls} 2001/05/15 v3.00 EveryShipout Package (MS)
-\item pgfrcs.code.tex\index{pgfrcs.code.tex}\Uindex{pgfrcs.code.tex}{beamer.cls}
-\item pgfsys.code.tex\index{pgfsys.code.tex}\Uindex{pgfsys.code.tex}{beamer.cls}
-\item pgfsyssoftpath.code.tex\index{pgfsyssoftpath.code.tex}\Uindex{pgfsyssoftpath.code.tex}{beamer.cls} 2013/09/09 (rcs-revision 1.9)
-\item pgfsysprotocol.code.tex\index{pgfsysprotocol.code.tex}\Uindex{pgfsysprotocol.code.tex}{beamer.cls} 2006/10/16 (rcs-revision 1.4)
+\item pgfsys.sty\index{pgfsys.sty}\Uindex{pgfsys.sty}{pgfcore.sty} 2013/11/30 v3.0.0 (rcs-revision 1.47)
+\item pgfrcs.sty\index{pgfrcs.sty}\Uindex{pgfrcs.sty}{pgfsys.sty} 2013/12/20 v3.0.0 (rcs-revision 1.28)
+\item everyshi.sty\index{everyshi.sty}\Uindex{everyshi.sty}{pgfrcs.sty} 2001/05/15 v3.00 EveryShipout Package (MS)
+\item pgfrcs.code.tex\index{pgfrcs.code.tex}\Uindex{pgfrcs.code.tex}{pgfrcs.sty}
+\item pgfsys.code.tex\index{pgfsys.code.tex}\Uindex{pgfsys.code.tex}{pgfsys.sty}
+\item pgfsyssoftpath.code.tex\index{pgfsyssoftpath.code.tex}\Uindex{pgfsyssoftpath.code.tex}{pgfsys.sty} 2013/09/09 (rcs-revision 1.9)
+\item pgfsysprotocol.code.tex\index{pgfsysprotocol.code.tex}\Uindex{pgfsysprotocol.code.tex}{pgfsys.sty} 2006/10/16 (rcs-revision 1.4)
 \item xcolor.sty\index{xcolor.sty}\Uindex{xcolor.sty}{beamer.cls} 2007/01/21 v2.11 LaTeX color extensions (UK)
 \item color.cfg\index{color.cfg}\Cindex{color.cfg}{beamer.cls} 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-\item pgfcore.code.tex\index{pgfcore.code.tex}\Uindex{pgfcore.code.tex}{beamer.cls}
-\item 	xcolor.sty\index{xcolor.sty}\Uindex{xcolor.sty}{beamer.cls} 2003/10/24 ver 0.1
+\item pgfcore.code.tex\index{pgfcore.code.tex}\Uindex{pgfcore.code.tex}{pgfcore.sty}
+\item 	xcolor.sty\index{xcolor.sty}\Uindex{xcolor.sty}{pgfcore.sty} 2003/10/24 ver 0.1
 \item atbegshi.sty\index{atbegshi.sty}\Uindex{atbegshi.sty}{beamer.cls} 2011/10/05 v1.16 At begin shipout hook (HO)
 \item hyperref.sty\index{hyperref.sty}\Uindex{hyperref.sty}{beamer.cls} 2012/11/06 v6.83m Hypertext links for LaTeX
 \item hobsub-hyperref.sty\index{hobsub-hyperref.sty}\Uindex{hobsub-hyperref.sty}{beamer.cls} 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
@@ -320,45 +355,45 @@ Caricato
 \item hpdftex.def\index{hpdftex.def}\Cindex{hpdftex.def}{beamer.cls} 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \item rerunfilecheck.sty\index{rerunfilecheck.sty}\Uindex{rerunfilecheck.sty}{beamer.cls} 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 \item beamerbaserequires.sty\index{beamerbaserequires.sty}\Uindex{beamerbaserequires.sty}{beamer.cls} 2010/05/01 (rcs-revision efa082c6111d)
-\item beamerbasecompatibility.sty\index{beamerbasecompatibility.sty}\Uindex{beamerbasecompatibility.sty}{beamer.cls} 2012/05/01 (rcs-revision 67c48b3b652d)
-\item beamerbasefont.sty\index{beamerbasefont.sty}\Uindex{beamerbasefont.sty}{beamer.cls} 2013/10/18 (rcs-revision 72f39e01808a)
-\item amssymb.sty\index{amssymb.sty}\Uindex{amssymb.sty}{beamer.cls} 2013/01/14 v3.01 AMS font symbols
+\item beamerbasecompatibility.sty\index{beamerbasecompatibility.sty}\Uindex{beamerbasecompatibility.sty}{beamerbaserequires.sty} 2012/05/01 (rcs-revision 67c48b3b652d)
+\item beamerbasefont.sty\index{beamerbasefont.sty}\Uindex{beamerbasefont.sty}{beamerbaserequires.sty} 2013/10/18 (rcs-revision 72f39e01808a)
+\item amssymb.sty\index{amssymb.sty}\Uindex{amssymb.sty}{beamerbasefont.sty} 2013/01/14 v3.01 AMS font symbols
 \item amsfonts.sty\index{amsfonts.sty}\Uindex{amsfonts.sty}{amssymb.sty} 2013/01/14 v3.01 Basic AMSFonts support
-\item sansmathaccent.sty\index{sansmathaccent.sty}\Uindex{sansmathaccent.sty}{beamer.cls} 2013/03/28
-\item filehook.sty\index{filehook.sty}\Uindex{filehook.sty}{beamer.cls} 2011/10/12 v0.5d Hooks for input files
-\item beamerbasetranslator.sty\index{beamerbasetranslator.sty}\Uindex{beamerbasetranslator.sty}{beamer.cls} 2010/06/11 (rcs-revision 85fd1cc7fc42)
-\item translator.sty\index{translator.sty}\Uindex{translator.sty}{beamer.cls} 2010/06/12 ver 1.10
-\item translator-language-mappings.tex\index{translator-language-mappings.tex}\Uindex{translator-language-mappings.tex}{beamer.cls}
-\item beamerbasemisc.sty\index{beamerbasemisc.sty}\Uindex{beamerbasemisc.sty}{beamer.cls} 2013/09/03 (rcs-revision a55719c41d85)
-\item beamerbasetwoscreens.sty\index{beamerbasetwoscreens.sty}\Uindex{beamerbasetwoscreens.sty}{beamer.cls} 2010/05/01 (rcs-revision efa082c6111d)
-\item beamerbaseoverlay.sty\index{beamerbaseoverlay.sty}\Uindex{beamerbaseoverlay.sty}{beamer.cls} 2013/12/25 (rcs-revision f6bd5e3805da)
-\item beamerbasetitle.sty\index{beamerbasetitle.sty}\Uindex{beamerbasetitle.sty}{beamer.cls} 2010/09/21 (rcs-revision f0446ed0b6ae)
-\item beamerbasesection.sty\index{beamerbasesection.sty}\Uindex{beamerbasesection.sty}{beamer.cls} 2013/06/07 (rcs-revision 60b9fe0f342f)
-\item beamerbaseframe.sty\index{beamerbaseframe.sty}\Uindex{beamerbaseframe.sty}{beamer.cls} 2013/10/02 (rcs-revision cdc8e9a3aaac)
-\item beamerbaseverbatim.sty\index{beamerbaseverbatim.sty}\Uindex{beamerbaseverbatim.sty}{beamer.cls} 2012/08/30 (rcs-revision dfdb135076b3)
-\item beamerbaseframesize.sty\index{beamerbaseframesize.sty}\Uindex{beamerbaseframesize.sty}{beamer.cls} 2011/09/12 (rcs-revision 70f9d8411e54)
-\item beamerbaseframecomponents.sty\index{beamerbaseframecomponents.sty}\Uindex{beamerbaseframecomponents.sty}{beamer.cls} 2013/10/18 (rcs-revision 5cf6c5555a45)
-\item beamerbasecolor.sty\index{beamerbasecolor.sty}\Uindex{beamerbasecolor.sty}{beamer.cls} 2010/06/06 (rcs-revision d1a9b48be06d)
-\item beamerbasenotes.sty\index{beamerbasenotes.sty}\Uindex{beamerbasenotes.sty}{beamer.cls} 2012/12/19 (rcs-revision 1686da3db3c9)
-\item beamerbasetoc.sty\index{beamerbasetoc.sty}\Uindex{beamerbasetoc.sty}{beamer.cls} 2013/05/23 (rcs-revision 0fdf5bc43be8)
-\item beamerbasetemplates.sty\index{beamerbasetemplates.sty}\Uindex{beamerbasetemplates.sty}{beamer.cls} 2010/05/01 (rcs-revision efa082c6111d)
-\item beamerbaseauxtemplates.sty\index{beamerbaseauxtemplates.sty}\Uindex{beamerbaseauxtemplates.sty}{beamer.cls} 2013/09/04 (rcs-revision 4ac715c499d0)
-\item beamerbaseboxes.sty\index{beamerbaseboxes.sty}\Uindex{beamerbaseboxes.sty}{beamer.cls} 2012/05/13 (rcs-revision 56972908a390)
-\item beamerbaselocalstructure.sty\index{beamerbaselocalstructure.sty}\Uindex{beamerbaselocalstructure.sty}{beamer.cls} 2013/09/04 (rcs-revision 4ac715c499d0)
-\item enumerate.sty\index{enumerate.sty}\Uindex{enumerate.sty}{beamer.cls} 2014/10/28 v3.00 enumerate extensions (DPC)
-\item beamerbasenavigation.sty\index{beamerbasenavigation.sty}\Uindex{beamerbasenavigation.sty}{beamer.cls} 2013/10/05 (rcs-revision 62be157fe783)
-\item beamerbasetheorems.sty\index{beamerbasetheorems.sty}\Uindex{beamerbasetheorems.sty}{beamer.cls} 2010/06/06 (rcs-revision 7e7cc5e53e9d)
+\item sansmathaccent.sty\index{sansmathaccent.sty}\Uindex{sansmathaccent.sty}{beamerbasefont.sty} 2013/03/28
+\item filehook.sty\index{filehook.sty}\Uindex{filehook.sty}{sansmathaccent.sty} 2011/10/12 v0.5d Hooks for input files
+\item beamerbasetranslator.sty\index{beamerbasetranslator.sty}\Uindex{beamerbasetranslator.sty}{beamerbaserequires.sty} 2010/06/11 (rcs-revision 85fd1cc7fc42)
+\item translator.sty\index{translator.sty}\Uindex{translator.sty}{beamerbasetranslator.sty} 2010/06/12 ver 1.10
+\item translator-language-mappings.tex\index{translator-language-mappings.tex}\Uindex{translator-language-mappings.tex}{translator.sty}
+\item beamerbasemisc.sty\index{beamerbasemisc.sty}\Uindex{beamerbasemisc.sty}{beamerbaserequires.sty} 2013/09/03 (rcs-revision a55719c41d85)
+\item beamerbasetwoscreens.sty\index{beamerbasetwoscreens.sty}\Uindex{beamerbasetwoscreens.sty}{beamerbaserequires.sty} 2010/05/01 (rcs-revision efa082c6111d)
+\item beamerbaseoverlay.sty\index{beamerbaseoverlay.sty}\Uindex{beamerbaseoverlay.sty}{beamerbaserequires.sty} 2013/12/25 (rcs-revision f6bd5e3805da)
+\item beamerbasetitle.sty\index{beamerbasetitle.sty}\Uindex{beamerbasetitle.sty}{beamerbaserequires.sty} 2010/09/21 (rcs-revision f0446ed0b6ae)
+\item beamerbasesection.sty\index{beamerbasesection.sty}\Uindex{beamerbasesection.sty}{beamerbaserequires.sty} 2013/06/07 (rcs-revision 60b9fe0f342f)
+\item beamerbaseframe.sty\index{beamerbaseframe.sty}\Uindex{beamerbaseframe.sty}{beamerbaserequires.sty} 2013/10/02 (rcs-revision cdc8e9a3aaac)
+\item beamerbaseverbatim.sty\index{beamerbaseverbatim.sty}\Uindex{beamerbaseverbatim.sty}{beamerbaserequires.sty} 2012/08/30 (rcs-revision dfdb135076b3)
+\item beamerbaseframesize.sty\index{beamerbaseframesize.sty}\Uindex{beamerbaseframesize.sty}{beamerbaserequires.sty} 2011/09/12 (rcs-revision 70f9d8411e54)
+\item beamerbaseframecomponents.sty\index{beamerbaseframecomponents.sty}\Uindex{beamerbaseframecomponents.sty}{beamerbaserequires.sty} 2013/10/18 (rcs-revision 5cf6c5555a45)
+\item beamerbasecolor.sty\index{beamerbasecolor.sty}\Uindex{beamerbasecolor.sty}{beamerbaserequires.sty} 2010/06/06 (rcs-revision d1a9b48be06d)
+\item beamerbasenotes.sty\index{beamerbasenotes.sty}\Uindex{beamerbasenotes.sty}{beamerbaserequires.sty} 2012/12/19 (rcs-revision 1686da3db3c9)
+\item beamerbasetoc.sty\index{beamerbasetoc.sty}\Uindex{beamerbasetoc.sty}{beamerbaserequires.sty} 2013/05/23 (rcs-revision 0fdf5bc43be8)
+\item beamerbasetemplates.sty\index{beamerbasetemplates.sty}\Uindex{beamerbasetemplates.sty}{beamerbaserequires.sty} 2010/05/01 (rcs-revision efa082c6111d)
+\item beamerbaseauxtemplates.sty\index{beamerbaseauxtemplates.sty}\Uindex{beamerbaseauxtemplates.sty}{beamerbasetemplates.sty} 2013/09/04 (rcs-revision 4ac715c499d0)
+\item beamerbaseboxes.sty\index{beamerbaseboxes.sty}\Uindex{beamerbaseboxes.sty}{beamerbaseauxtemplates.sty} 2012/05/13 (rcs-revision 56972908a390)
+\item beamerbaselocalstructure.sty\index{beamerbaselocalstructure.sty}\Uindex{beamerbaselocalstructure.sty}{beamerbaserequires.sty} 2013/09/04 (rcs-revision 4ac715c499d0)
+\item enumerate.sty\index{enumerate.sty}\Uindex{enumerate.sty}{eamerbaselocalstructure.sty} 2014/10/28 v3.00 enumerate extensions (DPC)
+\item beamerbasenavigation.sty\index{beamerbasenavigation.sty}\Uindex{beamerbasenavigation.sty}{beamerbaserequires.sty} 2013/10/05 (rcs-revision 62be157fe783)
+\item beamerbasetheorems.sty\index{beamerbasetheorems.sty}\Uindex{beamerbasetheorems.sty}{beamerbaserequires.sty} 2010/06/06 (rcs-revision 7e7cc5e53e9d)
 \item amsmath.sty\index{amsmath.sty}\Uindex{amsmath.sty}{beamer.cls} 2013/01/14 v2.14 AMS math features
 \item amstext.sty\index{amstext.sty}\Uindex{amstext.sty}{amsmath.sty} 2000/06/29 v2.01
 \item amsgen.sty\index{amsgen.sty}\Uindex{amsgen.sty}{amstext.sty}\Uindex{amsgen.sty}{amsbsy.sty}\Uindex{amsgen.sty}{amsopn.sty} 1999/11/30 v2.0
 \item amsbsy.sty\index{amsbsy.sty}\Uindex{amsbsy.sty}{amsmath.sty} 1999/11/29 v1.2d
 \item amsopn.sty\index{amsopn.sty}\Uindex{amsopn.sty}{amsmath.sty} 1999/12/14 v2.01 operator names
-\item beamerbasethemes.sty\index{beamerbasethemes.sty}\Uindex{beamerbasethemes.sty}{beamer.cls} 2010/05/01 (rcs-revision efa082c6111d)
-\item beamerthemedefault.sty\index{beamerthemedefault.sty}\Uindex{beamerthemedefault.sty}{beamer.cls} 2010/06/17 (rcs-revision d02a7cf4d8ae)
-\item beamerfontthemedefault.sty\index{beamerfontthemedefault.sty}\Uindex{beamerfontthemedefault.sty}{beamer.cls} 2012/12/19 (rcs-revision 1686da3db3c9)
-\item beamercolorthemedefault.sty\index{beamercolorthemedefault.sty}\Uindex{beamercolorthemedefault.sty}{beamer.cls} 2012/12/19 (rcs-revision 1686da3db3c9)
-\item beamerinnerthemedefault.sty\index{beamerinnerthemedefault.sty}\Uindex{beamerinnerthemedefault.sty}{beamer.cls} 2013/10/15 (rcs-revision 65cb471f9634)
-\item beamerouterthemedefault.sty\index{beamerouterthemedefault.sty}\Uindex{beamerouterthemedefault.sty}{beamer.cls} 2012/12/19 (rcs-revision 1686da3db3c9)
+\item beamerbasethemes.sty\index{beamerbasethemes.sty}\Uindex{beamerbasethemes.sty}{beamerbaserequires.sty} 2010/05/01 (rcs-revision efa082c6111d)
+\item beamerthemedefault.sty\index{beamerthemedefault.sty}\Uindex{beamerthemedefault.sty}{beamerbasethemes.sty} 2010/06/17 (rcs-revision d02a7cf4d8ae)
+\item beamerfontthemedefault.sty\index{beamerfontthemedefault.sty}\Uindex{beamerfontthemedefault.sty}{beamerthemedefault.sty} 2012/12/19 (rcs-revision 1686da3db3c9)
+\item beamercolorthemedefault.sty\index{beamercolorthemedefault.sty}\Uindex{beamercolorthemedefault.sty}{beamerthemedefault.sty} 2012/12/19 (rcs-revision 1686da3db3c9)
+\item beamerinnerthemedefault.sty\index{beamerinnerthemedefault.sty}\Uindex{beamerinnerthemedefault.sty}{beamerthemedefault.sty} 2013/10/15 (rcs-revision 65cb471f9634)
+\item beamerouterthemedefault.sty\index{beamerouterthemedefault.sty}\Uindex{beamerouterthemedefault.sty}{beamerthemedefault.sty} 2012/12/19 (rcs-revision 1686da3db3c9)
 \item supp-pdf.mkii\index{supp-pdf.mkii}\Uindex{supp-pdf.mkii}{beamer.cls}
 \item epstopdf-base.sty\index{epstopdf-base.sty}\Uindex{epstopdf-base.sty}{beamer.cls} 2010/02/09 v2.5 Base part for package epstopdf
 \item grfext.sty\index{grfext.sty}\Uindex{grfext.sty}{beamer.cls} 2010/08/19 v1.1 Manage graphics extensions (HO)
@@ -366,13 +401,12 @@ Caricato
 \item nameref.sty\index{nameref.sty}\Uindex{nameref.sty}{beamer.cls} 2012/10/27 v2.43 Cross-referencing by name of section
 \item gettitlestring.sty\index{gettitlestring.sty}\Uindex{gettitlestring.sty}{beamer.cls} 2010/12/03 v1.4 Cleanup title references (HO)
 \item Mbeamer.out\index{Mbeamer.out}\Cindex{Mbeamer.out}{beamer.cls}
-\item Mbeamer.out\index{Mbeamer.out}\Cindex{Mbeamer.out}{beamer.cls}
-\item translator-basic-dictionary-English.dict\index{translator-basic-dictionary-English.dict}\Cindex{translator-basic-dictionary-English.dict}{beamer.cls} 
-\item translator-bibliography-dictionary-English.dict\index{translator-bibliography-dictionary-English.dict}\Cindex{translator-bibliography-dictionary-English.dict}{beamer.cls} 
-\item translator-environment-dictionary-English.dict\index{translator-environment-dictionary-English.dict}\Cindex{translator-environment-dictionary-English.dict}{beamer.cls} 
-\item translator-months-dictionary-English.dict\index{translator-months-dictionary-English.dict}\Cindex{translator-months-dictionary-English.dict}{beamer.cls} 
-\item translator-numbers-dictionary-English.dict\index{translator-numbers-dictionary-English.dict}\Cindex{translator-numbers-dictionary-English.dict}{beamer.cls} 
-\item translator-theorem-dictionary-English.dict\index{translator-theorem-dictionary-English.dict}\Cindex{translator-theorem-dictionary-English.dict}{beamer.cls} 
+\item translator-basic-dictionary-English.dict\index{translator-basic-dictionary-English.dict}\Cindex{translator-basic-dictionary-English.dict}{translator.sty} 
+\item translator-bibliography-dictionary-English.dict\index{translator-bibliography-dictionary-English.dict}\Cindex{translator-bibliography-dictionary-English.dict}{translator.sty} 
+\item translator-environment-dictionary-English.dict\index{translator-environment-dictionary-English.dict}\Cindex{translator-environment-dictionary-English.dict}{translator.sty} 
+\item translator-months-dictionary-English.dict\index{translator-months-dictionary-English.dict}\Cindex{translator-months-dictionary-English.dict}{translator.sty} 
+\item translator-numbers-dictionary-English.dict\index{translator-numbers-dictionary-English.dict}\Cindex{translator-numbers-dictionary-English.dict}{translator.sty} 
+\item translator-theorem-dictionary-English.dict\index{translator-theorem-dictionary-English.dict}\Cindex{translator-theorem-dictionary-English.dict}{translator.sty} 
 \end{enumerate}
 \section{book}
 \lstinputlisting[caption={Classe Book},%

@@ -10,7 +10,7 @@
 \usepackage{tikz}
   \tikzset{base/.style={align=center,text=black}, }	
   %\tikzset{testobase/.style={minimum  width=1.0em, }, }
-  \tikzset{testo/.style={,align=left}, }
+  \tikzset{testo/.style={align=left,text width=15.5mm]}, }
   \tikzset{main node/.style={base, draw=red, rounded corners}, }
   \tikzset{main2 node/.style={base, draw=green,rounded corners}, }
   \tikzset{complesso node/.style={base, draw=blue}, }
@@ -29,6 +29,7 @@
 \listfiles
 \begin{document}
 		\begin{figure}
+	\centering
 		\begin{tikzpicture}
 	
 		\matrix(tabella)[matrix of nodes,column sep=1em, row sep=.4em]
@@ -235,11 +236,11 @@
 			rankdir="LR";
 			640 [style="main node",texlbl="pgfmath.code.tex"]
 			6400 [style="main2 node",texlbl="pgfmathcalc.code.tex"]
-			64000 [style="main2 node",texlbl="pgfmathutil.code.tex"]
+			64000 [style="internal node",texlbl="pgfmathutil.code.tex"]
 			64001 [style="internal node",texlbl="pgfmathparser.code.tex"]
 			64002 [style="complesso node",texlbl="pgfmathfunctions.code.tex"]
 			
-			6401 [style="internal node",texlbl="pgfmathfloat.code.tex"]
+			6401 [style="main2 node",texlbl="pgfmathfloat.code.tex"]
 			640->6400
 			6400->64000
 			6400->64001
@@ -254,33 +255,44 @@
 		\caption{Beamer pgfmath.code.tex}
 		\label{fig:beamer4}
 	\end{figure}
-	\begin{figure}
-		\centering
-		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[format=tikz,scale=1,styleonly]
-		digraph G{
-			size = "8.3,11.7";
-			center="true";
-			rankdir="LR";
-			640 [style="main node",texlbl="pgfmath.code.tex"]
-			6400 [style="main2 node",texlbl="pgfmathcalc.code.tex"]
-			64000 [style="internal node",texlbl="pgfmathutil.code.tex"]
-			64001 [style="internal node",texlbl="pgfmathparser.code.tex"]
-			64002 [style="complesso node",texlbl="pgfmathfunctions.code.tex"]
-			
-			6401 [style="main2 node",texlbl="pgfmathfloat.code.tex"]
-			640->6400
-			6400->64000
-			6400->64001
-			6400->64002
-			
-			640->6401
-		}
-		\end{dot2tex}
-		\end{tikzpicture}
-		\caption{Beamer pgfsys}
-		\label{fig:beamer5}
-	\end{figure}
+\begin{figure}
+	\centering
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{dot2tex}[format=tikz,scale=1,styleonly]
+	digraph G{
+		size = "8.3,11.8";
+		rankdir="LR";
+		61 [style="main node",texlbl="pgfsys"]
+		610 [style="main2 node",texlbl="pgfrcs"]
+		6100 [style="internal node",texlbl="pgfutil-common.tex"]
+		6101 [style="cfg node",texlbl="pgfutil-latex.def"]
+		
+		61010 [style="internal node",texlbl="everyshi"]
+		6102 [style="internal node",texlbl="pgfrcs.code.tex"]
+		611 [style="main2 node",texlbl="pgfsyssoftpath.code.tex"]
+		612 [style="main2 node",texlbl="pgfsyaprotocol.code.tex"]
+		613 [style="main2 node",texlbl="pgfsys.code.tex"]
+		6130  [style="internal node",texlbl="pgfkeys.code.tex"] 
+		61300 [style="internal node",texlbl="ppgfkeysfiltered.code.tex"]  	
+		6131 [style="cfg node",texlbl="pgf.cfg"] 
+		
+		61->610
+		610->6100
+		610->6101
+		6101->61010
+		610->6102
+		61->611
+		61->612
+		61->613
+		613->6130
+		6130->61300
+		613->6131
+	}
+	\end{dot2tex}
+	\end{tikzpicture}
+	\caption{Beamer pgfsys}
+	\label{fig:beamer5}
+\end{figure}
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
