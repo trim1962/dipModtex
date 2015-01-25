@@ -37,10 +37,10 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-
-	\begin{dot2tex}[format=tikz,styleonly]
+	
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="amsxtra"]
 		2 [style="main node",texlbl="amsmath"]
 		5 [style="main2 node",texlbl="amsbsy"]
@@ -50,10 +50,10 @@ Caricato
 		7 [style="main2 node",texlbl="amsgen"]
 		1->2
 		2->{4 5 6}
+		3->7
 		4->7
 		5->7
 		6->7 
-		3->7
 	}
 	\end{dot2tex}
 	\end{tikzpicture}
@@ -135,17 +135,15 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-
-	\begin{dot2tex}[format=tikz,styleonly]
+	
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="atbegshi"]
 		2 [style="internal node",texlbl="infwarerr"]
 		3 [style="internal node",texlbl="ltxcmds"]
 		4 [style="internal node",texlbl="ifpdf"] 
-		1->2
-		1->3
-		1->4
+		1->{2 3 4}
 	}
 	\end{dot2tex}
 	% 
@@ -170,22 +168,20 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-
-	\begin{dot2tex}[format=tikz,styleonly]
+	
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="babel"];
 		2 [style="internal node",texlbl="switch.def"];
 		3 [style="driver node",texlbl="italian.ldf"];
 		4 [style="internal node",texlbl="etoolboxs"];
 		5 [style="cfg node",texlbl="babel.def"];
 		6 [style="internal node",texlbl="etex"];
-		
-		1->2
+		1->{2 5}
 		5->3
 		2->3
 		3->4
-		1->5
 		4->6
 		
 	}
@@ -221,10 +217,10 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-
-	\begin{dot2tex}[format=tikz,styleonly]
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
-		rankdir="LR";
+		
+		ranksep="1.0 equally";
 		1 [style="main node",texlbl="bitset"]
 		2 [style="internal node",texlbl="infwarerr"]
 		3 [style="main2 node",texlbl="intcalc"]
@@ -233,14 +229,9 @@ Caricato
 		6 [style="internal node",texlbl="ifluatex"]
 		7 [style="internal node",texlbl="ltxcmds"]
 		8 [style="internal node",texlbl="ifpdf"] 
-		1->2
-		1->3
-		1->4
+		1->{2 3 4}
 		4->5
-		5->6
-		5->7
-		5->8
-		5->2
+		5->{6 7 8 2}
 	}
 	\end{dot2tex}
 	\end{tikzpicture}
@@ -291,17 +282,16 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-
-	\begin{dot2tex}[format=tikz,styleonly]
+	
+	\begin{dot2tex}[styleonly,options= --autosize --cache]
 	digraph G{
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="cclicenses"];
 		2 [style="main2 node",texlbl="rotating"];
 		3 [style="internal node",texlbl="ifthen"];
 		4 [style="complesso node",texlbl="graphicx"];
 		1->2
-		2->3
-		2->4
+		2->{3 4}
 	}
 	\end{dot2tex}
 	% 
@@ -344,15 +334,14 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-
-	\begin{dot2tex}[format=tikz,styleonly]
+	
+	\begin{dot2tex}[styleonly,options= --autosize --cache]
 	digraph G{
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="color"];
 		2 [style="cfg node",texlbl="color.cfg"];
 		3 [style="driver node",texlbl="xetex.def"];
-		1->2
-		1->3
+		1->{2 3}
 		2->3
 	}
 	\end{dot2tex}
@@ -364,23 +353,19 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-	\begin{dot2tex}[format=tikz,styleonly]
+	\begin{dot2tex}[styleonly,options= --autosize --cache]
 	digraph G{
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="color"];
 		2 [style="cfg node",texlbl="color.cfg"];
 		3 [style="driver node",texlbl="pdftex.def"];
 		4 [style="internal node",texlbl="infwarerr"];
 		5 [style="cfg node",texlbl="supp-pdf.mkii"];
 		6 [style="internal node",texlbl="ltcmds"];
-		
-		1->2
-		1->3
+		1->{2 3}
 		2->3
-		3->5
-		3->4
+		3->{4 5}
 		4->6
-		
 	}
 	\end{dot2tex}
 	% 
@@ -450,19 +435,9 @@ Caricato
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
 	
-	\tikzset{base/.style={align=center,text=black}, }	
-	\tikzset{testobase/.style={minimum  width=1.0em, }, }
-	\tikzset{testo/.style={,align=left}, }
-	\tikzset{main node/.style={,base, draw=red, rounded corners}, }
-	\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
-	\tikzset{complesso node/.style={,base, draw=blue}, }
-	\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
-	\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
-	\tikzset{formato node/.style={,base,dotted}, }
-	\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
-	\begin{dot2tex}[format=tikz,styleonly]
+	\begin{dot2tex}[styleonly,options= --autosize --cache,straightedges]
 	digraph G{
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="crop"];
 		2 [style="main2 node",texlbl="color"];
 		3 [style="cfg node",texlbl="color.cfg"];
@@ -471,16 +446,11 @@ Caricato
 		6 [style="internal node",texlbl="trig"];
 		7 [style="cfg node",texlbl="graphics.cfg"];
 		8 [style="cfg node",texlbl="crop.cfg"];
-		1->2
-		1->5
-		2->3
-		5->6
-		5->7
-		5->4
+		1->{2 5 8}
+		2->{3 4}
+		5->{4 6 7}
 		7->4
 		3->4
-		2->4
-		1->8
 	}
 	\end{dot2tex}
 	% 
@@ -490,45 +460,35 @@ Caricato
 \end{figure}
 \begin{figure}
 	\centering
-	  \begin{tikzpicture}%[scale=0.8]
-
-	  \begin{dot2tex}[format=tikz,styleonly]
-	  digraph G{
-	  	rankdir="LR";
-	  	1 [style="main node",texlbl="crop"];
-	  	2 [style="main2 node",texlbl="color"];
-	  	3 [style="cfg node",texlbl="color.cfg"];
-	  	4 [style="driver node",texlbl="pdftex.def"];
-	  	5 [style="internal node",texlbl="infwarerr"];
-	  	6 [style="internal node",texlbl="latexcmds"];
-	  	7 [style="main2 node",texlbl="graphics"];
-	  	8 [style="internal node",texlbl="trig"];
-	  	9 [style="cfg node",texlbl="graphics.cfg"];
-	  	11 [style="cfg node",texlbl="supp-pdf.mkii"];
-	  	15 [style="complesso node",texlbl="epstopdf-base"];
-	  	17 [style="internal node",texlbl="keydefinekys"];
-	  	15->17
-	  	15->6
-	  	1->2
-	  	1->7
-	  	2->3
-	  	3->4
-	  	2->4
-	  	4->11
-	  	4->5
-	  	5->6
-	  	7->4
-	  	7->8
-	  	7->9
-	  	9->15
-	  	4->17
-	  	15->5
-	  	17->6
-	  	9->4
-	  }
-	  \end{dot2tex}
-	  %% 
-	  \end{tikzpicture}
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{dot2tex}[styleonly,options= --autosize --cache]
+	digraph G{
+		ranksep="1.0 equally"
+		1 [style="main node",texlbl="crop"];
+		2 [style="main2 node",texlbl="color"];
+		3 [style="cfg node",texlbl="color.cfg"];
+		4 [style="driver node",texlbl="pdftex.def"];
+		5 [style="internal node",texlbl="infwarerr"];
+		6 [style="internal node",texlbl="latexcmds"];
+		7 [style="main2 node",texlbl="graphics"];
+		8 [style="internal node",texlbl="trig"];
+		9 [style="cfg node",texlbl="graphics.cfg"];
+		11 [style="cfg node",texlbl="supp-pdf.mkii"];
+		15 [style="complesso node",texlbl="epstopdf-base"];
+		17 [style="internal node",texlbl="keydefinekys"];
+		1->{2 7}
+		2->{3 4}
+		3->4
+		4->{5 11 17}
+		5->6
+		7->{4 8 9}
+		9->{4 15 }
+		15->{5 6 17 }
+		17->6
+	}
+	\end{dot2tex}
+	%% 
+	\end{tikzpicture}
 	\caption{Crop}
 	\label{fig:crop1}
 \end{figure}
@@ -595,9 +555,9 @@ Caricato
  \begin{tikzpicture}%[scale=0.8]	
 	
 
-	\begin{dot2tex}[format=tikz,styleonly]
+	\begin{dot2tex}[styleonly,options= --autosize --cache]
 		digraph G{
-			rankdir="LR";
+		ranksep="1.0 equally"
 			0 [style="main node",texlbl="epstopdf"]
 		1 [style="complesso node",texlbl="epstopdf-base"]
 		
@@ -634,41 +594,41 @@ nota pacchetto interno usato da graphics quando è chiamato pdftex.def
 \end{enumerate} 
 \section{epstopdf-base}
 \begin{figure}
-		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[format=tikz,styleonly]
-		digraph G{
-			rankdir="LR";
-			1 [style="main node",texlbl="epstopdf-base"]
-			2 [style="cfg node",texlbl="epstopdf-sys.cfg"]
-			3 [style="internal node",texlbl="infwarerr"]
-			4 [style="internal node",texlbl="grfext"]
-			5 [style="internal node",texlbl="pdftexcmds"]
-			6 [style="internal node",texlbl="kvoptions"]
-			7 [style="internal node",texlbl="keyval"]
-			8 [style="internal node",texlbl="kvsetkeys"]
-			9 [style="internal node",texlbl="kvoptions-patch"]
-			
-			10 [style="internal node",texlbl="kvdefinekeys"]
-			11 [style="internal node",texlbl="ltxcmds"]
-			12 [style="internal node",texlbl="ifpdf"]
-			13 [style="internal node",texlbl="ifluatex"]
-			14 [style="cfg node",texlbl="epstopdf.cfg"]
-			15 [style="internal node",texlbl="etexcmds"]
+	\centering
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{dot2tex}[scale=0.8,options= --autosize --cache --styleonly]
+	digraph G{
+		ranksep="1.0 equally"
+		1 [style="main node",texlbl="epstopdf-base"]
+		2 [style="cfg node",texlbl="epstopdf-sys.cfg"]
+		3 [style="internal node",texlbl="infwarerr"]
+		4 [style="internal node",texlbl="grfext"]
+		5 [style="internal node",texlbl="pdftexcmds"]
+		6 [style="internal node",texlbl="kvoptions"]
+		7 [style="internal node",texlbl="keyval"]
+		8 [style="internal node",texlbl="kvsetkeys"]
+		9 [style="internal node",texlbl="kvoptions-patch"]
 		
-			1->{2 3 4 5 6 14}
-			6->{7 8 9 11}
-			5->{3 11 12 13 }
-			4->{10 3}
-		    9->15
-			10->11
-		}
-		\end{dot2tex}
-		%% 
-		\end{tikzpicture}
+		10 [style="internal node",texlbl="kvdefinekeys"]
+		11 [style="internal node",texlbl="ltxcmds"]
+		12 [style="internal node",texlbl="ifpdf"]
+		13 [style="internal node",texlbl="ifluatex"]
+		14 [style="cfg node",texlbl="epstopdf.cfg"]
+		15 [style="internal node",texlbl="etexcmds"]
+		
+		1->{2 3 4 5 6 14}
+		6->{7 8 9 11}
+		5->{3 11 12 13 }
+		4->{10 3}
+		9->15
+		10->11
+	}
+	\end{dot2tex}
+	%% 
+	\end{tikzpicture}
 	\caption{Epstopdf-base}
-		\label{fig:epstopdf-base1}
+	\label{fig:epstopdf-base1}
 \end{figure}
-
 \lstinputlisting[caption={Epstopdf-base},%
 captionpos=b,label=lst:epstopdf-base1]{test/Meostopdf-base.tex}
 \selectlanguage{italian}
@@ -696,18 +656,14 @@ Caricato \Windex{epstopdf-base}{graphics}\Windex{epstopdf-base}{graphicx}
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-
-	\begin{dot2tex}[format=tikz,styleonly]
+	
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
-		
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="etoolbox.sty"]
 		2 [style="internal node",texlbl="etex"]
 		3 [style="cfg node",texlbl="etoolbox.def"]
-		
-		1->2
-		1->3
-	
+		1->{2 3}
 	}
 	\end{dot2tex}
 	%% 
@@ -715,7 +671,6 @@ Caricato \Windex{epstopdf-base}{graphics}\Windex{epstopdf-base}{graphicx}
 	\caption{Etoolbox}
 	\label{fig:Etoolbox1}
 \end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \lstinputlisting[caption={Etoolbox},%
 captionpos=b,label=lst:etoolbox1]{test/metoolbox.tex}
 \selectlanguage{italian}
@@ -756,29 +711,16 @@ Caricato
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
 	
-%	\tikzset{base/.style={align=center,text=black}, }	
-%	%\tikzset{testobase/.style={minimum  width=1.0em, }, }
-%	\tikzset{testo/.style={,align=left}, }
-%	\tikzset{main node/.style={,base, draw=red, rounded corners}, }
-%	\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
-%	\tikzset{complesso node/.style={,base, draw=blue}, }
-%	\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
-%	\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
-%	\tikzset{formato node/.style={,base,dotted}, }
-%	\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
-	\begin{dot2tex}[format=tikz,styleonly]
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
-		
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="fourier"]
 		2 [style="internal node",texlbl="fourier-orns"]
 		3 [style="internal node",texlbl="textcomp"]
 		4 [style="internal node",texlbl="[T1]fontenv"]
 		5 [style="cfg node",texlbl="ts1enc.def"]
 		6 [style="cfg node",texlbl="t1enc.def"]
-		1->2
-		1->3
-		1->4
+		1->{2 3 4}
 		3->5
 		4->6
 	}
@@ -813,20 +755,9 @@ Caricato
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
 	
-%	\tikzset{base/.style={align=center,text=black}, }	
-%	%\tikzset{testobase/.style={minimum  width=1.0em, }, }
-%	\tikzset{testo/.style={,align=left}, }
-%	\tikzset{main node/.style={,base, draw=red, rounded corners}, }
-%	\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
-%	\tikzset{complesso node/.style={,base, draw=blue}, }
-%	\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
-%	\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
-%	\tikzset{formato node/.style={,base,dotted}, }
-%	\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
-	\begin{dot2tex}[format=tikz,styleonly]
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
-		
-		rankdir="LR";
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="geometry"]
 		
 		2 [style="internal node",texlbl="ifpdf"]
@@ -834,11 +765,7 @@ Caricato
 		
 		4 [style="internal node",texlbl="ifvtex"]
 		5 [style="internal node",texlbl="ifxetex"]
-		
-		1->2
-		1->3
-		1->4
-		1->5
+		1->{2 3 4 5}
 	}
 	\end{dot2tex}
 	%% 
@@ -864,28 +791,12 @@ Caricato\Iindex{geometry}{minimal.cls}
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-%	\tikzset{base/.style={align=center,text=black}, }	
-%	%\tikzset{testobase/.style={minimum  width=1.0em, }, }
-%	\tikzset{testo/.style={,align=left}, }
-%	\tikzset{main node/.style={,base, draw=red, rounded corners}, }
-%	\tikzset{main2 node/.style={,base, draw=green,rounded corners}, }
-%	\tikzset{complesso node/.style={,base, draw=blue}, }
-%	\tikzset{internal node/.style={,base, draw=magenta,dashed,rounded corners}, }
-%	\tikzset{driver node/.style={,base,dashed,draw=blue!20}, }
-%	\tikzset{formato node/.style={,base,dotted}, }
-%	\tikzset{cfg node/.style={,base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
-	
-	\begin{dot2tex}[dot,format=tikz,scale=0.7,styleonly]
-	digraph G{
-		rankdir="LR";
+\begin{dot2tex}[options= --autosize --cache --styleonly]
+digraph G{
+	ranksep="1.0 equally"
 		1 [style="complesso node",texlbl="epstopdf-base"]
-	
-		3 [style="internal node",texlbl="infwarerr"]
-		
+	    3 [style="internal node",texlbl="infwarerr"]
 		5 [style="internal node",texlbl="pdftexcmds"]
-	
-	
-	
 		11 [style="internal node",texlbl="ltxcmds"]
 		12 [style="internal node",texlbl="ifpdf"]
 		13 [style="internal node",texlbl="ifluatex"]
@@ -894,29 +805,11 @@ Caricato\Iindex{geometry}{minimal.cls}
 		16 [style="driver node",texlbl="pdftex.def"]
 		17 [style="internal node",texlbl="trig"]
 		18 [style="cfg node",texlbl="supp-pdf-mkii"]
-		
-		
-		1->3
-	
-		1->5
-	
-	
-		5->13
-		5->3
-		5->11
-		5->12
-		
-		
-		14->15
-		14->16
-		14->17
-		15->1
-		15->5
-		15->16
-		16->5
-		16->3
-		16->18
-		16->11
+		1->{3 5}
+        5->{13 3 11 12}	
+	    14->{ 15 16 17}	
+	    15->{1 5 16}	
+	    16->{ 5 3 18 11}		
 	}
 	\end{dot2tex}
 	\end{tikzpicture}
@@ -942,23 +835,17 @@ Grafico~\vref{fig:graphics2}
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	\begin{dot2tex}[dot,format=tikz,scale=0.7,styleonly]
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
-		rankdir="LR";
-		
+		ranksep="1.0 equally"
 		14 [style="main node",texlbl="graphics"]
 		15 [style="cfg node",texlbl="graphics.cfg"]
 		16 [style="driver node",texlbl="xetex.def"]
 		17 [style="internal node",texlbl="trig"]
-		
-		14->15
-		14->16
-		14->17
+		14->{15 16 17}
 		15->16
-	
 	}
 	\end{dot2tex}
-	
 	\end{tikzpicture}
 	\caption{Graphics Xelatex}
 	\label{fig:graphics2}
@@ -990,23 +877,18 @@ Driver disponibili
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-
-	\begin{dot2tex}[dot,format=tikz,scale=0.7,styleonly]
+	
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
-		rankdir="LR";
+		ranksep="1.0 equally"
 		7 [style="internal node",texlbl="keyval"]
 		14 [style="main2 node",texlbl="graphics"]
 		15 [style="cfg node",texlbl="graphics.cfg"]
 		16 [style="driver node",texlbl="xetex.def"]
 		17 [style="internal node",texlbl="trig"]
 		20 [style="main node",texlbl="graphicx"]
-		14->15
-		14->16
-		14->17
-		15->16
-		20->7
-		20->14
-	
+		14->{15 16 17}
+		20->{7 14}	
 	}
 	\end{dot2tex}
 	
@@ -1016,19 +898,18 @@ Driver disponibili
 \end{figure}
 \begin{figure}
 	\centering
-			\begin{tikzpicture}%[scale=0.8]
-			\begin{dot2tex}[dot,format=tikz,scale=0.7,styleonly]
-			digraph G{
-				rankdir="LR";
-				14 [style="complesso node",texlbl="graphics"]
-				7 [style="internal node",texlbl="keyval"]
-				20 [style="main node",texlbl="graphicx"]	
-				20->7
-				20->14
-			}
-			\end{dot2tex}
-			\end{tikzpicture}
-    \caption{Graphicx  pdflatex}
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
+	digraph G{
+		ranksep="1.0 equally"
+		14 [style="complesso node",texlbl="graphics"]
+		7 [style="internal node",texlbl="keyval"]
+		20 [style="main node",texlbl="graphicx"]	
+		20->{7 14}
+	}
+	\end{dot2tex}
+	\end{tikzpicture}
+	\caption{Graphicx  pdflatex}
 	\label{fig:graphicx1}
 \end{figure}
 \lstinputlisting[caption={Graphicx PdfLatex},%
@@ -1175,23 +1056,21 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-    \begin{dot2tex}[format=tikz,styleonly]
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
+		ranksep="1.0 equally";
 		1 [style="main node",texlbl="microtype"]
 		2 [style="internal node",texlbl="keyval"]
 		3 [style="cfg node",texlbl="microtype.cfg"]
 		4 [style="driver node",texlbl="microtype-pdftex.def"]
 		5 [style="driver node",texlbl="mt-cmr.cfg"]
-		1->2
-		1->3
-		1->4
-		1->5 
+		1->{2 3 4 5}
 	}
 	\end{dot2tex}
 	\end{tikzpicture}
 	\caption{Microtype}
 	\label{fig:microtype}
-\end{figure}  
+\end{figure}
 \lstinputlisting[caption={Microtype},%
 captionpos=b,label=lst:microtype]{test/Mmicrotype.tex}
 \selectlanguage{italian}
@@ -1217,23 +1096,23 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	\begin{dot2tex}[format=tikz,styleonly]
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
+	
 	digraph G{
+		ranksep="1.0 equally"
 		1 [style="main node",texlbl="pdftexcmds"]
 		2 [style="internal node",texlbl="infwarerr"]
 		3 [style="internal node",texlbl="ifluatex"]
 		4 [style="internal node",texlbl="ltxcmds"]
 		5 [style="internal node",texlbl="ifpdf"]
-		1->2
-		1->3
-		1->4
-		1->5 
+		1->{2 3 4 5}
+		
 	}
 	\end{dot2tex}
 	\end{tikzpicture}
 	\caption{Pdftexcmds}
 	\label{fig:Pdftexcmds}
-\end{figure}  
+\end{figure}
 \lstinputlisting[caption={Pdftexcmds},%
 captionpos=b,label=lst:pdftexcmds]{test/Mpdftexcmds.tex}
 \selectlanguage{italian}
@@ -1274,30 +1153,22 @@ Caricato
 \section{xcolor}
 \begin{figure}
 	\centering
- \begin{tikzpicture}%[scale=0.8]
- 
-
- \begin{dot2tex}[format=tikz,styleonly]
- digraph G{
- 	rankdir="LR";
- 	1 [style="main node",texlbl="xcolor"];
- 	2 [style="cfg node",texlbl="color.cfg"];
- 	3 [style="driver node",texlbl="pdftex.def"];
- 	4 [style="internal node",texlbl="infwarerr"];
- 	5 [style="cfg node",texlbl="supp-pdf.mkii"];
- 	6 [style="internal node",texlbl="ltxcmds"];
- 	
- 	1->2
- 	1->3
- 	2->3
- 	3->5
- 	3->4
- 	3->6
- 	
- }
- \end{dot2tex}
-  
- \end{tikzpicture}
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
+	digraph G{
+		ranksep="1.0 equally"
+		1 [style="main node",texlbl="xcolor"];
+		2 [style="cfg node",texlbl="color.cfg"];
+		3 [style="driver node",texlbl="pdftex.def"];
+		4 [style="internal node",texlbl="infwarerr"];
+		5 [style="cfg node",texlbl="supp-pdf.mkii"];
+		6 [style="internal node",texlbl="ltxcmds"];
+		1->{2 3}
+		2->3
+		3->{4 5 6}
+	}
+	\end{dot2tex}
+	\end{tikzpicture}
 	\caption{Xcolor}
 	\label{fig:xcolor1}
 \end{figure}
@@ -1320,22 +1191,19 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-
-	 \begin{dot2tex}[format=tikz,styleonly]
-	 digraph G{
-	 	rankdir="LR";
-	 	1 [style="main node",texlbl="xkeyval"];
-	 	2 [style="internal node",texlbl="xkeyval.tex"];
-	 	3 [style="driver node",texlbl="xkvutils.tex"];
-	 	4 [style="internal node",texlbl="keyval.tex"];
-	 	
-	 	1->2
-	 	1->3
-	 	1->4
-	 }
-	 \end{dot2tex}
 	
-	
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
+	digraph G
+	{
+		ranksep="1.0 equally"
+		1 [style="main node",texlbl="xkeyval"];
+		2 [style="internal node",texlbl="xkeyval.tex"];
+		3 [style="driver node",texlbl="xkvutils.tex"];
+		4 [style="internal node",texlbl="keyval.tex"];
+		1->{2 3 4}
+		
+	}
+	\end{dot2tex}
 	\end{tikzpicture}
 	\caption{Xkeyval}
 	\label{fig:xkeyval1}
