@@ -2,6 +2,7 @@
 \usepackage{geometry}
 \geometry{a4paper,top=1.5cm,bottom=1.5cm,left=2cm,right=2cm}
 \usepackage{dot2texi}
+\usepackage[active,tightpage]{preview}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[osf,sc]{mathpazo}
@@ -9,26 +10,7 @@
 \renewcommand{\sfdefault}{iwona}
 \usepackage[final]{microtype}
 \usepackage[english,italian]{babel}
-\usepackage{imakeidx}
-\usepackage{fix2col}
-\indexsetup{level=\chapter,toclevel=chapter,noclearpage}
-\makeindex[options=-s oldclaudio.sti]
-\makeindex[name=emulato,title=Emulati,options=-s oldclaudio.sti]
-\makeindex[name=incomp,title=Incompatibili]
-\makeindex[name=Warning,title=Warning,options=-s oldclaudio.sti]
-\makeindex[name=usato,title=Usato,options=-s oldclaudio.sti]
-\makeindex[name=dipende,title=Dipende,options=-s oldclaudio.sti]
-\makeindex[name=conffile,title=File di configurazione,options=-s oldclaudio.sti]
-\makeindex[name=drvfile,title=Driver,options=-s oldclaudio.sti]
-\usepackage[italian]{varioref}
-\usepackage{enumitem}
-\setlist{nolistsep}
-\newcommand{\Mindex}[2]{\index[emulato]{#1!#2}}
-\newcommand{\Iindex}[2]{\index[incomp]{#1!#2}}
-\newcommand{\Windex}[2]{\index[Warning]{#1!#2}}
-\newcommand{\Uindex}[2]{\index[usato]{#1!#2}\index[dipende]{#2!#1}}
-\newcommand{\Cindex}[2]{\index[conffile]{#2!#1}}
-\newcommand{\Dindex}[2]{\index[drvfile]{#1!#2}}
+
 \usepackage{tikz}
 \tikzset{base/.style={align=center,text=black}, }	
 %\tikzset{testobase/.style={minimum  width=1.0em, }, }
@@ -77,79 +59,75 @@
 \listfiles
 \begin{document}
 
-%	\begin{figure}
-%		\centering
-%		\begin{tikzpicture}%[scale=0.8]
-%		
-%		\begin{dot2tex}[options= --autosize --cache --styleonly]
-%		digraph G {
-%			rankdir="LR";
-%			ranksep="1.0 equally"
-%			0 [style="complesso node",texlbl="book"]
-%			1 [style="main node",texlbl="suftesi"]
-%			4 [style="main2 node",texlbl="enumitem"]
-%			7 [style="main2 node",texlbl="multicol"]
-%			8 [style="main2 node",texlbl="emptypage"]
-%			9 [style="main2 node",texlbl="textcase"]
-%			10 [style="internal node",texlbl="ifxetex"]
-%			12 [style="complesso node",texlbl="cclicenses"]
-%			14 [style="main2 node",texlbl="sostitutefont"]
-%			17   [style="main2 node",texlbl="extramarks"]
-%			18   [style="main2 node",texlbl="fancyhdr"]
-%			19  [style="main2 node",texlbl="titletoc"]
-%			20  [style="main2 node",texlbl="fixltxhyph"]
-%			21  [style="complesso node",texlbl="mathpazo"]
-%			1->{0 7 8 9 10 12 14 14 17 18 19 20 21}
-%			1->4[labelfloat= true, label = "[inline]"]
-%		}
-%		\end{dot2tex}
-%		%% 
-%		\end{tikzpicture}
-%		\caption{Suftesi 1}
-%		\label{fig:Suftesi1}
-%		\end{figure}\clearpage
-%	\begin{figure}
-%		\centering
-%		\begin{tikzpicture}%[scale=0.8]
-%		\begin{dot2tex}[options= --autosize --cache --styleonly]
-%		digraph G
-%		{
-%			ranksep="1.0 equally"
-%			
-%			1 [style="main node",texlbl="suftesi"]
-%			2 [style="complesso node",texlbl="geometry"]
-%			201 [style="internal node",texlbl="keyvall"]
-%			3 [style="complesso node",texlbl="xkeyval"] 
-%			5 [style="complesso node",texlbl="caption"]
-%			6 [style="complesso node",texlbl="color"]
-%			10 [style="internal node",texlbl="ifxetex"]
-%			11 [style="complesso node",texlbl="microtype"]
-%			13 [style="complesso node",texlbl="fontenc"]
-%			15 [style="complesso node",texlbl="crop"]
-%			151 [style="complesso node",texlbl="graphics"]   
-%			16   [style="main2 node",texlbl="titlesec"]
-%			1601[style="cfg node",texlbl="ttlkey.cfg"]
-%			22  [style="main2 node",texlbl="beramono"]
-%			1->{2 3 5 6  10 16 22 }
-%			1->11[labelfloat= true, label = "[final]"]
-%			1->13[labelfloat= true, label = "[LGR,T1]"]
-%			1->15[labelfloat= true, label = "[A4,CAM,CENTER]"]
-%			2->{10 201 }
-%	        3->201[labelfloat= true, label = "blocca"]
-%			5->201
-%			11->201
-%			15->{6 151}
-%			
-%			16->1601
-%			1601->201
-%			22->201
-%		}
-%		\end{dot2tex}
-%		%% 
-%		\end{tikzpicture}
-%		\caption{Suftesi 2}
-%		\label{fig:Suftesi2}
-%	\end{figure}\clearpage
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}%[scale=0.8]
+		
+		\begin{dot2tex}[options= --autosize --cache --styleonly]
+		digraph G {
+			rankdir="LR";
+			ranksep="1.0 equally"
+			0 [style="complesso node",texlbl="book"]
+			1 [style="main node",texlbl="suftesi"]
+			4 [style="main2 node",texlbl="enumitem"]
+			7 [style="main2 node",texlbl="multicol"]
+			8 [style="main2 node",texlbl="emptypage"]
+			9 [style="main2 node",texlbl="textcase"]
+			10 [style="internal node",texlbl="ifxetex"]
+			12 [style="complesso node",texlbl="cclicenses"]
+			14 [style="main2 node",texlbl="sostitutefont"]
+			17   [style="main2 node",texlbl="extramarks"]
+			18   [style="main2 node",texlbl="fancyhdr"]
+			19  [style="main2 node",texlbl="titletoc"]
+			20  [style="main2 node",texlbl="fixltxhyph"]
+			21  [style="complesso node",texlbl="mathpazo"]
+			1->{0 7 8 9 10 12 14 14 17 18 19 20 21}
+			1->4[labelfloat= true, label = "[inline]"]
+		}
+		\end{dot2tex}
+		%% 
+		\end{tikzpicture}
+		\caption{Suftesi 1}
+		\label{fig:Suftesi1}
+		\end{figure}\clearpage
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
+		\begin{dot2tex}[scale=0.9,options= --autosize --cache --styleonly]
+		digraph G{
+			ranksep="1.0 equally"
+			
+			1 [style="main node",texlbl="suftesi"]
+			2 [style="complesso node",texlbl="geometry"]
+			201 [style="internal node",texlbl="keyvall"]
+			3 [style="complesso node",texlbl="xkeyval"] 
+			5 [style="complesso node",texlbl="caption"]
+			6 [style="complesso node",texlbl="color"]
+			10 [style="internal node",texlbl="ifxetex"]
+			11 [style="complesso node",texlbl="[final]microtype"]
+			13 [style="complesso node",texlbl="[LGR,T1]fontenc"]
+			15 [style="complesso node",texlbl="[A4,CAM,CENTER]crop"]
+			151 [style="complesso node",texlbl="graphics"]   
+			16   [style="main2 node",texlbl="titlesec"]
+			1601[style="cfg node",texlbl="ttlkey.cfg"]
+			22  [style="main2 node",texlbl="beramono"]
+			1->{2 3 5 6  10 11 13 15 16 22 }
+			2->{10 201 }
+			3->201[labelfloat= true, label = "blocca"]
+			5->201
+			11->201
+			15->{6 151}
+			16->1601
+			1601->201
+			22->201
+		}
+		\end{dot2tex}
+		\end{preview}
+		\end{tikzpicture}
+		\caption{Suftesi 2}
+		\label{fig:Suftesi2}
+	\end{figure}\clearpage
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
@@ -210,6 +188,7 @@
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
 		\begin{dot2tex}[options= --autosize --cache --styleonly]
 		digraph G
 		{
@@ -239,6 +218,7 @@
 		 6412->64120
 		}
 		\end{dot2tex}
+		\end{preview}
 		%% 
 		\end{tikzpicture}
 		\caption{Beamer pgfcore.code.tex}
@@ -247,6 +227,7 @@
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
 		\begin{dot2tex}[options= --autosize --cache --styleonly]
 		digraph G
 		{
@@ -262,7 +243,7 @@
 			6400->{64000 64001 64002}
 	}
 		\end{dot2tex}
-		
+	\end{preview}	
 		%% 
 		\end{tikzpicture}
 		\caption{Beamer pgfmath.code.tex}
@@ -271,6 +252,7 @@
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
 		\begin{dot2tex}[options= --autosize --cache --styleonly]
 		digraph G
 		{
@@ -297,6 +279,7 @@
 			6130->61300
 		}
 		\end{dot2tex}
+		\end{preview}
 		\end{tikzpicture}
 		\caption{Beamer pgfsys}
 		\label{fig:beamer5}
@@ -330,6 +313,7 @@
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
 		\begin{dot2tex}[options= --autosize --cache --styleonly]
 		digraph G
 		{
@@ -349,6 +333,7 @@
 			64002->{640020 640021 640022 640023 640024 640025 640026}
 		}
 		\end{dot2tex}
+		\end{preview}
 		\end{tikzpicture}
 		\caption{Beamer pgfmathfunctions.code.tex}
 		\label{fig:beamer7}
@@ -356,6 +341,7 @@
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
 		\begin{dot2tex}[options= --autosize --cache --styleonly]
 		digraph G
 		{
@@ -371,6 +357,7 @@
 			1180->{11800 11801 11802 11803}
 		}
 		\end{dot2tex}
+		\end{preview}
 		\end{tikzpicture}
 		\caption{Beamer beamerbasethemes}
 		\label{fig:beamer8}
@@ -378,6 +365,7 @@
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
 		\begin{dot2tex}[twopi,format=tikz,scale=1,styleonly,options= --autosize --cache]
 		digraph G
 		{
@@ -414,6 +402,7 @@
 			60->4
 		}
 		\end{dot2tex}
+		\end{preview}
 		%% 
 		\end{tikzpicture}
 		\caption{Beamer generale}
@@ -422,7 +411,7 @@
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G
 	{
@@ -442,6 +431,7 @@
 		6->7 
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{AmsMath}
 	\label{fig:AmsMath1}
@@ -449,7 +439,7 @@
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G
 	{
@@ -461,7 +451,7 @@
 		1->{2 3 4}
 	}
 	\end{dot2tex}
-	% 
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Atbegshi}
 	\label{fig:atbegshi1}
@@ -469,6 +459,7 @@
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[styleonly,options= --autosize --cache]
 	digraph G
 	{
@@ -487,6 +478,7 @@
 		5->{6 7 8 2}
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Bitset}
 	\label{fig:bitset1}
@@ -494,7 +486,7 @@
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
+	\begin{preview}
 	\begin{dot2tex}[styleonly,options= --autosize --cache]
 	digraph G
 	{
@@ -507,7 +499,7 @@
 		2->{3 4}
 	}
 	\end{dot2tex}
-	% 
+	\end{preview}
 	\end{tikzpicture}
 	\caption{cclicenses}
 	\label{fig:cclicenses1}
@@ -515,7 +507,7 @@
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
+	\begin{preview}
 	\begin{dot2tex}[styleonly,options= --autosize --cache]
 	digraph G
 	{
@@ -527,7 +519,7 @@
 		2->3
 	}
 	\end{dot2tex}
-	% 
+\end{preview} 
 	\end{tikzpicture}
 	\caption{Color xetex}
 	\label{fig:color2}
@@ -620,6 +612,7 @@
 \end{figure}\clearpage
 \begin{figure}
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[scale=0.8,options= --autosize --cache --styleonly]
 	digraph G
 	{
@@ -649,7 +642,7 @@
 		10->11
 	}
 	\end{dot2tex}
-	%% 
+\end{preview}
 	\end{tikzpicture}
 	\caption{Epstopdf-base}
 	\label{fig:epstopdf-base1}
@@ -698,6 +691,7 @@ ranksep="1.0 equally"
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G {
 ranksep="1.0 equally"
@@ -720,6 +714,7 @@ ranksep="1.0 equally"
 		16->{ 5 3 18 11}		
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Graphics}
 	\label{fig:graphics1}
@@ -727,6 +722,7 @@ ranksep="1.0 equally"
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G {
 	ranksep="1.0 equally"
@@ -736,6 +732,7 @@ ranksep="1.0 equally"
 		20->{7 14}
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Graphicx  pdflatex}
 	\label{fig:graphicx1}
@@ -743,6 +740,7 @@ ranksep="1.0 equally"
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G {
 			ranksep="1.0 equally";
@@ -754,6 +752,7 @@ ranksep="1.0 equally"
 		1->{2 3 4 5}
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Microtype}
 	\label{fig:microtype}
@@ -761,6 +760,7 @@ ranksep="1.0 equally"
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	
 	digraph G {
@@ -774,6 +774,7 @@ ranksep="1.0 equally"
 		
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Pdftexcmds}
 	\label{fig:Pdftexcmds}
@@ -781,8 +782,7 @@ ranksep="1.0 equally"
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G {
 ranksep="1.0 equally"
@@ -797,6 +797,7 @@ ranksep="1.0 equally"
 		3->{4 5 6}
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Xcolor}
 	\label{fig:xcolor1}
@@ -804,7 +805,7 @@ ranksep="1.0 equally"
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G {
 	ranksep="1.0 equally"
@@ -816,6 +817,7 @@ ranksep="1.0 equally"
 		
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Xkeyval}
 	\label{fig:xkeyval1}
@@ -850,7 +852,7 @@ ranksep="1.0 equally"
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G
 	{
@@ -866,7 +868,7 @@ ranksep="1.0 equally"
 		4->6
 	}
 	\end{dot2tex}
-	%% 
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Fourier}
 	\label{fig:fourier1}
@@ -874,6 +876,7 @@ ranksep="1.0 equally"
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G {
 		ranksep="1.0 equally"
@@ -885,6 +888,7 @@ ranksep="1.0 equally"
 		15->16
 		}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Graphics Xelatex}
 	\label{fig:graphics2}
@@ -892,7 +896,7 @@ ranksep="1.0 equally"
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-	
+\begin{preview}	
 \begin{dot2tex}[options= --autosize --cache --styleonly]
 digraph G
 {
@@ -907,7 +911,7 @@ digraph G
 	    20->{7 14}	
 	}
 	\end{dot2tex}
-	
+\end{preview}	
 	\end{tikzpicture}
 	\caption{Graphicx Xelatex}
 	\label{fig:graphicx2}
@@ -915,6 +919,7 @@ digraph G
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 \begin{dot2tex}[options= --autosize --cache --styleonly]
 digraph G {
 	ranksep="1.0 equally"
@@ -929,9 +934,10 @@ digraph G {
 		3->{4 5 6}
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Xcolor}
 	\label{fig:xcolor1}
 \end{figure}\clearpage
-test
+
 \end{document}	

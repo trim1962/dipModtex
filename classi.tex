@@ -12,204 +12,7 @@ Caricato
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[options= --autosize --cache --styleonly]
-		digraph G
-		{
-			ranksep="0.2 equally"
-			
-			ratio=compress;
-			rankdir="LR";
-			
-			10 [style="main node",texlbl="beamerbaserequires"]
-			100 [style="main2 node",texlbl="beamerbasecompatibility"]
-			101 [style="main2 node",texlbl="beamerbasefont"]
-			1010 [style="internal node",texlbl="amssymb"]
-			1011 [style="internal node",texlbl="sansmathaccent"]
-			10110 [style="internal node",texlbl="filehook"]
-			
-			102 [style="main2 node",texlbl="beamerbasetranslator"]
-			1020 [style="complesso node",texlbl="translator"]
-			103 [style="main2 node",texlbl="beamerbasemisc"]
-			104 [style="main2 node",texlbl="beamerbasetwoscreens"]
-			105 [style="main2 node",texlbl="beamerbaseoverlay"]
-			106 [style="main2 node",texlbl="beamerbasetitle"]
-			107 [style="main2 node",texlbl="beamerbasesection"]
-			108 [style="main2 node",texlbl="beamerbaseframe"]
-			109 [style="main2 node",texlbl="beamerbaseverbatim"]
-			110 [style="main2 node",texlbl="beamerbaseframesize"]
-			111 [style="main2 node",texlbl="beamerbaseframecomponents"]
-			112 [style="main2 node",texlbl="beamerbasecolor"]
-			113 [style="main2 node",texlbl="beamerbasetoc"]
-			114 [style="main2 node",texlbl="beamerbasetemplates"]
-			1140 [style="internal node",texlbl="beamerbaseauxtemplates"]
-			11400 [style="internal node",texlbl="beamerbaseboxes"]
-			115 [style="main2 node",texlbl="beamerbaselocalstructure"]
-			1150 [style="internal node",texlbl="enumerate"]
-			116 [style="main2 node",texlbl="beamerbasenavigation"]
-			117 [style="main2 node",texlbl="beamerbasetheorems"]
-			1170 [style="complesso node",texlbl="amsmath"]
-			1171 [style="complesso node",texlbl="amsthm"]
-			118 [style="complesso node",texlbl="beamerbasethemes"]
-			119 [style="main2 node",texlbl="beamerbasenotes"] 	
-			101->{1010 1011}
-			1011->10110
-			102->1020
-			10->{100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119}
-			114->1140
-			1140->11400
-			115->1150
-			117->{1170 1171}
-		}
-		\end{dot2tex}
-		%% 
-		\end{tikzpicture}
-		\caption{Beamer beamerbaserequires}
-		\label{fig:beamer2}
-	\end{figure}
-	\begin{figure}
-		\centering
-		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[options= --autosize --cache --styleonly]
-		digraph G{
-			//	size = "8.3,11.7";
-			//	center="true";
-			ranksep="0.2 equally"
-			rankdir="LR";
-			64 [style="main node",texlbl="pgfcore.code.tex"]
-			640 [style="complesso node",texlbl="pgfmath.code.tex"]
-			641 [style="main2 node",texlbl="pgfcorepoints.code.tex"]
-			642 [style="main2 node",texlbl="pgfcorepathconstruct.code.tex"]
-			643 [style="main2 node",texlbl="pgfcorepathusage.code.tex"]
-			644 [style="main2 node",texlbl="pgfcorescopes.code.tex"]
-			645 [style="main2 node",texlbl="pgfcoregraphicstate.code.tex"]
-			646[style="main2 node",texlbl="pgfcoretransformations.code.tex"]
-			647 [style="main2 node",texlbl="pgfcorequick.code.tex"]
-			648 [style="main2 node",texlbl="pgfcoreobjects.code.tex"]
-			649 [style="main2 node",texlbl="pgfcorepathprocessing.code.tex"]
-			6410 [style="main2 node",texlbl="pgfcorearrows.code.tex"]
-			6411 [style="main2 node",texlbl="pgfcoreshade.code.tex"]
-			6412 [style="main2 node",texlbl="pgfcoreimage.code.tex"]
-			64120 [style="internal node",texlbl="pgfcoreexternal.code.tex"]
-			6413 [style="main2 node",texlbl="pgfcorelayers.code.tex"]
-			6414 [style="main2 node",texlbl="pgfcoretransparency.code.tex"]
-			6415 [style="main2 node",texlbl="pgfcorepatterns.code.tex"]
-			64->{640 641 642 643 644 645 646 647 648 649 6410 6411 6412 6413 6414 6415}
-			6412->64120
-		}
-		\end{dot2tex}
-		%% 
-		\end{tikzpicture}
-		\caption{Beamer pgfcore.code.tex}
-		\label{fig:beamer3}
-	\end{figure}
-	\begin{figure}
-		\centering
-		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[options= --autosize --cache --styleonly]
-		digraph G{
-			ranksep="1.0 equally"
-			root=6400;
-			640 [style="main node",texlbl="pgfmath.code.tex"]
-			6400 [style="main2 node",texlbl="pgfmathcalc.code.tex"]
-			64000 [style="internal node",texlbl="pgfmathutil.code.tex"]
-			64001 [style="internal node",texlbl="pgfmathparser.code.tex"]
-			64002 [style="complesso node",texlbl="pgfmathfunctions.code.tex"]
-			6401 [style="main2 node",texlbl="pgfmathfloat.code.tex"]
-			640->{6400 6401}
-			6400->{64000 64001 64002}
-		}
-		\end{dot2tex}
-		
-		%% 
-		\end{tikzpicture}
-		\caption{Beamer pgfmath.code.tex}
-		\label{fig:beamer4}
-	\end{figure}
-	\begin{figure}
-		\centering
-		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[options= --autosize --cache --styleonly]
-		digraph G{
-			
-			ranksep="1.0 equally"
-			
-			61 [style="main node",texlbl="pgfsys"]
-			610 [style="main2 node",texlbl="pgfrcs"]
-			6100 [style="internal node",texlbl="pgfutil-common.tex"]
-			6101 [style="cfg node",texlbl="pgfutil-latex.def"]
-			61010 [style="internal node",texlbl="everyshi"]
-			6102 [style="internal node",texlbl="pgfrcs.code.tex"]
-			611 [style="main2 node",texlbl="pgfsyssoftpath.code.tex"]
-			612 [style="main2 node",texlbl="pgfsyaprotocol.code.tex"]
-			613 [style="main2 node",texlbl="pgfsys.code.tex"]
-			6130  [style="internal node",texlbl="pgfkeys.code.tex"] 
-			61300 [style="internal node",texlbl="ppgfkeysfiltered.code.tex"]  	
-			6131 [style="cfg node",texlbl="pgf.cfg"] 
-			root="61";
-			61->{610 611 612 613 }
-			610->{6100 6101 6102}
-			613->{6130 6131}
-			6101->61010
-			6130->61300
-		}
-		\end{dot2tex}
-		\end{tikzpicture}
-		\caption{Beamer pgfsys}
-		\label{fig:beamer5}
-	\end{figure}
-	\begin{figure}
-		\centering
-		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[options= --autosize --cache --styleonly]
-		digraph G{
-			size = "8.3,11.7";
-			ranksep="0.2 equally"
-			center="true";
-			rankdir="LR";
-			1020 [style="main node",texlbl="translator"]
-			10200 [style="cfg node",texlbl="translator-basic-dictionary"]
-			10201 [style="cfg node",texlbl="translator-bibliography-dictionary"]
-			10202 [style="cfg node",texlbl="translator-environment-dictionary"]
-			10203 [style="cfg node",texlbl="translator-months-dictionary"]
-			10204 [style="cfg node",texlbl="translator-numbers-dictionary"]
-			10205 [style="cfg node",texlbl="translator-theorem-dictionary"]
-			10206 [style="internal node",texlbl="keyval"]
-			10207 [style="cfg node",texlbl="translator-language-mappings"]
-			1020->{10200 10201 10202 10203 10204 10205 10206 10207}		
-		}
-		\end{dot2tex}
-		\end{tikzpicture}
-		\caption{Beamer translator}
-		\label{fig:beamer6}
-	\end{figure}
-	\begin{figure}
-		\centering
-		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[options= --autosize --cache --styleonly]
-		digraph G{
-			size = "8.3,11.7";
-			center="true";
-			rankdir="LR";
-			ranksep="0.2 equally"
-			64002 [style="main node",texlbl="pgfmathfunctions.code.tex"]
-			640020 [style="main2  node",texlbl="pgfmathfunctions.basic.code.tex"]
-			640021 [style="main2  node",texlbl="pgfmathfunctions.trigonometric.code.tex"]
-			640022 [style="main2  node",texlbl="pgfmathfunctions.random.code.tex"]
-			640022 [style="main2  node",texlbl="pgfmathfunctions.comparison.code.tex "]
-			640023 [style="main2  node",texlbl="pgfmathfunctions.base.code.tex "]
-			640024 [style="main2  node",texlbl="pgfmathfunctions.round.code.tex "]
-			640025 [style="main2  node",texlbl="pgfmathfunctions.misc.code.tex "]
-			640026 [style="main2  node",texlbl="pgfmathfunctions.integerarithmetics.code.tex"]
-			64002->{640020 640021 640022 640023 640024 640025 640026}
-		}
-		\end{dot2tex}
-		\end{tikzpicture}
-		\caption{Beamer pgfmathfunctions.code.tex}
-		\label{fig:beamer7}
-	\end{figure}
-	\begin{figure}
-		\centering
-		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
 		\begin{dot2tex}[options= --autosize --cache --styleonly]
 		digraph G{
 			ranksep="1.0 equally"
@@ -224,6 +27,7 @@ Caricato
 			1180->{11800 11801 11802 11803}
 		}
 		\end{dot2tex}
+		\end{preview}
 		\end{tikzpicture}
 		\caption{Beamer beamerbasethemes}
 		\label{fig:beamer8}
@@ -349,6 +153,64 @@ Caricato
 \item translator-theorem-dictionary-English.dict\index{translator-theorem-dictionary-English.dict}\Cindex{translator-theorem-dictionary-English.dict}{translator.sty} 
 \end{enumerate}
 \section{book}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
+		\begin{dot2tex}[options= --autosize --cache --styleonly]
+		digraph G
+		{
+			ranksep="0.2 equally"
+			
+			ratio=compress;
+			rankdir="LR";
+			
+			10 [style="main node",texlbl="beamerbaserequires"]
+			100 [style="main2 node",texlbl="beamerbasecompatibility"]
+			101 [style="main2 node",texlbl="beamerbasefont"]
+			1010 [style="internal node",texlbl="amssymb"]
+			1011 [style="internal node",texlbl="sansmathaccent"]
+			10110 [style="internal node",texlbl="filehook"]
+			
+			102 [style="main2 node",texlbl="beamerbasetranslator"]
+			1020 [style="complesso node",texlbl="translator"]
+			103 [style="main2 node",texlbl="beamerbasemisc"]
+			104 [style="main2 node",texlbl="beamerbasetwoscreens"]
+			105 [style="main2 node",texlbl="beamerbaseoverlay"]
+			106 [style="main2 node",texlbl="beamerbasetitle"]
+			107 [style="main2 node",texlbl="beamerbasesection"]
+			108 [style="main2 node",texlbl="beamerbaseframe"]
+			109 [style="main2 node",texlbl="beamerbaseverbatim"]
+			110 [style="main2 node",texlbl="beamerbaseframesize"]
+			111 [style="main2 node",texlbl="beamerbaseframecomponents"]
+			112 [style="main2 node",texlbl="beamerbasecolor"]
+			113 [style="main2 node",texlbl="beamerbasetoc"]
+			114 [style="main2 node",texlbl="beamerbasetemplates"]
+			1140 [style="internal node",texlbl="beamerbaseauxtemplates"]
+			11400 [style="internal node",texlbl="beamerbaseboxes"]
+			115 [style="main2 node",texlbl="beamerbaselocalstructure"]
+			1150 [style="internal node",texlbl="enumerate"]
+			116 [style="main2 node",texlbl="beamerbasenavigation"]
+			117 [style="main2 node",texlbl="beamerbasetheorems"]
+			1170 [style="complesso node",texlbl="amsmath"]
+			1171 [style="complesso node",texlbl="amsthm"]
+			118 [style="complesso node",texlbl="beamerbasethemes"]
+			119 [style="main2 node",texlbl="beamerbasenotes"] 	
+			101->{1010 1011}
+			1011->10110
+			102->1020
+			10->{100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119}
+			114->1140
+			1140->11400
+			115->1150
+			117->{1170 1171}
+		}
+		\end{dot2tex}
+	\end{preview}
+		\end{tikzpicture}
+		\caption{Beamer beamerbaserequires}
+		\label{fig:beamer2}
+	\end{figure}
 \lstinputlisting[caption={Classe Book},%
 captionpos=b,label=lst:book1]{test/genbook.tex}
 Caricato 
@@ -366,11 +228,12 @@ Caricato
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[twopi,format=tikz,scale=1,styleonly,options= --autosize --cache]
+		\begin{preview}
+		\begin{dot2tex}[twopi,options= --autosize --cache --styleonly]
 		digraph G{
-			size = "8.3,11.8";
-			rankdir="LR";
-			ranksep="1.0 equally"
+	
+//			rankdir="LR";
+			ranksep="1.2 equally"
 			1 [style="main node",texlbl="beamer.cls"]
 			2 [style="main2 node",texlbl="beamerbasercs"] 
 			3 [style="main2 node",texlbl="beamerbasemodes"]
@@ -401,6 +264,7 @@ Caricato
 			60->4
 		}
 		\end{dot2tex}
+		\end{preview}
 		%% 
 		\end{tikzpicture}
 		\caption{Beamer generale}
@@ -459,12 +323,71 @@ Emulati
 \item 	Package verse\index{verse}\Mindex{verse}{memoir} [2008/07/23] emulated by memoir.
 \end{enumerate}
 \section{minimal}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}%[scale=0.8]
+		\begin{dot2tex}[options= --autosize --cache --styleonly]
+		digraph G{
+			//	size = "8.3,11.7";
+			//	center="true";
+			ranksep="0.2 equally"
+			rankdir="LR";
+			64 [style="main node",texlbl="pgfcore.code.tex"]
+			640 [style="complesso node",texlbl="pgfmath.code.tex"]
+			641 [style="main2 node",texlbl="pgfcorepoints.code.tex"]
+			642 [style="main2 node",texlbl="pgfcorepathconstruct.code.tex"]
+			643 [style="main2 node",texlbl="pgfcorepathusage.code.tex"]
+			644 [style="main2 node",texlbl="pgfcorescopes.code.tex"]
+			645 [style="main2 node",texlbl="pgfcoregraphicstate.code.tex"]
+			646[style="main2 node",texlbl="pgfcoretransformations.code.tex"]
+			647 [style="main2 node",texlbl="pgfcorequick.code.tex"]
+			648 [style="main2 node",texlbl="pgfcoreobjects.code.tex"]
+			649 [style="main2 node",texlbl="pgfcorepathprocessing.code.tex"]
+			6410 [style="main2 node",texlbl="pgfcorearrows.code.tex"]
+			6411 [style="main2 node",texlbl="pgfcoreshade.code.tex"]
+			6412 [style="main2 node",texlbl="pgfcoreimage.code.tex"]
+			64120 [style="internal node",texlbl="pgfcoreexternal.code.tex"]
+			6413 [style="main2 node",texlbl="pgfcorelayers.code.tex"]
+			6414 [style="main2 node",texlbl="pgfcoretransparency.code.tex"]
+			6415 [style="main2 node",texlbl="pgfcorepatterns.code.tex"]
+			64->{640 641 642 643 644 645 646 647 648 649 6410 6411 6412 6413 6414 6415}
+			6412->64120
+		}
+		\end{dot2tex}
+		%% 
+		\end{tikzpicture}
+		\caption{Beamer pgfcore.code.tex}
+		\label{fig:beamer3}
+	\end{figure}
 \lstinputlisting[caption={Classe Minimal},%
 captionpos=b,label=lst:minimal1]{test/genminimal.tex}
 \begin{enumerate}
 \item minimal.cls\index{minimal.cls} 2001/05/25 Standard LaTeX minimal class
 \end{enumerate}
 \section{report}
+\begin{figure}
+	\centering
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
+	digraph G{
+		ranksep="1.0 equally"
+		root=6400;
+		640 [style="main node",texlbl="pgfmath.code.tex"]
+		6400 [style="main2 node",texlbl="pgfmathcalc.code.tex"]
+		64000 [style="internal node",texlbl="pgfmathutil.code.tex"]
+		64001 [style="internal node",texlbl="pgfmathparser.code.tex"]
+		64002 [style="complesso node",texlbl="pgfmathfunctions.code.tex"]
+		6401 [style="main2 node",texlbl="pgfmathfloat.code.tex"]
+		640->{6400 6401}
+		6400->{64000 64001 64002}
+	}
+	\end{dot2tex}
+	\end{preview} 
+	\end{tikzpicture}
+	\caption{Beamer pgfmath.code.tex}
+	\label{fig:beamer4}
+\end{figure}
 \lstinputlisting[caption={Classe Report},%
 captionpos=b,label=lst:report1]{test/genreport.tex}
 Caricato
@@ -473,9 +396,68 @@ Caricato
 \item 	size10.clo\Cindex{size10.clo}{report.cls} 2014/09/29 v1.4h Standard LaTeX file (size option)
 \end{enumerate}
 \section{scrartcl}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
+		\begin{dot2tex}[options= --autosize --cache --styleonly]
+		digraph G{
+			ranksep="1.0 equally"
+			61 [style="main node",texlbl="pgfsys"]
+			610 [style="main2 node",texlbl="pgfrcs"]
+			6100 [style="internal node",texlbl="pgfutil-common.tex"]
+			6101 [style="cfg node",texlbl="pgfutil-latex.def"]
+			61010 [style="internal node",texlbl="everyshi"]
+			6102 [style="internal node",texlbl="pgfrcs.code.tex"]
+			611 [style="main2 node",texlbl="pgfsyssoftpath.code.tex"]
+			612 [style="main2 node",texlbl="pgfsyaprotocol.code.tex"]
+			613 [style="main2 node",texlbl="pgfsys.code.tex"]
+			6130  [style="internal node",texlbl="pgfkeys.code.tex"] 
+			61300 [style="internal node",texlbl="ppgfkeysfiltered.code.tex"]  	
+			6131 [style="cfg node",texlbl="pgf.cfg"] 
+			root="61";
+			61->{610 611 612 613 }
+			610->{6100 6101 6102}
+			613->{6130 6131}
+			6101->61010
+			6130->61300
+		}
+		\end{dot2tex}
+		\end{preview}
+		\end{tikzpicture}
+		\caption{Beamer pgfsys}
+		\label{fig:beamer5}
+	\end{figure}
 \lstinputlisting[caption={Classe Scrartcl},%
 captionpos=b,label=lst:scrartcl1]{test/genscrartcl.tex}
+
+
 Caricato
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}%[scale=0.8]
+		\begin{dot2tex}[options= --autosize --cache --styleonly]
+		digraph G{
+			size = "8.3,11.7";
+			center="true";
+			rankdir="LR";
+			ranksep="0.2 equally"
+			64002 [style="main node",texlbl="pgfmathfunctions.code.tex"]
+			640020 [style="main2  node",texlbl="pgfmathfunctions.basic.code.tex"]
+			640021 [style="main2  node",texlbl="pgfmathfunctions.trigonometric.code.tex"]
+			640022 [style="main2  node",texlbl="pgfmathfunctions.random.code.tex"]
+			640022 [style="main2  node",texlbl="pgfmathfunctions.comparison.code.tex "]
+			640023 [style="main2  node",texlbl="pgfmathfunctions.base.code.tex "]
+			640024 [style="main2  node",texlbl="pgfmathfunctions.round.code.tex "]
+			640025 [style="main2  node",texlbl="pgfmathfunctions.misc.code.tex "]
+			640026 [style="main2  node",texlbl="pgfmathfunctions.integerarithmetics.code.tex"]
+			64002->{640020 640021 640022 640023 640024 640025 640026}
+		}
+		\end{dot2tex}
+		\end{tikzpicture}
+		\caption{Beamer pgfmathfunctions.code.tex}
+		\label{fig:beamer7}
+	\end{figure}
 \begin{enumerate}
 \item 	scrartcl.cls\index{scrartcl.cls} 2014/10/28 v3.14 KOMA-Script document class (article)
 \item 	scrkbase.sty\index{scrkbase.sty}\Uindex{scrkbase.sty}{scrartcl.cls} 2014/10/28 v3.14 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -490,7 +472,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		rankdir="LR";
@@ -513,7 +495,7 @@ Caricato
 		1->4[labelfloat= true, label = "[inline]"]
 	}
 	\end{dot2tex}
-	%% 
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Suftesi 1}
 	\label{fig:Suftesi1}
@@ -521,10 +503,10 @@ Caricato
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}%[scale=0.8]
-		\begin{dot2tex}[options= --autosize --cache --styleonly]
+		\begin{preview}
+		\begin{dot2tex}[scale=0.8,options= --autosize --cache --styleonly]
 		digraph G{
 			ranksep="1.0 equally"
-			
 			1 [style="main node",texlbl="suftesi"]
 			2 [style="complesso node",texlbl="geometry"]
 			201 [style="internal node",texlbl="keyvall"]
@@ -532,28 +514,25 @@ Caricato
 			5 [style="complesso node",texlbl="caption"]
 			6 [style="complesso node",texlbl="color"]
 			10 [style="internal node",texlbl="ifxetex"]
-			11 [style="complesso node",texlbl="microtype"]
-			13 [style="complesso node",texlbl="fontenc"]
-			15 [style="complesso node",texlbl="crop"]
+			11 [style="complesso node",texlbl="[final]microtype"]
+			13 [style="complesso node",texlbl="[LGR,T1]fontenc"]
+			15 [style="complesso node",texlbl="[A4,CAM,CENTER]crop"]
 			151 [style="complesso node",texlbl="graphics"]   
 			16   [style="main2 node",texlbl="titlesec"]
 			1601[style="cfg node",texlbl="ttlkey.cfg"]
 			22  [style="main2 node",texlbl="beramono"]
-			1->{2 3 5 6  10 16 22 }
-			1->11[labelfloat= true, label = "[final]"]
-			1->13[labelfloat= true, label = "[LGR,T1]"]
-			1->15[labelfloat= true, label = "[A4,CAM,CENTER]"]
-			2->{10 201 }
+			1->{2 3 5 6  10 11 13 15 16 22 }
+		    2->{10 201 }
 			3->201[labelfloat= true, label = "blocca"]
 			5->201
 			11->201
 			15->{6 151}
-			
 			16->1601
 			1601->201
 			22->201
 		}
 		\end{dot2tex}
+		\end{preview}
 		%% 
 		\end{tikzpicture}
 		\caption{Suftesi 2}
@@ -627,3 +606,30 @@ graphics.cfg\index{graphics.cfg}\Cindex{graphics.cfg}{graphics.sty} 2010/04/23 v
 \item ifpdf.sty\index{ifpdf.sty}\Uindex{ifpdf.sty}{pdftexcmds.sty} 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 \item fixltxhyph.sty\index{fixltxhyph.sty}\Uindex{fixltxhyph.sty}{suftesi.cls} 2011/04/02 v.0.4 Small fix for hyphenating emphasized words preceded by vocalic elision
 \end{enumerate}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}%[scale=0.8]
+		\begin{preview}
+		\begin{dot2tex}[options= --autosize --cache --styleonly]
+		digraph G{
+			size = "8.3,11.7";
+			ranksep="0.2 equally"
+			center="true";
+			rankdir="LR";
+			1020 [style="main node",texlbl="translator"]
+			10200 [style="cfg node",texlbl="translator-basic-dictionary"]
+			10201 [style="cfg node",texlbl="translator-bibliography-dictionary"]
+			10202 [style="cfg node",texlbl="translator-environment-dictionary"]
+			10203 [style="cfg node",texlbl="translator-months-dictionary"]
+			10204 [style="cfg node",texlbl="translator-numbers-dictionary"]
+			10205 [style="cfg node",texlbl="translator-theorem-dictionary"]
+			10206 [style="internal node",texlbl="keyval"]
+			10207 [style="cfg node",texlbl="translator-language-mappings"]
+			1020->{10200 10201 10202 10203 10204 10205 10206 10207}		
+		}
+		\end{dot2tex}
+		\end{preview}
+		\end{tikzpicture}
+		\caption{Beamer translator}
+		\label{fig:beamer6}
+	\end{figure}

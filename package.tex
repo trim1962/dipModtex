@@ -37,7 +37,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		ranksep="1.0 equally"
@@ -56,6 +56,7 @@ Caricato
 		6->7 
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{AmsMath}
 	\label{fig:AmsMath1}
@@ -135,7 +136,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		ranksep="1.0 equally"
@@ -146,7 +147,7 @@ Caricato
 		1->{2 3 4}
 	}
 	\end{dot2tex}
-	% 
+\end{preview}
 	\end{tikzpicture}
 	\caption{Atbegshi}
 	\label{fig:atbegshi1}
@@ -217,6 +218,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		
@@ -234,6 +236,7 @@ Caricato
 		5->{6 7 8 2}
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Bitset}
 	\label{fig:bitset1}
@@ -282,7 +285,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
+	\begin{preview}
 	\begin{dot2tex}[styleonly,options= --autosize --cache]
 	digraph G{
 		ranksep="1.0 equally"
@@ -294,7 +297,7 @@ Caricato
 		2->{3 4}
 	}
 	\end{dot2tex}
-	% 
+\end{preview}
 	\end{tikzpicture}
 	\caption{cclicenses}
 	\label{fig:cclicenses1}
@@ -334,7 +337,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
+	\begin{preview}
 	\begin{dot2tex}[styleonly,options= --autosize --cache]
 	digraph G{
 		ranksep="1.0 equally"
@@ -345,7 +348,7 @@ Caricato
 		2->3
 	}
 	\end{dot2tex}
-	% 
+\end{preview}
 	\end{tikzpicture}
 	\caption{Color xetex}
 	\label{fig:color2}
@@ -554,17 +557,17 @@ Caricato
 	\centering
  \begin{tikzpicture}%[scale=0.8]	
 	
-
+\begin{preview}
 	\begin{dot2tex}[styleonly,options= --autosize --cache]
-		digraph G{
+		digraph G
+		{
 		ranksep="1.0 equally"
 			0 [style="main node",texlbl="epstopdf"]
 		1 [style="complesso node",texlbl="epstopdf-base"]
-		
 		0->1
-	
-	}
+		}
 	\end{dot2tex}
+\end{preview}
 \end{tikzpicture}
 	\caption{Epstopdf}
 	\label{fig:epstopdf0}
@@ -596,6 +599,7 @@ nota pacchetto interno usato da graphics quando è chiamato pdftex.def
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[scale=0.8,options= --autosize --cache --styleonly]
 	digraph G{
 		ranksep="1.0 equally"
@@ -624,7 +628,7 @@ nota pacchetto interno usato da graphics quando è chiamato pdftex.def
 		10->11
 	}
 	\end{dot2tex}
-	%% 
+\end{preview}
 	\end{tikzpicture}
 	\caption{Epstopdf-base}
 	\label{fig:epstopdf-base1}
@@ -754,7 +758,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		ranksep="1.0 equally"
@@ -768,7 +772,7 @@ Caricato
 		1->{2 3 4 5}
 	}
 	\end{dot2tex}
-	%% 
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Geometry}
 	\label{fig:geometry1}
@@ -791,6 +795,7 @@ Caricato\Iindex{geometry}{minimal.cls}
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+\begin{preview}
 \begin{dot2tex}[options= --autosize --cache --styleonly]
 digraph G{
 	ranksep="1.0 equally"
@@ -812,6 +817,7 @@ digraph G{
 	    16->{ 5 3 18 11}		
 	}
 	\end{dot2tex}
+\end{preview}
 	\end{tikzpicture}
 	\caption{Graphics}
 	\label{fig:graphics1}
@@ -835,6 +841,7 @@ Grafico~\vref{fig:graphics2}
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		ranksep="1.0 equally"
@@ -846,6 +853,7 @@ Grafico~\vref{fig:graphics2}
 		15->16
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Graphics Xelatex}
 	\label{fig:graphics2}
@@ -877,7 +885,7 @@ Driver disponibili
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		ranksep="1.0 equally"
@@ -891,7 +899,7 @@ Driver disponibili
 		20->{7 14}	
 	}
 	\end{dot2tex}
-	
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Graphicx Xelatex}
 	\label{fig:graphicx2}
@@ -899,6 +907,7 @@ Driver disponibili
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		ranksep="1.0 equally"
@@ -908,6 +917,7 @@ Driver disponibili
 		20->{7 14}
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Graphicx  pdflatex}
 	\label{fig:graphicx1}
@@ -948,9 +958,61 @@ Caricato
  \item graphics.cfg\index{graphics.cfg}\Cindex{graphics.cfg}{graphics.sty} 2010/04/23 v1.9 graphics configuration of TeX Live
 \item xetex.def\index{xetex.def}\Dindex{xetex.def}{graphics.cfg} 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
 \end{enumerate} 
+\section{hyperref}  
+\lstinputlisting[caption={Hyperref},%
+captionpos=b,label=lst:hyperref0]{test/Mhyperref.tex}
+
+Caricato 
+\begin{enumerate}
+\item 	hyperref.sty    2012/11/06 v6.83m Hypertext links for LaTeX
+\item 	hobsub-hyperref.sty    2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+\item 	hobsub-generic.sty    2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+\item 	hobsub.sty    2012/05/28 v1.13 Construct package bundles (HO)
+\item 	infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+\item 	ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+\item 	ifluatex.sty    2010/03/01 v1.3 Provides the ifluatex switch (HO)
+\item 	ifvtex.sty    2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+\item 	intcalc.sty    2007/09/27 v1.1 Expandable calculations with integers (HO)
+\item 	ifpdf.sty    2011/01/30 v2.3 Provides the ifpdf switch (HO)
+\item 	etexcmds.sty    2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+\item 	kvsetkeys.sty    2012/04/25 v1.16 Key value parser (HO)
+\item 	kvdefinekeys.sty    2011/04/07 v1.3 Define keys (HO)
+\item 	pdftexcmds.sty    2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+\item 	pdfescape.sty    2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+\item 	bigintcalc.sty    2012/04/08 v1.3 Expandable calculations on big integers (HO)
+\item 	bitset.sty    2011/01/30 v1.1 Handle bit-vector datatype (HO)
+\item 	uniquecounter.sty    2011/01/30 v1.2 Provide unlimited unique counter (HO)
+\item 	letltxmacro.sty    2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+\item 	hopatch.sty    2012/05/28 v1.2 Wrapper for package hooks (HO)
+\item 	xcolor-patch.sty    2011/01/30 xcolor patch
+\item 	atveryend.sty    2011/06/30 v1.8 Hooks at the very end of document (HO)
+\item 	atbegshi.sty    2011/10/05 v1.16 At begin shipout hook (HO)
+\item 	refcount.sty    2011/10/16 v3.4 Data extraction from label references (HO)
+\item 	hycolor.sty    2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+\item 	keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+\item 	ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+\item 	auxhook.sty    2011/03/04 v1.3 Hooks for auxiliary files (HO)
+\item 	kvoptions.sty    2011/06/30 v3.11 Key value format for package options (HO)
+\item 	pd1enc.def    2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+\item 	hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+\item 	url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+\item 	hpdftex.def    2012/11/06 v6.83m Hyperref driver for pdfTeX
+\item 	rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+\item 	nameref.sty    2012/10/27 v2.43 Cross-referencing by name of section
+\item 	gettitlestring.sty    2010/12/03 v1.4 Cleanup title references (HO)
+\end{enumerate} 
+\section{infwarerr}  
+\lstinputlisting[caption={infwarerr},%
+captionpos=b,label=lst:infwarerr0]{test/Minfwarerr.tex}
+
+Caricato 
+\begin{enumerate}
+	\item infwarerr.sty\index{infwarerr.sty} 2010/04/08 v1.3 Providing info/warning/error messages (HO) switch (HO)
+\end{enumerate} 
 \section{ifpdf}  
 \lstinputlisting[caption={Ifpdf},%
 captionpos=b,label=lst:ifpdf0]{test/Mifpdf.tex}
+
 Caricato 
 \begin{enumerate}
 \item ifpdf.sty\index{ifpdf.sty} 2011/01/30 v2.3 Provides the ifpdf switch (HO)
@@ -1014,7 +1076,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
-
+\begin{preview}
 	\begin{dot2tex}[format=tikz,styleonly]
 	digraph G{
 		1 [style="main node",texlbl="mathpazo"]
@@ -1037,6 +1099,7 @@ Caricato
 		6->9 
 	}
 	\end{dot2tex}
+\end{preview}
 	\end{tikzpicture}
 	\caption{Mathpazo}
 	\label{fig:Mathpazo}
@@ -1056,6 +1119,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		ranksep="1.0 equally";
@@ -1067,6 +1131,7 @@ Caricato
 		1->{2 3 4 5}
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Microtype}
 	\label{fig:microtype}
@@ -1096,6 +1161,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	
 	digraph G{
@@ -1109,6 +1175,7 @@ Caricato
 		
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Pdftexcmds}
 	\label{fig:Pdftexcmds}
@@ -1154,6 +1221,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G{
 		ranksep="1.0 equally"
@@ -1168,6 +1236,7 @@ Caricato
 		3->{4 5 6}
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Xcolor}
 	\label{fig:xcolor1}
@@ -1191,7 +1260,7 @@ Caricato
 \begin{figure}
 	\centering
 	\begin{tikzpicture}
-	
+	\begin{preview}
 	\begin{dot2tex}[options= --autosize --cache --styleonly]
 	digraph G
 	{
@@ -1204,6 +1273,7 @@ Caricato
 		
 	}
 	\end{dot2tex}
+	\end{preview}
 	\end{tikzpicture}
 	\caption{Xkeyval}
 	\label{fig:xkeyval1}

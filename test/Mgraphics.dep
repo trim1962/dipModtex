@@ -6,5 +6,19 @@
   *{package}{graphics}    {2014/10/28 v1.0p}
   *{package}{trig}        {1999/03/16 v1.09}
   *{file}   {graphics.cfg}{2010/04/23 v1.9}
-  *{file}   {xetex.def}   {2014/07/25 v4.03}
+  *{file}   {pdftex.def}  {2011/05/27 v0.06d}
+  *{package}{infwarerr}   {2010/04/08 v1.3}
+  *{package}{ltxcmds}     {2011/11/09 v1.22}
+  *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
+  *{package}{pdftexcmds}  {2011/11/29 v0.20}
+  *{package}{ifluatex}    {2010/03/01 v1.3}
+  *{package}{ifpdf}       {2011/01/30 v2.3}
+  *{package}{epstopdf-base}{2010/02/09 v2.5}
+  *{package}{grfext}      {2010/08/19 v1.1}
+  *{package}{kvdefinekeys}{2011/04/07 v1.3}
+  *{package}{kvoptions}   {2011/06/30 v3.11}
+  *{package}{keyval}      {2014/10/28 v1.15}
+  *{package}{kvsetkeys}   {2012/04/25 v1.16}
+  *{package}{etexcmds}    {2011/02/16 v1.5}
+  *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
 }
