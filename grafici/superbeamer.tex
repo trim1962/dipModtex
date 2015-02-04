@@ -939,5 +939,102 @@ digraph G {
 	\caption{Xcolor}
 	\label{fig:xcolor1}
 \end{figure}\clearpage
+\begin{figure}
+	\centering
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
+	digraph G{
+		rankdir="LR";
+		ranksep="0.2 equally"
+		1 [style="main node",texlbl="hobsub-generic"];
+		2 [style="main2 node",texlbl="hobsub"];
+		3 [style="main2 node",texlbl="infwarerr"];
+		4 [style="main2 node",texlbl="ltxcmds"];
+		5 [style="main2 node",texlbl="ifluatex"];
+		6 [style="main2 node",texlbl="ifvtex"];
+		7 [style="main2 node",texlbl="intcalc"];
+		8 [style="main2 node",texlbl="ifpdf"];
+		9 [style="main2 node",texlbl="etexcmds"];
+		10 [style="main2 node",texlbl="kvsetkeys"];//
+		11[style="main2 node",texlbl="kvdefinekeys"];
+		12 [style="main2 node",texlbl="pdftexcmds"];
+		13 [style="main2 node",texlbl="pdfescape"];
+		14 [style="main2 node",texlbl="bigintcalc"];
+		15 [style="main2 node",texlbl="bitset"];
+		16 [style="main2 node",texlbl="uniquecounter"];
+		15->{7 14}
+		1->{2 3 4 5 6 7 8 9 10 11 12 13 14 15 16}
+		9->3
+		10->{3 9}
+		11->4
+		12->{3 4 5 8}
+		13-> {4 12}
+		14->{12}
+		16->{14 3}
+	}
+	\end{dot2tex}
+	\end{preview}
+	\end{tikzpicture}
+	\caption{Hobsub-generic}
+	\label{fig:Hobsubgeneric0}
+\end{figure}\clearpage
+
+\begin{figure}
+	\centering
+	\begin{tikzpicture}%[scale=0.8]
+	\begin{preview}
+	\begin{dot2tex}[options= --autosize --cache --styleonly]
+ digraph G{
+ 	rankdir="LR";
+ 	0 [style="main node",texlbl="hobsub-hyperref"];
+ 	01 [style="main2 node",texlbl="letltxmacro"];
+ 	02 [style="main2 node",texlbl="hopatch"];
+ 	03 [style="main2 node",texlbl="atveryend"];
+ 	04 [style="main2 node",texlbl="atbegshi"];
+ 	05 [style="main2 node",texlbl="refcount"];
+ 	06 [style="main2 node",texlbl="xcolor-patch"];
+ 	
+ 	
+ 	
+ 	1 [style="main2 node",texlbl="hobsub-generic"];
+ 	2 [style="main2 node",texlbl="hobsub"];
+ 	3 [style="main2 node",texlbl="infwarerr"];
+ 	4 [style="main2 node",texlbl="ltxcmds"];
+ 	5 [style="main2 node",texlbl="ifluatex"];
+ 	6 [style="main2 node",texlbl="ifvtex"];
+ 	7 [style="main2 node",texlbl="intcalc"];
+ 	8 [style="main2 node",texlbl="ifpdf"];
+ 	9 [style="main2 node",texlbl="etexcmds"];
+ 	10 [style="main2 node",texlbl="kvsetkeys"];//
+ 	11[style="main2 node",texlbl="kvdefinekeys"];
+ 	12 [style="main2 node",texlbl="pdftexcmds"];
+ 	13 [style="main2 node",texlbl="pdfescape"];
+ 	14 [style="main2 node",texlbl="bigintcalc"];
+ 	15 [style="main2 node",texlbl="bitset"];
+ 	16 [style="main2 node",texlbl="hycolor"];
+ 	17[style="main2 node",texlbl="uniquecounter"];
+ 	15->{3 7 14}
+ 	02->4
+ 	04->{3}
+ 	
+ 	06->02
+ 	0->{1 01 02 03 04 05 06}
+ 	1->{2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17}
+ 	9->3
+ 	10->{3 9}
+ 	11->4
+ 	12->{3 4 5 8}
+ 	13-> {4 12}
+ 	14->{12}
+ 	16->{14 3 06}
+ 	17->{3 14}
+	}
+	\end{dot2tex}
+	\end{preview}
+	\end{tikzpicture}
+	\caption{hobsub-hyperref}
+	\label{fig:hobsub-hyperref0}
+\end{figure}\clearpage
 
 \end{document}	

@@ -1,0 +1,22 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2014/05/01 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {minimal}     {2001/05/25 v0.0}
+  *{package}{hobsub-generic}{2012/05/28 v1.13}
+  *{package}{hobsub}      {2012/05/28 v1.13}
+  *{package}{infwarerr}   {2010/04/08 v1.3}
+  *{package}{ltxcmds}     {2011/11/09 v1.22}
+  *{package}{ifluatex}    {2010/03/01 v1.3}
+  *{package}{ifvtex}      {2010/03/01 v1.5}
+  *{package}{intcalc}     {2007/09/27 v1.1}
+  *{package}{ifpdf}       {2011/01/30 v2.3}
+  *{package}{etexcmds}    {2011/02/16 v1.5}
+  *{package}{kvsetkeys}   {2012/04/25 v1.16}
+  *{package}{kvdefinekeys}{2011/04/07 v1.3}
+  *{package}{pdftexcmds}  {2011/11/29 v0.20}
+  *{package}{pdfescape}   {2011/11/25 v1.13}
+  *{package}{bigintcalc}  {2012/04/08 v1.3}
+  *{package}{bitset}      {2011/01/30 v1.1}
+  *{package}{uniquecounter}{2011/01/30 v1.2}
+}

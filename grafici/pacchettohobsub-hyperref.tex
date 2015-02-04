@@ -1,0 +1,98 @@
+\documentclass{standalone}
+\usepackage{dot2texi}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning}
+%\usepackage[active,tightpage]{preview}
+%\setlength\PreviewBorder{0pt}%
+%\PreviewEnvironment{dot2tex}
+\begin{document}
+ \begin{tikzpicture}%[scale=0.8]
+\tikzset{base/.style={align=center,text=black}, }	
+%\tikzset{testobase/.style={minimum  width=1.0em, }, }
+\tikzset{testo/.style={align=left,text width=15.5mm]}, }
+\tikzset{main node/.style={base, draw=red, rounded corners}, }
+\tikzset{main2 node/.style={base, draw=green,rounded corners}, }
+\tikzset{complesso node/.style={base, draw=blue}, }
+\tikzset{internal node/.style={base, draw=magenta,dashed,rounded corners}, }
+\tikzset{driver node/.style={base,dashed,draw=blue!20}, }
+\tikzset{formato node/.style={base,dotted}, }
+\tikzset{cfg node/.style={base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
+\tikzset{linea/.style={-triangle 90},}
+ \begin{dot2tex}[options= --autosize --cache --styleonly]
+ digraph G{
+ 	rankdir="LR";
+ 	ranksep="0.2 equally";
+0 [style="main node",texlbl="hobsub-hyperref"];
+01 [style="main2 node",texlbl="letltxmacro"];
+02 [style="main2 node",texlbl="hopatch"];
+03 [style="main2 node",texlbl="atveryend"];
+04 [style="main2 node",texlbl="atbegshi"];
+05 [style="main2 node",texlbl="refcount"];
+06 [style="main2 node",texlbl="xcolor-patch"];
+07 [style="main2 node",texlbl="hycolor"];
+
+
+1 [style="main2 node",texlbl="hobsub-generic"];
+2 [style="main2 node",texlbl="hobsub"];
+3 [style="main2 node",texlbl="infwarerr"];
+4 [style="main2 node",texlbl="ltxcmds"];
+5 [style="main2 node",texlbl="ifluatex"];
+6 [style="main2 node",texlbl="ifvtex"];
+7 [style="main2 node",texlbl="intcalc"];
+8 [style="main2 node",texlbl="ifpdf"];
+9 [style="main2 node",texlbl="etexcmds"];
+10 [style="main2 node",texlbl="kvsetkeys"];//
+11[style="main2 node",texlbl="kvdefinekeys"];
+12 [style="main2 node",texlbl="pdftexcmds"];
+13 [style="main2 node",texlbl="pdfescape"];
+14 [style="main2 node",texlbl="bigintcalc"];
+15 [style="main2 node",texlbl="bitset"];
+16[style="main2 node",texlbl="uniquecounter"];
+
+15->{3 7 14}
+02->4
+04->{3}
+
+06->02
+0->{1 01 02 03 04 05 06 07}
+1->{2 3 4 5 6 7 8 9 10 11 12 13 14 15 16}
+9->3
+10->{3 9}
+11->4
+12->{3 4 5 8}
+13-> {4 12}
+14->{12}
+07->{14 3 06}
+16->{3 14}
+/*
+*{package}{hobsub-hyperref}{2012/05/28 v1.13}
+*{package}{hobsub-generic}{2012/05/28 v1.13}
+*{package}{hobsub}      {2012/05/28 v1.13}
+*{package}{infwarerr}   {2010/04/08 v1.3}
+*{package}{ltxcmds}     {2011/11/09 v1.22}
+*{package}{ifluatex}    {2010/03/01 v1.3}
+*{package}{ifvtex}      {2010/03/01 v1.5}
+*{package}{intcalc}     {2007/09/27 v1.1}
+*{package}{ifpdf}       {2011/01/30 v2.3}
+*{package}{etexcmds}    {2011/02/16 v1.5}
+*{package}{kvsetkeys}   {2012/04/25 v1.16}
+*{package}{kvdefinekeys}{2011/04/07 v1.3}
+*{package}{pdftexcmds}  {2011/11/29 v0.20}
+*{package}{pdfescape}   {2011/11/25 v1.13}
+*{package}{bigintcalc}  {2012/04/08 v1.3}
+*{package}{bitset}      {2011/01/30 v1.1}
+*{package}{uniquecounter}{2011/01/30 v1.2}
+*{package}{letltxmacro} {2010/09/02 v1.4}
+
+*{package}{hopatch}     {2012/05/28 v1.2}1
+*{package}{xcolor-patch}{2011/01/30 v0.0}2
+*{package}{atveryend}   {2011/06/30 v1.8}3
+*{package}{atbegshi}    {2011/10/05 v1.16}4
+*{package}{refcount}    {2011/10/16 v3.4}5
+*{package}{hycolor}     {2011/01/30 v1.7}6
+*/
+ }
+ \end{dot2tex}
+ %% 
+ \end{tikzpicture}
+\end{document}
