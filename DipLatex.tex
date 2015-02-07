@@ -31,17 +31,19 @@
 \newcommand{\Cindex}[2]{\index[conffile]{#2!#1}}
 \newcommand{\Dindex}[2]{\index[drvfile]{#1!#2}}
 \usepackage{tikz}
-  \tikzset{base/.style={align=center,text=black}, }	
-  %\tikzset{testobase/.style={minimum  width=1.0em, }, }
-  \tikzset{testo/.style={align=left,text width=15.5mm]}, }
-  \tikzset{main node/.style={base, draw=red, rounded corners}, }
-  \tikzset{main2 node/.style={base, draw=green,rounded corners}, }
-  \tikzset{complesso node/.style={base, draw=blue}, }
-  \tikzset{internal node/.style={base, draw=magenta,dashed,rounded corners}, }
-  \tikzset{driver node/.style={base,dashed,draw=blue!20}, }
-  \tikzset{formato node/.style={base,dotted}, }
-  \tikzset{cfg node/.style={base,trapezium,,trapezium left angle=70,trapezium right angle=-70,draw=brown}, }
-  \tikzset{linea/.style={-triangle 90},}
+\tikzset{
+	base/.style={align=center,text=black}, 	
+	testobase/.style={minimum  width=1.0em, },
+	testo/.style={align=left,text width=15.5mm]},
+	main node/.style={base, draw=red, rounded corners}, 
+	main2 node/.style={base, draw=green,rounded corners}, 
+	complesso node/.style={base, draw=blue}, 
+	internal node/.style={base, draw=magenta,dashed,rounded corners}, 
+	driver node/.style={base,dashed,draw=blue!20}, 
+	formato node/.style={base,dotted}, 
+	cfg node/.style={base,trapezium,trapezium left angle=70,trapezium right angle=-70,draw=brown}, 
+	linea/.style={-triangle 90},
+}
   
 \usetikzlibrary{external}
 \tikzexternalize[prefix=figures/]

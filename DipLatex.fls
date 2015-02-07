@@ -429,8 +429,10 @@ INPUT test/Mkeyval3.tex
 INPUT test/Mkeyval3.tex
 INPUT test/Mkeyval3.tex
 INPUT figures/DipLatex-figure0.md5
-OUTPUT DipLatex.auxlock
-OUTPUT DipLatex.auxlock
+INPUT figures/DipLatex-figure0.pdf
+INPUT figures/DipLatex-figure0.dpth
+INPUT figures/DipLatex-figure0.pdf
+INPUT ./figures/DipLatex-figure0.pdf
 INPUT classi.tex
 INPUT classi.tex
 INPUT c:/texlive/2014/texmf-dist/fonts/vf/adobe/palatino/pplb9d.vf
@@ -831,6 +833,9 @@ INPUT test/mxcolor.tex
 INPUT test/mxcolor.tex
 INPUT test/mxcolor.tex
 INPUT figures/DipLatex-figure35.md5
+OUTPUT figures/DipLatex-figure35.md5
+OUTPUT DipLatex.auxlock
+OUTPUT DipLatex.auxlock
 INPUT figures/DipLatex-figure35.pdf
 INPUT figures/DipLatex-figure35.dpth
 INPUT figures/DipLatex-figure35.pdf

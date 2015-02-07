@@ -428,6 +428,9 @@ INPUT figures/superbeamer-figure32.dpth
 INPUT figures/superbeamer-figure32.pdf
 INPUT ./figures/superbeamer-figure32.pdf
 INPUT figures/superbeamer-figure33.md5
+OUTPUT figures/superbeamer-figure33.md5
+OUTPUT superbeamer.auxlock
+OUTPUT superbeamer.auxlock
 INPUT figures/superbeamer-figure33.pdf
 INPUT figures/superbeamer-figure33.dpth
 INPUT figures/superbeamer-figure33.pdf
