@@ -1,0 +1,7 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2015/01/01 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {minimal}     {2001/05/25 v0.0}
+  *{package}{preview}     {2010/02/14 v11.88}
+}

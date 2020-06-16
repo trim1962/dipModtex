@@ -1,9 +1,0 @@
-\RequireVersions{
-  *{application}{TeX}     {1990/03/25 v3.x}
-  *{format} {LaTeX2e}     {2014/05/01 v2.e}
-  *{package}{snapshot}    {2002/03/05 v1.14}
-  *{class}  {book}        {2014/09/29 v1.4h}
-  *{file}   {bk10.clo}    {2014/09/29 v1.4h}
-  *{package}{enumitem}    {2011/09/28 v3.5.2}
-  *{file}   {omscmr.fd}   {2014/09/29 v2.5h}
-}

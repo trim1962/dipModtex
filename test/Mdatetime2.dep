@@ -1,0 +1,13 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2015/01/01 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {article}     {2014/09/29 v1.4h}
+  *{file}   {size10.clo}  {2014/09/29 v1.4h}
+  *{package}{datetime2}   {2015/03/24 v1.0}
+  *{package}{tracklang}   {2015/03/23 v1.2}
+  *{file}   {tracklang.tex}{0000/00/00 v0.0}
+  *{package}{etoolbox}    {2015/08/02 v2.2a}
+  *{package}{xkeyval}     {2014/12/03 v2.7a}
+  *{file}   {xkeyval.tex} {2014/12/03 v2.7a}
+}

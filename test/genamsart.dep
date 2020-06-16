@@ -1,8 +1,8 @@
 \RequireVersions{
   *{application}{TeX}     {1990/03/25 v3.x}
-  *{format} {LaTeX2e}     {2014/05/01 v2.e}
+  *{format} {LaTeX2e}     {2015/01/01 v2.e}
   *{package}{snapshot}    {2002/03/05 v1.14}
-  *{class}  {amsart}      {2009/07/02 v2.20.1}
+  *{class}  {amsart}      {2015/03/04 v2.20.2}
   *{package}{amsmath}     {2013/01/14 v2.14}
   *{package}{amstext}     {2000/06/29 v2.01}
   *{package}{amsgen}      {1999/11/30 v2.0}

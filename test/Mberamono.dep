@@ -1,9 +1,0 @@
-\RequireVersions{
-  *{application}{TeX}     {1990/03/25 v3.x}
-  *{format} {LaTeX2e}     {2014/05/01 v2.e}
-  *{package}{snapshot}    {2002/03/05 v1.14}
-  *{class}  {article}     {2014/09/29 v1.4h}
-  *{file}   {size10.clo}  {2014/09/29 v1.4h}
-  *{package}{beramono}    {2004/01/31 v0.0}
-  *{package}{keyval}      {2014/10/28 v1.15}
-}

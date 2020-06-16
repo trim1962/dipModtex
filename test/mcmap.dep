@@ -1,7 +1,0 @@
-\RequireVersions{
-  *{application}{TeX}     {1990/03/25 v3.x}
-  *{format} {LaTeX2e}     {2014/05/01 v2.e}
-  *{package}{snapshot}    {2002/03/05 v1.14}
-  *{class}  {minimal}     {2001/05/25 v0.0}
-  *{package}{cmap}        {2008/03/06 v1.0h}
-}
